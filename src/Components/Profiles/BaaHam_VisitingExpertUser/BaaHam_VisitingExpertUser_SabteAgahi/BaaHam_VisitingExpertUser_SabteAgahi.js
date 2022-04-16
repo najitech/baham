@@ -409,21 +409,21 @@ const customStyles = {
         <div className='BaaHam_NU_SabteAgahiBottomGrid'>
               <span className='BaaHam_NU_SabteAgahiBottomGridTitle BaaHam_NU_SabteAgahiBottomGridTitleExact' >شماره موبایل <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               <span className='BaaHam_NU_SabteAgahiBottomGridDescribe'>کد تایید به شماره موبایل شما ارسال خواهد شد. تماس و چت نز با این شماره انجام می شود.</span>
-              <span className='BaaHam_NU_SabteAgahiBottomGridDescribe'>توجه: لطفا پس از ثبت آگهی، به پشامک های پرداخت وجه بی اعتنا باشید.</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridDescribe'>توجه: لطفا پس از ثبت آگهی، به پیامک های پرداخت وجه بی اعتنا باشید.</span>
               <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2 BaaHam_NU_SabteAgahiBottomGridInputForBack2Agahi'>
                 <input className='BaaHam_NU_SabteAgahiBottomGridInput2'></input>
               </div>
         </div>
         <div className='BaaHam_NU_SabteAgahiBottomGrid'>
           <span className='BaaHam_NU_SabteAgahiBottomGridTitle BaaHam_NU_SabteAgahiBottomGridTitleExact'>عنوان آگهی <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
-          <span className='BaaHam_NU_SabteAgahiBottomGridDescribe'>در عنوان آگهی به موادر مهمی مانند نوع ملک، متراژ و محله اشاره کنید</span>
+          <span className='BaaHam_NU_SabteAgahiBottomGridDescribe'>در عنوان آگهی به موارد مهمی مانند نوع ملک، متراژ و محله اشاره کنید</span>
           <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2 BaaHam_NU_SabteAgahiBottomGridInputForBack2Agahi'>
             <input className='BaaHam_NU_SabteAgahiBottomGridInput2'></input>
           </div>
         </div>
         <div className='BaaHam_NU_SabteAgahiBottomGrid'>
               <span className='BaaHam_NU_SabteAgahiBottomGridTitle BaaHam_NU_SabteAgahiBottomGridTitleExact'>توضیحات آگهی <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
-              <span className='BaaHam_NU_SabteAgahiBottomGridDescribe'>در توضیحات آگهی به مواردی مانند شرایط اجاره، جزئیات و ویژگی های قابل توجه، تسترسی های مجلی و موقعیت قرارگیری ملک اشاره کنید.</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridDescribe'>در توضیحات آگهی به مواردی مانند شرایط اجاره، جزئیات و ویژگی های قابل توجه، دسترسی های محلی و موقعیت قرارگیری ملک اشاره کنید.</span>
               <div className='InputExactContainerForBackTextArea InputExactContainerForBackTextAreaSabteAgahi2'>
                <textarea  className='BaaHam_NU_ProfileTextArea' />
               </div>
