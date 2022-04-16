@@ -1,0 +1,132 @@
+.BaaHam_MarketerUser_Money {
+    width: 100%;
+}
+.BaaHam_MarketerUser_MoneyInProgressContainer {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+
+}
+.BaaHam_MarketerUser_MoneyInProgressTitle {
+    flex:0.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: rgb(245, 245, 245);
+    color:rgb(99, 99, 99);
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    width: 20%;
+}
+.BaaHam_MarketerUser_MoneyInProgressTitle > span {
+    text-align: center;
+}
+.BaaHam_MarketerUser_MoneyInProgressTables {
+
+
+}
+.BaaHam_MarketerUser_MoneyInProgressTables34 {
+    flex:0.78;
+    overflow-x: hidden;
+    overflow-y:visible !important;
+    position:inline !important;
+    width: 80%;
+    overflow: hidden !important;
+}
+.BaaHam_MarketerUser_MoneyInProgressContainer {
+    height:auto !important;
+    overflow-x: visible !important;
+    scrollbar-color:rgba(254, 72, 0, 0.726) rgba(254, 72, 0, 0.219) !important;
+    scrollbar-width: thin !important;
+}
+.BaaHam_MarketerUser_MoneyInProgressContainer::-webkit-scrollbar {
+    width: 5px;
+    height: 5px; 
+}
+
+.BaaHam_MarketerUser_MoneyInProgressContainer::-webkit-scrollbar-thumb {
+    background-color: rgba(254, 72, 0, 0.726);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    
+  }
+.BaaHam_MarketerUser_MoneyInProgressContainer::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: rgba(254, 72, 0, 0.219);
+    padding: 4px 0px;
+    height: 10px;
+  }
+
+.BaaHam_MarketerUser_MoneyFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:30px;
+    border-top:1px solid rgb(207, 207, 207);
+    padding-top:30px;
+}
+.BaaHam_MarketerUser_MoneyFooterBox {
+    width: 47%;
+    background-color: rgb(254, 72, 0);
+    border-radius: 10px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6px;
+    align-items: center;
+}
+.BaaHam_MarketerUser_MoneyFooterBoxTitle {
+    height: 50%;
+    background-color: rgb(52, 52, 52);
+    border-radius: 10px;
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    padding:8px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BaaHam_MarketerUser_MoneyFooterBoxNumber {
+    margin:6px 0px;
+    color:white;
+}
+
+
+
+
+
+
+
+@media screen and (max-width : 782px) {
+
+    .BaaHam_MarketerUser_MoneyFooter {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center ;
+        row-gap: 10px;
+    }
+    .BaaHam_MarketerUser_MoneyFooterBox {
+        width: 100%;
+    }
+    .BaaHam_MarketerUser_MoneyInProgressTitle {
+        font-size:12px;
+    }
+}
+@media screen and (max-width : 500px) {
+
+    .BaaHam_MarketerUser_MoneyInProgressTitle {
+        font-size:10px;
+        flex:0.2;
+        border-radius: 10px;
+        padding:0px 3px;
+    }
+    .BaaHam_MarketerUser_MoneyInProgressTables {
+        width: 90%;
+    }
+}

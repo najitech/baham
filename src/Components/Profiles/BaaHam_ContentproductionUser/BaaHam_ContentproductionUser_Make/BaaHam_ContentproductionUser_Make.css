@@ -1,0 +1,144 @@
+.BaaHam_ContentproductionUser_Make {
+    direction: rtl ;
+    width: 100%;
+}
+.BaaHam_CPU_MakeTopButton {
+    background-color: rgb(52, 52, 52);
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:1px 1px 3px 1px rgba(52, 52, 52, 0.116);
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.BaaHam_CPU_MakeTopButtonPlus {
+    color:red;
+    margin-left:4px;
+    font-size: 16px;
+}
+.BaaHam_CU_MakeFooter {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.BaaHam_CU_MakeFooterRight {
+    flex:0.45;
+}
+.BaaHam_CU_MakeFooterLeft  {
+    flex:0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top:20px;
+}
+.BaaHam_CU_MakeFooterRightFooter {
+    margin-top:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.BaaHam_CU_MakeFooterRightFooterItem {
+    display: flex;
+    align-items: center;
+}
+.BaaHam_CU_MakeFooterRightTick {
+    width: 10px;
+    height: 10px;
+    border: 2px solid rgb(178, 178, 178);
+    border-radius: 3px;
+    margin-left:4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    position: relative;
+}
+.BaaHam_CU_MakeFooterRightTickExact {
+    position: absolute;
+    top:-8px;
+    color:rgb(254, 72, 0)
+}
+
+.BaaHam_CU_SabteAgahiPicsContainer {
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    height: 210px;
+    border-radius: 10px;
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.ImageInputLabel2 {
+
+}
+.BaaHam_CU_MakeFooterLeft {
+
+}
+.ImageInputLabel2Pic {
+    width: 160px;
+    height: 140px;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+.BuyCardImage {
+    width: 170px;
+    height: 170px;
+    margin:auto;
+}
+
+.BaaHam_CU_SabteAgahiPicsContainerDeleteContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top:2px solid rgb(208, 208, 208);
+    width: 90%;
+    margin:auto;
+}
+.BaaHam_CU_SabteAgahiPicsContainerDeleteContainer > span {
+    font-size: 10px;
+    color:rgb(254, 72, 0);
+    font-weight: bold;
+    padding-top:5px;
+}
+
+.BaaHam_ContentproductionUser_MakePishMonContainer {
+    display: flex;
+    align-items: center;
+    flex:0.97;
+    justify-content: space-evenly;
+}
+
+.BaaHam_ContentproductionUser_MakeEditorContianer {
+    height: 150px;
+}
+@media screen and (max-width : 813px) {
+    .BaaHam_ContentproductionUser_MakeTitleRes {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width : 520px) {
+    .BaaHam_ContentproductionUser_MakePishMonContainer {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (max-width : 450px) {
+    .BuyCardImage {
+        width: 130px;
+        height: 130px;
+    }
+    .ImageInputLabel2Pic {
+        width: 130px;
+        height: 110px;
+        margin-top:20px;
+    }
+}

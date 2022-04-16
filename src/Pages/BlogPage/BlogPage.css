@@ -1,0 +1,1262 @@
+
+.feedBlog{
+    text-align: right;
+    width: 897px;
+}
+.feedBlog >div{
+    margin-left: -16px;
+}
+.bannerDivBlog{
+    background-color: #f0f0f0c9;
+    width: 392px;
+    padding: 14px;
+    height: 268px;
+    border-radius:35px;
+}
+.ADbanners{
+    background-color: #f0f0f0c9;
+    border-radius: 35px;
+    height: 420px;
+    margin-top: 30px;
+}
+.crossLineLogoBlog{
+    border:#2b2b2bef solid 0.1px;
+    height: 100%;
+    border-radius: 25px;
+}
+.iconLogo{
+    height: 109px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconLogo img{
+    height: 63px;
+}
+.btnDivsRowBannerPageBlog{
+    width: 340px;
+    margin: auto;
+}
+.btn1bannerLogo{
+    width: 100%;
+    height: 63px;
+    background-color: var(--color);
+    font-size: 23px;
+    color: white;
+    line-height: 60px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn2bannerLogo{
+    width: 100%;
+    height: 63px;
+    background-color: #343434;
+    font-size: 23px;
+    color: white;
+    line-height: 63px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+.topsBlog{
+    background-color: #f0f0f0c9;
+    border-radius:35px;
+    width: 89%;
+    direction: rtl;
+    padding: 23px;
+    margin-top: 20px;
+}
+.topsHeaderBlog{
+    margin-bottom: 10px;
+    border-bottom: 2px solid #c9c9c9;
+    
+}
+.topsHeaderBlog h3{
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: var(--color);
+}
+.imageFeedBlog{
+    background-color: #f0f0f0c9;
+    border-radius: 35px;
+    margin: auto;
+    padding:25px 30px;
+    width: 842px;
+}
+.imageContainerBlog{
+    position: relative;
+}
+.imageContainerBlog img{
+    width: 100%;
+    border-radius:30px;
+    display: block;
+    margin: 0px !important;
+    margin-bottom: 0px;
+}
+.imageFooterBlog{
+    background-color: #343434c7;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.imageFooterBlog h2{
+    color: rgba(255, 255, 255, 0.925);
+    margin-right: 17px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+.infoImageBlog{
+    color: rgb(199, 199, 199);
+    font-size: 11px !important;
+    margin-right: 30px !important;
+    margin-bottom: 10px;
+    width: 170px !important;
+    display: flex;
+    justify-content: space-between;
+}
+.feedTextBlog{
+    background-color: #f0f0f0c9;
+    position: relative;
+    margin: auto;
+    width: 617px !important;
+    padding: 22px 28px !important;
+    margin-top: 20px !important;
+    border-radius: 30px !important;
+    word-spacing: 2px;
+}
+.infItemSliderBlog{
+    position: absolute;
+    padding-top: 8px;
+    border-top: 1px solid rgb(197, 197, 197);
+    bottom: 16px;
+    left: 30px;
+    right: 28px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #9c9c9c;
+    align-items: center;
+}
+.infItemSliderBlog >div{
+    margin-top: -1px;
+}
+.infItemSliderBlog span{
+    font-size: 10px;
+}
+.feedBlog p{
+    line-height: 29px;
+    color: #797979;
+    font-size: 14px;
+}
+.tagtextBlog{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.tagtextBlog > div{
+    margin: 0px 4px;
+}
+.commentsBlogPage{
+     background-color: #f0f0f0c9;
+     width: 600px;
+     margin: auto;
+     padding: 15px;
+     padding-right: 29px;
+     padding-left: 41px;
+     margin-top: 23px;
+     border-radius: 30px;
+}
+.headerComments{
+    border-bottom: 1.5px solid #c9c9c9;
+}
+.headerComments h2{
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: var(--color);
+}
+.addCommentDiv{
+    margin-top: 10px;
+}
+.addCommentDiv >span{
+    color: #6e6e6e;
+    font-size: 12px;
+}
+.inputsRosBlog{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.inputsRosBlog >div{
+    width: 286px;
+    height: 32px;
+    background-color: white;
+    border: 1.4px solid rgb(201, 201, 201);
+    border-radius: 11px;
+    text-align: center;
+}
+.inputsRosBlog input{
+    border: none;
+    width: 98%;
+    font-size: 16px;
+    color: #6e6e6e;
+    height: 90%;
+    padding-right: 10px;
+    background-color: transparent;
+}
+.inputsRosBlog input::placeholder{
+    font-size: 14px !important;
+    color: rgb(177, 177, 177);
+}
+.CommentTextAreaInput{
+    margin-top: 18px;
+    width: 99.7%;
+    background-color: white;
+    border-radius: 12px;
+    height: 136px;
+    border: 1.4px solid rgb(201, 201, 201);
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.CommentTextAreaInput textarea{
+    width: 97%;
+    font-size: 14px !important;
+    border: none;
+    height: 90%;
+    background-color: transparent;
+    resize: none;
+    color: #6e6e6e;
+}
+.CommentTextAreaInput textarea::placeholder{
+    color: rgb(177, 177, 177);
+}
+.commentsContainer{
+    margin-top: 30px;
+    margin-left: 2px;
+}
+.commentsContainer >span{
+    color: #323232;
+    font-size: 14px;
+    font-weight: bold;
+}
+.commentsListBlog{
+    margin-top: 10px;
+    margin-right: 38px;
+}
+@media screen and (max-width:2000px) {
+    .blogPage{
+        width: 1010px;
+        direction: rtl;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+     }
+     .sidebarBlog{
+         width: 313px;
+     }
+     .feedBlog{
+         width: 668px;
+     }
+     .feedBlog >div{
+         margin-left: -10px;
+     }
+     .bannerDivBlog{
+         background-color: #f0f0f0c9;
+         width: 292px;
+         padding: 10px;
+         height: 200px;
+         border-radius:30px;
+     }
+     .ADbanners{
+         background-color: #f0f0f0c9;
+         border-radius: 35px;
+         height: 300px;
+         margin-top: 30px;
+     }
+     .crossLineLogoBlog{
+         border:#2b2b2bef solid 0.1px;
+         height: 100%;
+         border-radius: 20px;
+     }
+     .iconLogo{
+         height: 81px;
+     }
+     .iconLogo img{
+         height: 46px;
+     }
+     .btnDivsRowBannerPageBlog{
+         width: 253px;
+     }
+     .btn1bannerLogo{
+         width: 100%;
+         height: 46px;
+         background-color: var(--color);
+         font-size: 18px;
+         color: white;
+         line-height: 43px;
+         border-radius: 15px;
+         font-weight: bold;
+         text-align: center;
+     }
+     .btn2bannerLogo{
+         width: 100%;
+         height: 46px;
+         background-color: #343434;
+         font-size: 18px;
+         color: white;
+         line-height: 43px;
+         border-radius: 15px;
+         font-weight: bold;
+         margin-top: 14px;
+         text-align: center;
+     }
+     .topsBlog{
+         background-color: #f0f0f0c9;
+         border-radius:30px;
+         width: 89%;
+         direction: rtl;
+         padding: 17px;
+         margin-top: 15px;
+     }
+     .topsHeaderBlog{
+         margin-bottom: 7.4px;
+         border-bottom: 1.5px solid #c9c9c9;
+         
+     }
+     .topsHeaderBlog h3{
+         margin-top: 3px;
+         margin-bottom: 7px;
+         font-size: 14px;
+         color: var(--color);
+     }
+     .imageFeedBlog{
+         background-color: #f0f0f0c9;
+         border-radius: 30px;
+         margin: auto;
+         padding:18.6px 23.3px;
+         width: 627px;
+     }
+     .imageContainerBlog{
+         position: relative;
+     }
+     .imageContainerBlog img{
+         width: 100%;
+         border-radius:30px;
+         display: block;
+         margin: 0px !important;
+         margin-bottom: 0px;
+     }
+     .imageFooterBlog{
+         position: absolute;
+         left: 0px;
+         right: 0px;
+         bottom: 0;
+         background-color: #343434c7;
+         border-bottom-right-radius: 30px;
+         border-bottom-left-radius: 30px;
+     }
+     .imageFooterBlog h2{
+         color: rgba(255, 255, 255, 0.925);
+         margin-right: 25px;
+         margin-top: 10px;
+         margin-bottom: 10px;
+     }
+     .infoImageBlog{
+         color: rgb(199, 199, 199);
+         font-size: 13px;
+         margin-right: 25px;
+         margin-bottom: 10px;
+         width: 170px;
+         display: flex;
+         justify-content: space-between;
+     }
+     .feedTextBlog{
+         background-color: #f0f0f0c9;
+         position: relative;
+         margin: auto;
+         width: 617px !important;
+         padding: 22px 28px !important;
+         margin-top: 20px !important;
+         border-radius: 30px !important;
+         word-spacing: 2px;
+     }
+     .infItemSliderBlog{
+         position: absolute;
+         padding-top: 8px;
+         border-top: 1px solid rgb(197, 197, 197);
+         bottom: 16px;
+         left: 30px;
+         right: 28px;
+         display: flex;
+         justify-content: space-between;
+         font-size: 10px;
+         color: #9c9c9c;
+         align-items: center;
+     }
+     .infItemSliderBlog >div{
+         margin-top: -1px;
+     }
+     .infItemSliderBlog span{
+         font-size: 10px;
+     }
+     .CommentTextAreaInput{
+        margin-top: 18px;
+        width: 99.7%;
+        background-color: white;
+        border-radius: 12px;
+        height: 136px;
+        border: 1.4px solid rgb(201, 201, 201);
+        align-items: center;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .CommentTextAreaInput textarea{
+        width: 97%;
+        font-size: 14px !important;
+        border: none;
+        height: 90%;
+        background-color: transparent;
+        resize: none;
+        color: #6e6e6e;
+    }
+    .CommentTextAreaInput textarea::placeholder{
+        color: rgb(177, 177, 177);
+    }
+    .commentsContainer{
+        margin-top: 30px;
+        margin-left: 2px;
+    }
+    .commentsContainer >span{
+        color: #323232;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .commentsListBlog{
+        margin-top: 10px;
+        margin-right: 38px;
+    }
+     
+    .feedBlog p{
+        line-height: 29px;
+        color: #797979;
+        font-size: 14px;
+    }
+    .tagtextBlog{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .tagtextBlog > div{
+        margin: 0px 4px;
+    }
+    .commentsBlogPage{
+         background-color: #f0f0f0c9;
+         width: 600px;
+         margin: auto;
+         padding: 15px;
+         padding-right: 29px;
+         padding-left: 41px;
+         margin-top: 23px;
+         border-radius: 30px;
+    }
+    .headerComments{
+        border-bottom: 1.5px solid #c9c9c9;
+    }
+    .headerComments h2{
+        font-size: 18px;
+        margin-bottom: 8px;
+        color: var(--color);
+    }
+    .addCommentDiv{
+        margin-top: 10px;
+    }
+    .addCommentDiv >span{
+        color: #6e6e6e;
+        font-size: 12px;
+    }
+    .inputsRosBlog{
+        display: flex;
+        margin-top: 20px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .inputsRosBlog >div{
+        width: 286px;
+        height: 32px;
+        background-color: white;
+        border: 1.4px solid rgb(201, 201, 201);
+        border-radius: 11px;
+        text-align: center;
+    }
+    .inputsRosBlog input{
+        border: none;
+        width: 98%;
+        font-size: 16px;
+        height: 90%;
+        padding-right: 10px;
+    }
+    .inputsRosBlog input::placeholder{
+        font-size: 14px !important;
+    }
+}
+@media screen and (max-width:1000px) {
+    .blogPage{
+        width: 789px;
+        margin-top: 23px;
+        margin-bottom: 39px;
+     }
+     .sidebarBlog{
+         width: 234px;
+     }
+     .feedBlog{
+         width: 501px;
+     }
+     .feedBlog >div{
+         margin-left: -7.8px;
+     }
+     .bannerDivBlog{
+         width: 228px;
+         padding: 7.8px;
+         height: 156px;
+         border-radius:27px;
+     }
+     .ADbanners{
+         border-radius: 30px;
+         height: 234px;
+         margin-top: 23px;
+     }
+     .crossLineLogoBlog{
+         border-radius: 15px;
+     }
+     .iconLogo{
+         height: 63px;
+     }
+     .iconLogo img{
+         height: 35px;
+     }
+     .btnDivsRowBannerPageBlog{
+         width: 197px;
+     }
+     .btn1bannerLogo{
+         width: 100%;
+         height: 35px;
+         font-size: 14px;
+         line-height: 33px;
+         border-radius: 11px;
+     }
+     .btn2bannerLogo{
+         width: 100%;
+         height: 35px;
+         font-size: 14px;
+         line-height: 33px;
+         border-radius: 11px;
+         margin-top: 10px;
+     }
+     .topsBlog{
+         border-radius:25px;
+         width: 90%;
+         padding: 13px;
+         margin-top: 11px;
+     }
+     .topsHeaderBlog{
+         margin-bottom: 7px;   
+     }
+     .topsHeaderBlog h3{
+         margin-top: 2.4px;
+         margin-bottom: 5.4px;
+         font-size: 10px;
+     }
+     .imageFeedBlog{
+         border-radius: 25px;
+         padding:14.6px 18.3px;
+         width: 489px;
+     }
+     .imageContainerBlog img{
+         width: 100%;
+         border-radius:25px;
+     }
+     .imageFooterBlog{
+         border-bottom-right-radius: 25px;
+         border-bottom-left-radius: 25px;
+     }
+     .imageFooterBlog h2{
+         margin-right: 19px;
+         margin-top: 7.8px;
+         margin-bottom: 7.8px;
+     }
+     .infoImageBlog{
+         color: rgb(199, 199, 199);
+         font-size: 10px;
+         margin-right: 19px;
+         margin-bottom: 7.8px;
+         width: 132px;
+     }
+     .feedTextBlog{
+         width: 482px !important;
+         padding: 17px 22px !important;
+         margin-top: 16px !important;
+         border-radius: 23px !important;
+     }
+     .infItemSliderBlog{
+         padding-top: 6px;
+         bottom: 12px;
+         left: 23px;
+         right: 21px;
+         font-size: 7.8px;
+     }
+     .infItemSliderBlog span{
+         font-size: 7.8px;
+     }
+     .CommentTextAreaInput{
+        margin-top: 14px;
+        width: 99.7%;
+        background-color: white;
+        border-radius: 9px;
+        height: 106px;
+        border: 1px solid rgb(201, 201, 201);
+        align-items: center;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .CommentTextAreaInput textarea{
+        width: 97%;
+        font-size: 10px !important;
+        border: none;
+        height: 90%;
+        background-color: transparent;
+        resize: none;
+        color: #6e6e6e;
+    }
+    .CommentTextAreaInput textarea::placeholder{
+        color: rgb(177, 177, 177);
+    }
+    .commentsContainer{
+        margin-top: 23px;
+        margin-left: 1.5px;
+    }
+    .commentsContainer >span{
+        color: #323232;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .commentsListBlog{
+        margin-top: 7px;
+        margin-right: 29px;
+    }
+     
+    .feedBlog p{
+        line-height: 22px;
+        color: #797979;
+        font-size: 10px;
+    }
+    .tagtextBlog{
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .tagtextBlog > div{
+        margin: 0px 4px;
+    }
+    .commentsBlogPage{
+         background-color: #f0f0f0c9;
+         width: 468px;
+         margin: auto;
+         padding: 11px;
+         padding-right: 22px;
+         padding-left: 32px;
+         margin-top: 17px;
+         border-radius: 23px;
+    }
+    .headerComments{
+        border-bottom: 1px solid #c9c9c9;
+    }
+    .headerComments h2{
+        font-size: 14px;
+        margin-bottom: 6px;
+        color: var(--color);
+    }
+    .addCommentDiv{
+        margin-top: 7.8px;
+    }
+    .addCommentDiv >span{
+        color: #6e6e6e;
+        font-size: 9px;
+    }
+    .inputsRosBlog{
+        display: flex;
+        margin-top: 15.6px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .inputsRosBlog >div{
+        width: 223px;
+        height: 25px;
+        background-color: white;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 8.7px;
+        text-align: center;
+    }
+    .inputsRosBlog input{
+        border: none;
+        width: 98%;
+        font-size: 12px;
+        height: 90%;
+        padding-right: 7.8px;
+    }
+    .inputsRosBlog input::placeholder{
+        font-size: 10px !important;
+    }
+     
+}
+@media screen and (max-width:800px) {
+    .blogPage{
+        width: 95%;
+        margin-top: 20px;
+        margin-bottom: 34px;
+     }
+     .sidebarBlog{
+         width: 30%;
+     }
+     .feedBlog{
+     }
+     .feedBlog >div{
+         margin-left: -6.8px;
+     }
+     .bannerDivBlog{
+         width: 85%;
+         padding: 6.8px;
+         height: 136px;
+         border-radius:23px;
+     }
+     .ADbanners{
+         width: 92%;
+         border-radius: 26px;
+         height: 204px;
+         margin-top: 20px;
+     }
+     .crossLineLogoBlog{
+         border-radius: 13px;
+     }
+     .iconLogo{
+         height: 55px;
+     }
+     .iconLogo img{
+         height: 30px;
+     }
+     .btnDivsRowBannerPageBlog{
+         width: 172px;
+     }
+     .btn1bannerLogo{
+         width: 100%;
+         height: 30px;
+         font-size: 12px;
+         line-height: 28px;
+         border-radius: 9px;
+     }
+     .btn2bannerLogo{
+         width: 100%;
+         height: 30px;
+         font-size: 12px;
+         line-height: 28px;
+         border-radius: 9px;
+         margin-top: 8.7px;
+     }
+     .topsBlog{
+         border-radius:21px;
+         width: 83%;
+         padding: 9px;
+         margin-top: 9px;
+     }
+     .topsHeaderBlog{
+         margin-bottom: 6px;   
+     }
+     .topsHeaderBlog h3{
+         margin-top: 2px;
+         margin-bottom: 4px;
+         font-size: 8.7px;
+     }
+     .imageFeedBlog{
+         border-radius: 21px;
+         padding:12.6px 15.3px;
+         width: 427px;
+     }
+     .imageContainerBlog img{
+         width: 100%;
+         border-radius:21px;
+     }
+     .imageFooterBlog{
+         border-bottom-right-radius: 21px;
+         border-bottom-left-radius: 21px;
+     }
+     .imageFooterBlog h2{
+         margin-right: 16px;
+         margin-top: 6px;
+         margin-bottom:6px;
+         font-size: 16px !important;
+     }
+     .infoImageBlog{
+         color: rgb(199, 199, 199);
+         font-size: 7.7px;
+         margin-right: 16px;
+         margin-bottom: 6.8px;
+         width: 115px;
+     }
+     .feedTextBlog{
+         width: 421px !important;
+         padding: 14px 19px !important;
+         margin-top: 14px !important;
+         border-radius: 20px !important;
+     }
+     .infItemSliderBlog{
+         padding-top: 4px;
+         bottom: 10px;
+         left: 20px;
+         right: 18px;
+         font-size: 7px;
+     }
+     .infItemSliderBlog span{
+         font-size: 7px;
+     }
+     .CommentTextAreaInput{
+        margin-top: 12px;
+        width: 99.7%;
+        background-color: white;
+        border-radius: 7px;
+        height: 92px;
+        border: 1px solid rgb(201, 201, 201);
+        align-items: center;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .CommentTextAreaInput textarea{
+        width: 97%;
+        font-size: 8px !important;
+        border: none;
+        height: 90%;
+        background-color: transparent;
+        resize: none;
+        color: #6e6e6e;
+    }
+    .CommentTextAreaInput textarea::placeholder{
+        color: rgb(177, 177, 177);
+    }
+    .commentsContainer{
+        margin-top: 20px;
+        margin-left: 1px;
+    }
+    .commentsContainer >span{
+        color: #323232;
+        font-size: 8px;
+        font-weight: bold;
+    }
+    .commentsListBlog{
+        margin-top: 5px;
+        margin-right: 25px;
+    }
+     
+    .feedBlog p{
+        line-height: 19px;
+        color: #797979;
+        font-size: 8px;
+    }
+    .tagtextBlog{
+        margin-bottom: 13px;
+        display: flex;
+        align-items: center;
+    }
+    .tagtextBlog > div{
+        margin: 0px 3px;
+    }
+    .commentsBlogPage{
+         background-color: #f0f0f0c9;
+         width: 409px;
+         margin: auto;
+         padding: 9px;
+         padding-right: 19px;
+         padding-left: 28px;
+         margin-top: 14px;
+         border-radius: 20px;
+    }
+    .headerComments{
+        border-bottom: 1px solid #c9c9c9;
+    }
+    .headerComments h2{
+        font-size: 12px;
+        margin-bottom: 4.6px;
+        color: var(--color);
+    }
+    .addCommentDiv{
+        margin-top: 5.8px;
+    }
+    .addCommentDiv >span{
+        color: #6e6e6e;
+        font-size: 7px;
+    }
+    .inputsRosBlog{
+        display: flex;
+        margin-top: 13.6px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .inputsRosBlog >div{
+        width: 195px;
+        height: 21px;
+        background-color: white;
+        border: 1px solid rgb(201, 201, 201);
+        border-radius: 7.7px;
+        text-align: center;
+    }
+    .inputsRosBlog input{
+        border: none;
+        width: 98%;
+        font-size: 10px;
+        height: 8   0%;
+        padding-right: 6.8px;
+    }
+    .inputsRosBlog input::placeholder{
+        font-size: 8px !important;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .blogPage{width: 98%;}
+}
+
+@media screen and (max-width:740px) {
+    .blogPage{width: 100%;}
+    .commentsBlogPage{
+        background-color: #f0f0f0c9;
+        width: 80%;
+        margin: auto;
+        padding: 9px;
+        margin-right: 10px;
+        padding-right: 19px;
+        padding-left: 28px;
+        margin-top: 14px;
+        border-radius: 20px;
+   }
+   .feedTextBlog{
+    width: 82% !important;
+    padding: 14px 19px !important;
+    margin-top: 14px !important;
+    margin-right: 10px;
+    border-radius: 20px !important;
+    }
+    .imageFeedBlog{
+        width: 84%;
+        
+    margin-right: 10px;
+    }
+    
+}
+
+@media screen and (max-width:720px) {
+    .imageFooterBlog h2{
+        margin-right: 16px;
+        margin-top: 6px;
+        margin-bottom:6px;
+        font-size: 14px !important;
+    }
+    
+    .blogPage{width: 100%;}
+    .commentsBlogPage{
+        background-color: #f0f0f0c9;
+        width: 80%;
+        margin: auto;
+        padding: 9px;
+        margin-right: 10px;
+        padding-right: 19px;
+        padding-left: 28px;
+        margin-top: 14px;
+        border-radius: 20px;
+   }
+   .feedTextBlog{
+    width: 82% !important;
+    padding: 14px 19px !important;
+    margin-top: 14px !important;
+    margin-right: 10px;
+    border-radius: 20px !important;
+    }
+    .infoImageBlog{
+        color: rgb(199, 199, 199);
+        font-size: 7.7px !important;
+    
+    }
+    .imageFeedBlog{
+        width: 84%;
+        
+    margin-right: 10px;
+    }
+    .sidebarBlog{
+        width: 30%;
+        margin-right: -10px;
+    }
+    .btnDivsRowBannerPageBlog{
+        width: 132px;
+    }
+    .btn1bannerLogo{
+        width: 100%;
+        height: 25px;
+        font-size: 10px;
+        line-height: 28px;
+        border-radius: 5px;
+    }
+    .btn2bannerLogo{
+        width: 100%;
+        height: 25px;
+        font-size: 10px;
+        line-height: 28px;
+        border-radius: 5px;
+        margin-top: 8.7px;
+    }
+}
+@media screen and (max-width:660px) {
+    .commentsBlogPage{
+        background-color: #f0f0f0c9;
+        width: 80%;
+        margin: auto;
+        padding: 9px;
+        margin-right: 10px;
+        padding-right: 19px;
+        padding-left: 28px;
+        margin-top: 14px;
+        border-radius: 20px;
+   }
+   .feedTextBlog{
+    width: 82% !important;
+    padding: 14px 19px !important;
+    margin-top: 14px !important;
+    margin-right: 10px;
+    border-radius: 20px !important;
+    }
+    .infoImageBlog{
+        color: rgb(199, 199, 199);
+        font-size: 7.7px !important;
+    
+    }
+    .imageFeedBlog{
+        width: 84%;
+        
+    margin-right: 10px;
+    }
+    .sidebarBlog{
+        width: 35%;
+        margin-right: -15px;
+    }
+}
+@media screen and (max-width:660px) {
+    .commentsBlogPage{
+        background-color: #f0f0f0c9;
+        width: 97%;
+        margin: auto;
+        padding: 9px;
+        padding-right: 19px;
+        padding-left: 28px;
+        margin-top: 14px;
+        border-radius: 20px;
+        margin-right: 25px;
+   }
+   .feedTextBlog{
+    width: 99% !important;
+    padding: 14px 19px !important;
+    margin-top: 14px !important;
+    border-radius: 20px !important;
+    margin-right: 25px;
+    }
+    .infoImageBlog{
+        color: rgb(199, 199, 199);
+        font-size: 7.7px !important;
+    }
+    .imageFeedBlog{
+        margin-right: 25px;
+        width: 100%;   
+    }
+    .sidebarBlog{
+        width: 35%;
+        display: none;
+        margin-right: -15px;
+    }
+    .feedBlog{
+        width: 85%;
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:500px) {
+    .commentsBlogPage{
+        background-color: #f0f0f0c9;
+        width: 97%;
+        margin: auto;
+        padding: 9px;
+        padding-right: 19px;
+        padding-left: 28px;
+        margin-top: 14px;
+        border-radius: 20px;
+        margin-right: 25px;
+   }
+   .infoImageBlog{
+    color: rgb(199, 199, 199);
+    font-size: 6.7px !important;
+
+}
+   .feedTextBlog{
+    width: 99% !important;
+    padding: 14px 19px !important;
+    margin-top: 14px !important;
+    border-radius: 20px !important;
+    margin-right: 25px;
+    }
+    .imageFooterBlog h2{
+        margin-right: 16px;
+        margin-top: 6px;
+        margin-bottom:6px;
+        font-size: 12px !important;
+    }
+    .infoImageBlog{
+        color: rgb(199, 199, 199);
+        font-size: 7.7px !important;
+    }
+    .imageFeedBlog{
+        margin-right: 25px;
+        width: 100%;   
+    }
+    .sidebarBlog{
+        width: 35%;
+        display: none;
+        margin-right: -15px;
+    }
+    .feedBlog{
+        width: 85%;
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imageContainerBlog img{
+        height: 180px;
+        border-radius:17px;
+        object-fit: cover;
+    }
+    .commentsListBlog{
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width:460px) {
+    .commentsBlogPage{
+        background-color: #f0f0f0c9;
+        width: 95%;
+        margin: auto;
+        padding: 9px;
+        padding-right: 19px;
+        padding-left: 28px;
+        margin-top: 14px;
+        border-radius: 20px;
+        margin-right: 25px;
+   }
+   .infoImageBlog{
+    color: rgb(199, 199, 199);
+    font-size: 6.7px !important;
+
+}
+   .feedTextBlog{
+    width: 97% !important;
+    padding: 14px 19px !important;
+    margin-top: 14px !important;
+    border-radius: 20px !important;
+    margin-right: 25px;
+    }   
+    .inputsRosBlog{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .inputsRosBlog >div{
+        margin: 0px;
+        margin-top: 10px;
+        width: 99.4%;
+        background-color: white;
+        border: 1px solid rgb(201, 201, 201);
+        text-align: center;
+    }
+    .inputsRosBlog input{
+        width: 97%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .commentsBlogPage{
+        background-color: #f0f0f0c9;
+        width: 95%;
+        margin: auto;
+        padding: 9px;
+        padding-right: 19px;
+        padding-left: 28px;
+        margin-top: 14px;
+        border-radius: 20px;
+        margin-right: 15px;
+   }
+   .infoImageBlog{
+    color: rgb(199, 199, 199);
+    font-size: 6.7px !important;
+    }
+    
+    .imageFeedBlog{
+        margin-right: 15px;
+        width: 100%;   
+    }
+   .feedTextBlog{
+    width: 97% !important;
+    padding: 14px 19px !important;
+    margin-top: 14px !important;
+    border-radius: 20px !important;
+    margin-right: 15px;
+    }    
+}
+
+@media screen and (max-width:350px) {
+    .commentsBlogPage{
+        background-color: #f0f0f0c9;
+        width: 95%;
+        margin: auto;
+        padding: 9px;
+        padding-right: 19px;
+        padding-left: 28px;
+        margin-top: 14px;
+        border-radius: 20px;
+        margin-right: 10px;
+   }
+   .infoImageBlog{
+    color: rgb(199, 199, 199);
+    font-size: 6.7px !important;
+    }
+    
+    .imageFeedBlog{
+        margin-right: 10px;
+        width: 100%;   
+    }
+   .feedTextBlog{
+    width: 97% !important;
+    padding: 14px 19px !important;
+    margin-top: 14px !important;
+    border-radius: 20px !important;
+    margin-right: 10px;
+    }    
+}

@@ -1,0 +1,128 @@
+.PersonBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 1px rgb(221, 221, 221);
+    margin-bottom: 12px;
+}
+
+.PersonBoxTop {
+    grid-template-columns: 0.4fr 1.3fr 1.2fr 1.5fr 1.3fr 0.7fr;
+    padding: 17px 10px;
+    padding-right:20px;
+    width: 100%;
+    box-sizing: border-box;
+
+    display: grid;
+}
+.PersonBoxTop > div {
+    display: flex;
+    align-items: center;
+    border-left:2px solid rgb(230, 230, 230);
+    justify-content: center;
+    font-size: 12px;
+    color:rgb(130, 130, 130);
+    font-weight: bold;
+    height: 23px;
+}
+
+
+.personBoxOpenIconContainer {
+    background-color: rgb(213, 241, 254);
+    color:rgb(19, 140, 202);
+    font-size: 20px;
+}
+.PersonBoxAcc {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 20px;
+    border-top:2px solid rgb(230, 230, 230);
+}
+.PersonBoxAccInputsContainer{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+
+    padding: 5px 0px;
+}
+.PersonBoxAccInputContainer {
+    display: flex;
+    align-items: center;
+}
+.PersonBoxAccInputContainerExact {
+    padding: 4px 10px !important;
+    flex:auto !important;
+    column-gap: 10px !important;
+    background-color: rgb(245, 245, 245) !important;
+}
+.PersonBoxAccInputTitle {
+    color:rgb(138, 138, 138);
+    font-weight: 600;
+    font-size: 11px;
+    margin-left:10px;
+}
+.PersonBoxAccInformationsContainer {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 5px 0px;
+    margin-top:20px;
+}
+.PersonBoxAccInformationContainer {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-between;
+
+}
+.NoBorder{
+    border-left:2px solid rgb(230, 230, 230);
+    border-right:2px solid rgb(230, 230, 230);
+    padding: 0px 10px;
+}
+.PersonBoxAccInformation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.PersonBoxAccInformationTitle {
+    color:rgb(138, 138, 138);
+    font-weight: 600;
+    font-size: 11px;
+
+}
+.PersonBoxAccInformationLast {
+    justify-content: right;
+}
+.PersonBoxAccInformationTitleLast {
+    margin-right:10px;
+}
+.PersonBoxAccButtonContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-top:2px solid rgb(230, 230, 230);
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top:10px;
+}
+@keyframes example {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+.PersonBoxAcc {
+    animation-name: example;
+    animation-duration: 0.5s;
+    width: 100%;
+
+}

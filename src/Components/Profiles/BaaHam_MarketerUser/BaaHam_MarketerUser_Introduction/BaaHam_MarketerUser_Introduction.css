@@ -1,0 +1,41 @@
+.BaaHam_MarketerUser_Introduction {
+    width: 100%;
+    position: relative;
+
+    overflow: hidden !important;
+}
+.BaaHam_MarketerUser_Introduction {
+    position: relative;
+}
+
+.BaaHam_MU_IntroductionTables {
+    border-top: 1px solid rgb(245, 245, 245);
+    margin-top:50px;
+}
+.BaaHam_MU_IntroductionTables {
+ 
+    position: relative;
+    width:100%;
+    scrollbar-width: 30px;
+    scrollbar-color: #2d2ddf ;
+    scrollbar-gutter: stable;
+    overflow: hidden !important;
+}
+
+.BaaHam_MU_IntroductionTables::-webkit-scrollbar {
+    width: 5px;
+    height: 5px; 
+
+}
+
+.BaaHam_MU_IntroductionTables::-webkit-scrollbar-thumb {
+    background-color: rgba(254, 72, 0, 0.726);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    
+  }
+.BaaHam_MU_IntroductionTables::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: rgba(254, 72, 0, 0.219);
+    padding: 4px 0px;
+    height: 10px;
+  }

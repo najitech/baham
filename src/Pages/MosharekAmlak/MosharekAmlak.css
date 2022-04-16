@@ -1,0 +1,185 @@
+.mosharek{
+    width: 100%;
+    margin: auto;
+    direction: rtl;
+    margin-bottom: 50px !important;
+}
+.mosharek > div{
+    margin: auto;
+}
+.mosharek h2{
+    font-size: 26px !important;
+}
+.imageAboutDiv2{
+    width: 100px;
+}
+.imageAboutDiv2 img{
+    width: 10px !important;
+}
+.mosharekLine{
+    width:596px !important;
+    margin-top: 23px !important;
+    margin-right: -7px !important;
+}
+.mosharekSquare{
+    top: 37px !important;
+}
+
+@media screen and (max-width:50000px) {
+    .mosharek{
+        width: 1000px;
+        margin: auto;
+        direction: rtl;
+    }
+    .mosharek > div{
+        margin: auto;
+    }
+    .mosharek h2{
+        font-size: 19.8px !important;
+    }
+    .mosharekLine{
+        width:510px !important;
+        margin-top: 16.7px !important;
+        margin-right: -5px !important;
+    }
+    .mosharekSquare{
+        top: 27px !important;
+    }
+    .marginTextMoshaver p{
+        margin-top: 20px;
+        font-family: IRANYekan;
+        font-size: 14.5px !important;
+        line-height: 36px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+    .mosharek{
+        width: 100%;
+        margin: auto;
+        direction: rtl;
+        margin-top: 23px;
+    }
+    .mosharek > div{
+        margin: auto;
+    }
+    .mosharek h2{
+        font-size: 16.8px !important;
+    }
+    .mosharekLine{
+        width:377px !important;
+        margin-top: 12.7px !important;
+        margin-right: -4px !important;
+    }
+    .mosharekSquare{
+        top: 21px !important;
+    }
+    .marginTextMoshaver p{
+        margin-top: 10px;
+        font-family: IRANYekan;
+        font-size: 12.5px !important;
+        line-height: 28px;
+        margin-bottom: 8px;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    .mosharek{
+        width: 100%;
+        margin: auto;
+        direction: rtl;
+        margin-top: 17px;
+    }
+    .mosharek > div{
+        margin: auto;
+    }
+    .mosharek h2{
+        font-size: 11.8px !important;
+    }
+    .mosharekLine{
+        width:289px !important;
+        margin-top: 9.7px !important;
+        margin-right: -3px !important;
+    }
+    .mosharekSquare{
+        top: 15px !important;
+    }
+    .marginTextMoshaver{
+        margin-top: 10px;
+    }
+    .marginTextMoshaver p{
+        margin-top: 7px;
+        font-family: IRANYekan;
+        font-size: 10px !important;
+        line-height: 25px;
+        margin-bottom: 7px;
+    }
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .mosharek{
+        width: 100%;
+        margin: auto;
+        direction: rtl;
+        margin-top: 11px;
+    }
+    .mosharek > div{
+        margin: auto;
+    }
+    .mosharek h2{
+        font-size: 9.8px !important;
+    }
+    .mosharekLine{
+        width:160px !important;
+        margin-top: 6.5px !important;
+        margin-right: -2px !important;
+    }
+    .mosharekSquare{
+        top: 10px !important;
+    }
+    .marginTextMoshaver p{
+        margin-top: 6px;
+        font-family: IRANYekan;
+        font-size: 8px !important;
+        line-height: 22px;
+        margin-bottom: 6px;
+    }
+    
+}
+
+@media screen and (max-width:400px) {
+    .mosharek{
+        width: 330px !important;
+        margin: auto;
+        direction: rtl;
+        margin-top: 11px;
+    }
+    .mosharek > div{
+        margin: auto;
+    }
+    .mosharek h2{
+        font-size: 7.8px !important;
+    }
+    .mosharekLine{
+        width:160px !important;
+        margin-top: 6.5px !important;
+        margin-right: -2px !important;
+        
+    }
+    .mosharekSquare{
+        top: 10px !important;
+    }
+    .marginTextMoshaver p{
+        margin-top: 6px;
+        font-family: IRANYekan;
+        font-size: 7.3px !important;
+        line-height: 19px;
+        margin-bottom: 6px;
+    }
+}
+

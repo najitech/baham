@@ -1,0 +1,23 @@
+.BaaHam_PU_OrderMarketer_TableContent {
+    width: 33%;
+}
+
+.BaaHam_PU_OrderMarketerBoxHeader {
+    height: 40px;
+    border-radius: 14px;
+    width: 90%;
+    margin-right:auto;
+    background-color: rgb(52, 52, 52);
+    color:white;
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+    font-size: 14px;
+
+}
+.BaaHam_PU_OrderMarketer_TableTitles {
+    width: 87%;
+    margin: auto;
+}

@@ -1,0 +1,80 @@
+.BaaHam_SU_WaitingBoxImageContainer {
+    cursor: pointer;
+}
+
+.BaaHam_SU_WaitingBoxImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+}
+.BaaHam_SU_WaitingBoxChooseContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.BaaHam_SU_WaitingBoxChoose {
+    background-color: rgb(245, 245, 245);
+    width: 50px;
+    height: 45px;
+    margin:auto;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BaaHam_SU_WaitingBoxChooseContainer2 {
+
+}
+.BaaHam_SU_WaitingBoxChooseRight {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border-bottom-left-radius: 50%;
+
+
+}
+.BaaHam_SU_WaitingBoxChooseLeft {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border-bottom-right-radius:  50%;
+  
+}
+.BaaHam_SU_WaitingBoxChooseRightContainer {
+    background-color: rgb(245, 245, 245);
+    height: 50px;
+    width: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+.BaaHam_SU_WaitingBoxChooseLeftContainer {
+    background-color: rgb(245, 245, 245);
+    height: 50px;
+    width: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.BaaHam_SU_WaitingBoxChooseIconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin:auto;
+    background-color: rgb(171, 171, 171);
+    color:white;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.BaaHam_SU_WaitingBoxChooseIconContainerChoose {
+    background-color: rgb(255, 72, 0);
+    color:white;
+}
+.BaaHam_SU_WaitingBoxDeactive {
+    background-color: white;
+}

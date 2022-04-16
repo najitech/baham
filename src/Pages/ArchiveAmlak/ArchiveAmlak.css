@@ -1,0 +1,1564 @@
+.amlak{
+    width: 1024px;
+    margin: auto;
+}
+.amlakBanner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    border:1px solid #E5E5E5;
+}
+.amlakBanner > div{
+    width: 400px;
+}
+.headerAmlakBanner h2{
+    font-size: 20px;
+    word-spacing: 2px;
+    font-weight: bold;
+    color: #5C5C5C;
+}
+.headerAmlakBanner span{
+    color: var(--color);
+}
+
+.imakeAmlakBanner{
+    position: relative;
+}
+.imakeAmlakBanner img{
+    width: 100%;
+}
+.AmlakContainer{
+    width: 100%;
+    margin: auto;   
+    justify-content: space-between;
+    display: flex;
+}
+.sideBarAmlak{
+    flex: 0.22; 
+    text-align: right;
+    height: 100%;
+}
+.lineBetweenAmlakPage{
+    position: absolute;
+    border-right: 1px solid #CDCDCD;
+    right: 5px;
+    top: 0px;
+    bottom: 15px;
+}
+.feedAmlak{
+    position: relative;
+    margin-top: 10px;
+    flex: 0.78;
+    height: 100%; 
+    margin-right: 10px;  
+}
+.sortRowAmlak{
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 27px;
+    justify-content: space-between;
+}
+.sortItmesAmlak{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.aksDarOrNotAmlak{
+    display: flex;
+    font-size: 11px;
+    height: 110%;
+    align-content: center;
+    background-color: #f5f5f5;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 0px 10px;
+}   
+.aksDarOrNotAmlak> span{
+    margin-top:0px;
+    padding: 10px 0px;
+    color: var(--black-color);
+}
+.numberFoundAmlak{
+    background-color: #FFC8B3;
+    color: var(--color);
+    font-size: 12px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 11px;
+}
+.textADFeedAmlak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+}
+.selectAmlakFilter{
+    margin: 0px 20px;
+    margin-left: 0px;
+}
+.gridAgahiAmlak{
+    padding: 20px;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    display: grid;
+    grid-gap:14px 3px;
+}
+.sideBarAmlak h5{
+    color: #5C5C5C;
+    margin-right: 14px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.rentOrBuyAmlak{
+    width: 100%;
+    border: 1.4px solid #EAEAEA;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 5px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.radioRowRBAmlak{
+    display: flex;
+    margin-bottom: 14px;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: right;
+}
+.sideBarAmlak span{
+    font-size: 12px;
+    color: #686868;
+    margin-right: 8px;
+}
+.radioRowRBAmlakCheck{
+    display: flex;
+    margin-bottom: 4px;
+    height: 100%;
+    align-items: center;
+    justify-content : flex-start;
+    text-align: right;
+}
+.radioRowRBAmlakCheck span{
+    font-size: 10px;
+    color: #686868;
+    margin-right: 0px;
+}
+.locationFilterAmlak{
+    margin-top: 10px;
+    width: 100%;
+    border: 1.4px solid #EAEAEA;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 5px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.budgesDives{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+    align-items: center;
+}
+.inputFilterBoxAmlak{
+    width: 94%;
+    background-color: #f5f5f5;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 7px;
+    margin-right: 2px;
+}
+.inputFilterBoxAmlak input{
+    border: none;
+    font-size: 10px;
+    color: #5C5C5C;
+    background-color: transparent;
+    width: 93%;
+    margin-right: 2px;
+    height: 95%;
+}
+.inputFilterBoxAmlak input::placeholder{
+ color: #b4b4b4;
+ font-size: 10px;
+}
+.divStyleFiltersAmlak{
+    margin-top: 10px;
+    width: 100%;
+    border: 1.4px solid #EAEAEA;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 5px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.headerDivFiltersAmlak h6{
+    color: #5C5C5C;
+    margin-right: 5px;
+    font-size: 14px;
+    margin-top: -6px;
+    margin-bottom: 0px;
+}
+.intoLableAmlakFilter{
+    margin: 3px 0px;
+}
+.intoLableAmlakFilter span{
+    color: #9e9e9e !important;
+}
+
+@media screen and (max-width:1024px) {
+    .amlak{
+        width: 900px;
+    }
+    .gridAgahiAmlak{
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width:900px) {
+  
+  
+    .amlak{
+        width: 820px;
+    }
+    .amlakBanner{
+        width: 100%;
+        margin-top: 64px;
+        border-radius: 24px;
+        border:1px solid #E5E5E5;
+    }
+    .amlakBanner > div{
+        width: 290px;
+    }
+    .headerAmlakBanner h2{
+        font-size: 16px;
+        word-spacing: 1px;
+    }
+    .imakeAmlakBanner img{  
+        width: 100%;
+    }
+    .AmlakContainer{
+        width: 100%;
+    }
+    .sideBarAmlak{
+        flex: 0.22;
+        height: 100%;
+    }
+    .lineBetweenAmlakPage{
+        border-right: 1px solid #CDCDCD;
+        right: 4px;
+        top: 0px;
+        bottom: 12px;
+    }
+    .feedAmlak{
+        margin-top: 8px;
+        flex: 0.78;
+        height: 100%; 
+        margin-right: 8px;  
+    }
+    .sortRowAmlak{
+        margin-top: 0px;
+        width: 100%;
+        height: 21px;
+    }
+    .sortItmesAmlak{
+        height: 100%;
+    }
+    .aksDarOrNotAmlak{
+        font-size: 8px;
+        height: 110%;
+        padding-left: 8px;
+        border-radius: 9px;
+        margin: 0px 10px;
+    }   
+    .aksDarOrNotAmlak> span{
+        margin-top:0px;
+        padding: 8px 0px;
+    }
+    .numberFoundAmlak{
+        font-size: 9px;
+        height: 100%;
+        padding: 0px 8px;
+        border-radius: 8.5px;
+    }
+    .textADFeedAmlak{
+        font-size:8px;
+    }
+    .selectAmlakFilter{
+        margin: 0px 16px;
+        margin-left: 0px;
+    }
+    .gridAgahiAmlak{
+        padding: 16px;
+        width: 100%;
+        grid-template-columns: auto auto auto;
+        grid-gap:11px 2px;
+    }
+    .sideBarAmlak h5{
+        margin-right: 11px;
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .rentOrBuyAmlak{
+        width: 100%;
+        border: 1.2px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        box-sizing: border-box;
+        padding-bottom: 8px;
+    }
+    .radioRowRBAmlak{
+        margin-bottom: 11px;
+        height: 100%;
+    }
+    .sideBarAmlak span{
+        font-size: 11px;
+        margin-right: 6px;
+    }
+    .radioRowRBAmlakCheck{
+        margin-bottom: 3px;
+        height: 100%;
+    }
+    .radioRowRBAmlakCheck span{
+        font-size: 11px;
+        margin-right: 0px;
+    }
+    .locationFilterAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .budgesDives{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .inputFilterBoxAmlak{
+        width: 94%;
+        height: 18px;
+        border-radius: 6px;
+        margin-top: 5px;
+        margin-right: 1px;
+    }
+    .inputFilterBoxAmlak input{
+        font-size: 8px;;
+        width: 93%;
+        margin-right: 1px;
+        height: 95%;
+    }
+    .inputFilterBoxAmlak input::placeholder{
+     font-size: 8px;
+    }
+    .divStyleFiltersAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .headerDivFiltersAmlak h6{
+        margin-right: 3px;
+        font-size: 11px;
+        margin-top: -4px;
+        margin-bottom: 0px;
+    }
+    .intoLableAmlakFilter{
+        margin: 2px 0px;
+    }
+ 
+}
+
+@media screen and (max-width:826px) {
+  
+  
+    .amlak{
+        width: 94%;
+    }
+    .amlakBanner{
+        width: 100%;
+        margin-top: 64px;
+        border-radius: 24px;
+        border:1px solid #E5E5E5;
+    }
+    .amlakBanner > div{
+        width: 290px;
+    }
+    .headerAmlakBanner h2{
+        font-size: 16px;
+        word-spacing: 1px;
+    }
+    .imakeAmlakBanner img{
+        width: 100%;
+    }
+    .AmlakContainer{
+        width: 100%;
+    }
+    .sideBarAmlak{
+        flex: 0.22;
+        height: 100%;
+    }
+    .lineBetweenAmlakPage{
+        border-right: 1px solid #CDCDCD;
+        right: 4px;
+        top: 0px;
+        bottom: 12px;
+    }
+    .feedAmlak{
+        margin-top: 8px;
+        flex: 0.78;
+        height: 100%; 
+        margin-right: 8px;  
+    }
+    .sortRowAmlak{
+        margin-top: 0px;
+        width: 100%;
+        height: 21px;
+    }
+    .sortItmesAmlak{
+        height: 100%;
+    }
+    .aksDarOrNotAmlak{
+        font-size: 7px;
+        height: 110%;
+        padding-left: 8px;
+        border-radius: 9px;
+        margin: 0px 10px;
+    }   
+    .aksDarOrNotAmlak> span{
+        margin-top:0px;
+        padding: 6px 0px;
+    }
+    .numberFoundAmlak{
+        font-size: 8px;
+        height: 100%;
+        padding: 0px 8px;
+        border-radius: 8.5px;
+    }
+    .textADFeedAmlak{
+        font-size:7px;
+    }
+    .selectAmlakFilter{
+        margin: 0px 16px;
+        margin-left: 0px;
+    }
+    .gridAgahiAmlak{
+        padding: 16px;
+        width: 100%;
+        grid-template-columns: auto auto auto;
+        grid-gap:11px 10px;
+    }
+    .sideBarAmlak h5{
+        margin-right: 11px;
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .rentOrBuyAmlak{
+        width: 100%;
+        border: 1.2px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        box-sizing: border-box;
+        padding-bottom: 8px;
+    }
+    .radioRowRBAmlak{
+        margin-bottom: 11px;
+        height: 100%;
+    }
+    .sideBarAmlak span{
+        font-size: 11px;
+        margin-right: 6px;
+    }
+    .radioRowRBAmlakCheck{
+        margin-bottom: 3px;
+        height: 100%;
+    }
+    .radioRowRBAmlakCheck span{
+        font-size: 11px;
+        margin-right: 0px;
+    }
+    .locationFilterAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .budgesDives{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .inputFilterBoxAmlak{
+        width: 94%;
+        height: 18px;
+        border-radius: 6px;
+        margin-top: 5px;
+        margin-right: 1px;
+    }
+    .inputFilterBoxAmlak input{
+        font-size: 8px;;
+        width: 93%;
+        margin-right: 1px;
+        height: 95%;
+    }
+    .inputFilterBoxAmlak input::placeholder{
+     font-size: 8px;
+    }
+    .divStyleFiltersAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .headerDivFiltersAmlak h6{
+        margin-right: 3px;
+        font-size: 11px;
+        margin-top: -4px;
+        margin-bottom: 0px;
+    }
+    .intoLableAmlakFilter{
+        margin: 2px 0px;
+    }
+ 
+}
+
+@media screen and (max-width:706px) {
+  
+    .amlak{
+        width: 97%;
+    }
+    .amlakBanner{
+        width: 100%;
+        margin-top: 44px;
+        border-radius: 17px;
+        border:1px solid #E5E5E5;
+    }
+    .amlakBanner > div{
+        width: 260px;
+    }
+    .headerAmlakBanner h2{
+        font-size: 13px;
+        word-spacing: 1px;
+    }
+    .imakeAmlakBanner img{
+        width: 100%;
+        height: 40px;
+        object-fit: cover;
+    }
+    .AmlakContainer{
+        width: 100%;
+    }
+    .sideBarAmlak{
+        flex: 0;
+        display: none;
+        height: 100%;
+    }
+    .lineBetweenAmlakPage{
+        display: none;
+        border-right: 1px solid #CDCDCD;
+        right: 4px;
+        top: 0px;
+        bottom: 12px;
+    }
+    .feedAmlak{
+        margin-top: 8px;
+        flex: 0.98;
+        width: 100% !important;
+        height: 100%;   
+    }
+    .drawerMUIStylesArchive{
+    }
+    .sortRowAmlak{
+        margin-top: 0px;
+        width: 100%;
+        height: 21px;
+    }
+    .sortItmesAmlak{
+        height: 100%;
+    }
+    .aksDarOrNotAmlak{
+        font-size: 7px;
+        height: 110%;
+        padding-left: 8px;
+        border-radius: 9px;
+        margin: 0px 10px;
+    }   
+    .aksDarOrNotAmlak> span{
+        margin-top:0px;
+        padding: 6px 0px;
+    }
+    .numberFoundAmlak{
+        font-size: 8px;
+        height: 100%;
+        padding: 0px 8px;
+        border-radius: 8.5px;
+    }
+    .textADFeedAmlak{
+        font-size:7px;
+    }
+    .selectAmlakFilter{
+        margin: 0px 16px;
+        margin-left: 0px;
+    }
+    .gridAgahiAmlak{
+        padding: 16px;
+        width: 100%;
+        grid-template-columns: auto auto auto;
+        grid-gap:11px 10px;
+    }
+    .sideBarAmlak h5{
+        margin-right: 11px;
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .rentOrBuyAmlak{
+        width: 100%;
+        border: 1.2px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        box-sizing: border-box;
+        padding-bottom: 8px;
+    }
+    .radioRowRBAmlak{
+        margin-bottom: 11px;
+        height: 100%;
+    }
+    
+    .sideBarAmlak2{
+        text-align: right;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+    }
+    .sideBarAmlak2 span{
+        font-size: 11px;
+        margin-right: 6px;
+        color: #686868;
+    }
+    .sideBarAmlak span{
+        font-size: 11px;
+        margin-right: 6px;
+    }
+    .sideBarAmlak2 h5{
+        color: #5C5C5C;
+        margin-right: 11px;
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .radioRowRBAmlakCheck{
+        margin-bottom: 3px;
+        height: 100%;
+    }
+    .radioRowRBAmlakCheck span{
+        font-size: 11px;
+        margin-right: 0px;
+    }
+    .locationFilterAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .budgesDives{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .inputFilterBoxAmlak{
+        width: 94%;
+        height: 18px;
+        border-radius: 6px;
+        margin-top: 5px;
+        margin-right: 1px;
+    }
+    .inputFilterBoxAmlak input{
+        font-size: 8px;;
+        width: 93%;
+        margin-right: 1px;
+        height: 95%;
+    }
+    .inputFilterBoxAmlak input::placeholder{
+     font-size: 8px;
+    }
+    .divStyleFiltersAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .headerDivFiltersAmlak h6{
+        margin-right: 3px;
+        font-size: 11px;
+        margin-top: -4px;
+        margin-bottom: 0px;
+    }
+    .intoLableAmlakFilter{
+        margin: 2px 0px;
+    }
+    .filtersIcon{
+        background-color: #F5F5F5;
+        height: 108%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 4px;
+        color: #828282;
+        border-radius: 7px;
+        margin-left: -7px;
+    }
+}
+
+@media screen and (max-width:706px) {
+  
+    .amlak{
+        width: 97%;
+    }
+    .amlakBanner{
+        width: 100%;
+        margin-top: 44px;
+        border-radius: 17px;
+        border:1px solid #E5E5E5;
+    }
+    .amlakBanner > div{
+        width: 260px;
+    }
+    .headerAmlakBanner h2{
+        font-size: 13px;
+        word-spacing: 1px;
+    }
+    .imakeAmlakBanner img{
+        width: 100%;
+        height: 40px;
+        object-fit: cover;
+    }
+    .AmlakContainer{
+        width: 100%;
+    }
+    .sideBarAmlak{
+        flex: 0;
+        display: none;
+        height: 100%;
+    }
+    .lineBetweenAmlakPage{
+        display: none;
+        border-right: 1px solid #CDCDCD;
+        right: 4px;
+        top: 0px;
+        bottom: 12px;
+    }
+    .feedAmlak{
+        margin-top: 8px;
+        flex: 0.98;
+        width: 100% !important;
+        height: 100%;   
+    }
+    .drawerMUIStylesArchive{
+    }
+    .sortRowAmlak{
+        margin-top: 0px;
+        width: 100%;
+        height: 21px;
+    }
+    .sortItmesAmlak{
+        height: 100%;
+    }
+    .aksDarOrNotAmlak{
+        font-size: 8px;
+        height: 110%;
+        padding-left: 6px;
+        border-radius: 7px;
+        margin: 0px 8px;
+    }   
+    .aksDarOrNotAmlak> span{
+        margin-top:0px;
+        padding: 4px 0px;
+    }
+    .numberFoundAmlak{
+        font-size: 7px;
+        height: 100%;
+        padding: 0px 6px;
+        border-radius: 8.5px;
+    }
+    .textADFeedAmlak{
+        font-size:7px;
+        display: none;
+    }
+    .selectAmlakFilter{
+        margin: 0px 12px;
+        margin-left: 0px;
+    }
+    .gridAgahiAmlak{
+        padding: 12px;
+        width: 100%;
+        grid-template-columns: auto auto auto;
+        grid-gap:9px 8px;
+    }
+    .sideBarAmlak h5{
+        margin-right: 11px;
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .rentOrBuyAmlak{
+        width: 100%;
+        border: 1.2px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        box-sizing: border-box;
+        padding-bottom: 8px;
+    }
+    .radioRowRBAmlak{
+        margin-bottom: 11px;
+        height: 100%;
+    }
+    
+    .sideBarAmlak2{
+        text-align: right;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+    }
+    .sideBarAmlak2 span{
+        font-size: 11px;
+        margin-right: 6px;
+        color: #686868;
+    }
+    .sideBarAmlak span{
+        font-size: 11px;
+        margin-right: 6px;
+    }
+    .sideBarAmlak2 h5{
+        color: #5C5C5C;
+        margin-right: 11px;
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .radioRowRBAmlakCheck{
+        margin-bottom: 3px;
+        height: 100%;
+    }
+    .radioRowRBAmlakCheck span{
+        font-size: 11px;
+        margin-right: 0px;
+    }
+    .locationFilterAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .budgesDives{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .inputFilterBoxAmlak{
+        width: 94%;
+        height: 18px;
+        border-radius: 6px;
+        margin-top: 5px;
+        margin-right: 1px;
+    }
+    .inputFilterBoxAmlak input{
+        font-size: 8px;;
+        width: 93%;
+        margin-right: 1px;
+        height: 95%;
+    }
+    .inputFilterBoxAmlak input::placeholder{
+     font-size: 8px;
+    }
+    .divStyleFiltersAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .headerDivFiltersAmlak h6{
+        margin-right: 3px;
+        font-size: 11px;
+        margin-top: -4px;
+        margin-bottom: 0px;
+    }
+    .intoLableAmlakFilter{
+        margin: 2px 0px;
+    }
+    .filtersIcon{
+        background-color: #F5F5F5;
+        height: 108%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 4px;
+        color: #828282;
+        border-radius: 7px;
+        margin-left: -7px;
+    }
+}
+
+
+@media screen and (max-width:506px) {
+  
+    .amlak{
+        width: 97%;
+    }
+    .amlakBanner{
+        width: 100%;
+        margin-top: 44px;
+        border-radius: 13px;
+        margin-bottom: 10px;
+        border:1px solid #E5E5E5;
+    }
+    .amlakBanner > div{
+        width: 230px;
+    }
+    .headerAmlakBanner h2{
+        font-size: 10px;
+        word-spacing: 1px;
+    }
+    .imakeAmlakBanner img{
+        width: 100%;
+        height: 37px;
+        object-fit: cover;
+    }
+    .AmlakContainer{
+        width: 100%;
+    }
+    .sideBarAmlak{
+        flex: 0;
+        display: none;
+        height: 100%;
+    }
+    .lineBetweenAmlakPage{
+        display: none;
+        border-right: 1px solid #CDCDCD;
+        right: 4px;
+        top: 0px;
+        bottom: 12px;
+    }
+    .feedAmlak{
+        margin-top: 8px;
+        margin: auto;
+        margin-right: 0px;
+        flex: 0.95;
+        width: 100% !important;
+        height: 100%;   
+    }
+    .drawerMUIStylesArchive{
+    }
+    .sortRowAmlak{
+        margin-top: 0px;
+        width: 100%;
+        height: 21px;
+    }
+    .sortItmesAmlak{
+        height: 100%;
+    }
+    .aksDarOrNotAmlak{
+        font-size: 8px;
+        height: 110%;
+        padding-left: 6px;
+        border-radius: 7px;
+        margin: 0px 8px;
+    }   
+    .aksDarOrNotAmlak> span{
+        margin-top:0px;
+        padding: 4px 0px;
+    }
+    .numberFoundAmlak{
+        font-size: 7px;
+        height: 100%;
+        padding: 0px 6px;
+        border-radius: 8.5px;
+    }
+    .textADFeedAmlak{
+        font-size:7px;
+        display: none;
+    }
+    .selectAmlakFilter{
+        margin: 0px 12px;
+        margin-left: 0px;
+    }
+    .gridAgahiAmlak{
+        padding: 12px;
+        width: 100%;
+        grid-template-columns:  auto auto;
+        grid-gap:9px 8px;
+    }
+    .sideBarAmlak h5{
+        margin-right: 11px;
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .rentOrBuyAmlak{
+        width: 100%;
+        border: 1.2px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        box-sizing: border-box;
+        padding-bottom: 8px;
+    }
+    .radioRowRBAmlak{
+        margin-bottom: 11px;
+        height: 100%;
+    }
+    
+    .sideBarAmlak2{
+        text-align: right;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+    }
+    .sideBarAmlak2 span{
+        font-size: 11px;
+        margin-right: 6px;
+        color: #686868;
+    }
+    .sideBarAmlak span{
+        font-size: 11px;
+        margin-right: 6px;
+    }
+    .sideBarAmlak2 h5{
+        color: #5C5C5C;
+        margin-right: 11px;
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .radioRowRBAmlakCheck{
+        margin-bottom: 3px;
+        height: 100%;
+    }
+    .radioRowRBAmlakCheck span{
+        font-size: 11px;
+        margin-right: 0px;
+    }
+    .locationFilterAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .budgesDives{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .inputFilterBoxAmlak{
+        width: 94%;
+        height: 18px;
+        border-radius: 6px;
+        margin-top: 5px;
+        margin-right: 1px;
+    }
+    .inputFilterBoxAmlak input{
+        font-size: 8px;;
+        width: 93%;
+        margin-right: 1px;
+        height: 95%;
+    }
+    .inputFilterBoxAmlak input::placeholder{
+     font-size: 8px;
+    }
+    .divStyleFiltersAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .headerDivFiltersAmlak h6{
+        margin-right: 3px;
+        font-size: 11px;
+        margin-top: -4px;
+        margin-bottom: 0px;
+    }
+    .intoLableAmlakFilter{
+        margin: 2px 0px;
+    }
+    .filtersIcon{
+        background-color: #F5F5F5;
+        height: 108%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 4px;
+        color: #828282;
+        border-radius: 7px;
+        margin-left: -7px;
+    }
+}
+
+
+
+@media screen and (max-width:406px) {
+  
+    .amlak{
+        width: 97%;
+    }
+    .amlakBanner{
+        width: 100%;
+        margin-top: 44px;
+        border-radius: 11px;
+        margin-bottom: 10px;
+        border:1px solid #E5E5E5;
+    }
+    .amlakBanner > div{
+        width: 180px;
+    }
+    .headerAmlakBanner h2{
+        font-size: 9px;
+        word-spacing: 1px;
+    }
+    .imakeAmlakBanner{
+        width: 100px;
+        margin: 0px 3px;
+    }
+    .imakeAmlakBanner img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .AmlakContainer{
+        width: 100%;
+    }
+    .sideBarAmlak{
+        flex: 0;
+        display: none;
+        height: 100%;
+    }
+    .lineBetweenAmlakPage{
+        display: none;
+        border-right: 1px solid #CDCDCD;
+        right: 4px;
+        top: 0px;
+        bottom: 12px;
+    }
+    .feedAmlak{
+        margin-top: 8px;
+        margin: auto;
+        margin-right: 0px;
+        flex: 0.95;
+        width: 100% !important;
+        height: 100%;   
+    }
+    .drawerMUIStylesArchive{
+    }
+    .sortRowAmlak{
+        margin-top: 0px;
+        width: 100%;
+        height: 21px;
+    }
+    .sortItmesAmlak{
+        height: 100%;
+    }
+    .aksDarOrNotAmlak{
+        font-size: 8px;
+        height: 110%;
+        padding-left: 6px;
+        border-radius: 7px;
+        margin: 0px 8px;
+    }   
+    .aksDarOrNotAmlak> span{
+        margin-top:0px;
+        padding: 4px 0px;
+    }
+    .numberFoundAmlak{
+        font-size: 7px;
+        height: 100%;
+        padding: 0px 6px;
+        border-radius: 8.5px;
+    }
+    .textADFeedAmlak{
+        font-size:7px;
+        display: none;
+    }
+    .selectAmlakFilter{
+        margin: 0px 12px;
+        margin-left: 0px;
+    }
+    .gridAgahiAmlak{
+        padding: 12px;
+        width: 100%;
+        grid-template-columns:  auto auto;
+        grid-gap:9px 8px;
+    }
+    .sideBarAmlak h5{
+        margin-right: 11px;
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .rentOrBuyAmlak{
+        width: 100%;
+        border: 1.2px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        box-sizing: border-box;
+        padding-bottom: 8px;
+    }
+    .radioRowRBAmlak{
+        margin-bottom: 11px;
+        height: 100%;
+    }
+    
+    .sideBarAmlak2{
+        text-align: right;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+    }
+    .sideBarAmlak2 span{
+        font-size: 11px;
+        margin-right: 6px;
+        color: #686868;
+    }
+    .sideBarAmlak span{
+        font-size: 11px;
+        margin-right: 6px;
+    }
+    .sideBarAmlak2 h5{
+        color: #5C5C5C;
+        margin-right: 11px;
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .radioRowRBAmlakCheck{
+        margin-bottom: 3px;
+        height: 100%;
+    }
+    .radioRowRBAmlakCheck span{
+        font-size: 11px;
+        margin-right: 0px;
+    }
+    .locationFilterAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .budgesDives{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .inputFilterBoxAmlak{
+        width: 94%;
+        height: 18px;
+        border-radius: 6px;
+        margin-top: 5px;
+        margin-right: 1px;
+    }
+    .inputFilterBoxAmlak input{
+        font-size: 8px;;
+        width: 93%;
+        margin-right: 1px;
+        height: 95%;
+    }
+    .inputFilterBoxAmlak input::placeholder{
+     font-size: 8px;
+    }
+    .divStyleFiltersAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .headerDivFiltersAmlak h6{
+        margin-right: 3px;
+        font-size: 11px;
+        margin-top: -4px;
+        margin-bottom: 0px;
+    }
+    .intoLableAmlakFilter{
+        margin: 2px 0px;
+    }
+    .filtersIcon{
+        background-color: #F5F5F5;
+        height: 108%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 4px;
+        color: #828282;
+        border-radius: 7px;
+        margin-left: -7px;
+    }
+}
+
+
+@media screen and (max-width:340px) {
+  
+    .amlak{
+        width: 98%;
+    }
+    .amlakBanner{
+        width: 100%;
+        margin-top: 44px;
+        border-radius: 11px;
+        margin-bottom: 10px;
+        border:1px solid #E5E5E5;
+    }
+    .amlakBanner > div{
+        width: 180px;
+    }
+    .headerAmlakBanner h2{
+        font-size: 8px;
+        word-spacing: 1px;
+    }
+    .imakeAmlakBanner{
+        width: 50px;
+        margin: 0px 3px;
+    }
+    .imakeAmlakBanner img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .AmlakContainer{
+        width: 100%;
+    }
+    .sideBarAmlak{
+        flex: 0;
+        display: none;
+        height: 100%;
+    }
+    .lineBetweenAmlakPage{
+        display: none;
+        border-right: 1px solid #CDCDCD;
+        right: 4px;
+        top: 0px;
+        bottom: 12px;
+    }
+    .feedAmlak{
+        margin-top: 8px;
+        margin: auto;
+        margin-right: 0px;
+        flex: 0.95;
+        width: 100% !important;
+        height: 100%;   
+    }
+    .drawerMUIStylesArchive{
+    }
+    .sortRowAmlak{
+        margin-top: 0px;
+        width: 100%;
+        height: 21px;
+    }
+    .sortItmesAmlak{
+        height: 100%;
+    }
+    .aksDarOrNotAmlak{
+        font-size: 7px;
+        height: 110%;
+        padding-left: 6px;
+        border-radius: 7px;
+        margin: 0px 8px;
+    }   
+    .aksDarOrNotAmlak> span{
+        margin-top:0px;
+        padding: 4px 0px;
+    }
+    .numberFoundAmlak{
+        font-size: 6px;
+        height: 100%;
+        padding: 0px 6px;
+        border-radius: 8.5px;
+    }
+    .textADFeedAmlak{
+        font-size:6px;
+        display: none;
+    }
+    .selectAmlakFilter{
+        margin: 0px 12px;
+        margin-left: 0px;
+    }
+    .gridAgahiAmlak{
+        padding: 12px;
+        width: 100%;
+        grid-template-columns:  auto auto;
+        grid-gap:9px 8px;
+    }
+    .sideBarAmlak h5{
+        margin-right: 11px;
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .rentOrBuyAmlak{
+        width: 100%;
+        border: 1.2px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        box-sizing: border-box;
+        padding-bottom: 8px;
+    }
+    .radioRowRBAmlak{
+        margin-bottom: 11px;
+        height: 100%;
+    }
+    
+    .sideBarAmlak2{
+        text-align: right;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+    }
+    .sideBarAmlak2 span{
+        font-size: 11px;
+        margin-right: 6px;
+        color: #686868;
+    }
+    .sideBarAmlak span{
+        font-size: 11px;
+        margin-right: 6px;
+    }
+    .sideBarAmlak2 h5{
+        color: #5C5C5C;
+        margin-right: 11px;
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .radioRowRBAmlakCheck{
+        margin-bottom: 3px;
+        height: 100%;
+    }
+    .radioRowRBAmlakCheck span{
+        font-size: 11px;
+        margin-right: 0px;
+    }
+    .locationFilterAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .budgesDives{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .inputFilterBoxAmlak{
+        width: 94%;
+        height: 18px;
+        border-radius: 6px;
+        margin-top: 5px;
+        margin-right: 1px;
+    }
+    .inputFilterBoxAmlak input{
+        font-size: 8px;;
+        width: 93%;
+        margin-right: 1px;
+        height: 95%;
+    }
+    .inputFilterBoxAmlak input::placeholder{
+     font-size: 8px;
+    }
+    .divStyleFiltersAmlak{
+        margin-top: 8px;
+        width: 100%;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 16px;
+        padding: 16px 3px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+    }
+    .headerDivFiltersAmlak h6{
+        margin-right: 3px;
+        font-size: 11px;
+        margin-top: -4px;
+        margin-bottom: 0px;
+    }
+    .intoLableAmlakFilter{
+        margin: 2px 0px;
+    }
+    .filtersIcon{
+        background-color: #F5F5F5;
+        height: 108%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 4px;
+        color: #828282;
+        border-radius: 7px;
+        margin-left: -7px;
+    }
+}

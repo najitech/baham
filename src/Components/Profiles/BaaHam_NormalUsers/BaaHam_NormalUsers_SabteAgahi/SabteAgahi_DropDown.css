@@ -1,0 +1,26 @@
+.MuiSelect-select {
+    width: 430px !important;
+    border:none !important;
+    display: flex !important;
+    flex-direction: row !important;
+    border-radius: 15px !important;
+    display: inline !important;
+    height: 1vh !important;
+}
+.MuiSelect-outlined {
+    height: 1vh !important;
+}
+.MuiSelect-icon {
+    position: absolute !important;
+    left:0 !important;
+    margin-right:auto !important;
+    margin-left:10px !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-radius: 14px !important;
+
+}
+.SabteAgahi_DropDownExact {
+    
+}

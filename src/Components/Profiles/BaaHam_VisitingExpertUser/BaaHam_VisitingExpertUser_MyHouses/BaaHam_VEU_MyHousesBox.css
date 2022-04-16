@@ -1,0 +1,118 @@
+.BaaHam_VEU_Marketer_Table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.BaaHam_VEU_Marketer_TableContainer {
+    height: auto;
+    padding-bottom: 7px;
+}
+.BaaHam_VEU_MyHousesBoxMoreHeader {
+
+    border-bottom: 2px solid rgb(207, 207, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin:auto;
+    margin-top:20px;
+}
+.BaaHam_VEU_MyHousesBoxMoreHeaderTitle {
+    color:rgb(253, 73, 0);
+    font-size: 12px;
+
+    width: 90px;
+    margin-top: 20px ;
+    position: relative;
+}
+.BaaHam_VEU_MyHousesBoxMoreHeaderTitle > span {
+    position: absolute;
+    bottom: -5px;
+    font-weight: bold;
+    right:0px;
+    padding: 0px 5px;
+    background-color: rgb(245, 245, 245);
+}
+.BaaHam_VEU_MyHousesBoxMoreContentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 10px;
+    margin-top:20px;
+}
+.BaaHam_VEU_MyHousesBoxMoreItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex:0.485;
+}
+.BaaHam_VEU_MyHousesBoxMoreItemContent {
+    margin-top:5px;
+    height: 34px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+.BaaHam_VEU_MyHousesBoxMoreContentContainer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    margin-top:20px;
+}
+.BaaHam_VEU_MyHousesBoxMoreContainer2AdressContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex:0.485;
+}
+.BaaHam_VEU_MyHousesBoxMoreContainer2Contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:0.485;
+
+}
+.BaaHam_VEU_MyHousesBoxMoreContainer2AdressContent {
+    height: 89px;
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    margin-top:5px;
+}
+.BaaHam_VEU_MyHousesBoxMoreItem2{
+    width: 100%;
+}
+.BaaHam_VEU_MyHousesBoxMoreFooter {
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0px 10px;
+}
+.BaaHam_VEU_MyHousesBoxMoreFooterItem {
+    display: flex;
+    align-items: center;
+
+}
+.BaaHam_VEU_MyHousesBoxMoreFooterItemTitle {
+}
+.BaaHam_VEU_MyHousesBoxMoreFooterItemBox {
+    height: 34px;
+    width: 140px;
+    background-color: white;
+    border-radius: 15px;
+    margin-right:8px;
+}
+.BaaHam_VEU_RequestBottomButtons {
+    justify-content: left;
+}
+
+
+
+
+@media screen and (max-width : 492px) {
+    .BaaHam_VEU_ProfileInputTitleRes {
+        font-size: 10px;
+    }
+}

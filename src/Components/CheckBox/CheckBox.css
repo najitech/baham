@@ -1,0 +1,26 @@
+.SpringCheckBox {
+    padding: 8px 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    min-width: 120px;
+}
+.SCheckboxTick {
+    width: 17px;
+    height: 17px;
+    border-radius: 6px;
+    background-color: var(--color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.SCheckBoxTitle {
+    color:rgb(114, 114, 114);
+    font-weight: bold;
+    font-size: 11px;
+    margin-right:7px;
+}

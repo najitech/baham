@@ -1,0 +1,302 @@
+.archiveItemComp img{
+    width: 100%;
+    height: 237px;
+    object-fit: cover;
+    border-radius:25px;
+}
+.archiveItemComp h3{
+    color: #666666;
+    font-size: 16px;
+    margin-top: 2px;
+    word-spacing: 2px;
+}
+.archiveItemComp p{
+    margin-right: 15px;
+    margin-top: -10px;
+    height: 30px;
+    font-size: 13px;
+    width: 80%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    overflow: hidden;
+    color: #777777;
+}
+.infoTimesBlogItemArchive{
+    color: rgb(151, 151, 151);
+    font-size: 10px;
+    display: flex;
+    width: 130px;
+    margin-top: -15px;
+    margin-right: 15px;
+    justify-content: space-between;
+}
+@media screen and (max-width:50000px) {
+    .archiveItemComp img{
+        width: 100%;
+        height: 176px;
+        border-radius:20px;
+    }
+    .archiveItemComp h3{
+        color: #666666;
+        font-size: 14px;
+        margin-top: 1px;
+        word-spacing: 1.5px;
+    }
+    .archiveItemComp p{
+        margin-right: 13px;
+        margin-top: -11px;
+        height: 26px;
+        font-size: 11px;
+        width: 90%;
+        line-height: 23px;
+        margin-bottom: 17px;
+        overflow: hidden;
+        color: #777777;
+    }
+    .infoTimesBlogItemArchive{
+        color: rgb(151, 151, 151);
+        font-size: 8px;
+        display: flex;
+        width: 104px;
+        margin-top: -15px;
+        margin-right: 15px;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:1500px) {
+    .archiveItemComp img{
+        width: 100%;
+        height: 176px;
+        border-radius:20px;
+    }
+    .archiveItemComp h3{
+        color: #666666;
+        font-size: 14px;
+        margin-top: 1px;
+        word-spacing: 1.5px;
+    }
+    .archiveItemComp p{
+        margin-right: 13px;
+        margin-top: -11px;
+        height: 26px;
+        font-size: 11px;
+        width: 90%;
+        line-height: 23px;
+        margin-bottom: 17px;
+        overflow: hidden;
+        color: #777777;
+    }
+    .infoTimesBlogItemArchive{
+        color: rgb(151, 151, 151);
+        font-size: 8px;
+        display: flex;
+        width: 104px;
+        margin-top: -15px;
+        margin-right: 15px;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:1500px) {
+    .archiveItemComp img{
+        width: 100%;
+        height: 176px;
+        border-radius:20px;
+    }
+    .archiveItemComp h3{
+        color: #666666;
+        font-size: 14px;
+        margin-top: 1px;
+        word-spacing: 1.5px;
+    }
+    .archiveItemComp p{
+        margin-right: 13px;
+        margin-top: -11px;
+        height: 26px;
+        font-size: 11px;
+        width: 90%;
+        line-height: 23px;
+        margin-bottom: 17px;
+        overflow: hidden;
+        color: #777777;
+    }
+    .infoTimesBlogItemArchive{
+        color: rgb(151, 151, 151);
+        font-size: 8px;
+        display: flex;
+        width: 104px;
+        margin-top: -15px;
+        margin-right: 15px;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:1500px) {
+    .archiveItemComp img{
+        width: 100%;
+        height: 176px;
+        border-radius:20px;
+    }
+    .archiveItemComp h3{
+        color: #666666;
+        font-size: 14px;
+        margin-top: 1px;
+        word-spacing: 1.5px;
+    }
+    .archiveItemComp p{
+        margin-right: 13px;
+        margin-top: -11px;
+        height: 26px;
+        font-size: 11px;
+        width: 90%;
+        line-height: 23px;
+        margin-bottom: 17px;
+        overflow: hidden;
+        color: #777777;
+    }
+    .infoTimesBlogItemArchive{
+        color: rgb(151, 151, 151);
+        font-size: 8px;
+        display: flex;
+        width: 104px;
+        margin-top: -15px;
+        margin-right: 15px;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:1500px) {
+    .archiveItemComp img{
+        width: 100%;
+        height: 176px;
+        border-radius:20px;
+    }
+    .archiveItemComp h3{
+        color: #666666;
+        font-size: 14px;
+        margin-top: 1px;
+        word-spacing: 1.5px;
+    }
+    .archiveItemComp p{
+        margin-right: 13px;
+        margin-top: -11px;
+        height: 26px;
+        font-size: 11px;
+        width: 90%;
+        line-height: 23px;
+        margin-bottom: 17px;
+        overflow: hidden;
+        color: #777777;
+    }
+    .infoTimesBlogItemArchive{
+        color: rgb(151, 151, 151);
+        font-size: 8px;
+        display: flex;
+        width: 104px;
+        margin-top: -15px;
+        margin-right: 15px;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:1500px) {
+    .archiveItemComp img{
+        width: 100%;
+        height: 176px;
+        border-radius:20px;
+    }
+    .archiveItemComp h3{
+        color: #666666;
+        font-size: 14px;
+        margin-top: 1px;
+        word-spacing: 1.5px;
+    }
+    .archiveItemComp p{
+        margin-right: 13px;
+        margin-top: -11px;
+        height: 26px;
+        font-size: 11px;
+        width: 90%;
+        line-height: 23px;
+        margin-bottom: 17px;
+        overflow: hidden;
+        color: #777777;
+    }
+    .infoTimesBlogItemArchive{
+        color: rgb(151, 151, 151);
+        font-size: 8px;
+        display: flex;
+        width: 104px;
+        margin-top: -15px;
+        margin-right: 15px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .archiveItemComp img{
+        width: 100%;
+        height: 137px;
+        border-radius:15px;
+    }
+    .archiveItemComp h3{
+        color: #666666;
+        font-size: 11px;
+        margin-top: 1px;
+        word-spacing: 1px;
+    }
+    .archiveItemComp p{
+        margin-right: 10px;
+        margin-top: -8px;
+        height: 20px;
+        font-size: 9px;
+        width: 90%;
+        line-height: 17px;
+        margin-bottom: 13px;
+        overflow: hidden;
+        color: #777777;
+    }
+    .infoTimesBlogItemArchive{
+        color: rgb(151, 151, 151);
+        font-size: 7px;
+        display: flex;
+        width: 90px;
+        margin-top: -11px;
+        margin-right: 11px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .archiveItemComp img{
+        width: 100%;
+        height: 87px;
+        border-radius:15px;
+    }
+    .archiveItemComp h3{
+        color: #666666;
+        font-size: 9.6px;
+        margin-top: 1px;
+        word-spacing: 1px;
+    }
+    .archiveItemComp p{
+        margin-right: 8px;
+        margin-top: -8px;
+        height: 18px;
+        font-size: 8px;
+        width: 90%;
+        line-height: 16px;
+        margin-bottom: 12px;
+        overflow: hidden;
+        color: #777777;
+    }
+    .infoTimesBlogItemArchive{
+        color: rgb(151, 151, 151);
+        font-size: 6.5px;
+        display: flex;
+        width: 90px;
+        margin-top: -11px;
+        margin-right: 11px;
+        justify-content: space-between;
+    }
+}

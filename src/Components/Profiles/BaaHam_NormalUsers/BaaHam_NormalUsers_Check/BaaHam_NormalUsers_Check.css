@@ -1,0 +1,45 @@
+.BaaHam_NormalUsers_Checks {
+    width: 100%;
+}
+
+
+.BaaHam_NormalUsers_ChecksHeader {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-bottom: 2px solid rgb(245, 245, 245);
+    margin-top:12px;
+    padding-bottom: 12px;
+}
+.BaaHam_NormalUsers_ChecksHeaderTitle {
+    font-size: 12px;
+    color:rgb(98, 98, 98);
+    font-weight: bold;
+}
+.BaaHam_NormalUsers_ChecksInputs {
+    display: flex;
+    margin-top:20px;
+    height: 150px;
+}
+.BaaHam_NormalUsers_ChecksRightInputs {
+    flex:0.5;
+    padding-left:40px;
+}
+.BaaHam_NormalUsers_ChecksLeftInput {
+    flex:0.48;
+    margin-top:-2px;
+}
+.BaaHam_NU_SabteAgahiBottomGridCheck2 {
+    margin-top:28px;
+}
+.BaaHam_NU_ProfileTextAreaCheck {
+    height: 108px;
+    width: 93%;
+}
+.InputExactContainerForBackTextAreaCheckNormal {
+    height: 131px;
+    margin-top:8px;
+}
+.BaaHam_NU_ProfileButtonCheck2 {
+    margin-left:10px !important;
+}

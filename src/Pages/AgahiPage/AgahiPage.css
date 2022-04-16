@@ -1,0 +1,1144 @@
+.agahiPage{
+    width: 1024px;
+    margin: auto;
+    margin-top: 90px;
+}
+.agahiContainerPage{
+    width: 102%;
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+}
+.informationAgahiContainer{
+    flex: 0.5;
+    height: 100%;
+    padding: 10px 20px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+    box-shadow: rgba(148, 148, 148, 0.25) 0px 35px 40px -17px;
+}
+.leftSizeAgahiContainer{
+    flex: 0.494;
+}
+.bazgashtAgahi{
+    display: flex;
+    align-self: center;
+    color: #8a8a8a;
+}
+.bazgashtAgahi span{
+    margin: 0px;
+    font-size: 11px;
+}
+.row1InfoAgahi{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.codeboxAgahi{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: var(--color);
+    background-color: #FFC7B3;
+    padding: 2px 5px;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+.titleAgahiPage{
+    text-align: right;
+    margin-top: 50px;
+    font-weight: bold;
+    color: var(--black-color);
+}
+.titleAgahiPage h2{
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+.timeAgahiPage{
+    text-align: right;
+    color: #8a8a8a;
+    margin-top: 0px;
+}
+.timeAgahiPage span{
+    font-size: 14px;
+}
+.priceAgahiPage{
+    text-align: right;
+    margin-top: 40px;
+    font-weight: bold;
+    color: var(--color);
+    font-size: 15px;
+}
+.priceAgahiPage h2{
+    margin-bottom: 8px;
+    font-size: 21px;
+}
+.featuresAgahiPage{
+    box-sizing: border-box;
+    padding: 5px 20px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    margin-top: 40px;
+    font-size: 14px;
+    padding-left: 20px;
+    color: black;
+    border-radius: 16px;
+    box-shadow: 0px 13px 20px 6px #e7e7e76e;
+}
+.featuresAgahiPage span{
+    font-size: 12px;
+    margin-right: 4px;
+}
+.featuresAgahiPage > div{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 12px;
+    align-items: center;
+    justify-content: right;
+}
+.personInfDivAgahi{
+    box-sizing: border-box;
+    padding: 30px 35px;
+    border-radius: 19px;
+    margin-top: 30px;
+    border: 1.5px solid #c2c2c2;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.infPersonContainerAgahi{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+    padding-left: 110px;
+    border-left: 1.5px #c2c2c2 solid;
+}
+.personAvatarAgahi{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 5px;
+    box-shadow: rgba(126, 126, 126, 0.25) 0px 13px 27px -5px, rgba(124, 124, 124, 0.192) 0px 8px 16px -8px;
+}
+.personInfAgahi{
+    text-align: right;
+    margin-right: 5px;
+}
+.personInfAgahi h3{
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    color: var(--color);
+}
+.personInfAgahi span{
+    font-size: 11px;
+    color: #8a8a8a;
+}
+.numberBoxAgahi{
+    box-sizing: border-box;
+    padding: 0px 30px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: var(--color);
+    color: white;
+    font-weight: normal !important;
+    border-radius: 12.5px;
+    box-shadow: #fd480062 0px 13px 20px -5px, #fd480073 0px 8px 10px -8px;
+    
+}
+.numberBoxAgahi h3{
+    font-size: 13px;
+}
+
+.emkanatHeader{
+    text-align: right;
+    margin-right: 20px;
+    color: #4F4F4F;
+    margin-top: 50px;
+    font-size: 16px;
+}
+.emkanatAmlak{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: #646464;
+    margin-right: 20px;
+}
+.emkanatAmlak > div{
+    box-sizing: border-box;
+    padding-right: 4px;
+    font-size: 12px;
+    border-right: 1.5px solid #b9b9b9;
+    text-align: right;
+    margin-bottom: 30px;
+}
+.headerExpBoxAmlak{
+    text-align: right;
+    margin-right: 20px;
+    color: #4F4F4F;
+    margin-top: 40px;
+    font-size: 16px;
+}
+.textExpBoxAmlak{
+    text-align: right;
+    color: #646464;
+    font-size: 13px;
+}
+.textExpBoxAmlak p{
+    margin: 0px;
+    line-height: 40px;
+}
+.redExMarkAmlak{
+    color: #FF5A78;
+    font-size: 17px;
+}
+.textExpBoxAmlak span{
+    margin:0px 4px;
+}
+.pictureSliderAGahi{
+    width: 100%;
+    height: 512px;
+    position: relative;
+    border-radius: 19px;
+}
+.pictureSliderAGahi img{
+    width: 100%;
+    height: 100%;
+    border-radius: 19px;
+    object-fit: cover;
+}
+.picturesSliderPicAgahi{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+}
+.picItemDivAgahiSlider{
+    width: 92px;
+    height: 92px;
+    border-radius: 16px;
+    position: relative;
+    cursor: pointer;
+    background-color: #8a8a8a;
+}
+.picItemDivAgahiSlider img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.sliderBtnsAgahi{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.numberCounterAgahiSliderBtn{
+    background-color: rgba(36, 36, 36, 0.664);
+    width: 32px;
+    font-size: 11px;
+    color: white;
+    height: 32px;
+    border-radius: 11px;
+    line-height: 33px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.arrowDivsAgahi{
+    width: 97%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrowStyleAgahi{
+    margin-bottom: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    text-shadow: black 3px 3px 1px 1px;
+}
+.btnsShareRepAgahi{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    margin-top: 56px;
+    justify-content: space-between;
+}
+.reportAgahiBtn:hover{
+    background-color: var(--color);
+    color: white;
+    transition: all ease-in 0.2s;
+}
+.reportAgahiBtn{
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color);
+    color: var(--color);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    margin: 0px 3px;
+    border-radius: 10px;
+}
+.reportAgahiBtn span{
+    font-size: 13px;
+    margin-right: 3px;
+}
+.simularAgahisAgahi{
+    margin-top: 70px;
+    
+    margin-bottom: 100px;
+}
+.agahiAsliderContinaerAghai{
+    width: 100%;
+    margin-top: 80px;
+    border-radius: 30px;
+
+    background-color: #F5F5F5;
+
+}
+.arrowsStyleAgahiCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: #646464;
+    padding: 0px;
+}
+@media screen and (max-width:1080px) {
+    .agahiPage{
+        width: 820px;
+        margin-top: 68px;
+    }
+    .agahiContainerPage{
+        width: 100%;
+    }
+    .informationAgahiContainer{
+        flex: 0.5;
+        height: 100%;
+        padding: 7.5px 15px;
+        padding-bottom: 45px;
+        padding-left: 7.5px;
+        margin-left: 7.5px;
+        border-radius: 22px;
+    }
+    .leftSizeAgahiContainer{
+        flex: 0.494;
+    }
+    .bazgashtAgahi span{
+        margin: 0px;
+        font-size: 8px;
+    }
+    .row1InfoAgahi{
+        width: 100%;
+    }
+    .codeboxAgahi{
+        font-size: 7.5px;
+        padding: 1px 3px;
+        border-radius: 5.3px;
+    }
+    .titleAgahiPage{
+        margin-top: 37px;
+    }
+    .titleAgahiPage h2{
+        font-size: 17px;
+        margin-bottom: 6px;
+    }
+    .timeAgahiPage{
+        margin-top: 0px;
+    }
+    .timeAgahiPage span{
+        font-size: 10px;
+    }
+    .priceAgahiPage{
+        margin-top: 30px;
+        font-size: 11px;
+    }
+    .priceAgahiPage h2{
+        margin-bottom: 6px;
+        font-size: 16px;
+    }
+    .featuresAgahiPage{
+        padding: 3px 15px;
+        margin-top: 30px;
+        font-size: 10px;
+        padding-left: 15px;
+        border-radius: 12px;
+        box-shadow: 0px 13px 20px 6px #e7e7e76e;
+    }
+    .featuresAgahiPage span{
+        font-size: 9px;
+        margin-right: 3px;
+    }
+    .featuresAgahiPage > div{
+        margin-left: 43px;
+        margin-bottom: 9px;
+    }
+    .personInfDivAgahi{
+        padding: 22px 27px;
+        border-radius: 14px;
+        margin-top: 22px;
+        border: 1.2px solid #c2c2c2;
+    }
+    .infPersonContainerAgahi{
+        height: 100%;
+        padding-left: 83px;
+        border-left: 1.2px #c2c2c2 solid;
+    }
+    .personAvatarAgahi{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        margin-left: 3px;
+    }
+    .personInfAgahi{
+        margin-right: 3px;
+    }
+    .personInfAgahi h3{
+        font-size: 11px;
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+    .personInfAgahi span{
+        font-size: 8px;
+    }
+    .numberBoxAgahi{
+        padding: 0px 22px;
+        height: 26px;
+        border-radius: 9.5px;
+        
+    }
+    .numberBoxAgahi h3{
+        font-size: 10px;
+    }
+    
+    .emkanatHeader{
+        margin-right: 15px;
+        margin-top: 37px;
+        font-size: 12px;
+    }
+    .emkanatAmlak{
+        width: 100%;
+        color: #646464;
+        margin-right: 15px;
+    }
+    .emkanatAmlak > div{
+        padding-right: 4px;
+        font-size: 9px;
+        border-right: 1.5px solid #b9b9b9;
+        margin-bottom: 22px;
+    }
+    .headerExpBoxAmlak{
+        margin-right: 15px;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .textExpBoxAmlak{
+        font-size: 10px;
+    }
+    .textExpBoxAmlak p{
+        margin: 0px;
+        line-height: 30px;
+    }
+    .redExMarkAmlak{
+        font-size: 12px;
+    }
+    .textExpBoxAmlak span{
+        margin:0px 3px;
+    }
+    .pictureSliderAGahi{
+        width: 100%;
+        height: 388px;
+        border-radius: 14px;
+    }
+    .pictureSliderAGahi img{
+        width: 100%;
+        height: 100%;
+        border-radius: 14px;
+    }
+    .picturesSliderPicAgahi{
+        margin-top: 5px;
+    }
+    .picItemDivAgahiSlider{
+        width: 69px;
+        height: 69px;
+        border-radius: 12px;
+    }
+    .picItemDivAgahiSlider img{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
+    .numberCounterAgahiSliderBtn{
+        width: 24px;
+        font-size: 8px;
+        height: 25px;
+        border-radius: 8px;
+        line-height: 25px;
+        margin-top: 7.5px;
+        margin-right: 7.5px;
+    }
+    .arrowDivsAgahi{
+        width: 97%;
+    }
+    .arrowStyleAgahi{
+        margin-bottom: 37px;
+        font-size: 18px;
+    }
+    .btnsShareRepAgahi{
+        width: 80%;
+        margin-top: 42px;
+    }
+    .reportAgahiBtn:hover{
+        transition: all ease-in 0.2s;
+    }
+    .reportAgahiBtn{
+        font-size: 12px;
+        width: 100%;
+        height: 30px;
+        margin: 0px 2px;
+        border-radius: 7.5px;
+    }
+    .reportAgahiBtn span{
+        font-size: 10px;
+        margin-right: 2px;
+    }
+    .simularAgahisAgahi{
+        margin-top: 53px;
+        margin-bottom: 75px;
+    }
+    .agahiAsliderContinaerAghai{
+        width: 100%;
+        margin-top: 60px;
+        border-radius: 22px;
+    }
+    .arrowsStyleAgahiCards{
+        margin-bottom: 22px;
+        font-size: 22px;
+        padding: 0px;
+    }
+}
+
+
+@media screen and (max-width:840px) {
+    .agahiPage{
+        width: 96%;
+        margin-top: 68px;
+    }
+    .agahiContainerPage{
+        width: 100%;
+    }
+    .informationAgahiContainer{
+        flex: 0.5;
+        height: 100%;
+        padding: 7.5px 15px;
+        padding-bottom: 45px;
+        padding-left: 7.5px;
+        margin-left: 7.5px;
+        border-radius: 22px;
+    }
+    .leftSizeAgahiContainer{
+        flex: 0.494;
+    }
+    .bazgashtAgahi span{
+        margin: 0px;
+        font-size: 8px;
+    }
+    .row1InfoAgahi{
+        width: 100%;
+    }
+    .codeboxAgahi{
+        font-size: 7.5px;
+        padding: 1px 3px;
+        border-radius: 5.3px;
+    }
+    .titleAgahiPage{
+        margin-top: 37px;
+    }
+    .titleAgahiPage h2{
+        font-size: 17px;
+        margin-bottom: 6px;
+    }
+    .timeAgahiPage{
+        margin-top: 0px;
+    }
+    .timeAgahiPage span{
+        font-size: 10px;
+    }
+    .priceAgahiPage{
+        margin-top: 30px;
+        font-size: 11px;
+    }
+    .priceAgahiPage h2{
+        margin-bottom: 6px;
+        font-size: 16px;
+    }
+    .featuresAgahiPage{
+        padding: 3px 15px;
+        margin-top: 30px;
+        font-size: 10px;
+        padding-left: 13px;
+        border-radius: 12px;
+        box-shadow: 0px 13px 20px 6px #e7e7e76e;
+    }
+    .featuresAgahiPage span{
+        font-size: 9px;
+        margin-right: 3px;
+    }
+    .featuresAgahiPage > div{
+        margin-left: 30px;
+        margin-bottom: 9px;
+    }
+    .personInfDivAgahi{
+        padding: 18px 20px;
+        border-radius: 14px;
+        margin-top: 22px;
+        border: 1.2px solid #c2c2c2;
+    }
+    .infPersonContainerAgahi{
+        height: 100%;
+        padding-left: 83px;
+        border-left: 1.2px #c2c2c2 solid;
+    }
+    .personAvatarAgahi{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        margin-left: 3px;
+    }
+    .personInfAgahi{
+        margin-right: 3px;
+    }
+    .personInfAgahi h3{
+        font-size: 11px;
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+    .personInfAgahi span{
+        font-size: 8px;
+    }
+    .numberBoxAgahi{
+        padding: 0px 22px;
+        height: 26px;
+        border-radius: 9.5px;
+        
+    }
+    .numberBoxAgahi h3{
+        font-size: 10px;
+    }
+    
+    .emkanatHeader{
+        margin-right: 15px;
+        margin-top: 37px;
+        font-size: 12px;
+    }
+    .emkanatAmlak{
+        width: 100%;
+        color: #646464;
+        margin-right: 15px;
+    }
+    .emkanatAmlak > div{
+        padding-right: 4px;
+        font-size: 9px;
+        border-right: 1.5px solid #b9b9b9;
+        margin-bottom: 22px;
+    }
+    .headerExpBoxAmlak{
+        margin-right: 15px;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .textExpBoxAmlak{
+        font-size: 10px;
+    }
+    .textExpBoxAmlak p{
+        margin: 0px;
+        line-height: 30px;
+    }
+    .redExMarkAmlak{
+        font-size: 12px;
+    }
+    .textExpBoxAmlak span{
+        margin:0px 3px;
+    }
+    .pictureSliderAGahi{
+        width: 100%;
+        height: 388px;
+        border-radius: 14px;
+    }
+    .pictureSliderAGahi img{
+        width: 100%;
+        height: 100%;
+        border-radius: 14px;
+    }
+    .picturesSliderPicAgahi{
+        margin-top: 5px;
+    }
+    .picItemDivAgahiSlider{
+        width: 69px;
+        height: 69px;
+        border-radius: 12px;
+    }
+    .picItemDivAgahiSlider img{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
+    .numberCounterAgahiSliderBtn{
+        width: 24px;
+        font-size: 8px;
+        height: 25px;
+        border-radius: 8px;
+        line-height: 25px;
+        margin-top: 7.5px;
+        margin-right: 7.5px;
+    }
+    .arrowDivsAgahi{
+        width: 97%;
+    }
+    .arrowStyleAgahi{
+        margin-bottom: 37px;
+        font-size: 18px;
+    }
+    .btnsShareRepAgahi{
+        width: 80%;
+        margin-top: 42px;
+    }
+    .reportAgahiBtn:hover{
+        transition: all ease-in 0.2s;
+    }
+    .reportAgahiBtn{
+        font-size: 12px;
+        width: 100%;
+        height: 30px;
+        margin: 0px 2px;
+        border-radius: 7.5px;
+    }
+    .reportAgahiBtn span{
+        font-size: 10px;
+        margin-right: 2px;
+    }
+    .simularAgahisAgahi{
+        margin-top: 53px;
+        margin-bottom: 75px;
+    }
+    .agahiAsliderContinaerAghai{
+        width: 100%;
+        margin-top: 60px;
+        border-radius: 22px;
+    }
+    .arrowsStyleAgahiCards{
+        margin-bottom: 22px;
+        font-size: 22px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:775px) {
+    .agahiPage{
+        width: 97%;
+        margin-top: 60px;
+    }
+    .agahiContainerPage{
+        width: 100%;
+    }
+    .informationAgahiContainer{
+        flex: 0.48;
+        height: 100%;
+        padding: 7.5px 15px;
+        padding-bottom: 40px;
+        padding-left: 7.5px;
+        margin-left: 7.5px;
+        border-radius: 22px;
+    }
+    .leftSizeAgahiContainer{
+        flex: 0.51;
+    }
+    .bazgashtAgahi span{
+        margin: 0px;
+        font-size: 9px;
+    }
+    .row1InfoAgahi{
+        width: 100%;
+    }
+    .codeboxAgahi{
+        font-size: 7.5px;
+        padding: 3px 3px;
+        border-radius: 5.3px;
+    }
+    .titleAgahiPage{
+        margin-top: 35px;
+    }
+    .titleAgahiPage h2{
+        font-size: 17px;
+        margin-bottom: 6px;
+    }
+    .timeAgahiPage{
+        margin-top: 0px;
+    }
+    .timeAgahiPage span{
+        font-size: 10px;
+    }
+    .priceAgahiPage{
+        margin-top: 30px;
+        font-size: 11px;
+    }
+    .priceAgahiPage h2{
+        margin-bottom: 6px;
+        font-size: 16px;
+    }
+    .featuresAgahiPage{
+        padding: 3px 15px;
+        margin-top: 24px;
+        font-size: 10px;
+        padding-left: 13px;
+        border-radius: 12px;
+        box-shadow: 0px 13px 20px 6px #e7e7e76e;
+    }
+    .featuresAgahiPage span{
+        font-size: 9px;
+        margin-right: 3px;
+    }
+    .featuresAgahiPage > div{
+        margin-left: 30px;
+        margin-bottom: 9px;
+    }
+    .personInfDivAgahi{
+        padding: 18px 20px;
+        border-radius: 14px;
+        margin-top: 22px;
+        border: 1.2px solid #c2c2c2;
+    }
+    .infPersonContainerAgahi{
+        height: 100%;
+        padding-left: 53px;
+        border-left: 1.2px #c2c2c2 solid;
+    }
+    .personAvatarAgahi{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        margin-left: 3px;
+    }
+    .personInfAgahi{
+        margin-right: 3px;
+    }
+    .personInfAgahi h3{
+        font-size: 11px;
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+    .personInfAgahi span{
+        font-size: 8px;
+    }
+    .numberBoxAgahi{
+        padding: 0px 22px;
+        height: 26px;
+        border-radius: 9.5px;
+        
+    }
+    .numberBoxAgahi h3{
+        font-size: 10px;
+    }
+    
+    .emkanatHeader{
+        margin-right: 15px;
+        margin-top: 37px;
+        font-size: 12px;
+    }
+    .emkanatAmlak{
+        width: 100%;
+        color: #646464;
+        margin-right: 15px;
+    }
+    .emkanatAmlak > div{
+        padding-right: 4px;
+        font-size: 9px;
+        border-right: 1.5px solid #b9b9b9;
+        margin-bottom: 22px;
+    }
+    .headerExpBoxAmlak{
+        margin-right: 15px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .textExpBoxAmlak{
+        font-size: 10px;
+    }
+    .textExpBoxAmlak p{
+        margin: 0px;
+        line-height: 30px;
+    }
+    .redExMarkAmlak{
+        font-size: 12px;
+    }
+    .textExpBoxAmlak span{
+        margin:0px 3px;
+    }
+    .pictureSliderAGahi{
+        width: 100%;
+        height: 308px;
+        border-radius: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .pictureSliderAGahi img{
+        width: 100%;
+        height: 100%;
+        border-radius: 14px;
+    }
+    .picturesSliderPicAgahi{
+        margin-top: 5px;
+
+    }
+    .picItemDivAgahiSlider{
+        width: 60px;
+        height: 60px;
+        border-radius: 12px;
+    }
+    .picItemDivAgahiSlider img{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
+    .numberCounterAgahiSliderBtn{
+        width: 24px;
+        font-size: 8px;
+        height: 25px;
+        border-radius: 8px;
+        line-height: 25px;
+        margin-top: 7.5px;
+        margin-right: 7.5px;
+    }
+    .arrowDivsAgahi{
+        width: 97%;
+    }
+    .arrowStyleAgahi{
+        margin-bottom: 37px;
+        font-size: 18px;
+    }
+    .btnsShareRepAgahi{
+        width: 90%;
+        margin-top: 42px;
+    }
+    .reportAgahiBtn:hover{
+        transition: all ease-in 0.2s;
+    }
+    .reportAgahiBtn{
+        font-size: 12px;
+        width: 100%;
+        height: 30px;
+        margin: 0px 2px;
+        border-radius: 7.5px;
+    }
+    .reportAgahiBtn span{
+        font-size: 10px;
+        margin-right: 2px;  
+    }
+    .simularAgahisAgahi{
+        margin-top: 53px;
+        margin-bottom: 75px;
+    }
+    .agahiAsliderContinaerAghai{
+        width: 100%;
+        margin-top: 60px;
+        border-radius: 22px;
+    }
+    .arrowsStyleAgahiCards{
+        margin-bottom: 22px;
+        font-size: 22px;
+        padding: 0px;
+    }
+}
+
+
+@media screen and (max-width:755px) {
+    .infPersonContainerAgahi{
+        height: 100%;
+        padding-left: 37px;
+        border-left: 1.2px #c2c2c2 solid;
+    }
+    .featuresAgahiPage > div{
+        margin-left: 15px;
+        margin-bottom: 9px;
+    }
+}
+@media screen and (max-width:700px) {
+    .agahiContainerPage{
+        flex-direction: column;
+    }
+    .resAgahiPagecul{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }   
+    .resAgahiPagecul div{
+    }
+    .personInfDivAgahi{
+        padding: 18px 16px;
+        border-radius: 14px;
+        width: 53%;
+        margin-top: 22px;
+        margin-right: 15px;
+        border: 1.2px solid #c2c2c2;
+    }
+    .infPersonContainerAgahi{
+        padding-left: 60px;
+    }
+    .featuresAgahiPage > div{
+        margin-left: 16px;
+        margin-bottom: 9px;
+    }
+    
+    .picItemDivAgahiSlider{
+        width: 120px;
+        height: 120px;
+        border-radius: 12px;
+    }
+    .picItemDivAgahiSlider img{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .agahiContainerPage{
+        flex-direction: column;
+    }
+    .resAgahiPagecul{
+        display: block;
+        width: 100%;
+    }   
+    .resAgahiPagecul div{
+    }
+    .personInfDivAgahi{
+        padding: 18px 16px;
+        border-radius: 14px;
+        width: 60%;
+        margin: auto;
+        margin-top: 22px;
+        border: 1.2px solid #c2c2c2;
+    }
+    .infPersonContainerAgahi{
+        padding-left: 60px;
+        border-left: none;
+    }
+    .featuresAgahiPage > div{
+        margin-left: 16px;
+        margin-bottom: 9px;
+    }
+    .picItemDivAgahiSlider{
+        width: 100px;
+        height: 100px;
+        border-radius: 12px;
+    }
+    .picItemDivAgahiSlider img{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .agahiContainerPage{
+        flex-direction: column;
+    }
+    .resAgahiPagecul{
+        display: block;
+        width: 100%;
+    }   
+    .resAgahiPagecul div{
+    }
+    .personInfDivAgahi{
+        padding: 18px 16px;
+        border-radius: 14px;
+        width: 90%;
+        margin: auto;
+        margin-top: 22px;
+        border: 1.2px solid #c2c2c2;
+    }
+    .infPersonContainerAgahi{
+        padding-left: 60px;
+        border-left: none;
+    }
+    .featuresAgahiPage > div{
+        margin-left: 16px;
+        margin-bottom: 9px;
+    }
+    .picItemDivAgahiSlider{
+        width: 90px;
+        height: 90px;
+        border-radius: 12px;
+    }
+    .picItemDivAgahiSlider img{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
+}
+
+@media screen and (max-width:508px) {
+    .agahiContainerPage{
+        flex-direction: column;
+    }
+    .resAgahiPagecul{
+        display: block;
+        width: 100%;
+    }   
+    .resAgahiPagecul div{
+    }
+    .picturesSliderPicAgahi{
+        display: none;
+    }
+    .personInfDivAgahi{
+        padding: 18px 16px;
+        border-radius: 14px;
+        width: 99%;
+        margin: auto;
+        margin-top: 22px;
+        border: 1.2px solid #c2c2c2;
+    }
+    .infPersonContainerAgahi{
+        padding-left: 00px;
+        border-left: none;
+    }
+    .featuresAgahiPage > div{
+        margin-left: 16px;
+        margin-bottom: 9px;
+    }
+    .picItemDivAgahiSlider{
+        width: 90px;
+        height: 90px;
+        border-radius: 12px;
+    }
+    .picItemDivAgahiSlider img{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
+    .pictureSliderAGahi{
+        height: 240px;
+    }
+   
+}

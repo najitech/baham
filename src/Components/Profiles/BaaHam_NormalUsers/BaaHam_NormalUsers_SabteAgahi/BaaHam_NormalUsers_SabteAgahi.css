@@ -1,0 +1,490 @@
+
+
+.BaaHam_NormalUsers_SabteAgahi {
+    width: 100%;
+
+}
+.BaaHam_NU_SabteAgahiTopGrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 30px;
+
+}
+.BaaHam_NormalUsers_SabteAgahi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.BaaHam_NU_SabteAgahiTopGrid {
+    margin-top:10px;
+}
+.BaaHam_NormalUsers_SabteAgahiTitle1 {
+    margin-top:40px;
+    font-size: 12px;
+    color:rgb(198, 198, 198);
+    font-weight: 500;
+}
+.BaaHam_NormalUsers_SabteAgahiTitle1Active {
+    color:rgb(254, 80, 14)
+}
+.BaaHam_NU_SabteAgahiPicsTitle {
+    margin-top:10px;
+}
+.BaaHam_NormalUsers_SabteAgahiButton1 {
+    width: 100%;
+    height: 36px;
+    background-color: rgb(254, 72, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 14px;
+    margin-top:10px;
+    cursor: pointer;
+    font-family: IRANSansX;
+}
+.BaaHam_NormalUsers_SabteAgahiTitle1Container {
+    margin-top:40px;
+    
+}
+.BaaHam_NormalUsers_SabteAgahiAreaContainer {
+    display: flex;
+    margin-top:20px;
+    width: 100%;
+
+}
+.BaaHam_NormalUsers_SabteAgahiAreaSelects {
+    flex:0.4;
+    padding-left:20px;
+}
+.BaaHam_NormalUsers_SabteAgahiAreaSelect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top:20px;
+}
+.BaaHam_NormalUsers_SabteAgahiAreaSelectNoTopMargin {
+    margin-top:0px;
+}
+.BaaHam_NormalUsers_SabteAgahiAreaSelectTitle {
+    font-size: 12px;
+    color:rgb(106, 106, 106);
+    font-weight: bold;
+
+}
+
+.BaaHam_NormalUsers_SabteAgahiAreaMapContainer {
+    flex:0.6;
+
+}
+
+.BaaHam_NormalUsers_SabteAgahiAreaSelectContain {
+    margin-top:10px;
+    width: 100%;
+}
+.BaaHam_NormalUsers_SabteAgahiAreaSelectSwitch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(232, 232, 232);
+    margin-top:40px;
+    padding-bottom: 5px;
+}
+.BaaHam_NormalUsers_SabteAgahiAreaSelectSwitchTitle {
+    font-size: 10px;
+    color:rgb(191, 186, 187);
+    padding-bottom: 5px;
+}
+.BaaHam_NormalUsers_SabteAgahiAreaSelectSwitchCotainer {
+    direction: ltr;
+
+}
+
+.BaaHam_NU_SabteAgahiDahandeContainer {
+    display: flex;
+    font-size: 10px;
+    color:rgb(181, 181, 181);
+
+    align-items: center;
+}
+.BaaHam_NU_SabteAgahiDahande {
+    display: flex;
+    margin-right:20px;
+
+
+}
+.BaaHam_NU_SabteAgahiDahandeCircle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border:2px solid rgb(178, 178, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top:2px;
+}
+.BaaHam_NU_SabteAgahiDahandeCircleActive {
+    border-color:rgb(255, 73, 0)
+}
+.BaaHam_NU_SabteAgahiDahandeCircleIn {
+    width: 6px;
+    height: 6px;
+    background-color: rgb(255, 73, 0);
+    border-radius: 50%;
+    display: none;
+}
+.BaaHam_NU_SabteAgahiDahandeCircleInActive {
+    display: inline;
+}
+.BaaHam_NU_SabteAgahiDahandeCircleInExact {
+    margin-left:0.4px;
+}
+.BaaHam_NU_SabteAgahiDahandeTitle {
+    margin-right:5px;
+
+}
+.BaaHam_NU_SabteAgahiBottomGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.BaaHam_NU_SabteAgahiBottomGridTitle {
+    font-size: 11px;
+    color:rgb(98, 98, 98);
+    font-weight: bold;
+    padding-right: 5px;
+}
+.BaaHam_NU_SabteAgahiBottomGridTitleExact {
+    margin-bottom: 4px;
+    margin-top:20px;
+}
+.BaaHam_NU_SabteAgahiBottomGridInputForBack2 {
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    height: 30px ;
+    margin-top:5px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BaaHam_NU_SabteAgahiBottomGridInput {
+    border: none;
+    outline: none;
+    width: 93% !important;
+    height: 30px !important;
+    margin:0px !important;
+    margin:auto !important;
+    background-color: transparent !important;
+}
+.BaaHam_NU_SabteAgahiBottomGridInput:focus{
+    border:none;
+    outline: none;
+}
+.BaaHam_NU_SabteAgahiBottomGrids {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 30px;
+    
+}
+.BaaHam_NU_SabteAgahiDahandeContinerTitle {
+    font-weight: bold;
+  
+    color:rgb(110, 110, 110)
+}
+.BaaHam_NU_SabteAgahiMoreFeaturesTitle {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-bottom: 2px solid rgb(250, 250, 250);
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 13px;
+    color:rgb(254, 76, 8);
+    margin-top:40px;
+    font-weight: bold;
+}
+.BaaHam_NU_SabteAgahiBottomGridDescribe {
+    font-size: 10px;
+    color:rgb(177, 177, 177);
+    padding-right:5px;
+
+}
+.BaaHam_NU_SabteAgahiBottomGridInput2 {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    margin-top:10px;
+    width: 93% !important;
+    margin:auto;
+    margin-bottom: 10px;
+}
+.BaaHam_NU_SabteAgahiBottomGridInput2:focus{
+    border:none;
+    outline: none;
+}
+.BaaHam_NU_SabteAgahiBottomButtons {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    margin-top:10px;
+}
+.BaaHam_NU_SabteAgahiBottomButton {
+    width: 97px;
+    height: 30px;
+    background-color: rgb(255, 73, 0);
+    font-size: 11px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-weight: bold;
+    border:2px solid rgb(255, 73, 0);
+    cursor: pointer;
+    font-family: KalamehWeb;
+}
+.BaaHam_NU_SabteAgahiBottomButton2 {
+    margin-left:10px;
+    background-color: white;
+    color:rgb(255, 73, 0);
+  
+}
+.BaaHam_NU_SabteAgahiFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+}
+.BaaHam_NU_SabteAgahiFooterTitle {
+    border-bottom: 2px solid rgb(245, 245, 245);
+    color:rgb(103, 103, 103);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-bottom: 10px;
+    padding-right:5px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.BaaHam_NU_SabteAgahiFooter3Last3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.BaaHam_NU_SabteAgahiFooter3Last {
+    display: flex;
+    margin-top:15px;
+}
+.BaaHam_NU_SabteAgahiFooter3LastImageContainer {
+    flex:0.5;
+
+
+}
+.BaaHam_NU_SabteAgahiFooter3LastTitleDescribe {
+    flex:0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right:10px;
+}
+.BaaHam_NU_SabteAgahiFooter3LastImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+}
+.BaaHam_NU_SabteAgahiFooter3LastTitle {
+    margin-top:2px;
+    font-size: 11px;
+    font-weight: bold;
+    color:rgb(98, 98, 98)
+}
+.BaaHam_NU_SabteAgahiFooter3LastDescribe {
+    font-size:11px;
+    font-weight: bold;
+    color:rgb(172, 172, 172);
+    margin-top:6px;
+}
+
+
+
+.BaaHam_NU_SabteAgahiPicsBigContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    margin-top:20px;
+}
+
+.BaaHam_NU_SabteAgahiPicsContainer {
+    display: flex;
+    align-items: center;
+    padding-top:15px;
+    padding-bottom: 5px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.BaaHam_NU_SabteAgahiPicsTitle {
+    
+}
+
+.MintCardsSlider {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px;
+    margin-left:20px;
+}
+.imageInput {
+    display: none;
+}
+.hovercursor {
+    cursor: pointer;
+}
+.ImageInputLabel {
+    width: 70px;
+    height: 70px;
+    font-size: 33px;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color:rgb(254, 72, 0);
+}
+
+.MintButton {
+    border: 1px solid gold;
+    width: 160px;
+    background-color: transparent;
+    height: 40px;
+    font-size: 15px;
+    font-weight:bold;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.MintButton:hover {
+    background-color: rgb(78, 77, 77);
+    transition: all 0.3s ease;
+}
+.waitforimage {
+    border: 2px dashed rgb(183, 183, 183);
+    background-color: transparent;
+    height:82px;
+    width: 82px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10px;
+}
+.BaaHam_NU_SabteAgahiPic {
+    height:85px;
+    width: 85px;
+    border-radius: 4px;
+    margin:0px 6px;
+    object-fit:cover;
+}
+.PropertyInput{
+    width: 200px;
+    height: 30px;
+    border: 1px solid gold;
+}
+
+.BaaHam_NU_SabteAgahiDahandeContainerRes {
+    display: flex;
+}
+
+.InputExactContainerForBackTextAreaSabteAgahi2 {
+    height: 100px;
+}
+
+.TestContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.BaaHam_NU_SabteAgahiBottomGridInputForBack2Agahi {
+    width: 48%;
+    margin-top:10px;
+
+}
+
+
+
+@media screen and (max-width : 900px) {
+    .BaaHam_NormalUsers_SabteAgahiAreaMapContainer {
+        flex:0.4;
+        font-size: 12px;
+    }
+    .BaaHam_NormalUsers_SabteAgahiAreaSelects {
+        flex:0.6;
+    }
+    .BaaHam_NU_SabteAgahiDahandeContainer {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    .BaaHam_NU_SabteAgahiDahandeRes {
+        margin-right: 0px;
+    }
+
+}
+
+
+@media screen and (max-width : 725px) {
+    .BaaHam_NU_SabteAgahiTopGrid {
+        grid-template-columns: 1fr;
+    }
+    .BaaHam_NU_SabteAgahiDahande {
+        margin-right:5px;
+    }
+}
+@media screen and (max-width : 704px) {
+
+    .BaaHam_NormalUsers_SabteAgahiAreaMapContainer {
+
+        font-size: 10px;
+    }
+}
+@media screen and (max-width : 450px) {
+    .BaaHam_NU_SabteAgahiDahandeContainerRes {
+        flex-direction: column;
+    }
+    .BaaHam_NU_SabteAgahiBottomGrids {
+        column-gap: 17px;
+    }
+}
+
+@media screen and (max-width : 420px) {
+    .BaaHam_NU_SabteAgahiFooter3Last3 {
+        justify-content: center;
+    }
+}

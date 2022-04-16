@@ -1,0 +1,30 @@
+.BaaHam_MU_MoneyPaidTable {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    row-gap: 10px;
+    margin-right:10px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+.BaaHam_MU_MoneyPaidTableItem {
+    width: 22%;
+}
+
+
+.BaaHam_MU_MoneyPaidTable::-webkit-scrollbar {
+    width: 0px;
+    height: 5px; 
+}
+
+.BaaHam_MU_MoneyPaidTable::-webkit-scrollbar-thumb {
+    background-color: rgba(254, 72, 0, 0.726);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    
+  }
+.BaaHam_MU_MoneyPaidTable::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: rgba(254, 72, 0, 0.219);
+    padding: 4px 0px;
+    height: 10px;
+  }

@@ -1,0 +1,152 @@
+.App{
+  position: relative;
+  height: auto;
+  text-align: center;
+  overflow-x: hidden;
+  height: 100vh;
+
+}
+*:focus {
+  outline: none !important;
+  border: none !important;
+}
+.colorStyles{
+  --color:#fd4900;
+  --black-color : #343434;
+}
+span {
+  text-align: right;
+}
+
+
+.BaaHam_NormalUsersHeaderImageContainer {
+
+}
+.BaaHam {
+
+}
+
+.BaaHamContent {
+    
+    margin: auto;
+    position: relative;
+
+}
+.BaaHam_NormalUsersHeaderImageContainer {
+
+    width: 100%;
+}
+.BaaHam_NormalUsersHeaderTopContainerWhite {
+    padding-bottom: 36px;
+}
+.BaaHam_NormalUsersHeaderImageContainerImage {
+
+    height: 170px;
+    width: 100%;
+}
+
+.BaaHam_NormalUsersHeaderImage {
+    width: 100%;
+  
+}
+.BaaHamMainFooterContainer {
+    margin-top:40px;
+    width: 100%;
+    background-color: rgb(223, 223, 223);
+}
+.BaaHamMainFooter {
+   
+
+    object-fit: contain;
+}
+
+
+.BaaHam_NormalUsersHeaderTopContainer {
+   
+}
+
+
+.BaaHam_NormalUsersHeaderTopRightCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex:0.6;
+}
+
+.BaaHam_NormalUsersHeaderLeft2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:0.4;
+    padding-top:20px;
+}
+
+.BaaHam_NormalUsersHeaderCenter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.BaaHam_NormalUsersHeaderTopContainerRes {
+    display: none !important;
+}
+
+@media screen and (max-width:1500px) {
+    .BaaHam_NormalUsersHeaderTopContainerWhite {
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width:1020px) {
+    .BaaHam_NormalUsersHeaderTopContainerWhite {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .BaaHam_NormalUsersHeaderTopContainerWhite {
+        padding-bottom: 14px;
+    }
+
+}
+
+@media screen and (max-width : 700px)  {
+
+    .BaaHam_NormalUsersHeaderTopContainer {
+        display: none !important;
+    }
+    .BaaHam_NormalUsersHeaderTopContainerRes {
+        display: flex !important;
+        padding: 10px 20px;
+        padding-top:3px;
+        padding-left:0px;
+    }
+    .BaaHam_NormalUsersHeaderTopContainer {
+        height: 100px !important;
+    }
+    .BaaHam_NormalUsersHeaderCenter {
+        width: 200px !important;
+    }
+    .BaaHam_NU_ProfileButton {
+        margin-top:10px !important;
+        height: 30px !important;
+        width: 100px !important;
+    }
+    .BaaHam_NormalUsersHeaderImageTitle {
+        font-size: 11px !important;
+    }
+}
+@media screen and (max-width:600px) {
+    .BaaHam_NormalUsersHeaderTopContainerWhite {
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width:400px) {
+    .BaaHam_NormalUsersHeaderTopContainerWhite {
+        padding-bottom: 8px;
+    }
+}
+@media screen and (max-width : 390px)  {
+    .BaaHam_NormalUsersHeaderImageTitle {
+        font-size: 9px !important;
+    }
+}
+

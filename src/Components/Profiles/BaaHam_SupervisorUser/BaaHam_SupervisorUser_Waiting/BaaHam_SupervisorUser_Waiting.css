@@ -1,0 +1,98 @@
+.BaaHam_SupervisorUser_Waiting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+
+.BaaHam_SU_WaitingBoxes {
+    display: flex;
+    column-gap: 10px;
+
+    width:min-content;
+    overflow-x: scroll;
+    width: 91%;
+    margin:auto;
+    position: absolute;
+    padding-bottom: 10px;
+    margin-top:14px;
+}
+
+  
+.BaaHam_SupervisorUser_Waiting {
+    width: 100%;
+    position: relative;
+
+}
+.BaaHam_SU_WaitingBoxesBig {
+    width: 50%;
+    overflow-x: hidden;
+    background-color: green;
+}
+.BaaHam_SupervisorUser_WaitingInformation{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 19px;
+}
+.BaaHam_SupervisorUser_WaitingBlank {
+    width: 100%;
+    height: 206px;
+}
+.BaaHam_SupervisorUser_WaitingFooter {
+    display: flex;
+    margin-top:20px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+.BaaHam_SupervisorUser_WaitingFooterTitle {
+    font-size: 13px;
+    color:rgb(117, 117, 117);
+    font-weight: bold;
+    padding-right: 10px;
+    min-width: 100px;
+    
+}
+.BaaHam_SupervisorUser_WaitingFooterContent {
+    height: 30px;
+    width: 80%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 15px;
+}
+.BaaHam_SupervisorUser_WaitingFooterSelect {
+    width: 85%;
+    z-index: 1000;
+}
+
+.BaaHam_SupervisorUser_WaitingBottomButtons {
+    margin-top:20px;
+}
+
+
+.BaaHam_SU_WaitingBoxes , .BaaHam_SU_WaitingBox{
+    transform:rotateX(180deg);
+    -ms-transform:rotateX(180deg); /* IE 9 */
+    -webkit-transform:rotateX(180deg); /* Safari and Chrome */
+}
+
+
+.BaaHam_SU_WaitingBoxes::-webkit-scrollbar {
+    width: 5px;
+    height: 5px; 
+}
+
+.BaaHam_SU_WaitingBoxes::-webkit-scrollbar-thumb {
+    background-color: rgba(254, 72, 0, 0.726);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    
+  }
+.BaaHam_SU_WaitingBoxes::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: rgba(254, 72, 0, 0.219);
+    padding: 4px 0px;
+    height: 10px;
+  }

@@ -1,0 +1,5 @@
+.BaaHam_NormalUsers_Favorites {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

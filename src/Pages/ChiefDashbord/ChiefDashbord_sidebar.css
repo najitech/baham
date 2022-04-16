@@ -1,0 +1,113 @@
+.ChiefDashbord_sidebar {
+    flex:0.16;
+    background-color: white;
+    box-shadow: -8px 0px 25px 1px rgb(233, 233, 233);
+    z-index: 10;
+}
+.ChiefDashbord_sidebarProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid rgb(220, 220, 220);
+    width: 70%;
+    margin:auto;
+}
+.ChiefDashbord_sidebarProfileImageContainer {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 3px 7px 1px rgb(214, 214, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.ChiefDashbord_sidebarProfileImageContainerSmall {
+    background-color: var(--color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+}
+.ChiefDashbord_sidebarProfileImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.ChiefDashbord_sidebarProfileName {
+    margin-top:10px;
+    font-weight: bold;
+
+    text-align: center;
+    padding-bottom: 5px;
+}    
+.ChiefDashbord_sidebarItems {
+    width: 100%;
+    margin:auto;
+    padding-top:10px;
+}
+.ChiefDashbord_sidebarItemContainer {
+    width: calc(100%-4px);
+    height: 20px;
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.ChiefDashbord_sidebarItemContainerSetting {
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.ChiefDashbord_sidebarItemContainerSettingAcc {
+    display: flex;
+    align-items: center;
+}
+.ChiefDashbord_sidebarItemContainerActive {
+    border-left:4px solid var(--color);
+}
+.ChiefDashbord_sidebarItemContainerNoMargin {
+    margin-top:0px;
+}
+.ChiefDashbord_sidebarItem {
+    width:70%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+
+    color:rgb(135, 135, 135);
+    font-size: 15px;
+    font-family:IRANYekan ;
+    cursor: pointer;
+
+}
+.ChiefDashbord_sidebar_settingAccOpenTitle {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-right:48px;
+    margin-top:10px;
+    font-size: 11px !important;
+    cursor: pointer;
+}
+
+.ChiefDashbord_sidebarItemActive {
+    color:rgb(254, 111, 56);
+}
+.ChiefDashbord_sidebarItemTitle {
+    margin-right:10px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(141, 141, 141)
+}
+.ChiefDashbord_sidebarItemTitleActive {
+    color:rgb(254, 111, 56);
+}
+.ChiefDashbord_sidebarItemIconContainer {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}

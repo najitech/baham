@@ -1,0 +1,2959 @@
+@media screen and (max-width:5000px) {
+    .home{
+        max-width: 100%;
+        margin: auto;
+        direction: rtl;
+        margin-bottom: 87px;
+    }
+    .bannerHome{
+        width: 100vw;
+        text-align: left;
+        position: relative;
+        margin-top: 20px;   
+        height: 100vh;
+    }
+    .bannerHome img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    .headingBanner{
+        position: absolute;
+        top: 0px;
+        margin-right: 70px;
+        text-align: right;
+    }
+    .headingBanner h1{
+        margin-right: 100px;
+        font-size: 50px;
+        margin-top: 200px;
+        color: var(--color);
+        margin-bottom: 0px;
+    }
+    .headingBanner span{
+        color: var(--color);
+    }
+    .headingBanner h2{
+        font-size: 26px;
+        margin-top: 3.6px;
+        margin-right: 100px;
+        color: #343434;
+    }
+    .dotsSearchBoxHome{
+        position: absolute;
+        top:00px;
+        width: 145px;
+        right: -167px;
+    }
+    .dotsSearchBoxHome img{
+        width: 100%;
+    }
+    .searchBoxHome{
+        margin: auto;
+        position: relative;
+        width: 684px;
+        margin-top: 14.5px;
+    }
+    .rowContainerSearchBoxHome{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+    }
+    .rowContainerSearchBoxHome > div{
+        width: 161px;
+        padding: 7.2px 8.7px;
+    }
+    .activeDivSearchHome{
+        background-color: #f5f5f5 !important;
+        border-top-left-radius: 19.6px;
+        border-top-right-radius: 19.6px;
+    }
+    .customButton{
+        transition: all 0.3s ease-out;
+        height: 40px;
+        width: 100%;
+        background-color: var(--color) !important;
+        line-height: 34px;
+        font-size: 16.7px;
+        color: white !important;
+        font-weight: bold;
+        text-align: center;
+        border-color: var(--color) !important;
+        border-radius: 13.7px;
+        cursor: pointer;
+    }
+    .divSearchHomeBox{
+        background-color: white;
+    }
+    .curveDivsSearchBox{
+        background-color: white;
+    }
+    .customButtonPrimery{
+        height: 37.7px;
+        width: 100%;
+        background-color: white;
+        line-height: 34px;
+        font-size: 16.7px;
+        color: var(--color);
+        border: 1px solid #FC7948;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 13.7px;
+    }
+    .searchBoxContainer{
+        height: 110px;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        border-radius: 19.6px;
+    }
+    .searchInputHome{
+        position: relative;
+        z-index:2;
+        width: 537px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border: 1px solid rgb(122, 122, 122);
+        height: 40px;
+        padding: 5.8px 14.5px;
+        border-radius: 18px;
+        padding-top: 5.8px;
+        padding-left: 5.4px;
+    }
+    .searchInputHome input{
+        width: 97%;
+        height: 97%;
+        border: none !important;
+        font-size: 17.4px;
+    }
+    .searchInputHome input::placeholder{
+        color: #b3b3b3;
+    }
+    .searchButtonHome{
+        width: 124px;
+        background-color: var(--color);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 14.5px;
+        border-radius: 13px;
+        color: white;
+    }
+    .searchButtonHome span{
+        padding-bottom: 5px;
+    }
+    .backgroundColorBoxHome{
+        position: absolute;
+        left: 72px;
+        right: 72px;
+        top: 36px;
+        height: 18px;
+        z-index: 1;
+        background-color: #f5f5f5;
+        border: none;
+    }
+    .whatsBaham{
+        margin: auto;
+        margin-top: 72px;
+        max-width: 1024px;
+        height: 100vh;
+        width: 1024px;
+        text-align: left;
+        position: relative;
+    }
+    .whatsBahamDiv{
+        position: absolute;
+        text-align: right;
+        right: 9.4px;
+        top: 60px;
+        max-width: 502px;
+        width: 502px;
+        background-color: white ;
+        height: 310px;
+        border-radius: 34px;box-shadow: rgba(199, 199, 199, 0.445) 0px 20px 35px -3px, rgba(199, 199, 199, 0.05) 3px 0px 6px -2px;
+    }
+    .whatsBahamBanner img{
+        object-fit: contain;
+    }
+    .whatsBahamDiv h2{
+        margin-right: 66px;
+        font-size: 18px;
+        margin-top: 36px;
+        position: relative;
+        z-index: 2;
+        font-weight: bold;
+    }
+    .whatsBahamDiv p{
+        font-size: 14px;
+        width: 368px;
+        color: #919191;
+        line-height: 28px;
+        margin-right: 66px;
+        font-family: IRANYekan;
+    }
+    .whatsBahamButtonHome{
+        background-color: var(--color);
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5.8px 0px;
+        width: 145px;
+        margin-top: 43px;
+        margin-right: 66px;
+        border-radius: 13px;
+    
+    }
+    .whatsBahamButtonHome span{
+        margin-bottom: 3.6px;
+    }
+    .floatingSquareHomeWhatsBaham{
+        width: 36px;
+        height: 32px;
+        top: 34px;
+        right: 60px;
+        border-radius: 11px;
+        transform: rotate(-10.8deg);
+        background-color: var(--color);
+        position: absolute;
+        z-index: 1;
+    }
+    .categoriesCardHome{
+        width: 951px;
+        margin: auto;
+        display: flex;
+        border-radius: 43px;
+        height: 563px;
+        background-color: #f5f5f5e1;
+    }
+    .categoryListHome{
+        width: 394px;
+        margin-top: 39px;
+        margin-bottom: 87px;
+        margin-right: 43px;
+        cursor: pointer;
+    }
+    .categoryListHome>div{
+        margin-top: 50.8px;
+        position: relative;
+        padding-right: 7.2px;
+    }
+    .categoryItemHome h3{
+        color: #2b2b2b;
+        font-size: 14.9px;
+        margin-bottom: -10px;
+        margin-top: -7.2px;
+        transition: all ease-in 0.2s;
+    }
+    .categoryItemHome p{
+        font-size: 12px;
+        line-height: 29px;
+        color: #6C6C6C;
+        max-width: 314px;
+        margin-bottom: 0px;
+        transition: all ease-in 0.2s;
+    }
+    .lineBesidHomePageItem{
+        position: absolute;
+        width: 2.5px;
+        border-radius: 21px;
+        background-color: #2b2b2b;
+        top: 6px;
+        right: -3px;
+        bottom: 3px;
+        transition: all ease-in 0.2s;
+    }
+    .categoryIconsHome{
+        height: 100%;
+        width: 653px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .categoryIconsHome >div{
+        width: 500px;
+        height: 501px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .categoryIconBoxHome{
+        width: 238px;
+        border-radius: 29px;
+        margin-bottom: 17px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 238px;
+        transition: box-shadow ease-in 0.3s;
+        border: 1.5px solid rgb(201, 201, 201);
+        background-color:white;
+    }
+    .categoryIconBoxHome img{
+        width: 50%;
+    }
+    .activeCategoryIconBoxHome{
+        box-shadow: rgba(75, 75, 75, 0.15) 0px 35px 25px, rgba(173, 173, 173, 0.05) 4px 5px 10px;
+        border: none !important;
+    }
+    .activeCategoryItemHome h3{
+        color: #FE4A04 !important;
+    }
+    .activeCategoryItemHome p{
+        color: #FC7948 !important;
+    }
+    .activeLineHomePage{
+        background-color: var(--color) !important;
+    }
+    .sliderHomepage{
+        width: 944px;
+        margin: auto;
+        margin-top: 58px;
+    }
+    .sliderHomepage > h4{
+        color: rgb(43, 43, 43);
+        font-size: 19px;
+        width: 906px;
+        margin: auto;
+        padding-bottom: 10px;
+        border-bottom: 0.2px solid rgba(104, 104, 104, 0.616);
+    }
+    .sliderItemsHomePage{
+        display: flex;
+        width: 944px;
+        align-items: center;
+        margin-top: 76px;
+        justify-content: space-between;
+    }
+    .buttonRowSlider{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .whatsBahamButtonHomeSlider{
+        background-color: var(--color);
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 0px;
+        width: 201px;
+        margin-top: 10px;
+        margin-left: 21px;
+        border-radius: 9px;
+    }
+    .sliderPagination{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .sliderPagination >div{
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: #343434;
+        margin-right: 10.8px;
+        margin-top: -7.2px;
+    }
+    .activeSliderPagination{
+        background-color: var(--color) !important;
+    }
+    .r1Road{
+        position: absolute;
+        top: 130px;
+        left: 0px;
+        right: 0px;
+    }
+    .r2Road{
+        position: absolute;
+        top: 493px;
+        left: 0px;
+        right: 0px;
+    }
+    .R4R{
+        position: absolute;
+        right: 137px;
+        top: -14px;
+    }
+    .R5R{
+        position: absolute;
+        right: 479px;
+        top: -14px;
+    }
+    .R6R{
+        position: absolute;
+        right: 711px;
+        top: -14px;
+    }
+    .R1R{
+    position: absolute;
+    right: 137px;
+    top: -14.5px;
+    }
+    .R2R{
+        position: absolute;
+        right: 479px;
+        top: -14px;
+    }
+    .R3R{
+        position: absolute;
+        right: 711px;
+        top: -14px;
+    }
+    .r2Road{
+        position: absolute;
+    }
+    .roadHome img{
+        width: 100%;
+    }
+    .roadActive{
+        filter: blur(8px);
+    }
+    .roadHome{
+        width: 1024px;
+        margin: auto;
+        position: relative;
+    }
+    .roadHome h2{
+        text-align: center;
+        font-size: 36px;
+        color: #343434;
+        margin-right: -25px;
+        margin-bottom: 0px;
+    }
+    .roadHome p{
+        margin-top: -4.3px;
+        font-size: 14px;
+        color: #919191;
+        text-align: right;
+        width: 181px;
+    }
+    .senterDivcircle{
+        position: absolute;
+        top: 305px;
+        right: 341px;
+        color: #343434;
+        font-size: 19px;
+        font-weight: bold;
+        width: 72px;
+        text-align: center;
+    }
+    .activeContainer{
+        position: absolute;
+        left: 0px;
+        bottom: -43px;
+        right: 0px;
+    }
+    .activeShape{
+        position: relative;
+    }
+    .shapeInfText{
+        position: absolute;
+        top: 312px;
+        right: 326px;
+    }
+    .shapeInfText p{
+        width: 319px;
+        font-size: 16px;
+        color:  #222222e1;
+        line-height: 36px;
+        z-index: 3;
+        word-spacing: 2px;
+    }
+    .shapeInfText h2{
+        position: absolute;
+        bottom: -54px;
+        font-size: 43px;
+        color: var(--color);
+        right: 18px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .home{
+        max-width: 800px;
+        margin: auto;
+        direction: rtl;
+        margin-bottom: 67px;
+    }
+    .bannerHome{
+        text-align: left;
+        position: relative;
+        margin-top: 28px;
+        
+        width: auto;
+        margin-left: 20px;
+        height: auto;
+    }
+    .bannerHome img{
+        width: 90%;
+    }
+    .headingBanner{
+        position: absolute;
+        top: 0px;
+        text-align: right;
+        margin-right: 13px;
+    }
+    .headingBanner h1{
+        font-size: 36px;
+        margin-top: 120px;
+        color: var(--color);
+        margin-bottom: 0px;
+    }
+    .headingBanner span{
+        color: var(--color);
+    }
+    .headingBanner h2{
+        font-size: 23px;
+        margin-top: 2.6px;
+        color: #343434;
+    }
+    .dotsSearchBoxHome{
+        position: absolute;
+        top:00px;
+        width: 113px;
+        right: -130px;
+    }
+    .dotsSearchBoxHome img{
+        width: 100%;
+    }
+    .searchBoxHome{
+        margin: auto;
+        position: relative;
+        width: 534px;
+        margin-top: 10.5px;
+    }
+    .rowContainerSearchBoxHome{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+    }
+    .rowContainerSearchBoxHome > div{
+        width: 125px;
+        padding: 5.2px 6.3px;
+    }
+    .activeDivSearchHome{
+        background-color: #f5f5f5 !important;
+        border-top-left-radius: 14.6px;
+        border-top-right-radius: 14.6px;
+    }
+    .customButton{
+        transition: all 0.3s ease-out;
+        height: 31px;
+        width: 100%;
+        background-color: var(--color) !important;
+        line-height: 26px;
+        font-size: 12.7px;
+        color: white !important;
+        font-weight: bold;
+        text-align: center;
+        border-color: var(--color) !important;
+        border-radius: 10.7px;
+        cursor: pointer;
+    }
+    .divSearchHomeBox{
+        background-color: white;
+    }
+    .curveDivsSearchBox{
+        background-color: white;
+    }
+    .customButtonPrimery{
+        height: 28.7px;
+        width: 100%;
+        background-color: white;
+        line-height: 26px;
+        font-size: 12.7px;
+        color: var(--color);
+        border: 1px solid #FC7948;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 10.7px;
+    }
+    .searchBoxContainer{
+        height: 85px;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        border-radius: 14.6px;
+    }
+    .searchInputHome{
+        position: relative;
+        z-index:2;
+        width: 419px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border: 1px solid rgb(122, 122, 122);
+        height: 31px;
+        padding: 3.8px 10.5px;
+        border-radius: 14px;
+        padding-top: 3.8px;
+        padding-left: 3.4px;
+    }
+    .searchInputHome input{
+        width: 97%;
+        height: 97%;
+        border: none !important;
+        font-size: 13.4px;
+    }
+    .searchInputHome input::placeholder{
+        color: #b3b3b3;
+    }
+    .searchButtonHome{
+        width: 96px;
+        background-color: var(--color);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 10.5px;
+        border-radius: 10px;
+        color: white;
+    }
+    .searchButtonHome span{
+        padding-bottom: 3px;
+    }
+    .backgroundColorBoxHome{
+        position: absolute;
+        left: 56px;
+        right: 56px;
+        top: 28x;
+        height: 14px;
+        z-index: 1;
+        background-color: #f5f5f5;
+        border: none;
+    }
+    .whatsBaham{
+        margin: auto;
+        margin-top: 36px;
+        max-width: 800px;
+        width: 800px;
+        text-align: left;
+        position: relative;
+    }
+    .whatsBahamDiv{
+        position: absolute;
+        text-align: right;
+        right: 7.4px;
+        top: 46px;
+        max-width: 392px;
+        width: 392px;
+        background-color: white ;
+        height: 257px;
+        border-radius: 26px;box-shadow: rgba(199, 199, 199, 0.445) 0px 20px 35px -3px, rgba(199, 199, 199, 0.05) 3px 0px 6px -2px;
+    }
+    .whatsBahamDiv h2{
+        margin-right: 51px;
+        font-size: 16px;
+        margin-top: 28px;
+        position: relative;
+        z-index: 2;
+        font-weight: bold;
+    }
+    .whatsBahamDiv p{
+        font-size: 13px;
+        width: 287px;
+        color: #919191;
+        line-height: 25px;
+        margin-right: 51px;
+    }
+    .whatsBahamButtonHome{
+        background-color: var(--color);
+        font-size: 12px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3.8px 0px;
+        width: 113px;
+        margin-top: 33px;
+        margin-right: 51px;
+        border-radius: 10px;
+    
+    }
+    .whatsBahamButtonHome span{
+        margin-bottom: 1.6px;
+    }
+    .floatingSquareHomeWhatsBaham{
+        width: 28px;
+        height: 25px;
+        top: 26px;
+        right: 46px;
+        border-radius: 8px;
+        transform: rotate(-7.8deg);
+        background-color: var(--color);
+        position: absolute;
+        z-index: 1;
+    }
+    .categoriesCardHome{
+        width: 742px;
+        margin: auto;
+        display: flex;
+        border-radius: 33px;
+        height: 439px;
+        background-color: #f5f5f5e1;
+    }
+    .categoryListHome{
+        width: 307px;
+        margin-top: 30px;
+        margin-bottom: 67px;
+        margin-right: 33px;
+        cursor: pointer;
+    }
+    .categoryListHome>div{
+        margin-top: 39.8px;
+        position: relative;
+        padding-right: 5.2px;
+    }
+    .categoryItemHome h3{
+        color: #2b2b2b;
+        font-size: 11.9px;
+        margin-bottom: -7.8px;
+        margin-top: -5.2px;
+        transition: all ease-in 0.2s;
+    }
+    .categoryItemHome p{
+        font-size: 10.7px;
+        line-height: 22px;
+        color: #6C6C6C;
+        max-width: 245px;
+        margin-bottom: 0px;
+        transition: all ease-in 0.2s;
+    }
+    .lineBesidHomePageItem{
+        position: absolute;
+        width: 1.5px;
+        border-radius: 16px;
+        background-color: #2b2b2b;
+        top: 4px;
+        right: -2px;
+        bottom: 2px;
+        transition: all ease-in 0.2s;
+    }
+    .categoryIconsHome{
+        height: 100%;
+        width: 510px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .categoryIconsHome >div{
+        width: 390px;
+        height: 391px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .categoryIconBoxHome{
+        width: 185px;
+        border-radius: 22px;
+        margin-bottom: 13px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 185px;
+        transition: box-shadow ease-in 0.3s;
+        border: 1px solid rgb(201, 201, 201);
+        background-color:white;
+    }
+    .categoryIconBoxHome img{
+        width: 50%;
+    }
+    .activeCategoryIconBoxHome{
+        box-shadow: rgba(75, 75, 75, 0.15) 0px 35px 25px, rgba(173, 173, 173, 0.05) 4px 5px 10px;
+        border: none !important;
+    }
+    .activeCategoryItemHome h3{
+        color: #FE4A04 !important;
+    }
+    .activeCategoryItemHome p{
+        color: #FC7948 !important;
+    }
+    .activeLineHomePage{
+        background-color: var(--color) !important;
+    }
+    .sliderHomepage{
+        width: 737px;
+        margin: auto;
+        margin-top: 45px;
+    }
+    .sliderHomepage > h4{
+        color: rgb(43, 43, 43);
+        font-size: 14px;
+        width: 707px;
+        margin: auto;
+        padding-bottom: 7.8px;
+        border-bottom: 0.2px solid rgba(104, 104, 104, 0.616);
+    }
+    .sliderItemsHomePage{
+        display: flex;
+        width: 737px;
+        align-items: center;
+        margin-top: 59px;
+        justify-content: space-between;
+    }
+    .buttonRowSlider{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .whatsBahamButtonHomeSlider{
+        background-color: var(--color);
+        font-size: 12px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6px 0px;
+        width: 157px;
+        margin-top: 7px;
+        margin-left: 16px;
+        border-radius: 7px;
+    }
+    .sliderPagination{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .sliderPagination >div{
+        height: 7.8px;
+        width: 7.8px;
+        border-radius: 50%;
+        background-color: #343434;
+        margin-right: 7.8px;
+        margin-top: -5.2px;
+    }
+    .activeSliderPagination{
+        background-color: var(--color) !important;
+    }
+    .r1Road{
+        position: absolute;
+        top: 101px;
+        left: 0px;
+        right: 0px;
+    }
+    .r2Road{
+        position: absolute;
+        top: 385px;
+        left: 0px;
+        right: 0px;
+    }
+    .R4R{
+        position: absolute;
+        right: 107px;
+        top: -10px;
+    }
+    .R5R{
+        position: absolute;
+        right: 374px;
+        top: -10px;
+    }
+    .R6R{
+        position: absolute;
+        right: 555px;
+        top: -10px;
+    }
+    .R1R{
+    position: absolute;
+    right: 107px;
+    top: -10.5px;
+    }
+    .R2R{
+        position: absolute;
+        right: 374px;
+        top: -10px;
+    }
+    .R3R{
+        position: absolute;
+        right: 555px;
+        top: -10px;
+    }
+    .r2Road{
+        position: absolute;
+    }
+    .roadHome img{
+        width: 100%;
+    }
+    .roadActive{
+        filter: blur(8px);
+    }
+    .roadHome{
+        position: relative;
+    }
+    .roadHome h2{
+        text-align: center;
+        font-size: 28px;
+        color: #343434;
+        margin-right: -19px;
+        margin-bottom: 0px;
+    }
+    .roadHome p{
+        margin-top: -3.3px;
+        font-size: 10px;
+        color: #919191;
+        text-align: right;
+        width: 141px;
+    }
+    .senterDivcircle{
+        position: absolute;
+        top: 238px;
+        right: 266px;
+        color: #343434;
+        font-size: 14px;
+        font-weight: bold;
+        width: 56px;
+        text-align: center;
+    }
+    .activeContainer{
+        position: absolute;
+        left: 0px;
+        bottom: -33px;
+        right: 0px;
+    }
+    .activeShape{
+        position: relative;
+    }
+    .shapeInfText{
+        position: absolute;
+        top: 244px;
+        right: 254px;
+    }
+    .shapeInfText p{
+        width: 249px;
+        font-size: 12px;
+        color:  #222222e1;
+        line-height: 28px;
+        z-index: 3;
+        word-spacing: 1.5px;
+    }
+    .shapeInfText h2{
+        position: absolute;
+        bottom: -42px;
+        font-size: 33px;
+        color: var(--color);
+        right: 14px;
+    }
+    .whatsBahamBanner{
+        height: auto;
+    }
+    .whatsBahamBanner img{
+        width: 50%;
+        margin-left: 20px;
+        height: unset;
+    }
+    
+    .whatsBahamDiv{
+        position: absolute;
+        text-align: right;
+        right: 9.4px;
+        top: 100px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .home{
+        max-width: 600px;
+        margin: auto;
+        direction: rtl;
+        margin-bottom: 50px;
+    }
+    .bannerHome{
+        text-align: left;
+        position: relative;
+        margin-top: 21px;
+    }
+    .bannerHome img{
+        width: 440px;
+    }
+    .headingBanner{
+        position: absolute;
+        top: 0px;
+        text-align: right;
+        margin-right: 10px;
+    }
+    .headingBanner h1{
+        font-size: 30px;
+        margin-top: 60px;
+        color: var(--color);
+        margin-bottom: 0px;
+    }
+    .headingBanner span{
+        color: var(--color);
+    }
+    .headingBanner h2{
+        font-size: 16px;
+        margin-top: 2.6px;
+        color: #343434;
+    }
+    .dotsSearchBoxHome{
+        position: absolute;
+        top:00px;
+        width: 84px;
+        right: -97px;
+    }
+    .dotsSearchBoxHome img{
+        width: 100%;
+    }
+    .searchBoxHome{
+        margin: auto;
+        position: relative;
+        width: 400px;
+        margin-top: 7.5px;
+    }
+    .rowContainerSearchBoxHome{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+    }
+    .rowContainerSearchBoxHome > div{
+        width: 93px;
+        padding: 3.2px 4.3px;
+    }
+    .activeDivSearchHome{
+        background-color: #f5f5f5 !important;
+        border-top-left-radius: 10.6px;
+        border-top-right-radius: 10.6px;
+    }
+    .customButton{
+        transition: all 0.3s ease-out;
+        height: 23px;
+        width: 100%;
+        background-color: var(--color) !important;
+        line-height: 19px;
+        font-size: 9.7px;
+        color: white !important;
+        font-weight: bold;
+        text-align: center;
+        border-color: var(--color) !important;
+        border-radius: 7.7px;
+        cursor: pointer;
+    }
+    .divSearchHomeBox{
+        background-color: white;
+    }
+    .curveDivsSearchBox{
+        background-color: white;
+    }
+    .customButtonPrimery{
+        height: 21.7px;
+        width: 100%;
+        background-color: white;
+        line-height: 19px;
+        font-size: 9.7px;
+        color: var(--color);
+        border: 1px solid #FC7948;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 7.7px;
+    }
+    .searchBoxContainer{
+        height: 63px;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        border-radius: 10.6px;
+    }
+    .searchInputHome{
+        position: relative;
+        z-index:2;
+        width: 314px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border: 1px solid rgb(122, 122, 122);
+        height: 23px;
+        padding: 2.4px 7.5px;
+        border-radius: 10px;
+        padding-top: 2.4px;
+        padding-left: 2px;
+    }
+    .searchInputHome input{
+        width: 97%;
+        height: 97%;
+        border: none !important;
+        font-size: 9.7px;
+    }
+    .searchInputHome input::placeholder{
+        color: #b3b3b3;
+    }
+    .searchButtonHome{
+        width: 72px;
+        background-color: var(--color);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 7.5px;
+        border-radius: 7.5px;
+        color: white;
+    }
+    .searchButtonHome span{
+        padding-bottom: 2px;
+    }
+    .backgroundColorBoxHome{
+        position: absolute;
+        left: 42px;
+        right: 42px;
+        top: 21px;
+        height: 10px;
+        z-index: 1;
+        background-color: #f5f5f5;
+        border: none;
+    }
+    .whatsBaham{
+        margin: auto;
+        margin-top: 27px;
+        max-width: 600px;
+        width: 600px;
+        text-align: left;
+        position: relative;
+    }
+    .whatsBahamDiv{
+        position: absolute;
+        text-align: right;
+        right: 5.4px;
+        top: 34px;
+        max-width: 294px;
+        width: 294px;
+        background-color: white ;
+        height: 192px;
+        border-radius: 19px;box-shadow: rgba(199, 199, 199, 0.445) 0px 20px 35px -3px, rgba(199, 199, 199, 0.05) 3px 0px 6px -2px;
+    }
+    .whatsBahamDiv h2{
+        margin-right: 38px;
+        font-size: 12px;
+        margin-top: 21px;
+        position: relative;
+        z-index: 2;
+        font-weight: bold;
+    }
+    .whatsBahamDiv p{
+        font-size: 9.7px;
+        width: 215px;
+        color: #919191;
+        line-height: 18px;
+        margin-right: 38px;
+    }
+    .whatsBahamButtonHome{
+        background-color: var(--color);
+        font-size: 9px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2.4px 0px;
+        width: 84px;
+        margin-top: 24px;
+        margin-right: 38px;
+        border-radius: 7.5px;
+    
+    }
+    .whatsBahamButtonHome span{
+        margin-bottom: 1px;
+    }
+    .floatingSquareHomeWhatsBaham{
+        width: 21px;
+        height: 18px;
+        top: 19px;
+        right: 34px;
+        border-radius: 6px;
+        transform: rotate(-7deg);
+        background-color: var(--color);
+        position: absolute;
+        z-index: 1;
+    }
+    .categoriesCardHome{
+        width: 556px;
+        margin: auto;
+        display: flex;
+        border-radius: 24px;
+        height: 329px;
+        background-color: #f5f5f5e1;
+    }
+    .categoryListHome{
+        width: 230px;
+        margin-top: 22px;
+        margin-bottom: 50px;
+        margin-right: 24px;
+        cursor: pointer;
+    }
+    .categoryListHome>div{
+        margin-top: 29.8px;
+        position: relative;
+        padding-right: 3.2px;
+    }
+    .categoryItemHome h3{
+        color: #2b2b2b;
+        font-size: 9px;
+        margin-bottom: -5.8px;
+        margin-top: -3.2px;
+        transition: all ease-in 0.2s;
+    }
+    .categoryItemHome p{
+        font-size: 7.7px;
+        line-height: 16px;
+        color: #6C6C6C;
+        max-width: 183px;
+        margin-bottom: 0px;
+        transition: all ease-in 0.2s;
+    }
+    .lineBesidHomePageItem{
+        position: absolute;
+        width: 1.2px;
+        border-radius: 12px;
+        background-color: #2b2b2b;
+        top: 3px;
+        right: -1px;
+        bottom: 1px;
+        transition: all ease-in 0.2s;
+    }
+    .categoryIconsHome{
+        height: 100%;
+        width: 382px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .categoryIconsHome >div{
+        width: 292px;
+        height: 293px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .categoryIconBoxHome{
+        width: 138px;
+        border-radius: 16px;
+        margin-bottom: 9px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 138px;
+        transition: box-shadow ease-in 0.3s;
+        border: 1px solid rgb(201, 201, 201);
+        background-color:white;
+    }
+    .categoryIconBoxHome img{
+        width: 50%;
+    }
+    .activeCategoryIconBoxHome{
+        box-shadow: rgba(75, 75, 75, 0.15) 0px 35px 25px, rgba(173, 173, 173, 0.05) 4px 5px 10px;
+        border: none !important;
+    }
+    .activeCategoryItemHome h3{
+        color: #FE4A04 !important;
+    }
+    .activeCategoryItemHome p{
+        color: #FC7948 !important;
+    }
+    .activeLineHomePage{
+        background-color: var(--color) !important;
+    }
+    .sliderHomepage{
+        width: 102%;
+        margin: auto;
+        margin-top: 33px;
+    }
+    .sliderHomepage > h4{
+        color: rgb(43, 43, 43);
+        font-size: 10px;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 5.8px;
+        border-bottom: 0.2px solid rgba(104, 104, 104, 0.616);
+    }
+    .sliderItemsHomePage{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-top: 44px;
+        justify-content: space-between;
+    }
+    .buttonRowSlider{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .whatsBahamButtonHomeSlider{
+        background-color: var(--color);
+        font-size: 9px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6px 0px;
+        width: 117px;
+        margin-top:0px;
+        margin-left: 30px;
+        border-radius: 5px;
+    }
+    .sliderPagination{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .sliderPagination >div{
+        height: 5.3px;
+        width: 5.3px;
+        border-radius: 50%;
+        background-color: #343434;
+        margin-right: 5.3px;
+        margin-top: -3.3px;
+    }
+    .activeSliderPagination{
+        background-color: var(--color) !important;
+    }
+    .r1Road{
+        position: absolute;
+        top: 75px;
+        left: 0px;
+        right: 0px;
+    }
+    .r2Road{
+        position: absolute;
+        top: 288px;
+        left: 0px;
+        right: 0px;
+    }
+    .R4R{
+        position: absolute;
+        right: 80px;
+        top: -7.7px;
+    }
+    .R5R{
+        position: absolute;
+        right: 289px;
+        top: -7.7px;
+    }
+    .R6R{
+        position: absolute;
+        right: 416px;
+        top: -7.7px;
+    }
+    .R1R{
+    position: absolute;
+    right: 80x;
+    top: -8px;
+    }
+    .R2R{
+        position: absolute;
+        right: 280px;
+        top: -7.7px;
+    }
+    .R3R{
+        position: absolute;
+        right: 416px;
+        top: -7.7px;
+    }
+    .r2Road{
+        position: absolute;
+    }
+    .roadHome img{
+        width: 100%;
+    }
+    .roadActive{
+        filter: blur(8px);
+    }
+    .roadHome{
+        position: relative;
+    }
+    .roadHome h2{
+        text-align: center;
+        font-size: 21px;
+        color: #343434;
+        margin-right: -14px;
+        margin-bottom: 0px;
+    }
+    .roadHome p{
+        margin-top: -2.3px;
+        font-size: 7.7px;
+        color: #919191;
+        text-align: right;
+        width: 105px;
+    }
+    .senterDivcircle{
+        position: absolute;
+        top: 178px;
+        right: 199px;
+        color: #343434;
+        font-size: 10px;
+        font-weight: bold;
+        width: 42px;
+        text-align: center;
+    }
+    .activeContainer{
+        position: absolute;
+        left: 0px;
+        bottom: -24px;
+        right: 0px;
+    }
+    .activeShape{
+        position: relative;
+    }
+    .shapeInfText{
+        position: absolute;
+        top: 183px;
+        right: 190px;
+    }
+    .shapeInfText p{
+        width: 186px;
+        font-size: 9px;
+        color:  #222222e1;
+        line-height: 21px;
+        z-index: 3;
+        word-spacing: 1.5px;
+    }
+    .shapeInfText h2{
+        position: absolute;
+        bottom: -31px;
+        font-size: 24px;
+        color: var(--color);
+        right: 10px;
+    }
+    .whatsBahamBanner{
+        height: auto;;
+    }
+    .whatsBahamBanner img{
+        width: 50%;
+        margin-left: 15px;
+    }
+}   
+
+@media screen and (max-width:600px) {
+    .home{
+        max-width: 600px;
+        margin: auto;
+        direction: rtl;
+        margin-bottom: 50px;
+    }
+    .bannerHome{
+        text-align: left;
+        position: relative;
+        margin-top: 20px;
+    }
+    .bannerHome img{
+        width: 380px;
+    }
+    .headingBanner h1{
+        font-size: 28px;
+        margin-top: 50px;
+        color: var(--color);
+        margin-bottom: 0px;
+    }
+    .headingBanner span{
+        color: var(--color);
+    }
+    .headingBanner h2{
+        font-size: 14px;
+        margin-top: 2.6px;
+        color: #343434;
+    }
+    .dotsSearchBoxHome{
+        position: absolute;
+        top:10px;
+        width: 67px;
+        right: -67px;
+    }
+    .dotsSearchBoxHome img{
+        width: 100%;
+    }
+    .searchBoxHome{
+        margin: auto;
+        position: relative;
+        width: 70%;
+        margin-top: 5.5px;
+    }
+    .rowContainerSearchBoxHome{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+    }
+    .rowContainerSearchBoxHome > div{
+        width: 50%;
+        padding: 5.2px 6.3px;
+    }
+    .activeDivSearchHome{
+        background-color: #f5f5f5 !important;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+    }
+    .customButton{
+        transition: all 0.3s ease-out;
+        height: 18px;
+        width: 100%;
+        background-color: var(--color) !important;
+        line-height: 17px;
+        font-size: 9.7px;
+        color: white !important;
+        font-weight: bold;
+        text-align: center;
+        border-color: var(--color) !important;
+        border-radius: 4.7px;
+        cursor: pointer;
+    }
+    .divSearchHomeBox{
+        background-color: white;
+    }
+    .curveDivsSearchBox{
+        background-color: white;
+    }
+    .customButtonPrimery{
+        height: 17.7px;
+        width: 100%;
+        background-color: white;
+        line-height: 19px;
+        font-size: 7.7px;
+        color: var(--color);
+        border: 1px solid #FC7948;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5.7px;
+    }
+    .searchBoxContainer{
+        height: 58px;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        border-radius: 10.6px;
+    }
+    .searchInputHome{
+        position: relative;
+        z-index:2;
+        width: 74%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border: 1px solid rgb(122, 122, 122);
+        height: 23px;
+        padding: 2.4px 7.5px;
+        border-radius: 8px;
+        padding-top: 2.4px;
+        padding-left: 2px;
+    }
+    .searchInputHome input{
+        width: 97%;
+        height: 97%;
+        border: none !important;
+        font-size: 9.7px;
+    }
+    .searchInputHome input::placeholder{
+        color: #b3b3b3;
+    }
+    .searchButtonHome{
+        width: 20%;
+        background-color: var(--color);
+        height: 94%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 6.5px;
+        border-radius: 5.5px;
+        color: white;
+    }
+    .searchButtonHome span{
+        padding-bottom: 2px;
+    }
+    .backgroundColorBoxHome{
+        position: absolute;
+        left: 42px;
+        right: 42px;
+        top: 21px;
+        height: 10px;
+        z-index: 1;
+        background-color: #f5f5f5;
+        border: none;
+    }
+    .whatsBaham{
+        margin: auto;
+        margin-top: 27px;
+        max-width: 100%;
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+    .whatsBahamDiv{
+        position: absolute;
+        text-align: right;
+        right: 5.4px;
+        top: 34px;
+        max-width: 294px;
+        width: 294px;
+        background-color: white ;
+        height: 192px;
+        border-radius: 19px;box-shadow: rgba(199, 199, 199, 0.445) 0px 20px 35px -3px, rgba(199, 199, 199, 0.05) 3px 0px 6px -2px;
+    }
+    .whatsBahamDiv h2{
+        margin-right: 38px;
+        font-size: 12px;
+        margin-top: 21px;
+        position: relative;
+        z-index: 2;
+        font-weight: bold;
+    }
+    .whatsBahamDiv p{
+        font-size: 9.7px;
+        width: 215px;
+        color: #919191;
+        line-height: 18px;
+        margin-right: 38px;
+    }
+    .whatsBahamButtonHome{
+        background-color: var(--color);
+        font-size: 9px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2.4px 0px;
+        width: 84px;
+        margin-top: 24px;
+        margin-right: 38px;
+        border-radius: 7.5px;
+    
+    }
+    .whatsBahamButtonHome span{
+        margin-bottom: 1px;
+    }
+    .floatingSquareHomeWhatsBaham{
+        width: 21px;
+        height: 18px;
+        top: 19px;
+        right: 34px;
+        border-radius: 6px;
+        transform: rotate(-7deg);
+        background-color: var(--color);
+        position: absolute;
+        z-index: 1;
+    }
+    .categoriesCardHome{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        border-radius: 24px;
+        height: 250px;
+        background-color: #f5f5f5e1;
+    }
+    .categoryListHome{
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-right: 24px;
+        cursor: pointer;
+    }
+    .categoryListHome>div{
+        margin-top: 20.8px;
+        position: relative;
+        padding-right: 3.2px;
+    }
+    .categoryItemHome h3{
+        color: #2b2b2b;
+        font-size: 8px;
+        margin-bottom: -5.8px;
+        margin-top: -3.2px;
+        transition: all ease-in 0.2s;
+    }
+    .categoryItemHome p{
+        font-size: 6.7px;
+        line-height: 16px;
+        color: #6C6C6C;
+        max-width: 183px;
+        margin-bottom: 0px;
+        transition: all ease-in 0.2s;
+    }
+    .lineBesidHomePageItem{
+        position: absolute;
+        width: 1.2px;
+        border-radius: 12px;
+        background-color: #2b2b2b;
+        top: 3px;
+        right: -1px;
+        bottom: 1px;
+        transition: all ease-in 0.2s;
+    }
+    .categoryIconsHome{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-top: -40px;
+    }
+    .categoryIconsHome >div{
+        width: 90%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .categoryIconBoxHome{
+        width: 45%;
+        border-radius: 12px;
+        margin-bottom: 9px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        transition: box-shadow ease-in 0.3s;
+        border: 1px solid rgb(201, 201, 201);
+        background-color:white;
+    }
+    .categoryIconBoxHome img{
+        width: 50%;
+    }
+    .activeCategoryIconBoxHome{
+        box-shadow: rgba(75, 75, 75, 0.15) 0px 35px 25px, rgba(173, 173, 173, 0.05) 4px 5px 10px;
+        border: none !important;
+    }
+    .activeCategoryItemHome h3{
+        color: #FE4A04 !important;
+    }
+    .activeCategoryItemHome p{
+        color: #FC7948 !important;
+    }
+    .activeLineHomePage{
+        background-color: var(--color) !important;
+    }
+    .sliderHomepage{
+        width: 95%;
+        margin: auto;
+        margin-top: 22px;
+    }
+    .sliderHomepage > h4{
+        color: rgb(43, 43, 43);
+        font-size: 7px;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 3.8px;
+        border-bottom: 0.2px solid rgba(104, 104, 104, 0.616);
+    }
+    .sliderItemsHomePage{
+        display: flex;
+        width: 97%;
+        margin: auto;
+        align-items: center;
+        margin-top: 29px;
+        justify-content: space-between;
+    }
+    .buttonRowSlider{
+        width: 96%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .whatsBahamButtonHomeSlider{
+        background-color: var(--color);
+        font-size: 6px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 0px;
+        width: 78px;
+        margin-top: -10px;
+        margin-left: 8px;
+        border-radius: 3px;
+    }
+    .sliderPagination{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .sliderPagination >div{
+        height: 3.3px;
+        width: 3.3px;
+        border-radius: 50%;
+        background-color: #343434;
+        margin-right: 3.3px;
+        margin-top: -1.3px;
+    }
+    .activeSliderPagination{
+        background-color: var(--color) !important;
+    }
+    .r1Road{
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        right: 0px;
+    }
+    .r2Road{
+        position: absolute;
+        top: 192px;
+        left: 0px;
+        right: 0px;
+    }
+    .R4R{
+        position: absolute;
+        right: 53px;
+        top: -4.7px;
+    }
+    .R5R{
+        position: absolute;
+        right: 192px;
+        top: -4.7px;
+    }
+    .R6R{
+        position: absolute;
+        right: 277px;
+        top: -4.7px;
+    }
+    .R1R{
+    position: absolute;
+    right: 53px;
+    top: -3px;
+    }
+    .R2R{
+        position: absolute;
+        right: 192px;
+        top: -4.7px;
+    }
+    .R3R{
+        position: absolute;
+        right: 277px;
+        top: -4.7px;
+    }
+    .r2Road{
+        position: absolute;
+    }
+    .roadHome img{
+        width: 100%;
+    }
+    .roadActive{
+        filter: blur(8px);
+    }
+    .roadHome{
+        position: relative;
+    }
+    .roadHome h2{
+        text-align: center;
+        font-size: 14px;
+        color: #343434;
+        margin-right: -10px;
+        margin-bottom: 0px;
+    }
+    .roadHome p{
+        margin-top: -1.3px;
+        font-size: 5.7px;
+        color: #919191;
+        text-align: right;
+        width: 70px;
+    }
+    .senterDivcircle{
+        position: absolute;
+        top: 118px;
+        right: 132px;
+        color: #343434;
+        font-size: 7px;
+        font-weight: bold;
+        width: 28px;
+        text-align: center;
+    }
+    .activeContainer{
+        position: absolute;
+        left: 0px;
+        bottom: -16px;
+        right: 0px;
+    }
+    .activeShape{
+        position: relative;
+    }
+    .shapeInfText{
+        position: absolute;
+        top: 122px;
+        right: 126px;
+    }
+    .shapeInfText p{
+        width: 124px;
+        font-size: 6px;
+        color:  #222222e1;
+        line-height: 14px;
+        z-index: 3;
+        word-spacing: 1px;
+    }
+    .shapeInfText h2{
+        position: absolute;
+        bottom: -20px;
+        font-size: 16px;
+        color: var(--color);
+        right: 7px;
+    }
+    .whatsBahamBanner img{
+        width: 50%;
+        margin-left: 11px;
+    }
+}   
+
+@media screen and (max-width:500px) {
+    .home{
+        max-width: 100%;
+        margin: auto;
+        direction: rtl;
+        margin-bottom: 40px;
+    }
+    .bannerHome{
+        text-align: left;
+        width: 90%;
+        margin: auto    ;
+        position: relative;
+        margin-top: 17px;
+    }
+    .bannerHome img{
+        width: 270px;
+    }
+    .headingBanner{
+        margin-right: -30px;
+    }
+    .headingBanner h1{
+        font-size: 22px;
+        margin-top: 25px;
+        color: var(--color);
+        margin-bottom: 0px;
+    }
+    .headingBanner span{
+        color: var(--color);
+    }
+    .headingBanner h2{
+        font-size: 13.4px;
+        margin-top: 2.6px;
+        color: #343434;
+    }
+    .dotsSearchBoxHome{
+        position: absolute;
+        top:10px;
+        display: none;
+        width: 67px;
+        right: -67px;
+    }
+    .dotsSearchBoxHome img{
+        width: 100%;
+    }
+    .searchBoxHome{
+        margin: auto;
+        position: relative;
+        width: 80%;
+        margin-top: 5.5px;
+    }
+    .rowContainerSearchBoxHome{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+    }
+    .rowContainerSearchBoxHome > div{
+        width: 50%;
+        padding: 5.2px 6.3px;
+    }
+    .activeDivSearchHome{
+        background-color: #f5f5f5 !important;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+    }
+    .customButton{
+        transition: all 0.3s ease-out;
+        height: 17px;
+        width: 100%;
+        background-color: var(--color) !important;
+        line-height: 17px;
+        font-size: 9.7px;
+        color: white !important;
+        font-weight: bold;
+        text-align: center;
+        border-color: var(--color) !important;
+        border-radius: 4.7px;
+        cursor: pointer;
+    }
+    .divSearchHomeBox{
+        background-color: white;
+    }
+    .curveDivsSearchBox{
+        background-color: white;
+    }
+    .customButtonPrimery{
+        height: 14.7px;
+        width: 100%;
+        background-color: white;
+        line-height: 15px;
+        font-size: 6.7px;
+        color: var(--color);
+        border: 1px solid #FC7948;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 4.7px;
+    }
+    .searchBoxContainer{
+        height: 46px;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        border-radius: 10.6px;
+    }
+    .searchInputHome{
+        position: relative;
+        z-index:2;
+        width: 68%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border: 1px solid rgb(122, 122, 122);
+        height: 18px;
+        padding: 2.4px 7.5px;
+        border-radius: 5px;
+        padding-top: 2.4px;
+        padding-left: 2px;
+    }
+    .searchInputHome input{
+        width: 97%;
+        height: 97%;
+        border: none !important;
+        font-size: 8.7px;
+    }
+    .searchInputHome input::placeholder{
+        color: #b3b3b3;
+    }
+    .searchButtonHome{
+        width: 25%;
+        background-color: var(--color);
+        height: 96%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 6.5px;
+        border-radius: 4.5px;
+        color: white;
+    }
+    .searchButtonHome span{
+        padding-bottom: 2px;
+    }
+    .backgroundColorBoxHome{
+        position: absolute;
+        left: 42px;
+        right: 42px;
+        top: 21px;
+        height: 10px;
+        z-index: 1;
+        background-color: #f5f5f5;
+        border: none;
+    }
+    .whatsBaham{
+        margin: auto;
+        margin-top: 37px;
+        max-width: 100%;
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+    .whatsBahamDiv{
+        position: absolute;
+        text-align: right;
+        right: 5.4px;
+        top: 5px;
+        max-width: 254px;
+        width: 254px;
+        background-color: white ;
+        height: 162px;
+        border-radius: 14px;box-shadow: rgba(199, 199, 199, 0.445) 0px 20px 35px -3px, rgba(199, 199, 199, 0.05) 3px 0px 6px -2px;
+    }
+    .whatsBahamDiv h2{
+        margin-right: 20px;
+        font-size: 10px;
+        margin-top: 21px;
+        position: relative;
+        z-index: 2;
+        font-weight: bold;
+    }
+    .whatsBahamDiv p{
+        font-size: 8.7px;
+        width: 185px;
+        color: #919191;
+        line-height: 16px;
+        margin-right: 20px;
+    }
+    .whatsBahamButtonHome{
+        background-color: var(--color);
+        font-size: 8px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2.4px 0px;
+        width: 70px;
+        margin-top: 18px;
+        margin-right: 26px;
+        border-radius: 5.5px;
+    
+    }
+    .whatsBahamButtonHome span{
+        margin-bottom: 1px;
+    }
+    .floatingSquareHomeWhatsBaham{
+        width: 18px;
+        height: 16px;
+        top: 19px;
+        right: 20px;
+        border-radius: 4px;
+        transform: rotate(-7deg);
+        background-color: var(--color);
+        position: absolute;
+        z-index: 1;
+    }
+    .categoriesCardHome{
+        width: 98%;
+        margin: auto;
+        display: flex;
+        border-radius: 24px;
+        height: 250px;
+        background-color: #f5f5f5e1;
+    }
+    .categoryListHome{
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-right: 14px;
+        cursor: pointer;
+    }
+    .categoryListHome>div{
+        margin-top: 19.8px;
+        position: relative;
+        padding-right: 3.2px;
+    }
+    .categoryItemHome h3{
+        color: #2b2b2b;
+        font-size: 8px;
+        margin-bottom: -5.8px;
+        margin-top: -3.2px;
+        transition: all ease-in 0.2s;
+    }
+    .categoryItemHome p{
+        font-size: 5.7px;
+        line-height: 16px;
+        color: #6C6C6C;
+        max-width: 183px;
+        margin-bottom: 0px;
+        transition: all ease-in 0.2s;
+    }
+    .lineBesidHomePageItem{
+        position: absolute;
+        width: 1.2px;
+        border-radius: 12px;
+        background-color: #2b2b2b;
+        top: 3px;
+        right: -1px;
+        bottom: 1px;
+        transition: all ease-in 0.2s;
+    }
+    .categoryIconsHome{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-top: -40px;
+    }
+    .categoryIconsHome >div{
+        width: 90%;
+        height: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .categoryIconBoxHome{
+        margin-right: 10px;
+        width: 43%;
+        border-radius: 12px;
+        margin-bottom: 9px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        transition: box-shadow ease-in 0.3s;
+        border: 1px solid rgb(201, 201, 201);
+        background-color:white;
+    }
+    .categoryIconBoxHome img{
+        width: 50%;
+    }
+    .activeCategoryIconBoxHome{
+        box-shadow: rgba(75, 75, 75, 0.15) 0px 35px 25px, rgba(173, 173, 173, 0.05) 4px 5px 10px;
+        border: none !important;
+    }
+    .activeCategoryItemHome h3{
+        color: #FE4A04 !important;
+    }
+    .activeCategoryItemHome p{
+        color: #FC7948 !important;
+    }
+    .activeLineHomePage{
+        background-color: var(--color) !important;
+    }
+    .sliderHomepage{
+        width: 95%;
+        margin: auto;
+        margin-top: 22px;
+    }
+    .sliderHomepage > h4{
+        color: rgb(43, 43, 43);
+        font-size: 7px;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 3.8px;
+        border-bottom: 0.2px solid rgba(104, 104, 104, 0.616);
+    }
+    .sliderItemsHomePage{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        align-items: center;
+        margin-top: 29px;
+        justify-content: space-between;
+    }
+    .buttonRowSlider{
+        width: 92%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .whatsBahamButtonHomeSlider{
+        background-color: var(--color);
+        font-size: 6px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 0px;
+        width: 78px;
+        margin-top: -20px;
+        margin-left: 8px;
+        border-radius: 3px;
+    }
+    .sliderPagination{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .sliderPagination >div{
+        height: 3.3px;
+        width: 3.3px;
+        border-radius: 50%;
+        background-color: #343434;
+        margin-right: 3.3px;
+        margin-top: -1.3px;
+    }
+    .activeSliderPagination{
+        background-color: var(--color) !important;
+    }
+    .r1Road{
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        right: 0px;
+    }
+    .r2Road{
+        position: absolute;
+        top: 192px;
+        left: 0px;
+        right: 0px;
+    }
+    .R4R{
+        position: absolute;
+        right: 53px;
+        top: -4.7px;
+    }
+    .R5R{
+        position: absolute;
+        right: 192px;
+        top: -4.7px;
+    }
+    .R6R{
+        position: absolute;
+        right: 277px;
+        top: -4.7px;
+    }
+    .R1R{
+    position: absolute;
+    right: 53px;
+    top: -3px;
+    }
+    .R2R{
+        position: absolute;
+        right: 192px;
+        top: -4.7px;
+    }
+    .R3R{
+        position: absolute;
+        right: 277px;
+        top: -4.7px;
+    }
+    .r2Road{
+        position: absolute;
+    }
+    .roadHome img{
+        width: 100%;
+    }
+    .roadActive{
+        filter: blur(8px);
+    }
+    .roadHome{
+        position: relative;
+    }
+    .roadHome h2{
+        text-align: center;
+        font-size: 14px;
+        color: #343434;
+        margin-right: -10px;
+        margin-bottom: 0px;
+    }
+    .roadHome p{
+        margin-top: -1.3px;
+        font-size: 5.7px;
+        color: #919191;
+        text-align: right;
+        width: 70px;
+    }
+    .senterDivcircle{
+        position: absolute;
+        top: 118px;
+        right: 132px;
+        color: #343434;
+        font-size: 7px;
+        font-weight: bold;
+        width: 28px;
+        text-align: center;
+    }
+    .activeContainer{
+        position: absolute;
+        left: 0px;
+        bottom: -16px;
+        right: 0px;
+    }
+    .activeShape{
+        position: relative;
+    }
+    .shapeInfText{
+        position: absolute;
+        top: 122px;
+        right: 126px;
+    }
+    .shapeInfText p{
+        width: 124px;
+        font-size: 6px;
+        color:  #222222e1;
+        line-height: 14px;
+        z-index: 3;
+        word-spacing: 1px;
+    }
+    .shapeInfText h2{
+        position: absolute;
+        bottom: -20px;
+        font-size: 16px;
+        color: var(--color);
+        right: 7px;
+    }
+    .whatsBahamBanner img{
+        width: 50%;
+        margin-left: 11px;
+    }
+}       
+@media screen and (max-width:480px) {
+    .searchBoxHome{
+        margin: auto;
+        position: relative;
+        width: 90%;
+        margin-top: 5.5px;
+    }
+    .customButtonPrimery{
+        height: 14.7px;
+        width: 100%;
+        background-color: white;
+        line-height: 15px;
+        font-size: 6.7px;
+        color: var(--color);
+        border: 1px solid #FC7948;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 4.7px;
+    }   
+    .searchBoxContainer{
+        height: 50px;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        border-radius: 10.6px;
+    }
+    .searchInputHome{
+        position: relative;
+        z-index:2;
+        width: 88%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border: 1px solid rgb(122, 122, 122);
+        height: 18px;
+        padding: 2.4px 7.5px;
+        border-radius: 8px;
+        padding-top: 2.4px;
+        padding-left: 2px;
+    }
+    .searchButtonHome{
+        width: 20%;
+        background-color: var(--color);
+        height: 96%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 7.5px;
+        border-radius: 4.5px;
+        color: white;
+    }
+}
+@media screen and (max-width:400px) {
+    .home{
+        max-width: 100%;
+        margin: auto;
+        direction: rtl;
+        margin-bottom: 40px;
+    }
+    .bannerHome{
+        text-align: left;
+        width: 96%;
+        margin: auto    ;
+        position: relative;
+        margin-top: 17px;
+    }
+    .bannerHome img{
+        width: 240px;
+    } .headingBanner{
+        margin-right: -80px;
+    }
+    .headingBanner h1{
+        font-size: 18px;
+        margin-top: 25px;
+        color: var(--color);
+        margin-bottom: 0px;
+    }
+    .headingBanner span{
+        color: var(--color);
+    }
+    .headingBanner h2{
+        font-size: 11.4px;
+        margin-top: 2.6px;
+        color: #343434;
+    }
+    .dotsSearchBoxHome{
+        position: absolute;
+        top:10px;
+        display: none;
+        width: 67px;
+        right: -67px;
+    }
+    .dotsSearchBoxHome img{
+        width: 100%;
+    }
+    .searchBoxHome{
+        margin: auto;
+        position: relative;
+        width: 90%;
+        margin-top: 5.5px;
+    }
+    .rowContainerSearchBoxHome{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+    }
+    .rowContainerSearchBoxHome > div{
+        width: 50%;
+        padding: 5.2px 6.3px;
+    }
+    .activeDivSearchHome{
+        background-color: #f5f5f5 !important;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+    }
+    .customButton{
+        transition: all 0.3s ease-out;
+        height: 17px;
+        width: 100%;
+        background-color: var(--color) !important;
+        line-height: 17px;
+        font-size: 9.7px;
+        color: white !important;
+        font-weight: bold;
+        text-align: center;
+        border-color: var(--color) !important;
+        border-radius: 4.7px;
+        cursor: pointer;
+    }
+    .divSearchHomeBox{
+        background-color: white;
+    }
+    .curveDivsSearchBox{
+        background-color: white;
+    }
+    .customButtonPrimery{
+        height: 14.7px;
+        width: 100%;
+        background-color: white;
+        line-height: 15px;
+        font-size: 6.7px;
+        color: var(--color);
+        border: 1px solid #FC7948;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 4.7px;
+    }
+    .searchBoxContainer{
+        height: 50px;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        border-radius: 10.6px;
+    }
+    .searchInputHome{
+        position: relative;
+        z-index:2;
+        width: 88%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border: 1px solid rgb(122, 122, 122);
+        height: 18px;
+        padding: 2.4px 7.5px;
+        border-radius: 8px;
+        padding-top: 2.4px;
+        padding-left: 2px;
+    }
+    .searchInputHome input{
+        width: 97%;
+        height: 97%;
+        border: none !important;
+        font-size: 8.7px;
+    }
+    .searchInputHome input::placeholder{
+        color: #b3b3b3;
+    }
+    
+    .searchButtonHome span{
+        padding-bottom: 2px;
+    }
+    .backgroundColorBoxHome{
+        position: absolute;
+        left: 42px;
+        right: 42px;
+        top: 21px;
+        height: 10px;
+        z-index: 1;
+        background-color: #f5f5f5;
+        border: none;
+    }
+    .whatsBaham{
+        margin: auto;
+        margin-top: 37px;
+        max-width: 100%;
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+    .whatsBahamDiv{
+        position: absolute;
+        text-align: right;
+        right: 5.4px;
+        top: 5px;
+        max-width: 254px;
+        width: 254px;
+        background-color: white ;
+        height: 162px;
+        border-radius: 14px;box-shadow: rgba(199, 199, 199, 0.445) 0px 20px 35px -3px, rgba(199, 199, 199, 0.05) 3px 0px 6px -2px;
+    }
+    .whatsBahamDiv h2{
+        margin-right: 20px;
+        font-size: 10px;
+        margin-top: 21px;
+        position: relative;
+        z-index: 2;
+        font-weight: bold;
+    }
+    .whatsBahamDiv p{
+        font-size: 8.7px;
+        width: 185px;
+        color: #919191;
+        line-height: 16px;
+        margin-right: 20px;
+    }
+    .whatsBahamButtonHome{
+        background-color: var(--color);
+        font-size: 8px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2.4px 0px;
+        width: 70px;
+        margin-top: 18px;
+        margin-right: 26px;
+        border-radius: 5.5px;
+    
+    }
+    .whatsBahamButtonHome span{
+        margin-bottom: 1px;
+    }
+    .floatingSquareHomeWhatsBaham{
+        width: 18px;
+        height: 16px;
+        top: 19px;
+        right: 20px;
+        border-radius: 4px;
+        transform: rotate(-7deg);
+        background-color: var(--color);
+        position: absolute;
+        z-index: 1;
+    }
+    .categoriesCardHome{
+        width: 98%;
+        margin: auto;
+        display: flex;
+        border-radius: 24px;
+        height: 250px;
+        background-color: #f5f5f5e1;
+    }
+    .categoryListHome{
+        width: 60%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-right: 14px;
+        cursor: pointer;
+    }
+    .categoryListHome>div{
+        margin-top: 19.8px;
+        position: relative;
+        padding-right: 3.2px;
+    }
+    .categoryItemHome h3{
+        color: #2b2b2b;
+        font-size: 7px;
+        margin-bottom: -5.8px;
+        margin-top: -3.2px;
+        transition: all ease-in 0.2s;
+    }
+    .categoryItemHome p{
+        font-size: 5.7px;
+        line-height: 16px;
+        color: #6C6C6C;
+        max-width: 183px;
+        margin-bottom: 0px;
+        transition: all ease-in 0.2s;
+    }
+    .lineBesidHomePageItem{
+        position: absolute;
+        width: 1.2px;
+        border-radius: 12px;
+        background-color: #2b2b2b;
+        top: 3px;
+        right: -1px;
+        bottom: 1px;
+        transition: all ease-in 0.2s;
+    }
+    .categoryIconsHome{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-top: -40px;
+    }
+    .categoryIconsHome >div{
+        width: 90%;
+        height: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .categoryIconBoxHome{
+        margin-right: 10px;
+        width: 43%;
+        border-radius: 12px;
+        margin-bottom: 9px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        transition: box-shadow ease-in 0.3s;
+        border: 1px solid rgb(201, 201, 201);
+        background-color:white;
+    }
+    .categoryIconBoxHome img{
+        width: 50%;
+    }
+    .activeCategoryIconBoxHome{
+        box-shadow: rgba(75, 75, 75, 0.15) 0px 35px 25px, rgba(173, 173, 173, 0.05) 4px 5px 10px;
+        border: none !important;
+    }
+    .activeCategoryItemHome h3{
+        color: #FE4A04 !important;
+    }
+    .activeCategoryItemHome p{
+        color: #FC7948 !important;
+    }
+    .activeLineHomePage{
+        background-color: var(--color) !important;
+    }
+    .sliderHomepage{
+        width: 100%;
+        margin: auto;
+        margin-top: 22px;
+    }
+    .sliderHomepage > h4{
+        color: rgb(43, 43, 43);
+        font-size: 7px;
+        width: 95%;
+        margin: auto;
+        padding-bottom: 3.8px;
+        border-bottom: 0.2px solid rgba(104, 104, 104, 0.616);
+    }
+    .sliderItemsHomePage{
+        display: flex;
+        width: 95%;
+        margin: auto;
+        align-items: center;
+        margin-top: 29px;
+        justify-content: space-between;
+    }
+    .buttonRowSlider{
+        width: 95%;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .whatsBahamButtonHomeSlider{
+        background-color: var(--color);
+        font-size: 6px;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 0px;
+        width: 78px;
+        margin-top: -20px;
+        margin-left: 8px;
+        border-radius: 3px;
+    }
+    .sliderPagination{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .sliderPagination >div{
+        height: 3.3px;
+        width: 3.3px;
+        border-radius: 50%;
+        background-color: #343434;
+        margin-right: 3.3px;
+        margin-top: -1.3px;
+    }
+    .activeSliderPagination{
+        background-color: var(--color) !important;
+    }
+    .r1Road{
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        right: 0px;
+    }
+    .r2Road{
+        position: absolute;
+        top: 192px;
+        left: 0px;
+        right: 0px;
+    }
+    .R4R{
+        position: absolute;
+        right: 53px;
+        top: -4.7px;
+    }
+    .R5R{
+        position: absolute;
+        right: 192px;
+        top: -4.7px;
+    }
+    .R6R{
+        position: absolute;
+        right: 277px;
+        top: -4.7px;
+    }
+    .R1R{
+    position: absolute;
+    right: 53px;
+    top: -3px;
+    }
+    .R2R{
+        position: absolute;
+        right: 192px;
+        top: -4.7px;
+    }
+    .R3R{
+        position: absolute;
+        right: 277px;
+        top: -4.7px;
+    }
+    .r2Road{
+        position: absolute;
+    }
+    .roadHome img{
+        width: 100%;
+    }
+    .roadActive{
+        filter: blur(8px);
+    }
+    .roadHome{
+        position: relative;
+    }
+    .roadHome h2{
+        text-align: center;
+        font-size: 14px;
+        color: #343434;
+        margin-right: -10px;
+        margin-bottom: 0px;
+    }
+    .roadHome p{
+        margin-top: -1.3px;
+        font-size: 5.7px;
+        color: #919191;
+        text-align: right;
+        width: 70px;
+    }
+    .senterDivcircle{
+        position: absolute;
+        top: 118px;
+        right: 132px;
+        color: #343434;
+        font-size: 7px;
+        font-weight: bold;
+        width: 28px;
+        text-align: center;
+    }
+    .activeContainer{
+        position: absolute;
+        left: 0px;
+        bottom: -16px;
+        right: 0px;
+    }
+    .activeShape{
+        position: relative;
+    }
+    .shapeInfText{
+        position: absolute;
+        top: 122px;
+        right: 126px;
+    }
+    .shapeInfText p{
+        width: 124px;
+        font-size: 6px;
+        color:  #222222e1;
+        line-height: 14px;
+        z-index: 3;
+        word-spacing: 1px;
+    }
+    .shapeInfText h2{
+        position: absolute;
+        bottom: -20px;
+        font-size: 16px;
+        color: var(--color);
+        right: 7px;
+    }
+    .whatsBahamBanner img{
+        width: 50%;
+        margin-left: 11px;
+    }
+}       
+@media screen and (max-width:360px) {
+    .sliderHomepage{
+        width: 100%;
+        margin: auto;
+        margin-top: 22px;
+    }
+    .sliderHomepage > h4{
+        color: rgb(43, 43, 43);
+        font-size: 7px;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 3.8px;
+        border-bottom: 0.2px solid rgba(104, 104, 104, 0.616);
+    }
+    .sliderItemsHomePage{
+        display: flex;
+        width: 103%;
+        margin: auto;
+        margin-right: -10px;
+        align-items: center;
+        margin-top: 29px;
+        justify-content: space-between;
+    }
+}

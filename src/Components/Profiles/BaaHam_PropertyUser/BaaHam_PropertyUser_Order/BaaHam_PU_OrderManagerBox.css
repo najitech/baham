@@ -1,0 +1,20 @@
+.BaaHam_PU_OrderManager_TableContent {
+    width: 50%;
+}
+.BaaHam_PU_OrderManager_TableTitles {
+    width:65%;
+    margin: auto;
+}
+
+@media screen and (max-width :750px) {
+    .BaaHam_PU_Marketer_TableTitle3 {
+        width: 31%;
+    
+    }  
+}
+@media screen and (max-width :370px) {
+    .BaaHam_PU_Marketer_TableTitle3 {
+        width: 33%;
+    
+    }  
+}

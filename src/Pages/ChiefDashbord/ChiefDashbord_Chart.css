@@ -1,0 +1,96 @@
+.ChiefDashbord_ChartContainer {
+    background-color: white;
+    border-radius: 10px;
+    margin-top:10px;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 40px;
+}
+.ChiefDashbord_ChartContainerRight {
+    flex:0.2;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.ChiefDashbord_ChartContainerLeft {
+    flex:0.8;
+    padding-left:20px;
+    box-sizing: border-box;
+}
+.ChiefDashbord_ChartContainerRightLegends {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top:auto;
+}
+.ChiefDashbord_ChartContainerRightLegend {
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+.ChiefDashbord_ChartContainerRightLegendCircle {
+    background-color: red;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+.ChiefDashbord_ChartContainerRightLegendCircleGreen {
+    background-color: rgb(57, 178, 124);
+}
+.ChiefDashbord_ChartContainerRightLegendCircleRed {
+    background-color: rgb(239, 56, 53);
+}
+.ChiefDashbord_ChartContainerRightLegendCircleBlue {
+    background-color: rgb(68, 136, 229);
+}
+.ChiefDashbord_ChartContainerRightLegendTitle {
+    color:rgb(89, 89, 89);
+    font-size: 14px;
+    font-weight: bold;
+    margin-right:10px;
+}
+.ChiefDashbord_ChartContainerRightSwitchs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: rgb(245,245,245);
+    width: 150px;
+    padding: 0px 0px;
+    height: 100px;
+    margin-top:20px;
+    border-radius: 10px;
+}
+.ChiefDashbord_ChartContainerRightSwitch {
+    display: flex;
+    align-items: center;
+    padding-right:10px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.ChiefDashbord_ChartContainerRightSwitchTitle {
+    margin-right:5px;
+}
+.ChiefDashbord_ChartContainerRightSwitchTitle {
+    color:rgb(89, 89, 89);
+    font-size: 13px;
+    font-weight: bold;
+    margin-right:10px;
+}
+
+.ChiefDashbord_ChartContainerRightSwitchCircle {
+    background-color: rgb(76, 76, 76);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+.ChiefDashbord_ChartContainerRightSwitchActive {
+    color:var(--color);
+    border-left:4px solid var(--color)
+}
+.ChiefDashbord_ChartContainerRightSwitchActive > span {
+    color:var(--color);
+}
+.ChiefDashbord_ChartContainerRightLegendCircleActive {
+    background-color: var(--color) !important;
+}

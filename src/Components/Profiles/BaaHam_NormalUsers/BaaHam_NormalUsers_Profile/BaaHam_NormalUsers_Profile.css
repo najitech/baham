@@ -1,0 +1,106 @@
+
+
+
+.BaaHam_NU_ProfileInputsContainer {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    row-gap: 40px;
+    padding-top:30px;
+    column-gap: 50px;
+    width: 100%;
+    position: relative;
+}
+.BaaHam_NormalUsers_Profile {
+
+    width: 100%;
+    position: relative;
+    padding-left:4px;
+}
+.BaaHam_NU_ProfileInputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+.BaaHam_NU_ProfileInputTitle {
+    font-size: 13px;
+    padding-right:10px;
+    font-weight: bold;
+    color:rgb(111, 111, 111);
+    font-family: IRANSansX;
+}
+.InputExactContainerForBack {
+    background-color: rgb(245, 245, 245);
+    height: 40px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top:7px;
+}
+.BaaHam_NU_ProfileInput {
+    height: 40px;
+    width: 95%;
+    margin:auto;
+    border: none;
+    outline: none;  
+    background-color: transparent;
+}
+.BaaHam_NU_ProfileTextArea {
+    resize: none;
+    width: 100%;
+}
+.BaaHam_NU_ProfileTextAreaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:auto;
+    margin-top:40px;
+    width: 100%;
+
+}
+.InputExactContainerForBackTextArea {
+    margin-top:7px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    height: 60px;
+    border-radius: 10px;
+}
+.BaaHam_NU_ProfileTextArea {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 52px;
+    width: 97%;
+    margin:auto;
+    margin-top:4px;
+}
+.BaaHam_NU_ProfileButtonContainer {
+    display: flex;
+    justify-content: end;
+    margin-top:20px;
+    display: flex;
+    width: 100%;
+    font-family: KalamehWeb;
+}
+.BaaHam_NU_ProfileButton {
+    width: 140px;
+    height: 42px;
+    border-radius: 17px;
+    background-color: rgb(254, 72, 0);
+    color:white;
+    font-size:15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 7px 1px rgba(254, 72, 0, 0.377) ;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width : 704px) {
+    .BaaHam_NU_ProfileInputsContainer {
+        column-gap: 30px;
+    }
+}

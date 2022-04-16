@@ -1,0 +1,268 @@
+.BaaHam_NormalUsers_Requests {
+    width: 100%;
+}
+
+.BaaHam_NormalUsers_RequestsHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgb(245, 245, 245);
+    margin-top:12px;
+    padding-bottom: 15px;
+}
+.BaaHam_NormalUsers_RequestsHeaderTitle {
+    font-size:15px;
+    font-weight: bold;
+    color:rgb(99, 99, 99);
+}
+.BaaHam_NormalUsers_RequestsHeaderNumberContainer {
+    margin-right:10px;
+    height: 34px;
+    width: 160px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BaaHam_NormalUsers_RequestsHeaderNumber {
+    font-size:18px;
+    font-weight: bold;
+    color:rgb(254, 72, 0);
+}
+
+.BaaHam_NormalUsers_RequestsStepperBigContainer {
+    border-bottom: 5px dotted rgb(216, 216, 216);
+    height: 160px;
+    position: relative;
+    width: 90%;
+    margin:auto;
+}
+.BaaHam_NormalUsers_RequestsStepperContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -11px;
+    width: 100%;
+
+}
+.BaaHam_NormalUsers_RequestsStepper {
+    display: flex;
+    flex-direction: column;
+}
+.BaaHam_NormalUsers_RequestsStepperBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BaaHam_NormalUsers_RequestsStepperTopBox {
+    background-color: rgb(216, 216, 216);
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.BaaHam_NormalUsers_RequestsStepperTopBox > span {
+    padding: 0px 10px;
+    line-height: 26px;
+    z-index: 100;
+    text-align: center;
+}
+.BaaHam_NormalUsers_RequestsStepperBottomBox {
+    background-color: rgb(216, 216, 216);
+    width:29px ;
+    height: 29px;
+    transform: rotate(45deg);
+    margin-top:-17px;
+    border-radius: 5px;
+    margin-bottom: -4px;
+}
+.BaaHam_NormalUsers_RequestsStepperCircle {
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgb(216, 216, 216);
+    border-radius: 50%;
+    background-color: white;
+}
+.BaaHam_NormalUsers_RequestsStepperTopBoxActive {
+    background-color: rgb(254, 72, 0);
+}
+.BaaHam_NormalUsers_RequestsStepperBottomBoxActive {
+    background-color: rgb(254, 72, 0);
+}
+.BaaHam_NormalUsers_RequestsStepperCircleActive {
+    border-color:rgb(254, 72, 0);
+}
+.BaaHam_NU_RequestTextArea {
+    height: 100px;
+    margin-top:30px;
+    border-radius: 23px;
+}
+.BaaHam_NU_RequestBottomButtons {
+    justify-content: center;
+}
+.BaaHam_NU_RequestBottomButtons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:15px;
+}
+.BaaHam_NU_RequestBottomButton {
+    height: 34px;
+    width: 120px;
+    background-color: rgb(216, 216, 216);
+    color:white;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.BaaHam_NU_RequestBottomButton1 {
+    background-color:rgb(254, 72, 0);
+}
+.BaaHam_NU_RequestTicketsContainer {
+    border-top:2px solid rgb(245, 245, 245);
+    padding-top:10px;
+    margin-top:90px;
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+}
+.BaaHam_NU_RequestTicket {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(245, 245, 245);
+    width: 90px;
+    height: 150px;
+    border-radius: 18px;
+    padding: 10px 14px;
+    font-size: 10px;
+    color:rgb(170, 170, 170);
+    margin:0px 5px;
+}
+.BaaHam_NU_RequestTicket > span {
+    margin-top:10px;
+}
+.BaaHam_NU_RequestTicketTitle {
+    font-size: 12px;
+    font-weight: bold;
+    color:rgb(104, 104, 104);
+    margin-top:0px;
+
+}
+.BaaHam_NU_RequestTicketNumber {
+    font-size: 12px;
+    color:rgb(104, 104, 104);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    padding-bottom: 6px;
+}
+
+@media screen and (max-width : 1255px)  {
+    .BaaHam_NormalUsers_RequestsStepperTopBox {
+        width: 70px;
+        height: 70px;
+    }
+    .BaaHam_NormalUsers_RequestsStepperTopBox > span {
+        font-size: 10px;
+        padding: 0px 4px;
+    }
+ 
+}
+
+@media screen and (max-width : 1230px)  {
+    .BaaHam_NU_RequestTicketsContainer {
+        grid-template-columns:  1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width : 1100px)  {
+    .BaaHam_NU_RequestTicketsContainer {
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width : 960px)  {
+    .BaaHam_NU_RequestTicketsContainer {
+        grid-template-columns:  1fr 1fr 1fr;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width : 815px)  {
+    .BaaHam_NormalUsers_RequestsStepperTopBox {
+        width: 50px;
+        height: 60px;
+        border-radius: 7px;
+    }
+    .BaaHam_NormalUsers_RequestsStepperTopBox > span {
+        font-size: 9px;
+  
+        padding: 0px 2px;
+        line-height: 15px;
+    }
+}
+@media screen and (max-width : 760px) {
+    .BaaHam_NU_RequestTicketsContainer {
+        grid-template-columns:  1fr 1fr;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width : 500px)  {
+    .BaaHam_NU_RequestTicketsContainer {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .BaaHam_NormalUsers_RequestsStepperTopBox {
+        width: 28px;
+        height: 90px;
+        border-radius: 5px;
+    }
+    .BaaHam_NormalUsers_RequestsStepperTopBox > span {
+        font-size: 7px;
+  
+        padding: 0px 2px;
+        line-height: 15px;
+    }
+    .BaaHam_NormalUsers_RequestsStepperBottomBox {
+        width: 20px;
+        height: 20px;
+    }
+    .BaaHam_NormalUsers_RequestsStepperBigContainer {
+        width: 100%;
+    }
+    .BaaHam_NormalUsers_RequestsStepperBox {
+        margin:0px 0px;
+    }
+ 
+    .BaaHam_NormalUsers_RequestsHeader {
+        flex-direction: column;
+        align-items: center;
+    }
+    .BaaHam_NormalUsers_RequestsHeaderTitle {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .BaaHam_NU_RequestBottomButtons {
+        flex-direction: column;
+    }
+    .BaaHam_NU_RequestBottomButton1 {
+        margin-bottom: 6px;
+    }
+}

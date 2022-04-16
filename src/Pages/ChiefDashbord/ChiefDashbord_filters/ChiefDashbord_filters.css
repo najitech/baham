@@ -1,0 +1,54 @@
+.ChiefDashbord_filters {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    border-radius: 12px;
+    margin-top:10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    box-sizing: border-box;
+    padding:10px 10px;
+}
+.ChiefDashbord_filtersTitle {
+    color:rgb(114, 114, 114);
+    min-width: 90px;
+    font-size:13px;
+    font-weight: bold;
+}
+.ChiefDashbord_filtersContainer {
+    border-right:2px solid rgb(231,231,231);
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin-right:10px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.DP_DatePickContainer {
+    text-align: center !important;
+    direction: rlt !important;
+}
+.DP_DatePick {
+ 
+}
+.DP_DateInput {
+    background-color:rgb(245, 245, 245);
+    padding: 8px 0px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 80px;
+    border:none;
+    outline: none;
+    text-align: center;
+}
+.DP_DatePickTitle {
+    font-size: 11px;
+    color:rgb(90, 90, 90);
+    font-weight: bold;
+    margin:0px 8px;
+}

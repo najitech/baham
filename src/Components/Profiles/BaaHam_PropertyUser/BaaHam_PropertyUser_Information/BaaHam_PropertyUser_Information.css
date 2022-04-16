@@ -1,0 +1,180 @@
+.BaaHam_MarketerUser_Information {
+    padding-top:30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    padding-left:10px;
+    width: 100%;
+
+}
+
+
+.BaaHam_NU_ProfileInputContainer3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    column-gap: 20px;
+
+}
+.BaaHam_MU_InformationInputContainer {
+  
+
+}
+.BaaHam_MU_InformationInput1 {
+    width: 90% !important;
+}
+.BaaHam_MU_InformationInput2 {
+    width: 90% !important;
+    margin-right:10px;
+}
+.BaaHam_MU_InformationInputTitle {
+  
+}
+.BaaHam_MU_InformationInputsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 96.5%;
+    justify-content: space-between;
+    margin-top:20px;
+    column-gap: 30px;
+}
+.BaaHam_MU_ProfileTextAreaContainer {
+    margin-top:20px !important;
+}
+
+.BaaHam_MU_SabteAgahiAreaSelect {
+ 
+    background-color: red;
+}
+.BaaHam_NU_ProfileInputsContainer {
+}
+.BaaHam_MU_ProfileInputsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:20px;
+    column-gap: 30px;
+
+}
+.BaaHam_MU_SabteAgahiAreaSelectTitle {
+    margin:0px;
+    padding: 0px;
+}
+.BaaHam_MU_SabteAgahiAreaSelectContain {
+    margin:0px;
+    padding: 0px;
+}
+.BaaHam_MU_Information_ChooseBankContainer {
+    flex:0.49;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.BaaHam_MU_ProfileInputsContainerFlex {
+    flex:0.44;
+}
+.BaaHam_MU_ProfileInput3 {
+    width: 260px !important;
+}
+.BaaHam_MU_Information_ChooseBankSelect {
+    width: 100%;
+    margin-top:6px;
+}
+.BaaHam_MU_InformationInputsContainer4 {
+    display: flex;
+    align-items: center;
+    width: 97%;
+}
+.BaaHam_MU_InformationInputContainer4 {
+    flex:0.6;
+    position: relative;
+}
+.BaaHam_MU_InformationInput4 {
+    width:93% !important;
+}
+.BaaHam_MU_InformationInputContainer4_1 {
+    flex:0.35;
+}
+.BaaHam_MU_InformationInput4_1 {
+    width: 93% !important;
+}
+.BaaHam_MU_InformationFooterContainer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top:25px;
+}
+.BaaHam_MU_InformationLabelContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.BaaHam_MU_InformationLabel {
+    width: 160px;
+    height:160px ;
+    background-color: rgb(245, 245, 245);
+    border-radius: 17px;
+    margin-top:6px;
+}
+
+
+@media screen and (max-width : 880px) {
+    .BaaHam_NU_ProfileInputsContainer {
+        column-gap: 30px;
+    }
+    .BaaHam_MU_InformationInputsContainer {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+
+        width: 96.5%;
+    }
+    .BaaHam_NU_ProfileInputContainer3MURes {
+        width: 100% !important;
+        column-gap: 40px;
+        
+    }
+    .BaaHam_NU_ProfileInputContainer {
+        margin:0px !important;
+    }
+    .BaaHam_MU_InformationInput2 {
+        width: 90% !important;
+        margin-right:0px;
+    }
+    .BaaHam_MU_InformationInputContainer {
+        margin:0px !important;
+
+    }
+    .BaaHam_NU_ProfileInputContainer3 {
+    }
+    .BaaHam_MU_ProfileInputsContainer {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+    .BaaHam_MU_InformationInput1 {
+        width: 90% !important;
+    }
+    .BaaHam_MU_ProfileInput3 {
+        width: 96% !important;
+    }
+    .BaaHam_MU_InformationFooterContainer {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width : 540px) {
+    .BaaHam_NU_ProfileInputContainer3MURes2 {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        row-gap: 10px;
+    }
+    .BaaHam_MU_InformationLabelContainer {
+
+    }
+    .BaaHam_MU_InformationFooterContainer {
+       padding-right:10px;
+    }
+    .BaaHam_MU_InformationButtonContainer {
+        padding-right:10px;
+    }
+}

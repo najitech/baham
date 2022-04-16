@@ -1,0 +1,14 @@
+.BaaHam_MU_MoneyInProgressTable {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    margin-right:10px;
+}
+.BaaHam_MU_IntroductionTableItemMargin {
+    margin-right:5px;
+    width:18%;
+}
+
+

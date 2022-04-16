@@ -1,0 +1,327 @@
+.melkCard{
+    padding: 12px 14px;
+    border: 1.4px solid #EAEAEA;
+    border-radius: 26px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+.melkCard:hover{
+    transition: all ease-out 0.3s;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 23px 30px -10px;
+}
+.boxMargin:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px !important; 
+}
+.imageContainerMelkCard{
+    position: relative;
+    height: 180px;
+    background-color: #dfdfdfc0;
+    border-radius: 18px;
+}
+.imageContainerMelkCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
+.tagAndStar{
+    position: absolute;
+    left: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 6px;
+    top: 3px;
+    height: 30px;
+}
+.starIconMelkCard{
+    background-color: #FFCB00;
+    padding: px 4px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+}
+.tagIconMelkCard{
+    background-color: rgba(102, 101, 101, 0.726);
+    padding: 5px 5px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+}
+.melkCardHeader{
+    text-align: right;
+    color: var(--black-color);
+    font-size: 10px;
+}
+.melkCardHeader h4{
+    margin-right: 4px;
+    margin-top: 10px;
+}
+.iconsDivMelkCard{
+    text-align: right;
+    width: 100%;
+    color: #6b6b6b;
+}
+.iconsDivMelkCard span{
+    color: #6b6b6b;
+    font-size: 9px;
+    text-align: right;
+    margin-right: 3px;
+}
+.iconsDivMelkCardBoxShSlider{
+    text-align: right;
+    width: 97%;
+    color: #6b6b6b;
+}
+.iconsDivMelkCardBoxShSlider span{
+    color: #6b6b6b;
+    font-size:8px;
+    text-align: right;
+    margin-right: 3px;
+}
+.r1MelkCard{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.r2MelkCard{
+    text-align: right;
+    margin-top: 5px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.r2MelkCard >div{
+    text-align: right;
+    flex: 0.5;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;   
+}
+
+.priceAndCallMelkCard{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1.3px solid #9b9b9b81;
+}
+.priceMelkCard span{
+    font-size: 10px;
+    margin-left: 5px;
+    color: var(--color);
+}
+.priceMelkCard h3{
+    margin-top: 8px;
+    color: var(--color);
+    font-size: 12.3px;
+}
+.callIconMelkCard{
+    border: 2px solid #626262;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    margin-bottom: 4px;
+    font-size: 18px;
+    color: #626262;
+    border-radius: 10px ;
+}
+@media screen and (max-width:30000px) {
+    .melkCard{
+        padding: 10px 12px;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 23px;
+        padding-bottom: 5px;
+    }
+    .melkCard:hover{
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 23px 30px -10px;
+    }
+    .boxMargin:hover{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px !important; 
+    }
+    .imageContainerMelkCard{
+        height: 164px;
+        border-radius: 16px;
+    }
+    .imageContainerMelkCard img{
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+    }
+    .tagAndStar{
+        left: 5px;
+        right: 5px;
+        top: 2px;
+        height: 27px;
+    }
+    .starIconMelkCard{
+        padding: 2px 2px;
+        border-radius: 7px;
+        font-size: 12px;
+    }
+    .tagIconMelkCard{
+        padding: 4px 4px;
+        border-radius: 7px;
+        font-size: 10px;
+    }
+    .melkCardHeader{
+        font-size: 9px;
+    }
+    .melkCardHeader h4{
+        margin-right: 3px;
+        margin-top: 9px;
+    }
+    .iconsDivMelkCard{
+        width: 100%;
+    }
+    .iconsDivMelkCard span{
+        font-size: 8px;
+        margin-right: 2px;
+    }
+    .iconsDivMelkCardBoxShSlider{
+        width: 97%;
+    }
+    .iconsDivMelkCardBoxShSlider span{
+        font-size:7px;
+        margin-right: 2px;
+    }
+    .r1MelkCard{
+        width: 100%;
+    }
+    .r2MelkCard{
+        margin-top: 4px;
+        width: 95%;
+    }
+    
+    .r2MelkCard >div{
+        flex: 0.5;
+    }
+    
+    .priceAndCallMelkCard{
+        margin-top: 8px;
+        width: 100%;
+        border-top: 1.3px solid #9b9b9b81;
+    }
+    .priceMelkCard span{
+        font-size: 8px;
+        margin-left: 4px;
+    }
+    .priceMelkCard h3{
+        margin-top: 7px;
+        font-size: 10.3px;
+    }
+    .callIconMelkCard{
+        border: 1.5px solid #626262;
+        padding: 1px;
+        margin-bottom: 3px;
+        font-size: 16px;
+        border-radius: 9px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .melkCard{
+        padding: 8px 10px;
+        border: 1.4px solid #EAEAEA;
+        border-radius: 18px;
+        padding-bottom: 4px;
+    }
+    .melkCard:hover{
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 23px 30px -10px;
+    }
+    .boxMargin:hover{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px !important; 
+    }
+    .imageContainerMelkCard{
+        height: 130px;
+        border-radius: 12px;
+    }
+    .imageContainerMelkCard img{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
+    .tagAndStar{
+        left: 5px;
+        right: 5px;
+        top: 4px;
+        height: 21px;
+    }
+    .starIconMelkCard{
+        padding: 3px 3px;
+        border-radius: 5.5px;
+        font-size: 10px;
+    }
+    .tagIconMelkCard{
+        padding: 3.4px 3.4px;
+        border-radius: 5px;
+        font-size: 9px;
+    }
+    .melkCardHeader{
+        font-size: 7px;
+    }
+    .melkCardHeader h4{
+        margin-right: 2px;
+        margin-top: 7px;
+    }
+    .iconsDivMelkCard{
+        width: 100%;
+    }
+    .iconsDivMelkCard span{
+        font-size: 6px;
+        margin-right: 1.3px;
+    }
+    .iconsDivMelkCardBoxShSlider{
+        width: 97%;
+    }
+    .iconsDivMelkCardBoxShSlider span{
+        font-size:5px;
+        margin-right: 1.3px;
+    }
+    .r1MelkCard{
+        width: 100%;
+        font-size: 12.5px;
+    }
+    .r2MelkCard{
+        margin-top: 3px;
+        width: 95%;
+        font-size: 12.5px;
+    }
+    
+    .r2MelkCard >div{
+        flex: 0.5;
+    }
+    
+    .priceAndCallMelkCard{
+        margin-top: 6px;
+        width: 100%;
+        border-top: 1.3px solid #9b9b9b81;
+    }
+    .priceMelkCard span{
+        font-size: 6px;
+        margin-left: 2px;
+    }
+    .priceMelkCard h3{
+        margin-top: 5px;
+        font-size: 7.3px;
+    }
+    .callIconMelkCard{
+        border: 1.3px solid #626262;
+        padding: 1px;
+        margin-bottom: 2px;
+        font-size: 12px;
+        border-radius: 7px;
+    }
+}

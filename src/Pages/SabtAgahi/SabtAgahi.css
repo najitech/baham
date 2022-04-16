@@ -1,0 +1,1599 @@
+.sabtAgahi{
+    width: 1024px;
+    margin: auto;
+    margin-top: 60px;
+}
+.sabtAgahiHeader h2{
+    font-size: 22px;
+    color: var(--black-color);
+    margin-bottom: 7px;
+}
+.sabtAgahiHeader{
+    width: 100%;
+    text-align: center;
+    border-bottom: #C8C8C8 1.4px solid;
+    margin-bottom: 20px;
+}
+.tabContainerSabt{
+    height: 56px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sabtTabdivSabt{
+    flex: 0.48;
+    color: #5C5C5C;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    margin: 0px 2px;
+    transition: all ease-in 0.2s;
+    cursor: pointer;
+}
+.sabtTabdivSabtActive{
+    background-color: #F5F5F5;
+    color: var(--color);
+    transition: all ease-out 0.3s;
+}
+.spaceCurveSabtTab{
+    background-color: white;
+    flex: 0.2;
+    height: 100%;
+}
+.sabtTabdivSabt h3{
+    font-size: 16px;
+}
+.sabtAgahiContainer{
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    padding: 50px 60px;
+    margin-bottom: 30px;
+}
+.firstSectionSabt{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.firstFormSabt{
+    flex: 0.6;
+}
+.mapSectionSabt{
+    flex: 0.38;
+}
+.mapExplaceSabt{
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+    margin-top: -6px;
+    margin-bottom: 6px;
+    color: #797979;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.mapExplaceSabt span{
+    font-size: 10px;
+    margin-right:3px;
+}
+.firstFormSabt{
+    display: flex;
+    width: 100%;
+}
+.firstFormSabt >div{
+    flex: 0.5;
+    width: 100%;
+    margin-right: 10px;
+}
+.formLabelSabt{
+    text-align: right;
+    font-size: 14px;
+    margin-right: 10px;
+    color: #575757; 
+    margin-bottom: 7px;
+}
+.inputBoxSabt{
+    width: 98%;
+    background-color: #FFFFFF;
+    min-height: 41px;
+    margin-bottom: 19px;
+    box-sizing: border-box;
+    text-align: right;
+    border-radius: 12px;
+    display: flex;
+    padding: 15px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 5px;
+}
+.radioRowSabt{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.radioRowSabt > span{
+    font-size: 13px;
+    margin-right: 5px;
+    color: #b9b9b9;
+}
+.noemelkSabt{
+    display: flex;
+    width: 100%;
+}
+.noemelkSabt > div{
+    margin-left: 10px;
+}
+.noemelkBoxSabt{
+    padding: 15px 15px;
+}
+.extramargSabt{
+    margin-top: 20px;
+}
+.explanesdivSabt{
+    width: 100%;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #BEBEBE;
+    margin-bottom: 14px;
+}
+.sabtAndTaeedBox{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 18px 20px;
+    border-radius: 19px;
+    background-color: white;
+}
+.sabtAndTaeedBox >div{
+    display: flex;
+    align-items: center;
+}
+.forcheckboxLateer{
+    margin-left: 5px;
+}
+.sabtBtnNahaee{
+    background-color: var(--color);
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px 39px;
+    font-size: 14px;
+    box-shadow: #fd480062 0px 13px 20px -5px, #fd480073 0px 8px 10px -8px;
+}
+.sabtAndTaeedBox span{
+    font-size: 13px;
+    color: var(--black-color);
+}
+.fixPaddingSabt{
+    justify-content: center !important;
+    padding: 9px !important;
+}
+.checkCustomSabtchekced{
+    font-size: 12.4px;
+    background-color: var(--color);
+    padding: 0px;
+    display: flex;
+    border: 1px solid var(--color);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 15px;
+    height:15px;
+    color: white;
+    border-radius: 6px;
+}
+.checkCustomSabt{
+    font-size: 12.4px;
+    padding: 0px;
+    display: flex;
+    border: 1px solid #b9b9b9;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 15px;
+    height:15px;
+    border-radius: 6px;
+}
+.senbanaContainerSabt{
+    display: flex;
+    justify-content: space-between;
+}
+.chekcBoxRowSabt{
+    display: flex;
+    align-items: center;
+}
+.chekcBoxRowSabt> span{
+    font-size: 12px;
+    margin-right: 5px;
+    color: #b9b9b9;
+}
+.mapBoxcontainerSabt{
+    height: 360px;
+    border-radius: 16px;
+    border: 1.4px solid #a0a0a0;
+    width: 100%;
+}
+.secondSectionSabtForm{
+    display: flex;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    width: 100%;
+    justify-content: space-between;
+    padding-left:0;
+}
+.rightSecondSectionSabtForm{
+    position: relative;
+    flex: 0.58;
+    box-sizing: border-box;
+    padding-right: 1px;
+    padding-left: 20px;
+}
+.borderRigthDivContainerForm{
+    top: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    border-left: 1px solid #797979;
+}
+.inputBoxSabt textarea{
+    background-color: transparent;
+    width: 100%;
+    height: 165px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+.gheimatRowBoxSabt{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 98%;
+}
+.checkBoxesContainerSabtFrom{
+    flex: 0.40;
+    box-sizing: border-box; 
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.checkBoxGridSabts{
+    width: 105%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.checkBoxGridSabts span{
+    font-size: 12px !important;
+}
+.checkBoxContianerItemSabt{
+    width: 113px;
+    margin-bottom: 7px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 7px 5px;
+}
+.imageChooseComponentSabt{
+    width: 100%;
+    height: 90px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center; 
+}
+.addnewImageDivSabt{
+    height: 90px;
+    width: 90px;
+    margin-right: 10px;
+    display: flex;
+    border-radius: 19px;
+    border: 2px dashed #b3b3b3;
+    color: var(--color);
+    font-size: 37px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.DP_SelectPlaceHolderSabt{
+    font-size: 12px;
+    color: #b9b9b9;
+}
+@media screen and (max-width:1024px) {
+    .sabtAgahi{
+        width: 820px;
+        margin-top: 48px;
+    }
+    .sabtAgahiHeader h2{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .sabtAgahiHeader{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .tabContainerSabt{
+        height: 42px;
+        width: 90%;
+    }
+    .sabtTabdivSabt{
+        flex: 0.48;
+        border-top-left-radius: 21px;
+        border-top-right-radius: 21px;
+        margin: 0px 1px;
+    }
+    .sabtTabdivSabtActive{
+        transition: all ease-out 0.24s;
+    }
+    .spaceCurveSabtTab{
+        flex: 0.2;
+        height: 100%;
+    }
+    .sabtTabdivSabt h3{
+        font-size: 12px;
+    }
+    .sabtAgahiContainer{
+        border-radius: 24px;
+        width: 100%;
+        padding: 40px 48px;
+        margin-bottom: 24px;
+    }
+    .firstSectionSabt{
+        width: 100%;
+    }
+    .firstFormSabt{
+        flex: 0.6;
+    }
+    .mapSectionSabt{
+        flex: 0.38;
+    }
+    .mapExplaceSabt{
+        font-size: 11px;
+        width: 100%;
+        margin-top: -4px;
+        margin-bottom: 4px;
+    }
+    .mapExplaceSabt span{
+        font-size: 8px;
+        margin-right:2px;
+    }
+    .firstFormSabt{
+        width: 100%;
+    }
+    .firstFormSabt >div{
+        flex: 0.5;
+        width: 100%;
+        margin-right: 8px;
+    }
+    .formLabelSabt{
+        font-size: 11px;
+        margin-right: 8px;
+        margin-bottom:  5px;
+    }
+    .inputBoxSabt{
+        width: 98%;
+        min-height: 32px;
+        margin-bottom: 15px;
+        border-radius: 9px;
+        padding:12px 12px;
+        padding-bottom: 4px;
+    }
+    .radioRowSabt{
+        margin-bottom: 12px;
+    }
+    .radioRowSabt > span{
+        font-size: 10px;
+        margin-right: 4px;
+    }
+    .noemelkSabt{
+        width: 100%;
+    }
+    .noemelkSabt > div{
+        margin-left: 8px;
+    }
+    .noemelkBoxSabt{
+        padding: 12px 12px;
+    }
+    .extramargSabt{
+        margin-top: 16px;
+    }
+    .explanesdivSabt{
+        width: 100%;
+        margin-right: 8px;
+        font-size: 10px;
+        margin-bottom: 11px;
+    }
+    .sabtAndTaeedBox{
+        width: 100%;
+        margin-top: 48px;
+        padding: 14px 17px;
+        border-radius: 15px;
+    }
+    .forcheckboxLateer{
+        margin-left: 4px;
+    }
+    .sabtBtnNahaee{
+        border-radius: 9px;
+        padding: 5px 31px;
+        font-size: 11px;
+        box-shadow: #fd480062 0px 10px 17px -5px, #fd480073 0px 8px 8px -8px;
+    }
+    .sabtAndTaeedBox span{
+        font-size: 10px;
+    }
+    .fixPaddingSabt{
+        padding: 7px !important;
+    }
+    .checkCustomSabtchekced{
+        font-size: 9.4px;
+        width: 12px;
+        height:12px;
+        border-radius: 4px;
+    }
+    .checkCustomSabt{
+        font-size: 9.4px;
+        padding: 0px;
+        border: 1px solid #b9b9b9;
+        width: 12px;
+        height:12px;
+        border-radius: 4px;
+    }
+    .chekcBoxRowSabt> span{
+        font-size: 9px;
+        margin-right: 4px;
+    }
+    .mapBoxcontainerSabt{
+        height: 288px;
+        border-radius: 12px;
+        border: 1px solid #a0a0a0;
+        width: 100%;
+    }
+    .secondSectionSabtForm{
+        padding: 0px 8px;
+        width: 100%;
+        padding-left:0;
+    }
+    .rightSecondSectionSabtForm{
+        flex: 0.58;
+        padding-right: 1px;
+        padding-left: 16px;
+    }
+    .borderRigthDivContainerForm{
+        top: 24px;
+        bottom: 17px;
+        left: 0px;
+        border-left: 1px solid #797979;
+    }
+    .inputBoxSabt textarea{
+        width: 100%;
+        height: 132px;
+    }
+    .gheimatRowBoxSabt{
+        width: 98%;
+    }
+    .checkBoxesContainerSabtFrom{
+        flex: 0.40;
+        padding-bottom: 8px;
+        padding-right: 8px;
+    }
+    .checkBoxGridSabts{
+        width: 105%;
+    }
+    .checkBoxGridSabts span{
+        font-size: 9px !important;
+    }
+    .checkBoxContianerItemSabt{
+        width: 90px;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        padding: 5px 4px;
+    }
+    .imageChooseComponentSabt{
+        width: 100%;
+        height: 90px;
+        margin: 10px 0px;
+    }
+    .addnewImageDivSabt{
+        height: 90px;
+        width: 90px;
+        margin-right: 10px;
+        border-radius: 19px;
+        border: 2px dashed #b3b3b3;
+        font-size: 37px;
+    
+    }
+    .DP_SelectPlaceHolderSabt{
+        font-size: 12px;
+    }   
+}
+
+@media screen and (max-width:820px) {
+    .sabtAgahi{
+        width:670px;
+        margin-top: 40px;
+    }
+    .sabtAgahiHeader h2{
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    .sabtAgahiHeader{
+        width: 100%;
+        margin-bottom: 14px;
+    }
+    .tabContainerSabt{
+        height: 32px;
+        width: 87%;
+    }
+    .sabtTabdivSabt{
+        flex: 0.48;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin: 0px 1px;
+    }
+    .sabtTabdivSabtActive{
+        transition: all ease-out 0.24s;
+    }
+    .spaceCurveSabtTab{
+        flex: 0.2;
+        height: 100%;
+    }
+    .sabtTabdivSabt h3{
+        font-size: 10px;
+    }
+    .sabtAgahiContainer{
+        border-radius: 24px;
+        width: 100%;
+        padding: 30px 30px;
+        margin-bottom: 24px;
+    }
+    .firstSectionSabt{
+        width: 100%;
+    }
+    .firstFormSabt{
+        flex: 0.63;
+    }
+    .mapSectionSabt{
+        flex: 0.36;
+    }
+    .mapExplaceSabt{
+        font-size: 11px;
+        width: 100%;
+        margin-top: -4px;
+        margin-bottom: 4px;
+    }
+    .mapExplaceSabt span{
+        font-size: 8px;
+        margin-right:2px;
+    }
+    .firstFormSabt{
+        width: 100%;
+    }
+    .firstFormSabt >div{
+        flex: 0.5;
+        width: 100%;
+        margin-right: 8px;
+    }
+    .formLabelSabt{
+        font-size: 11px;
+        margin-right: 8px;
+        margin-bottom:  5px;
+    }
+    .resSpecialMarginTop{
+        margin-top: -9px !important;
+    }
+    .inputBoxSabt{
+        width: 98%;
+        min-height: 32px;
+        margin-bottom: 15px;
+        border-radius: 9px;
+        padding:12px 12px;
+        padding-bottom: 4px;
+    }
+    .radioRowSabt{
+        margin-bottom: 12px;
+    }
+    .radioRowSabt > span{
+        font-size: 9px;
+        margin-right: 2px;
+    }
+    .noemelkSabt{
+        width: 100%;
+    }
+    .noemelkSabt > div{
+        margin-left: 4px;
+        
+    }
+    .noemelkBoxSabt{
+        padding: 8px 8px;
+    }
+    .extramargSabt{
+        margin-top: 16px;
+    }
+    .explanesdivSabt{
+        width: 100%;
+        margin-right: 8px;
+        font-size: 10px;
+        margin-bottom: 11px;
+    }
+    .sabtAndTaeedBox{
+        width: 100%;
+        margin-top: 48px;
+        padding: 14px 17px;
+        border-radius: 15px;
+    }
+    .forcheckboxLateer{
+        margin-left: 4px;
+    }
+    .sabtBtnNahaee{
+        border-radius: 9px;
+        padding: 5px 31px;
+        font-size: 11px;
+        box-shadow: #fd480062 0px 10px 17px -5px, #fd480073 0px 8px 8px -8px;
+    }
+    .sabtAndTaeedBox span{
+        font-size: 10px;
+    }
+    .fixPaddingSabt{
+        padding: 7px !important;
+    }
+    .checkCustomSabtchekced{
+        font-size: 9.4px;
+        width: 12px;
+        height:12px;
+        border-radius: 4px;
+    }
+    .checkCustomSabt{
+        font-size: 9.4px;
+        padding: 0px;
+        border: 1px solid #b9b9b9;
+        width: 12px;
+        height:12px;
+        border-radius: 4px;
+    }
+    .chekcBoxRowSabt> span{
+        font-size: 9px;
+        margin-right: 4px;
+    }
+    .mapBoxcontainerSabt{
+        height: 262px;
+        border-radius: 10px;
+        border: 1px solid #a0a0a0;
+        width: 100%;
+    }
+    .secondSectionSabtForm{
+        padding: 0px 8px;
+        width: 100%;
+        padding-left:0;
+    }
+    .rightSecondSectionSabtForm{
+        flex: 0.58;
+        padding-right: 1px;
+        padding-left: 16px;
+    }
+    .borderRigthDivContainerForm{
+        top: 24px;
+        bottom: 17px;
+        left: 0px;
+        border-left: 1px solid #797979;
+    }
+    .inputBoxSabt textarea{
+        width: 100%;
+        height: 132px;
+    }
+    .gheimatRowBoxSabt{
+        width: 98%;
+    }
+    .checkBoxesContainerSabtFrom{
+        flex: 0.4;
+        padding-bottom: 8px;
+        padding-right: 8px;
+    }
+    .checkBoxGridSabts{
+        width: 105%;
+    }
+    .checkBoxGridSabts span{
+        font-size: 9px !important;
+    }
+    .checkBoxContianerItemSabt{
+        width: 90px;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        padding: 5px 4px;
+    }
+    .imageChooseComponentSabt{
+        width: 100%;
+        height: 90px;
+        margin: 10px 0px;
+    }
+    .addnewImageDivSabt{
+        height: 90px;
+        width: 90px;
+        margin-right: 10px;
+        border-radius: 19px;
+        border: 2px dashed #b3b3b3;
+        font-size: 37px;
+    
+    }
+    .DP_SelectPlaceHolderSabt{
+        font-size: 12px;
+    }   
+}
+
+@media screen and (max-width:670px) {
+    .sabtAgahi{
+        width:540px;
+        margin-top: 30px;
+    }
+    .sabtAgahiHeader h2{
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    .sabtAgahiHeader{
+        width: 100%;
+        margin-bottom: 14px;
+    }
+    .tabContainerSabt{
+        height: 32px;
+        width: 87%;
+    }
+    .sabtTabdivSabt{
+        flex: 0.48;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin: 0px 1px;
+    }
+    .sabtTabdivSabtActive{
+        transition: all ease-out 0.24s;
+    }
+    .spaceCurveSabtTab{
+        flex: 0.2;
+        height: 100%;
+    }
+    .sabtTabdivSabt h3{
+        font-size: 10px;
+    }
+    .sabtAgahiContainer{
+        border-radius: 24px;
+        width: 100%;
+        padding: 30px 30px;
+        margin-bottom: 24px;
+    }
+    .firstSectionSabt{
+        width: 100%;
+        flex-direction: column;
+    }
+    .firstFormSabt{
+        flex: 0.63;
+    }
+    .mapSectionSabt{
+        width: 97%;
+        margin-bottom: 20px;
+    }
+    .mapExplaceSabt{
+        font-size: 11px;
+        width: 100%;
+        margin-top: -4px;
+        margin-bottom: 4px;
+    }
+    .mapExplaceSabt span{
+        font-size: 8px;
+        margin-right:2px;
+    }
+    .firstFormSabt{
+        width: 100%;
+    }
+    .firstFormSabt >div{
+        flex: 0.5;
+        width: 100%;
+        margin-right: 8px;
+    }
+    .formLabelSabt{
+        font-size: 11px;
+        margin-right: 8px;
+        margin-bottom:  5px;
+    }
+    .resSpecialMarginTop{
+        margin-top: -9px !important;
+    }
+    .inputBoxSabt{
+        width: 98%;
+        min-height: 32px;
+        margin-bottom: 15px;
+        border-radius: 9px;
+        padding:12px 12px;
+        padding-bottom: 4px;
+    }
+    .radioRowSabt{
+        margin-bottom: 12px;
+    }
+    .radioRowSabt > span{
+        font-size: 9px;
+        margin-right: 2px;
+    }
+    .noemelkSabt{
+        width: 100%;
+    }
+    .noemelkSabt > div{
+        margin-left: 4px;
+        
+    }
+    .noemelkBoxSabt{
+        padding: 8px 8px;
+    }
+    .extramargSabt{
+        margin-top: 16px;
+    }
+    .explanesdivSabt{
+        width: 100%;
+        margin-right: 8px;
+        font-size: 10px;
+        margin-bottom: 11px;
+    }
+    .sabtAndTaeedBox{
+        width: 100%;
+        margin-top: 48px;
+        padding: 14px 17px;
+        border-radius: 15px;
+    }
+    .forcheckboxLateer{
+        margin-left: 4px;
+    }
+    .sabtBtnNahaee{
+        border-radius: 9px;
+        padding: 5px 31px;
+        font-size: 11px;
+        box-shadow: #fd480062 0px 10px 17px -5px, #fd480073 0px 8px 8px -8px;
+    }
+    .sabtAndTaeedBox span{
+        font-size: 10px;
+    }
+    .fixPaddingSabt{
+        padding: 7px !important;
+    }
+    .checkCustomSabtchekced{
+        font-size: 9.4px;
+        width: 12px;
+        height:12px;
+        border-radius: 4px;
+    }
+    .checkCustomSabt{
+        font-size: 9.4px;
+        padding: 0px;
+        border: 1px solid #b9b9b9;
+        width: 12px;
+        height:12px;
+        border-radius: 4px;
+    }
+    .chekcBoxRowSabt> span{
+        font-size: 8px;
+        margin-right: 4px;
+    }
+    .mapBoxcontainerSabt{
+        height: 262px;
+        border-radius: 10px;
+        border: 1px solid #a0a0a0;
+        width: 100%;
+    }
+    .secondSectionSabtForm{
+        padding: 0px 8px;
+        width: 100%;
+        padding-left:0;
+    }
+    .rightSecondSectionSabtForm{
+        flex: 0.62;
+        padding-right: 1px;
+        padding-left: 16px;
+    }
+    .borderRigthDivContainerForm{
+        top: 24px;
+        bottom: 17px;
+        left: 0px;
+        border-left: 1px solid #797979;
+    }
+    .inputBoxSabt textarea{
+        width: 100%;
+        height: 132px;
+    }
+    .gheimatRowBoxSabt{
+        width: 98%;
+    }
+    .checkBoxesContainerSabtFrom{
+        flex: 0.370;
+        padding-bottom: 8px;
+        padding-right: 8px;
+    }
+    .checkBoxGridSabts{
+        width: 105%;
+    }
+    .checkBoxGridSabts span{
+        font-size: 9px !important;
+    }
+    .checkBoxContianerItemSabt{
+        width: 85px;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        padding: 5px 4px;
+    }
+    .imageChooseComponentSabt{
+        width: 100%;
+        height: 90px;
+        margin: 10px 0px;
+    }
+    .addnewImageDivSabt{
+        height: 73px;
+        width: 73px;
+        margin-right: 8px;
+        border-radius: 17px;
+        border: 1.8px dashed #b3b3b3;
+        font-size: 31px;
+    
+    }
+    .DP_SelectPlaceHolderSabt{
+        font-size: 12px;
+    }   
+}
+
+@media screen and (max-width:540px) {
+    .sabtAgahi{
+        width:440px;
+        margin-top: 30px;
+    }
+    .sabtAgahiHeader h2{
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    .sabtAgahiHeader{
+        width: 100%;
+        margin-bottom: 14px;
+    }
+    .tabContainerSabt{
+        height: 32px;
+        width: 87%;
+    }
+    .sabtTabdivSabt{
+        flex: 0.48;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin: 0px 1px;
+    }
+    .sabtTabdivSabtActive{
+        transition: all ease-out 0.24s;
+    }
+    .spaceCurveSabtTab{
+        flex: 0.2;
+        height: 100%;
+    }
+    .sabtTabdivSabt h3{
+        font-size: 10px;
+    }
+    .sabtAgahiContainer{
+        border-radius: 24px;
+        width: 100%;
+        padding: 30px 30px;
+        margin-bottom: 24px;
+    }
+    .firstSectionSabt{
+        width: 100%;
+        flex-direction: column;
+    }
+    .firstFormSabt{
+        flex: 0.63;
+    }
+    .mapSectionSabt{
+        width: 97%;
+        margin-bottom: 20px;
+    }
+    .mapExplaceSabt{
+        font-size: 11px;
+        width: 100%;
+        margin-top: -4px;
+        margin-bottom: 4px;
+    }
+    .mapExplaceSabt span{
+        font-size: 8px;
+        margin-right:2px;
+    }
+    .firstFormSabt{
+        width: 100%;
+    }
+    .firstFormSabt >div{
+        flex: 0.5;
+        width: 100%;
+        margin-right: 8px;
+    }
+    .formLabelSabt{
+        font-size: 11px;
+        margin-right: 8px;
+        margin-bottom:  5px;
+    }
+    .resSpecialMarginTop{
+        margin-top: -9px !important;
+    }
+    .inputBoxSabt{
+        width: 98%;
+        min-height: 32px;
+        margin-bottom: 15px;
+        border-radius: 9px;
+        padding:12px 12px;
+        padding-bottom: 4px;
+    }
+    .radioRowSabt{
+        margin-bottom: 12px;
+    }
+    .radioRowSabt > span{
+        font-size: 9px;
+        margin-right: 2px;
+    }
+    .noemelkSabt{
+        width: 100%;
+    }
+    .noemelkSabt > div{
+        margin-left: 4px;
+        
+    }
+    .noemelkBoxSabt{
+        padding: 8px 8px;
+    }
+    .extramargSabt{
+        margin-top: 16px;
+    }
+    .explanesdivSabt{
+        width: 100%;
+        margin-right: 8px;
+        font-size: 10px;
+        margin-bottom: 11px;
+    }
+    .sabtAndTaeedBox{
+        width: 100%;
+        margin-top: 36px;
+        padding: 12px 14px;
+        border-radius: 12px;
+    }
+    .forcheckboxLateer{
+        margin-left: 4px;
+    }
+    .sabtBtnNahaee{
+        border-radius: 8px;
+        padding: 8px 21px;
+        font-size: 8px;
+        box-shadow: #fd480062 0px 10px 17px -5px, #fd480073 0px 8px 8px -8px;
+    }
+    .sabtAndTaeedBox span{
+        font-size: 8px;
+    }
+    .fixPaddingSabt{
+        padding: 7px !important;
+    }
+    .checkCustomSabtchekced{
+        font-size: 9.4px;
+        width: 12px;
+        height:12px;
+        border-radius: 4px;
+    }
+    .checkCustomSabt{
+        font-size: 9.4px;
+        padding: 0px;
+        border: 1px solid #b9b9b9;
+        width: 12px;
+        height:12px;
+        border-radius: 4px;
+    }
+    .chekcBoxRowSabt> span{
+        font-size: 8px;
+        margin-right: 4px;
+    }
+    .mapBoxcontainerSabt{
+        height: 262px;
+        border-radius: 10px;
+        border: 1px solid #a0a0a0;
+        width: 100%;
+    }
+    .secondSectionSabtForm{
+        padding: 0px 8px;
+        width: 100%;
+        padding-left:0;
+        flex-direction: column;
+    }
+    .rightSecondSectionSabtForm{
+        flex: 0.62;
+        padding-right: 1px;
+        padding-left: 16px;
+        width: 104%;
+    }
+    .borderRigthDivContainerForm{
+        top: 24px;
+        bottom: 17px;
+        left: 0px;
+        border-left: 1px solid #797979;
+    }
+    .inputBoxSabt textarea{
+        width: 100%;
+        height: 132px;
+    }
+    .gheimatRowBoxSabt{
+        width: 98%;
+    }
+    .checkBoxesContainerSabtFrom{
+        flex: 0.370;
+        padding-bottom: 8px;
+        padding-right: 8px;
+    }
+    .checkBoxGridSabts{
+        width: 105%;
+        grid-gap: 5px 0px;
+    }
+    .checkBoxGridSabts span{
+        font-size: 9px !important;
+    }
+    .checkBoxContianerItemSabt{
+        width: 85px;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        padding: 5px 4px;
+    }
+    .imageChooseComponentSabt{
+        width: 100%;
+        height: 90px;
+        margin: 10px 0px;
+    }
+    .addnewImageDivSabt{
+        height: 73px;
+        width: 73px;
+        margin-right: 8px;
+        border-radius: 17px;
+        border: 1.8px dashed #b3b3b3;
+        font-size: 31px;
+    
+    }
+    .DP_SelectPlaceHolderSabt{
+        font-size: 12px;
+    }   
+}
+
+@media screen and (max-width:440px) {
+    .sabtAgahi{
+        width:360px;
+        margin-top: 30px;
+    }
+    .sabtAgahiHeader h2{
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+    .sabtAgahiHeader{
+        width: 100%;
+        margin-bottom: 14px;
+    }
+    .tabContainerSabt{
+        height: 26px;
+        width: 87%;
+    }
+    .sabtTabdivSabt{
+        flex: 0.48;
+        border-top-left-radius: 11px;
+        border-top-right-radius: 11px;
+        margin: 0px 1px;
+    }
+    .sabtTabdivSabtActive{
+        transition: all ease-out 0.24s;
+    }
+    .spaceCurveSabtTab{
+        flex: 0.2;
+        height: 100%;
+    }
+    .sabtTabdivSabt h3{
+        font-size: 8px;
+    }
+    .sabtAgahiContainer{
+        border-radius: 20px;
+        width: 100%;
+        padding: 20px 10px;
+        margin-bottom: 24px;
+    }
+    .firstSectionSabt{
+        width: 100%;
+        flex-direction: column;
+    }
+    .firstFormSabt{
+        flex: 0.63;
+        flex-direction: column;
+    }
+    .mapSectionSabt{
+        width: 97%;
+        margin-bottom: 20px;
+    }
+    .mapExplaceSabt{
+        font-size: 11px;
+        width: 100%;
+        margin-top: -4px;
+        margin-bottom: 4px;
+    }
+    .mapExplaceSabt span{
+        font-size: 8px;
+        margin-right:2px;
+    }
+    .firstFormSabt{
+        width: 100%;
+    }
+    .firstFormSabt >div{
+        flex: 0.5;
+        width: 100%;
+        margin-right: 8px;
+    }
+    .formLabelSabt{
+        font-size: 9px;
+        margin-right: 8px;
+        margin-bottom:  5px;
+    }
+    .resSpecialMarginTop{
+        margin-top: -9px !important;
+    }
+    .inputBoxSabt{
+        width: 98%;
+        min-height: 32px;
+        margin-bottom: 15px;
+        border-radius: 9px;
+        padding:12px 12px;
+        padding-bottom: 4px;
+    }
+    .radioRowSabt{
+        margin-bottom: 12px;
+    }
+    .radioRowSabt > span{
+        font-size: 9px;
+        margin-right: 2px;
+    }
+    .noemelkSabt{
+        width: 100%;
+    }
+    .noemelkSabt > div{
+        margin-left: 4px;
+        
+    }
+    .noemelkBoxSabt{
+        padding: 8px 8px;
+    }
+    .extramargSabt{
+        margin-top: 16px;
+    }
+    .explanesdivSabt{
+        width: 100%;
+        margin-right: 8px;
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+    .sabtAndTaeedBox{
+        width: 100%;
+        margin-top: 36px;
+        padding:9px 10px;
+        border-radius: 12px;
+    }
+    .forcheckboxLateer{
+        margin-left: 4px;
+    }
+    .sabtBtnNahaee{
+        border-radius: 8px;
+        padding: 8px 10px;
+        font-size: 7px;
+        box-shadow: #fd480062 0px 10px 10px -5px, #fd480073 0px 8px 8px -8px;
+    }
+    .sabtAndTaeedBox span{
+        font-size: 8px;
+    }
+    .fixPaddingSabt{
+        padding: 7px !important;
+    }
+    .checkCustomSabtchekced{
+        font-size: 9.4px;
+        width: 12px;
+        height:12px;
+        border-radius: 4px;
+    }
+    .checkCustomSabt{
+        font-size: 9.4px;
+        padding: 0px;
+        border: 1px solid #b9b9b9;
+        width: 12px;
+        height:12px;
+        border-radius: 4px;
+    }
+    .chekcBoxRowSabt> span{
+        font-size: 8px;
+        margin-right: 4px;
+    }
+    .mapBoxcontainerSabt{
+        height: 262px;
+        border-radius: 10px;
+        border: 1px solid #a0a0a0;
+        width: 100%;
+    }
+    .secondSectionSabtForm{
+        padding: 0px 8px;
+        width: 100%;
+        padding-left:0;
+        flex-direction: column;
+    }
+    .rightSecondSectionSabtForm{
+        flex: 0.62;
+        padding-right: 1px;
+        padding-left: 16px;
+        width: 104%;
+    }
+    .borderRigthDivContainerForm{
+        top: 24px;
+        bottom: 17px;
+        left: 0px;
+        border-left: 1px solid #797979;
+    }
+    .inputBoxSabt textarea{
+        width: 100%;
+        height: 92px;
+    }
+    .gheimatRowBoxSabt{
+        width: 98%;
+    }
+    .checkBoxesContainerSabtFrom{
+        flex: 0.370;
+        padding-bottom: 8px;
+        padding-right: 8px;
+    }
+    .checkBoxGridSabts{
+        width: 105%;
+        grid-gap: 5px 0px;
+    }
+    .checkBoxGridSabts span{
+        font-size: 9px !important;
+    }
+    .checkBoxContianerItemSabt{
+        width: 85px;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        padding: 5px 4px;
+    }
+    .imageChooseComponentSabt{
+        width: 100%;
+        height: 80px;
+        margin: 10px 0px;
+    }
+    .addnewImageDivSabt{
+        height: 63px;
+        width: 63px;
+        margin-right: 8px;
+        border-radius: 12px;
+        border: 1.8px dashed #b3b3b3;
+        font-size: 26px;
+    
+    }
+    .DP_SelectPlaceHolderSabt{
+        font-size: 12px;
+    }   
+}
+
+@media screen and (max-width:370px) {
+    .sabtAgahi{
+        width:320px;
+        margin-top: 30px;
+    }
+    .sabtAgahiHeader h2{
+        font-size: 12px;
+        margin-bottom: 4px;
+    }
+    .sabtAgahiHeader{
+        width: 100%;
+        margin-bottom: 14px;
+    }   
+    .tabContainerSabt{
+        height: 26px;
+        width: 87%;
+    }
+    .sabtTabdivSabt{
+        flex: 0.48;
+        border-top-left-radius: 11px;
+        border-top-right-radius: 11px;
+        margin: 0px 1px;
+    }
+    .sabtTabdivSabtActive{
+        transition: all ease-out 0.24s;
+    }
+    .spaceCurveSabtTab{
+        flex: 0.2;
+        height: 100%;
+    }
+    .sabtTabdivSabt h3{
+        font-size: 8px;
+    }
+    .sabtAgahiContainer{
+        border-radius: 20px;
+        width: 100%;
+        padding: 20px 10px;
+        margin-bottom: 24px;
+    }
+    .firstSectionSabt{
+        width: 100%;
+        flex-direction: column;
+    }
+    .firstFormSabt{
+        flex: 0.63;
+        flex-direction: column;
+    }
+    .mapSectionSabt{
+        width: 97%;
+        margin-bottom: 20px;
+    }
+    .mapExplaceSabt{
+        font-size: 11px;
+        width: 100%;
+        margin-top: -4px;
+        margin-bottom: 4px;
+    }
+    .mapExplaceSabt span{
+        font-size: 8px;
+        margin-right:2px;
+    }
+    .firstFormSabt{
+        width: 100%;
+    }
+    .firstFormSabt >div{
+        flex: 0.5;
+        width: 100%;
+        margin-right: 8px;
+    }
+    .formLabelSabt{
+        font-size: 9px;
+        margin-right: 8px;
+        margin-bottom:  5px;
+    }
+    .resSpecialMarginTop{
+        margin-top: -9px !important;
+    }
+    .inputBoxSabt{
+        width: 98%;
+        min-height: 32px;
+        margin-bottom: 15px;
+        border-radius: 9px;
+        padding:12px 12px;
+        padding-bottom: 4px;
+    }
+    .radioRowSabt{
+        margin-bottom: 12px;
+    }
+    .radioRowSabt > span{
+        font-size: 9px;
+        margin-right: 2px;
+    }
+    .noemelkSabt{
+        width: 100%;
+    }
+    .noemelkSabt > div{
+        margin-left: 4px;
+        
+    }
+    .noemelkBoxSabt{
+        padding: 8px 8px;
+    }
+    .extramargSabt{
+        margin-top: 16px;
+    }
+    .explanesdivSabt{
+        width: 100%;
+        margin-right: 8px;
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+    .sabtAndTaeedBox{
+        width: 100%;
+        margin-top: 36px;
+        padding:9px 10px;
+        border-radius: 12px;
+        flex-direction: column;
+    }
+    .forcheckboxLateer{
+        margin-left: 4px;
+    }
+    .sabtBtnNahaee{
+        margin-top: 10px;
+        border-radius: 8px;
+        padding: 8px 20px;
+        font-size: 7px;
+        box-shadow: #fd480062 0px 10px 10px -5px, #fd480073 0px 8px 8px -8px;
+    }
+    .sabtAndTaeedBox span{
+        font-size: 8px;
+    }
+    .fixPaddingSabt{
+        padding: 7px !important;
+    }
+    .checkCustomSabtchekced{
+        font-size: 9.4px;
+        width: 12px;
+        height:12px;
+        border-radius: 4px;
+    }
+    .checkCustomSabt{
+        font-size: 9.4px;
+        padding: 0px;
+        border: 1px solid #b9b9b9;
+        width: 12px;
+        height:12px;
+        border-radius: 4px;
+    }
+    .chekcBoxRowSabt> span{
+        font-size: 8px;
+        margin-right: 4px;
+    }
+    .mapBoxcontainerSabt{
+        height: 262px;
+        border-radius: 10px;
+        border: 1px solid #a0a0a0;
+        width: 100%;
+    }
+    .secondSectionSabtForm{
+        padding: 0px 8px;
+        width: 100%;
+        padding-left:0;
+        flex-direction: column;
+    }
+    .rightSecondSectionSabtForm{
+        flex: 0.62;
+        padding-right: 1px;
+        padding-left: 16px;
+        width: 104%;
+    }
+    .borderRigthDivContainerForm{
+        top: 24px;
+        bottom: 17px;
+        left: 0px;
+        border-left: 1px solid #797979;
+    }
+    .inputBoxSabt textarea{
+        width: 100%;
+        height: 92px;
+    }
+    .gheimatRowBoxSabt{
+        width: 98%;
+    }
+    .checkBoxesContainerSabtFrom{
+        flex: 0.370;
+        padding-bottom: 8px;
+        padding-right: 8px;
+    }
+    .checkBoxGridSabts{
+        width: 105%;
+        grid-gap: 5px 0px;
+    }
+    .checkBoxGridSabts span{
+        font-size: 9px !important;
+    }
+    .checkBoxContianerItemSabt{
+        width: 85px;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        padding: 5px 4px;
+    }
+    .imageChooseComponentSabt{
+        width: 100%;
+        height: 80px;
+        margin: 10px 0px;
+    }
+    .addnewImageDivSabt{
+        height: 63px;
+        width: 63px;
+        margin-right: 8px;
+        border-radius: 12px;
+        border: 1.8px dashed #b3b3b3;
+        font-size: 26px;
+    
+    }
+    .DP_SelectPlaceHolderSabt{
+        font-size: 12px;
+    }   
+}

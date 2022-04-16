@@ -1,0 +1,86 @@
+.BaaHam_PropertyUser_Marketer {
+    width: 100%;
+}
+.BaaHam_PU_MarketerInputPercentBigContainer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width:100%;
+
+}
+.BaaHam_NU_ProfileInputsContainer {
+
+}
+.BaaHam_PU_MarketerInputPercentContainer {
+    width: 46%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:20px;
+    column-gap: 10px;
+
+}
+.BaaHam_PU_MarketerInputTitleContainer {
+    background-color: rgb(52, 52, 52);
+    color:rgb(245,245,245);
+    width: 42%;
+    height:36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9.5px;
+    font-weight: bold;
+    min-width: 100px;
+    
+}
+.BaaHam_PU_MarketerInputTitleContainer > span {
+    padding-bottom: 5px;
+}
+.BaaHam_PU_MarketerInput {
+    width: 93%;
+    margin:0px;
+    height: 36px;
+
+}
+
+.BaaHam_PU_MarketerButtonContainer {
+    margin-top:20px;
+}
+.BaaHam_NU_ProfileButton {
+    margin-left:20px;
+}
+.BaaHam_PU_Marketer_TablesContainer {
+    display: flex;
+    flex-direction: column;
+    border-top:1px solid rgb(245, 245, 245);
+    margin-top:50px;
+}
+
+
+@media screen and (max-width : 970px) {
+    .BaaHam_PU_MarketerInputPercentContainer {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .BaaHam_PU_MarketerInput {
+        width: 93%;
+   
+    }
+
+    
+}
+
+@media screen and (max-width :600px)  {
+    .BaaHam_PU_MarketerInputPercentBigContainer {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width :400px) {
+    .BaaHam_PU_MarketerInputTitle {
+        font-size: 9px;
+       
+    }
+}

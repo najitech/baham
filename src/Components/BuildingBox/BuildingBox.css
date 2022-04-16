@@ -1,0 +1,112 @@
+.BuildingBox {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px 10px;
+    padding-right:20px;
+    box-shadow: 0px 2px 5px 1px rgb(221, 221, 221);
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 0.7fr 1.1fr 1.25fr 1.25fr 1.1fr 1.1fr 1.1fr 2.4fr;
+}
+.BuildingBox > div {
+    display: flex;
+    align-items: center;
+    border-left:2px solid rgb(230, 230, 230);
+    justify-content: center;
+    font-size: 12px;
+    color:rgb(130, 130, 130);
+    font-weight: bold;
+    height: 23px;
+}
+.BuildingBoxItem1 {
+    /*width: 7%;*/
+    display: flex;
+    align-items: center;
+    justify-content: right !important;
+    box-sizing: border-box;
+}/*
+.BuildingBoxItem2 {
+    width: 11%;
+}
+.BuildingBoxItem3 {
+    width: 12.5%;
+}
+
+.BuildingBoxItem4 {
+    width: 12.5%;
+}
+.BuildingBoxItem5 {
+    width: 11%;
+}
+.BuildingBoxItem6 {
+    width: 11%;
+}
+.BuildingBoxItem7 {
+    width: 11%;
+}*/
+.BuildingBoxItem8 {
+    /*width: 24%;*/
+    border: none !important;
+    justify-content: space-between !important;
+    padding-right:10px;
+    box-sizing: border-box;
+}
+.BuildingBoxItemTitle1 {
+    margin-right:10px;
+}
+
+
+.BuildingBoxItem1Tick {
+    background-color: transparent !important;
+    border: 1px solid rgb(230, 230, 230);
+    color:var(--color)
+}
+.BuildingBoxItem8Icons {
+    display: flex;
+    align-items: center;
+}
+.BuildingBoxItem8Icon {
+    background-color: rgb(245,245,245);
+    border-radius: 6px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color:rgb(78, 78, 78);
+    margin-right:10px;
+    cursor: pointer;
+}
+.BuildingBoxItem8IconLast {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 218, 217);
+    color:rgb(239, 56, 52);
+}
+
+.BuildingBoxItemTitleState {
+    padding:5px 10px;
+    border-radius: 10px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.BuildingBoxItemStateNew {
+    background-color:rgb(212, 244, 255) ;
+    color:rgb(73, 179, 217);
+}
+.BuildingBoxItemStateInProgress {
+    background-color:rgb(254, 248, 212) ;
+    color:rgb(240, 195, 45);
+}
+.BuildingBoxItemStateReferred {
+    background-color:rgb(255, 217, 217) ;
+    color:rgb(240, 77, 74);
+} 
+.BuildingBoxItemStateCompleted{
+    background-color:rgb(216, 254, 237) ;
+    color:rgb(60, 179, 124);
+} 

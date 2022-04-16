@@ -1,0 +1,666 @@
+.BaaHam_NormalUsers {
+
+}
+
+.BaaHam_NormalUsersHeader {
+    height: 270px;
+    width: 100%;
+    background-color: rgb(73, 78, 84);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.BaaHam_NormalUsersContentContainer {
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    background-color: rgb(245, 245, 245) !important;
+    height: 100vh;
+}
+
+.BaaHam_NormalUsersHeaderTopContainerWhite {
+    width: 100%;
+    background-color: white;
+
+}
+
+.BaaHam_NormalUsersContenttransparent {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    top:-10px;
+    background-color: rgb(245,245,245);
+
+
+}
+.BaaHam_NormalUsersContent {
+    position: absolute !important;
+    top:-30px !important;
+}
+.BaaHam_NormalUsersContent {
+    background-color: white;
+    width: 65%;
+    margin:auto;
+    height:auto;
+    border-radius: 25px;
+    display: flex;
+    padding:30px 0px;
+    margin-bottom: 50px;
+    max-width: 936px;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+.BaaHam_NUContentSideBar {
+    border-left:2px solid rgb(245, 245, 245);
+    padding:0px 20px;
+    flex:0.25;
+}
+.BaaHam_NUContentForm {
+    flex:0.75;
+    position: relative;
+}
+.BaaHam_NUContentSideBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.BaaHam_NUContentSideBarUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.BaaHam_NUContentSideBarUserPicture {
+    width: 130px;
+    height: 130px;
+    background: linear-gradient(0deg, rgba(254, 73, 2,1) 0%, rgba(255, 114, 60,1) 100%);
+    border-radius: 25%;
+    position: absolute;
+    top:-40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BaaHam_NUContentSideBarUserName {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: IRANSansX;
+}
+.BaaHam_NUContentSideBarUserEmail {
+    margin-top:5px;
+    color:rgb(189, 189, 189);
+    font-size: 14px;
+}
+.BaaHam_NUContentSideBarOptions {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+.BaaHam_NULink {
+    text-decoration: none;
+    color:rgb(116, 116, 116);
+    padding-bottom: 7px;
+}
+.BaaHam_NULink :hover {
+    color:rgba(254, 79, 10, 0.445);
+    transition: all 0.1s ease;
+}
+.BaaHam_NULinkActive {
+    color: rgb(254, 78, 10)
+}
+.BaaHam_NULinkActive:hover {
+    color: rgb(254, 78, 10) 
+}
+.BaaHam_NUContentSideBarOption {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top:30px;
+
+    color:rgb(116, 116, 116);
+    cursor: pointer;
+    transition: all 0.1s ease;
+  
+}
+.BaaHam_NUContentSideBarOption:hover {
+    color:rgba(254, 79, 10, 0.445);
+    transition: all 0.1s ease;
+}
+.BaaHam_NUContentSideBarOptionActive {
+    color:rgb(254, 78, 10);
+    border-right:7.5px solid rgb(254, 78, 10);
+    margin-right:7.5px;
+}
+.BaaHam_NUContentSideBarOptionActive:hover {
+    color:rgb(254, 78, 10)
+}
+.BaaHam_NUContentSideBarOptionIcon {
+    font-size: 20px;
+    margin-right:27px;
+}
+
+.BaaHam_NUContentSideBarOptionTitle {
+    font-size:15px;
+    margin-right:10px;
+    font-weight: bold;
+    padding-bottom: 7px;
+    font-family: IRANSansX;
+
+}
+.BaaHam_NUContentForm {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    padding-left:60px;
+}
+.BaaHam_NUContentFormHeader {
+    width: 100%;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+}
+.BaaHam_NUContentFormHeaderTitle {
+    margin-bottom: 16px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: IRANSansX;
+}
+
+.BaaHam_NormalUsersHeaderTopContainer {
+    background-color: white;
+    max-width: 900px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+}
+.BaaHam_NormalUsersHeaderTopRight {
+    display: flex;
+    align-items: center;
+}
+.BaaHam_NormalUsersHeaderImageContainer {
+
+}
+.BaaHam_NormalUsersHeaderImage {
+    width: 110px;
+    height: 50px;
+}
+.BaaHam_NormalUsersHeaderImageTitle {
+    font-size: 13px;
+    margin-right:10px;
+    font-weight: bold;
+    color:rgb(52, 52, 52)
+}
+.BaaHam_NormalUsersHeaderCenter {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: space-between;
+}
+.BaaHam_NormalUsersHeaderCenterTitle {
+    font-size: 12px;
+    color: rgb(150, 150, 150);
+    margin:0px 5px;
+    font-weight: bold;
+}
+.BaaHam_NormalUsersHeaderLeft {
+    display: flex;
+    align-items: center;
+
+
+}
+.BaaHam_NormalUsersHeaderLeftTitle {
+    font-size: 13px;
+    color:rgb(52, 52, 52);
+    margin-left:12px;
+    font-weight: bold;
+}
+.BaaHam_NUContentSideBarUserPictureSelf {
+    width: 103px;
+    height: 100px;
+    margin-left:3px;
+}   
+
+
+.BaaHam_NUContentSideBarUserExitButtonContainer {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top:auto;
+    margin-bottom: 30px;
+    width: 73%;
+    height: 41px;
+    border-radius: 8px;
+    justify-content: center;
+    cursor: pointer;
+    margin-top:90px;
+}
+.BaaHam_NUContentSideBarUserExitButtonTitle {
+    color:rgb(52, 52, 52);
+    margin-right:4px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: IRANSansX;
+}
+.BaaHam_NUContentSideBarUserExitButton {
+    color:rgb(254, 84, 17);
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BaaHam_NUContentSideBarUser2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    margin:auto;
+
+}
+.BaaHam_NUContentSideBarUserName3 {
+    display: none !important;
+}
+.BaaHam_NUContentSideBarUserName2 {
+    flex:0.27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BaaHam_NUContentSideBarUserPicture2Container {
+    flex:0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BaaHam_NUContentSideBarUserPicture2  {
+  
+}
+.BaaHam_NUContentSideBarUserEmail2 {
+    flex:0.27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BaaHam_NUContentSideBarUserPicture2 {
+    width: 130px;
+    height: 130px;
+    background: linear-gradient(0deg, rgba(254, 73, 2,1) 0%, rgba(255, 114, 60,1) 100%);
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BaaHam_NUContentFormUserImageContainer {
+    position: absolute;
+    width: 100%;
+    top:-125px;
+    left:7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+
+
+.BaaHam_NUContentFormHeaderSliderIcon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+
+    border-bottom: 2px solid rgb(245, 245, 245);
+}
+.BaaHam_NUContentFormHeaderSliderIcon {
+    margin:0px ;
+}
+.LinksTopHeaderContent_Icon {
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+.BaaHam_NUContentSideBarRes {
+    display: inline !important;
+}
+
+.MuiDrawer-paper {
+    width: 230px !important;
+    padding: 20px 0px !important;
+
+}
+.MuiDrawer-root {
+    background-color: transparent !important;
+}
+
+.BaaHamMainFooterContainer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 936px;
+    margin:auto;
+    padding-top:30px;
+    width: 90%;
+}
+.BaaHam_NUContentSideBarRes {
+    padding: 0px;
+    margin: 0px;
+}
+.MuiDrawer-paper {
+    background-color: rgb(245, 245, 245) !important;
+}
+.BaaHamMainFooter {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+
+
+    padding-bottom: 30px;
+}
+.BaaHamMainFooter2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 30px;
+    flex-direction: row;
+}
+
+.BaaHamMainFooter2RightCenter {
+    display: flex;
+    flex-direction: column;
+    flex:0.5;
+
+}
+.BaaHamMainFooterRight2 {
+    flex:0.5;
+}
+.BaaHamMainFooterRight {
+    flex:0.3;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.BaaHamMainFooterRightAboutUs {
+    color:rgb(253, 72, 0);
+    font-size: 12px;
+    font-weight: bold;
+}   
+
+.BaaHamMainFooterRightAboutUsContent {
+    color:rgb(106, 106, 106);
+    font-size: 11px;
+    margin-top:10px;
+    margin-bottom: 10px;
+       overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 12; /* number of lines to show */
+           line-clamp: 12; 
+   -webkit-box-orient: vertical;
+}
+.BaaHamMainFooterLeftIconLast {
+    color: rgb(254, 72, 0);
+    font-size: 28px;
+}
+
+
+.BaaHamMainFooterCenter {
+    flex:0.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:baseline;
+}
+.BaaHam_NormalUsersFooterCenterTitle {
+    margin-top:20px;
+}
+.BaaHam_NormalUsersFooterCenterTitleNoMargin {
+    margin-top:0px;
+}
+.BaaHamMainFooterLeft {
+    flex:0.3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.BaaHam_NormalUsersFooterImage2Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+}   
+
+.BaaHam_NormalUsersFooterImage2 {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.BaaHamMainFooterLeftIconsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin:auto;
+    margin-top:30px;
+    font-size:21px;
+    color:rgb(113, 111, 113);
+}
+
+.BaaHamMainFooterCenter2 {
+    flex-direction: row;
+    align-items: center;
+}
+
+.BaaHamMainFooter2 {
+    display: none;
+}
+.BaaHamMainFooter2Big {
+    display: none;
+}
+
+
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+    transition: all 0ms ea;
+  }
+  
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 250ms ease-in;
+  }
+
+  @keyframes example {
+    from {
+        opacity: 0;
+        margin-top:40px;
+    }
+    to {
+        opacity: 1;
+        margin-top:0px;
+    }
+  }
+
+.BaaHam_RouteItem {
+    animation-name: example;
+    animation-duration: 1.3s;
+    width: 100%;
+
+}
+
+
+@media screen and (max-width : 1300px) {
+
+    .BaaHam_NUContentSideBarOptionTitle {
+        font-size: 13px;
+    }
+    .BaaHam_NUContentSideBarOptionIcon {
+        margin-right:20px;
+    }
+}
+@media screen and (max-width : 1100px) {
+
+    .BaaHam_NUContentSideBarOptionTitle {
+        font-size: 12px;
+    }
+    .BaaHam_NUContentSideBarOptionIcon {
+        margin-right:10px;
+    }
+    .BaaHam_NUContentSideBar {
+        display: none;
+    }
+    .BaaHam_NUContentForm {
+        flex:1 !important;
+        box-sizing: border-box !important;
+        padding:0px 10px !important;
+        margin:0px;
+        align-items: center;
+        width: 100% !important;
+        margin:0px !important;
+    }
+    .LinksTopHeaderContent_Icon {
+        display: inline;
+    }
+
+    .BaaHam_NUContentFormHeader {
+
+    }
+    .BaaHam_NUContentFormHeaderSliderIcon {
+        margin-top:40px;
+    }
+    .BaaHam_NUContentFormHeaderTitle {
+        font-size: 15px;
+    }
+    .BaaHam_NUContentSideBarUserName2 {
+        font-size: 14px;
+    }
+    .BaaHam_NUContentFormUserImageContainer {
+        display: inline;
+    }
+    .BaaHam_NUContentFormHeaderTitle {
+        margin:0px;
+    }
+    .BaaHam_NUContentFormHeader {
+        align-items: center;
+    }
+    .BaaHam_NUContentFormHeaderSliderIcon {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width : 848px) {
+    .BaaHam_NUContentSideBarUserName2 {
+        font-size: 12px;
+    }
+    .BaaHam_NUContentSideBarUserEmail2 {
+        font-size: 12px;
+    }
+    .BaaHam_NUContentSideBarUserPicture2 {
+        width: 110px;
+        height: 110px;
+    }
+    .BaaHam_NUContentSideBarUserPictureSelf2 {
+        width: 83px;
+        height: 80px;
+        margin-left:3px;
+    }
+    .BaaHam_NUContentFormUserImageContainer {
+        top:-110px;
+    }
+
+}
+
+@media screen and (max-width : 707px) {
+    .BaaHam_NUContentSideBarUserName2 {
+        font-size: 12px;
+    }
+    .BaaHam_NUContentSideBarUserEmail2 {
+        font-size: 12px;
+    }
+    .BaaHam_NUContentSideBarUser2 {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .BaaHam_NUContentSideBarUserName2 {
+        display: none;
+    }
+    .BaaHam_NUContentSideBarUserName3 {
+        display: inline !important;
+        margin-top:10px;
+    }
+    .BaaHam_NUContentFormUserImageContainer {
+        top:-130px;
+    }
+
+}
+@media screen and (max-width : 700px) {
+    .BaaHam_NormalUsersContenttransparent {
+        top:-10px;
+    }
+}
+@media screen and (max-width : 625px) {
+    .BaaHam_NormalUsersContent {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width : 549px) {
+    .BaaHamMainFooter {
+        display: none;
+    }
+    .BaaHamMainFooter2 {
+        display: flex;
+    }
+    .BaaHamMainFooter2Big {
+        display: inline;
+    }
+    .BaaHamMainFooterRight2 {
+        flex:0.5;
+    }
+    .BaaHamMainFooter2RightCenter {
+        flex:0.4;
+    }
+    .BaaHam_NormalUsersFooterImage2ContainerRes {
+        margin-top:30px;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    .BaaHam_NormalUsersHeader {
+        height: 240px;
+    }
+}
+@media screen and (max-width:700px) {
+    .BaaHam_NormalUsersHeader {
+        height: 200px;
+    }
+}
+@media screen and (max-width:600px) {
+    .BaaHam_NormalUsersHeader {
+        height: 170px;
+    }
+}
+@media screen and (max-width:360px) {
+    .BaaHam_NormalUsersHeader {
+        height: 190px;
+    }
+}
