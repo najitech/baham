@@ -117,7 +117,7 @@ function BaaHam_ContentproductionUser_Make() {
             </div>
           </div>
           <div className='BaaHam_NU_ProfileInputContainer'>
-                <span className='BaaHam_NU_ProfileInputTitle'>نوشته تازه</span>
+                <span className='BaaHam_NU_ProfileInputTitle'>نوشته تازه <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
                 <div className='InputExactContainerForBack'>
                   <input className='BaaHam_NU_ProfileInput' type="text" />
                 </div>

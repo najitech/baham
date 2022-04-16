@@ -1,10 +1,18 @@
 import React from 'react'
 import './BaaHam_NormalUsers_Profile.css'
+import Alert from '../../../Alert/Alert'
 
 function BaaHam_NormalUsers_Profile() {
-    
+    let Alerts = [
+        "این میتواند ارور اول باشد که نمایان میشود",
+        "ارور دوم در اینجا به نمایش در می آید",
+        "سومین نکته میتواند اینجا به کاربر نمایش داده شود"
+    ]
   return (
     <div className='BaaHam_NormalUsers_Profile'>
+        <Alert Alerts={Alerts}/>
+        <Alert Alerts={Alerts} color="Orange"/>
+        <Alert Alerts={Alerts} color="Red"/>
         <div className='BaaHam_NU_ProfileInputsContainer'>
             <div className='BaaHam_NU_ProfileInputContainer'>
                 <span className='BaaHam_NU_ProfileInputTitle'>نام <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>

@@ -161,7 +161,7 @@ function BaaHam_PropertyUser(props) {
                     </div>
                     <div className='BaaHam_NUContentFormHeaderSliderIcon'>
                       <div className='BaaHam_NUContentFormHeader'>
-                          <span className='BaaHam_NUContentFormHeaderTitle'>باهم | داشبورد کاربر املاک</span>
+                          <h2 className='BaaHam_NUContentFormHeaderTitle'>باهم | داشبورد کاربر املاک</h2>
                       </div>
                     
                       <div className='LinksTopHeaderContent_Icon' onClick={() => setDP_DrawerB(true)}>
