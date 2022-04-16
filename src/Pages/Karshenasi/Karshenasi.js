@@ -145,7 +145,7 @@ function Karshenasi(props) {
                   <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
                 </div>
               </div>
-              <div className='stepperItemKar'>
+              <div className='stepperItemKar stepperItemKar1'>
                 <div className='stepperHeaderKar'>
                 <h3>ثبت سفارش کارشناسی ملک</h3>
                 </div>
@@ -153,7 +153,20 @@ function Karshenasi(props) {
                   <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
                 </div>
               </div>
-              <div className='stepperItemKar'>
+              <div className='stepperItemKar stepperItemKar2'>
+                <div className='stepperItemKarAbsolute'>
+                    <div className='stepperItemKarAbsolutetraingle'>
+
+                    </div>
+                </div>
+                <div className='stepperHeaderKar stepperItemKar3'>
+                <h3>ثبت سفارش کارشناسی</h3>
+                </div>
+                <div className='stepperParKar'>
+                  <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
+                </div>
+              </div>
+              <div className='stepperItemKar stepperItemKar4'>
                 <div className='stepperHeaderKar'>
                 <h3>ثبت سفارش کارشناسی</h3>
                 </div>
@@ -161,15 +174,7 @@ function Karshenasi(props) {
                   <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
                 </div>
               </div>
-              <div className='stepperItemKar'>
-                <div className='stepperHeaderKar'>
-                <h3>ثبت سفارش کارشناسی</h3>
-                </div>
-                <div className='stepperParKar'>
-                  <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
-                </div>
-              </div>
-              <div className='stepperItemKar'>
+              <div className='stepperItemKar stepperItemKar5'>
                 <div className='stepperHeaderKar'>
                 <h3>ثبت سفارش کارشناسی</h3>
                 </div>

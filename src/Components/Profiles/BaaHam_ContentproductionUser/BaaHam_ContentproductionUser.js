@@ -59,19 +59,20 @@ function BaaHam_ContentproductionUser(props) {
                             <span className='BaaHam_NUContentSideBarUserEmail'>Example@gmail.com</span>
                         </div>
                         <div className='BaaHam_NUContentSideBarOptions'>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===1 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(1)}>
+                          <ul className='BaaHam_NUContentSideBarOptionsUL'>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===1 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(1)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <CgProfile/>
                             </div>
                             <Link className={['BaaHam_NULink' , sidebar===1 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/profile`}><span className='BaaHam_NUContentSideBarOptionTitle'>پروفایل</span></Link>
-                            </div>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===2 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(2)}>
+                            </li>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===2 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(2)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <MdOutlineEditNote/>
                             </div>
                             <Link className={['BaaHam_NULink' , sidebar===2 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/make`}><span className='BaaHam_NUContentSideBarOptionTitle'>تولید محتوا   </span></Link>
                             
-                            </div>
+                            </li>
 
 
                             <div className='BaaHam_NUContentSideBarUserExitButtonContainer'>
@@ -80,6 +81,7 @@ function BaaHam_ContentproductionUser(props) {
                             </div> 
                             <span className='BaaHam_NUContentSideBarUserExitButtonTitle'>خروج</span>
                             </div>
+                          </ul>
                         </div>
                 
                     </div>
@@ -165,20 +167,21 @@ function BaaHam_ContentproductionUser(props) {
         <Drawer  className="Links_Drawer" anchor={'right'} open={DP_DrawerB} onClose={() => setDP_DrawerB(false)} >
               <div className='BaaHam_NUContentSideBar BaaHam_NUContentSideBarRes'>
            
-                        <div className='BaaHam_NUContentSideBarOptions'>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===1 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(1)}>
+              <div className='BaaHam_NUContentSideBarOptions'>
+                          <ul className='BaaHam_NUContentSideBarOptionsUL'>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===1 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(1)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <CgProfile/>
                             </div>
                             <Link onClick={() => setDP_DrawerB(false)} className={['BaaHam_NULink' , sidebar===1 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/profile`}><span className='BaaHam_NUContentSideBarOptionTitle'>پروفایل</span></Link>
-                            </div>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===2 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(2)}>
+                            </li>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===2 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(2)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <MdOutlineEditNote/>
                             </div>
                             <Link onClick={() => setDP_DrawerB(false)} className={['BaaHam_NULink' , sidebar===2 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/make`}><span className='BaaHam_NUContentSideBarOptionTitle'>تولید محتوا   </span></Link>
                             
-                            </div>
+                            </li>
 
 
                             <div className='BaaHam_NUContentSideBarUserExitButtonContainer'>
@@ -187,6 +190,7 @@ function BaaHam_ContentproductionUser(props) {
                             </div> 
                             <span className='BaaHam_NUContentSideBarUserExitButtonTitle'>خروج</span>
                             </div>
+                          </ul>
                         </div>
                 
                     </div>

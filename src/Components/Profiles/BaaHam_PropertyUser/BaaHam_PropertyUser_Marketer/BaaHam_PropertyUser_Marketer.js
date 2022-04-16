@@ -16,25 +16,25 @@ function BaaHam_PropertyUser_Marketer() {
     <div className='BaaHam_PropertyUser_Marketer'>
         <div className='BaaHam_NU_ProfileInputsContainer'>
         <div className='BaaHam_NU_ProfileInputContainer'>
-            <span className='BaaHam_NU_ProfileInputTitle'>نام</span>
+            <span className='BaaHam_NU_ProfileInputTitle'>نام <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
             <div className='InputExactContainerForBack'>
                 <input className='BaaHam_NU_ProfileInput' type="text" />
             </div>
         </div>
         <div className='BaaHam_NU_ProfileInputContainer'>
-            <span className='BaaHam_NU_ProfileInputTitle'>نام خانوادگی</span>
+            <span className='BaaHam_NU_ProfileInputTitle'>نام خانوادگی <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
             <div className='InputExactContainerForBack'>
                 <input className='BaaHam_NU_ProfileInput' type="text" />
             </div>
         </div>
         <div className='BaaHam_NU_ProfileInputContainer'>
-            <span className='BaaHam_NU_ProfileInputTitle'>شماره تلفن</span>
+            <span className='BaaHam_NU_ProfileInputTitle'>شماره تلفن <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
             <div className='InputExactContainerForBack'>
                 <input className='BaaHam_NU_ProfileInput' type="text" />
             </div>
         </div>
         <div className='BaaHam_NU_ProfileInputContainer'>
-            <span className='BaaHam_NU_ProfileInputTitle'>ایمیل</span>
+            <span className='BaaHam_NU_ProfileInputTitle'>ایمیل <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
             <div className='InputExactContainerForBack'>
                 <input className='BaaHam_NU_ProfileInput' type="text"  />
             </div>

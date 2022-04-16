@@ -11,8 +11,10 @@ function DropDown1(props) {
     const q920 = useMediaQuery({ query: '(max-width: 920px)' })
     const q775 = useMediaQuery({ query: '(max-width: 775px)' })
     const q715 = useMediaQuery({ query: '(max-width: 715px)' })
+    const q434 = useMediaQuery({ query: '(max-width: 434px)' })
     let fontSizeRes = "12px";
     let selectWidth ="275px"
+    let minwidthM = "220px"
     if (q1380) {
       selectWidth = "245px"
     }
@@ -25,10 +27,11 @@ function DropDown1(props) {
       fontSizeRes="11px"
     }
     if (q775 ) {
-      fontSizeRes = "9.5px"
+      fontSizeRes = "11px"
     }
     if (q715 ) {
       fontSizeRes = "11px"
+      minwidthM = "150px"
     }
 
     const res500 = useMediaQuery({ query: '(max-width: 500px)' })
@@ -51,7 +54,7 @@ function DropDown1(props) {
           minHeight:selectHeight,
           height:selectHeight,
           width:'100%',
-          minWidth:"220px",
+          minWidth:minwidthM,
           border:'none',
           borderRadius:"10px",
           backgroundColor:'rgb(245, 245, 245)',

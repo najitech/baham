@@ -1,9 +1,11 @@
 .header{
     max-width: 100vw;
+ 
     margin: auto;
     direction: rtl;
     align-items: center;
     display: flex;
+    justify-content:center;
     position: sticky;
     top: 0;
     background-color: white;

@@ -1,8 +1,10 @@
 .ChiefDashbord_sidebar {
-    flex:0.16;
     background-color: white;
     box-shadow: -8px 0px 25px 1px rgb(233, 233, 233);
     z-index: 10;
+    min-width: 160px;
+    height: 100%;
+    padding-top:20px;
 }
 .ChiefDashbord_sidebarProfile {
     display: flex;

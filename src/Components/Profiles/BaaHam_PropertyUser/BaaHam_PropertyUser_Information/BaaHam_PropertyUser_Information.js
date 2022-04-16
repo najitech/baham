@@ -104,13 +104,13 @@ function BaaHam_PropertyUser_Information() {
           <div className='BaaHam_MU_InformationInputsContainer'>
             <div className='BaaHam_NU_ProfileInputContainer3 BaaHam_NU_ProfileInputContainer3MURes'>
                 <div className='BaaHam_NU_ProfileInputContainer BaaHam_MU_InformationInputContainer'>
-                    <span className='BaaHam_NU_ProfileInputTitle'>تلفن ثابت</span>
+                    <span className='BaaHam_NU_ProfileInputTitle'>تلفن ثابت <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
                     <div className='InputExactContainerForBack InputExactContainerForBackMUinformation'>
                         <input className='BaaHam_NU_ProfileInput BaaHam_MU_InformationInput1 ' type="text" />
                     </div>
                 </div>
                  <div className='BaaHam_NU_ProfileInputContainer BaaHam_MU_InformationInputContainer'>
-                    <span className='BaaHam_NU_ProfileInputTitle BaaHam_MU_InformationInputTitle '>کد شهر </span>
+                    <span className='BaaHam_NU_ProfileInputTitle BaaHam_MU_InformationInputTitle '>کد شهر <span className='BaaHam_NU_ProfileInputTitleStar'>*</span> </span>
                     <div className='InputExactContainerForBack InputExactContainerForBackMUinformation'>
                         <input className='BaaHam_NU_ProfileInput BaaHam_MU_InformationInput2 ' type="text" />
                     </div>
@@ -120,27 +120,27 @@ function BaaHam_PropertyUser_Information() {
             </div>
    
             <div className='BaaHam_NU_ProfileInputContainer '>
-                <span className='BaaHam_NU_ProfileInputTitle'> کد ملی</span>
+                <span className='BaaHam_NU_ProfileInputTitle'> کد ملی <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
                 <div className='InputExactContainerForBack InputExactContainerForBackMUinformation'>
                     <input className='BaaHam_NU_ProfileInput' type="text" />
                 </div>
             </div>
         </div>
         <div className='BaaHam_NU_ProfileTextAreaContainer BaaHam_MU_ProfileTextAreaContainer'>
-            <span className='BaaHam_NU_ProfileInputTitle'>آدرس</span>
+            <span className='BaaHam_NU_ProfileInputTitle'>آدرس <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
             <div className='InputExactContainerForBackTextArea'>
                 <textarea  className='BaaHam_NU_ProfileTextArea' />
             </div>
         </div>
         <div className='BaaHam_MU_ProfileInputsContainer'>
             <div className='BaaHam_NU_ProfileInputContainer BaaHam_MU_ProfileInputsContainerFlex'>
-                <span className='BaaHam_NU_ProfileInputTitle '>نام</span>
+                <span className='BaaHam_NU_ProfileInputTitle '>نام <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
                 <div className='InputExactContainerForBack InputExactContainerForBackMUinformation'>
                     <input className='BaaHam_NU_ProfileInput BaaHam_MU_ProfileInput3 ' type="text" />
                 </div>
             </div>
             <div className='BaaHam_MU_Information_ChooseBankContainer'>
-                <span className='BaaHam_NU_ProfileInputTitle'>نام بانک</span>
+                <span className='BaaHam_NU_ProfileInputTitle'>نام بانک <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
                 <div className='BaaHam_MU_Information_ChooseBankSelect'>
                     <Select
                             placeholder="انتخاب محله"
@@ -156,13 +156,13 @@ function BaaHam_PropertyUser_Information() {
         <div className='BaaHam_MU_InformationInputsContainer'>
             <div className='BaaHam_NU_ProfileInputContainer3 BaaHam_NU_ProfileInputContainer3MURes'>
                 <div className='BaaHam_NU_ProfileInputContainer BaaHam_MU_InformationInputContainer'>
-                    <span className='BaaHam_NU_ProfileInputTitle'>نام شعبه </span>
+                    <span className='BaaHam_NU_ProfileInputTitle'>نام شعبه <span className='BaaHam_NU_ProfileInputTitleStar'>*</span> </span>
                     <div className='InputExactContainerForBack InputExactContainerForBackMUinformation'>
                         <input className='BaaHam_NU_ProfileInput BaaHam_MU_InformationInput1' type="text" />
                     </div>
                 </div>
                 <div className='BaaHam_NU_ProfileInputContainer BaaHam_MU_InformationInputContainer'>
-                    <span className='BaaHam_NU_ProfileInputTitle BaaHam_MU_InformationInputTitle'>کد شعبه </span>
+                    <span className='BaaHam_NU_ProfileInputTitle BaaHam_MU_InformationInputTitle'>کد شعبه <span className='BaaHam_NU_ProfileInputTitleStar'>*</span> </span>
                     <div className='InputExactContainerForBack InputExactContainerForBackMUinformation'>
                         <input className='BaaHam_NU_ProfileInput BaaHam_MU_InformationInput2' type="text" />
                     </div>
@@ -170,7 +170,7 @@ function BaaHam_PropertyUser_Information() {
             </div>
    
             <div className='BaaHam_NU_ProfileInputContainer'>
-                <span className='BaaHam_NU_ProfileInputTitle'> شماره کارت </span>
+                <span className='BaaHam_NU_ProfileInputTitle'> شماره کارت <span className='BaaHam_NU_ProfileInputTitleStar'>*</span> </span>
                 <div className='InputExactContainerForBack InputExactContainerForBackMUinformation'>
                     <input className='BaaHam_NU_ProfileInput' type="text" />
                 </div>
@@ -179,13 +179,13 @@ function BaaHam_PropertyUser_Information() {
         <div className='BaaHam_MU_InformationInputsContainer BaaHam_MU_InformationInputsContainer4'>
             <div className='BaaHam_NU_ProfileInputContainer3 BaaHam_NU_ProfileInputContainer3MURes BaaHam_NU_ProfileInputContainer3MURes2 BaaHam_NU_ProfileInputContainer32'>
                 <div className='BaaHam_NU_ProfileInputContainer BaaHam_MU_InformationInputContainer4_1'>
-                    <span className='BaaHam_NU_ProfileInputTitle'>شماره حساب </span>
+                    <span className='BaaHam_NU_ProfileInputTitle'>شماره حساب <span className='BaaHam_NU_ProfileInputTitleStar'>*</span> </span>
                     <div className='InputExactContainerForBack InputExactContainerForBackMUinformation'>
                         <input className='BaaHam_NU_ProfileInput BaaHam_MU_InformationInput4_1' type="text" />
                     </div>
                 </div>
                 <div className='BaaHam_NU_ProfileInputContainer BaaHam_MU_InformationInputContainer4'>
-                    <span className='BaaHam_NU_ProfileInputTitle BaaHam_MU_InformationInputTitle'>شماره شبا  </span>
+                    <span className='BaaHam_NU_ProfileInputTitle BaaHam_MU_InformationInputTitle'>شماره شبا <span className='BaaHam_NU_ProfileInputTitleStar'>*</span>  </span>
                     <div className='InputExactContainerForBack InputExactContainerForBackMUinformation'>
                         <input className='BaaHam_NU_ProfileInput BaaHam_MU_InformationInput4' type="text" />
                     </div>
@@ -194,7 +194,7 @@ function BaaHam_PropertyUser_Information() {
         </div>
         <div className='BaaHam_MU_InformationFooterContainer'>
             <div className='BaaHam_MU_InformationLabelContainer'>
-                <span className='BaaHam_NU_ProfileInputTitle'>لیبل مشاور املاک</span>
+                <span className='BaaHam_NU_ProfileInputTitle'>لیبل مشاور املاک <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
                 <div className='BaaHam_MU_InformationLabel'>
 
                 </div>

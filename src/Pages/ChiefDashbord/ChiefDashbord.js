@@ -7,20 +7,20 @@ import {BsPlusSquare} from 'react-icons/bs'
 import ChiefDashbord_filters from './ChiefDashbord_filters/ChiefDashbord_filters'
 import DropDown2 from '../../Components/DropDown2/DropDown2'
 import CheckBox from '../../Components/CheckBox/CheckBox'
-
+import ProfileImage from '../../user.png'
 import ChiefDashbord_Chart from './ChiefDashbord_Chart'
 import ChiefDashbord_Text from './ChiefDashbord_Text'
 import BuildingBox from '../../Components/BuildingBox/BuildingBox'
-
+import {HiMenu} from 'react-icons/hi'
 import PersonBox from '../../Components/PersonBox/PersonBox'
-
-
+import Drawer from '@mui/material/Drawer';
+import useDocumentTitle from '../../Components/TitleSetter/useDocumentTitle'
+import ChiefDashbord_sidebar_res from './ChiefDashbord_sidebar_res'
 
 
 function ChiefDashbord() {
-
- 
-
+    useDocumentTitle("باهم | داشبورد کاربر ارشد")
+    const [DP_DrawerB,setDP_DrawerB] = useState(true)
 
   let persons = [
     {
@@ -80,12 +80,18 @@ function ChiefDashbord() {
 ];
   return (
     <div className='ChiefDashbord'>
-        <ChiefDashbord_sidebar ChiefName="متین نوروزپور" path=""/>
+        <div className='ChiefDashbord_SidebarContainer'>
+            <ChiefDashbord_sidebar ChiefName="متین نوروزپور" path="" userProfile={ProfileImage}/>
+        </div>
+      
         <div className='ChiefDashbord_Feed'>
             <div className='ChiefDashbord_FeedHeader'>
                 <div className='ChiefDashbord_FeedHeaderTitleContainer'>
-                  <div className='ChiefDashbord_FeedHeaderTitleBor'></div>
-                  <span className='ChiefDashbord_FeedHeaderTitle'>داشبورد مدیر ارشد</span>
+                    <div className='ChiefDashbord_sideBarOpenIconContainer' onClick={() => setDP_DrawerB(true)}>
+                        <HiMenu className='ChiefDashbord_sideBarOpenIcon'/>
+                    </div>
+                    <div className='ChiefDashbord_FeedHeaderTitleBor'></div>
+                    <span className='ChiefDashbord_FeedHeaderTitle'>داشبورد مدیر ارشد</span>
                 </div>
                 
                 <div className='ChiefDashbord_FeedHeaderLogin'>
@@ -248,12 +254,17 @@ function ChiefDashbord() {
                     <PersonBox person={persons[0]}/>
                 </div>
                 <div>
-                    <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                    <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
                 </div>
             </div>
    
         </div>
-     
+        <Drawer  className="Links_DrawerChiefBoard" anchor={'right'} open={DP_DrawerB} onClose={() => setDP_DrawerB(false)} >
+            <div className='Links_DrawerChiefBoardContainer'>
+                <ChiefDashbord_sidebar_res setDP_DrawerB={setDP_DrawerB} ChiefName="متین نوروزپور" path="" marginTop="0px" userProfile={ProfileImage}/>
+            </div>
+            
+        </Drawer>
     </div>
   )
 }

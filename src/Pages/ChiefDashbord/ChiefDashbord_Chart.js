@@ -2,8 +2,17 @@ import React , {useState} from 'react'
 import './ChiefDashbord_Chart.css'
 import Chart from 'react-apexcharts'
 import moment from 'jalali-moment'
+import { useMediaQuery } from 'react-responsive'
+
+
+
 
 function ChiefDashbord_Chart() {
+    const q640 = useMediaQuery({ query: '(max-width: 640px)' })
+    let chartH = 400;
+    if (q640) {
+      chartH =300;
+    }
     let nowDate = moment();
     let javadate = new Date()
 
@@ -275,7 +284,7 @@ function ChiefDashbord_Chart() {
             </div>
         </div>
         <div className='ChiefDashbord_ChartContainerLeft'>
-            <Chart options={ChartData.options} series={ChartData.series} type="line" height={400} />
+            <Chart options={ChartData.options} series={ChartData.series} type="line" height={chartH} />
         </div>
     </div>
   )

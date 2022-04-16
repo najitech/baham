@@ -79,40 +79,41 @@ function BaaHam_MarketerUser(props) {
                             <span className='BaaHam_NUContentSideBarUserEmail'>Example@gmail.com</span>
                         </div>
                         <div className='BaaHam_NUContentSideBarOptions'>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===1 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(1)}>
+                          <ul className='BaaHam_NUContentSideBarOptionsUL'>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===1 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(1)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <CgProfile/>
                             </div>
                             <Link className={['BaaHam_NULink' , sidebar===1 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/profile`}><span className='BaaHam_NUContentSideBarOptionTitle'>پروفایل</span></Link>
-                            </div>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===2 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(2)}>
+                            </li>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===2 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(2)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <MdOutlineEditNote/>
                             </div>
                             <Link className={['BaaHam_NULink' , sidebar===2 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/sabteagahi`}><span className='BaaHam_NUContentSideBarOptionTitle'>ثبت آگهی</span></Link>
                             
-                            </div>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===3 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(3)}>
+                            </li>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===3 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(3)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <MdManageSearch/>
                             </div>
                             <Link className={['BaaHam_NULink' , sidebar===3 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/information`}><span className='BaaHam_NUContentSideBarOptionTitle'>اطلاعات تکمیلی </span></Link>
                             
-                            </div>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===4 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(4)}>
+                            </li>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===4 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(4)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <GiClick/>
                             </div>
-                            <Link className={['BaaHam_NULink' , sidebar===4 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/introduction`}><span className='BaaHam_NUContentSideBarOptionTitle'> معرفی کاربر</span></Link>
+                            <Link className={['BaaHam_NULink' , sidebar===4 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/introduction`}><span className='BaaHam_NUContentSideBarOptionTitle'> معرفی مشتری</span></Link>
                         
-                            </div>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===5 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(5)}>
+                            </li>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===5 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(5)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <RiFileListLine/>
                             </div>
                             <Link className={['BaaHam_NULink' , sidebar===5 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/money`}><span className='BaaHam_NUContentSideBarOptionTitle'>نقدینگی  </span></Link>
                             
-                            </div>
+                            </li>
   
                             <div className='BaaHam_NUContentSideBarUserExitButtonContainer'>
                             <div className='BaaHam_NUContentSideBarUserExitButton'>
@@ -120,6 +121,7 @@ function BaaHam_MarketerUser(props) {
                             </div> 
                             <span className='BaaHam_NUContentSideBarUserExitButtonTitle'>خروج</span>
                             </div>
+                          </ul>
                         </div>
                 
                     </div>
@@ -253,42 +255,42 @@ function BaaHam_MarketerUser(props) {
         </div>
         <Drawer  className="Links_Drawer" anchor={'right'} open={DP_DrawerB} onClose={() => setDP_DrawerB(false)} >
         <div className='BaaHam_NUContentSideBar BaaHam_NUContentSideBarRes'>
-            
-                        <div className='BaaHam_NUContentSideBarOptions'>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===1 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(1)}>
+        <div className='BaaHam_NUContentSideBarOptions'>
+                          <ul className='BaaHam_NUContentSideBarOptionsUL'>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===1 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(1)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <CgProfile/>
                             </div>
                             <Link onClick={() => setDP_DrawerB(false)} className={['BaaHam_NULink' , sidebar===1 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/profile`}><span className='BaaHam_NUContentSideBarOptionTitle'>پروفایل</span></Link>
-                            </div>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===2 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(2)}>
+                            </li>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===2 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(2)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <MdOutlineEditNote/>
                             </div>
                             <Link onClick={() => setDP_DrawerB(false)}  className={['BaaHam_NULink' , sidebar===2 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/sabteagahi`}><span className='BaaHam_NUContentSideBarOptionTitle'>ثبت آگهی</span></Link>
                             
-                            </div>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===3 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(3)}>
+                            </li>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===3 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(3)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <MdManageSearch/>
                             </div>
                             <Link onClick={() => setDP_DrawerB(false)} className={['BaaHam_NULink' , sidebar===3 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/information`}><span className='BaaHam_NUContentSideBarOptionTitle'>اطلاعات تکمیلی </span></Link>
                             
-                            </div>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===4 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(4)}>
+                            </li>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===4 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(4)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <GiClick/>
                             </div>
-                            <Link onClick={() => setDP_DrawerB(false)} className={['BaaHam_NULink' , sidebar===4 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/introduction`}><span className='BaaHam_NUContentSideBarOptionTitle'> معرفی کاربر</span></Link>
+                            <Link onClick={() => setDP_DrawerB(false)} className={['BaaHam_NULink' , sidebar===4 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/introduction`}><span className='BaaHam_NUContentSideBarOptionTitle'> معرفی مشتری</span></Link>
                         
-                            </div>
-                            <div className={['BaaHam_NUContentSideBarOption' , sidebar===5 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(5)}>
+                            </li>
+                            <li className={['BaaHam_NUContentSideBarOption' , sidebar===5 ? "BaaHam_NUContentSideBarOptionActive" : ""].join(" ")} onClick={() => Setsidebar(5)}>
                             <div className='BaaHam_NUContentSideBarOptionIcon'>
                             <RiFileListLine/>
                             </div>
                             <Link onClick={() => setDP_DrawerB(false)} className={['BaaHam_NULink' , sidebar===5 ? "BaaHam_NULinkActive" : ""].join(" ")} to={`/${props.path}/money`}><span className='BaaHam_NUContentSideBarOptionTitle'>نقدینگی  </span></Link>
                             
-                            </div>
+                            </li>
   
                             <div className='BaaHam_NUContentSideBarUserExitButtonContainer'>
                             <div className='BaaHam_NUContentSideBarUserExitButton'>
@@ -296,7 +298,9 @@ function BaaHam_MarketerUser(props) {
                             </div> 
                             <span className='BaaHam_NUContentSideBarUserExitButtonTitle'>خروج</span>
                             </div>
+                          </ul>
                         </div>
+                
                 
                     </div>
         </Drawer>

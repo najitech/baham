@@ -4,6 +4,11 @@ import { deepOrange } from '@mui/material/colors';
 import Checkbox from '@mui/material/Checkbox';
 
 function BaaHam_NormalUsers_Check() {
+     
+    const goToTop = () => {
+        console.log("hi")
+        window.scrollTo(0,0)
+      };
   return (
     <div className='BaaHam_NormalUsers_Checks'>
         <div className='BaaHam_NormalUsers_ChecksHeader'>
@@ -22,13 +27,13 @@ function BaaHam_NormalUsers_Check() {
         <div className='BaaHam_NormalUsers_ChecksInputs'>
             <div className='BaaHam_NormalUsers_ChecksRightInputs'>
                 <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-                <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>منطقه </span>
+                <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>منطقه <span className='BaaHam_NU_ProfileInputTitleStar'>*</span> </span>
                 <div className='InputExactContainerForBack'>
                 <input className='BaaHam_NU_SabteAgahiBottomGridInput'></input>
                 </div>
                 </div>
                 <div className='BaaHam_NU_SabteAgahiBottomGrid BaaHam_NU_SabteAgahiBottomGridCheck2'>
-                <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>کد پستی </span>
+                <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>کد پستی <span className='BaaHam_NU_ProfileInputTitleStar'>*</span> </span>
                 <div className='InputExactContainerForBack'>
                     <input className='BaaHam_NU_SabteAgahiBottomGridInput'></input>
                 </div>
@@ -36,7 +41,7 @@ function BaaHam_NormalUsers_Check() {
             </div>
             <div className='BaaHam_NormalUsers_ChecksLeftInput'>
                 <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-                    <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>آدرس دقیق </span>
+                    <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>آدرس دقیق <span className='BaaHam_NU_ProfileInputTitleStar'>*</span> </span>
                     <div className='InputExactContainerForBackTextArea InputExactContainerForBackTextAreaCheckNormal'>
                         <textarea  className='BaaHam_NU_ProfileTextArea BaaHam_NU_ProfileTextAreaCheck' />
                     </div>
@@ -45,7 +50,7 @@ function BaaHam_NormalUsers_Check() {
         </div>
         <div className='BaaHam_NU_ProfileButtonContainer'>
             <div className='BaaHam_NU_ProfileButton BaaHam_NU_ProfileButtonCheck2'>
-                <span>ثبت</span>
+                <span onClick={() => goToTop()}>ثبت</span>
             </div>
         </div>
     </div>

@@ -94,3 +94,57 @@
 .ChiefDashbord_ChartContainerRightLegendCircleActive {
     background-color: var(--color) !important;
 }
+
+
+@media screen and (max-width : 1160px) { 
+      .ChiefDashbord_ChartContainer {
+            flex-direction: column-reverse;
+      }
+      .ChiefDashbord_ChartContainerLeft {
+          width: 100%;
+      }
+      .ChiefDashbord_ChartContainerRight{
+          width: 100%;
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center !important;
+          justify-content: right; 
+      }
+      .ChiefDashbord_ChartContainerRightLegends {
+            flex-direction: row;
+            align-items: center ;
+            margin:auto 0px;
+            margin-right:50px;
+      }
+      .ChiefDashbord_ChartContainerRightLegend {
+          margin:0px 10px;
+      }
+      .ChiefDashbord_ChartContainer {
+        padding:20px 3px;
+        }   
+}
+
+@media screen and (max-width : 535px)  {
+    .ChiefDashbord_ChartContainerLeft {
+        width: 100%;
+        padding: 0px;
+        flex:0.2;
+
+    }
+    .ChiefDashbord_ChartContainerRightLegendTitle {
+        font-size: 12px;
+    }
+    .ChiefDashbord_ChartContainerRightLegends {
+        margin-right:30px;
+    }
+
+}
+@media screen and (max-width : 508px) {
+    .ChiefDashbord_ChartContainerRightLegends  {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .ChiefDashbord_ChartContainerRightLegend {
+        margin-top:10px;
+    }
+}

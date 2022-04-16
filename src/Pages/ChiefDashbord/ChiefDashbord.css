@@ -7,10 +7,12 @@
     margin-bottom: 50px;
     font-family: IRANYekan;
     max-width: 1500px;
+    position: relative;
 }
 .ChiefDashbord_Feed {
     flex:0.84;
-
+    width: 100%;
+    overflow-x: hidden;
 }
 .ChiefDashbord_FeedHeader {
     display: flex;
@@ -85,7 +87,9 @@
 .ChiefDashbord_FeedContent {
     padding:0px 30px;
     box-sizing: border-box;
-
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
 }
 .ChiefDashbord_FeedContentEvaluationContainer {
     width: 100%;
@@ -245,6 +249,10 @@
 }
 .ChiefDashbord_FeedBuildings {
     margin-top:30px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: scroll;
+    position: relative;
 }
 .ChiefDashbord_FeedBuildingstitles {
     box-sizing: border-box;
@@ -256,6 +264,7 @@
     font-weight: bold;
     padding: 0px 10px;
     margin-bottom: 10px;
+    min-width: 710px;
 }
 .ChiefDashbord_FeedBuildingstitles > span {
    text-align: center;
@@ -400,7 +409,10 @@
 
 .PersonBoxesContainer {
     width: 100%;
-    margin-top:30px
+    margin-top:30px;
+    box-sizing: border-box;
+    overflow-x: scroll;
+    position: relative;
 }
 .ChiefDashbord_FeedPersonBoxestitles {
     display: grid;
@@ -412,8 +424,49 @@
     margin-bottom: 10px;
     box-sizing: border-box;
     width: 100%;
+    min-width: 850px;
 }
 
+
+
+.ChiefDashbord_FeedBuildings::-webkit-scrollbar {
+    width: 3px;
+    height: 3px; 
+}
+
+.ChiefDashbord_FeedBuildings::-webkit-scrollbar-thumb {
+    background-color: rgba(254, 72, 0, 0.726);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    
+  }
+.ChiefDashbord_FeedBuildings::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: rgba(254, 72, 0, 0.219);
+    padding: 4px 0px;
+    height: 10px;
+  }
+
+
+
+
+
+
+  .PersonBoxesContainer::-webkit-scrollbar {
+    width: 3px;
+    height: 3px; 
+}
+
+.PersonBoxesContainer::-webkit-scrollbar-thumb {
+    background-color: rgba(254, 72, 0, 0.726);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    
+  }
+.PersonBoxesContainer::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: rgba(254, 72, 0, 0.219);
+    padding: 4px 0px;
+    height: 10px;
+  }
 
 
 
@@ -531,3 +584,165 @@ text-align: center;
     font-size: 13px;
     font-weight: bold;
   }
+
+.ChiefDashbord_SidebarContainer {
+    flex:0.16;
+}
+.Links_DrawerChiefBoard {
+    background-color: white;
+}
+.Links_DrawerChiefBoardContainer {
+    background-color: white;
+    z-index: 1000;
+    margin-top:-20px;
+
+}
+.ChiefDashbord_sideBarOpenIconContainer {
+    color:rgb(128, 128, 128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-left:10px;
+}
+
+@media screen and (max-width : 1156px) {
+    .ChiefDashbord_FeedTotalAmountTitleINpureIncome {
+
+    }
+    .ChiefDashbord_FeedTotalAmount {
+        width: 40%;
+    }
+    .ChiefDashbord_FeedInpureIncome {
+        width: 60%;
+    }
+
+    .ChiefDashbord_FeedCosts {
+        width: 70%;
+    }
+}
+@media screen and (max-width : 980px) {
+    .ChiefDashbord_FeedTotalAmountTitleINpureIncome {
+
+    }
+    .ChiefDashbord_FeedTotalAmount {
+        width: 50%;
+    }
+    .ChiefDashbord_FeedInpureIncome {
+        width: 70%;
+    }
+
+    .ChiefDashbord_FeedCosts {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .ChiefDashbord_SidebarContainer {
+        display: none;
+    }
+    .ChiefDashbord {
+        width: 95%;
+    }
+    .ChiefDashbord_Feed {
+        flex:1;
+    }
+    .ChiefDashbord_FeedHeader {
+
+    }
+
+}
+@media screen and (max-width : 638px) {
+    .ChiefDashbord_FeedHeaderLoginTitle1 {
+        display: none;
+    }
+    .ChiefDashbord_FeedHeaderLoginTitle2 {
+        display: none;
+    }
+    .ChiefDashbord_FeedHeaderTitle {
+        font-size: 11px;
+    }
+    .ChiefDashbord_FeedHeaderLogout {
+        margin-right:0px;
+    }
+    .ChiefDashbord_FeedContent {
+        padding:0px 10px;
+    }
+    .ChiefDashbord_FeedTotalAmount {
+        width: 60%;
+    }
+    .ChiefDashbord_FeedInpureIncome {
+        width: 80%;
+    }
+
+    .ChiefDashbord_FeedCosts {
+        width: 90%;
+    }
+    .ChiefDashbord_FeedTotalAmountTitleINpureIncome {
+        font-size: 11px;
+    }
+    .ChiefDashbord_FeedTotalAmountNumber {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width : 535px)  {
+    .ChiefDashbord_FeedTotalAmount {
+        width: 70%;
+    }
+    .ChiefDashbord_FeedInpureIncome {
+        width: 90%;
+    }
+
+    .ChiefDashbord_FeedCosts {
+        width: 100%;
+    }
+    .ChiefDashbord_FeedSharesTitle {
+        font-size: 11px;
+        flex:0.33;
+    }
+    .ChiefDashbord_FeedShare {
+        flex:0.3 !important;
+    }
+}
+
+@media screen and (max-width : 504px) {
+
+    .PostFilters2Top {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+    .PostFilters2TopInputContainer {
+        margin-top:10px;
+        margin-right:0px;
+    }
+}
+@media screen and (max-width : 430px) {
+    .ChiefDashbord_FeedSharesTitle {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width : 420px)  {
+    .ChiefDashbord_FeedTotalAmount {
+        width: 70%;
+    }
+    .ChiefDashbord_FeedInpureIncome {
+        width: 90%;
+    }
+    .ChiefDashbord_FeedCosts {
+        width: 100%;
+    }
+    .ChiefDashbord_FeedTotalAmountNumberContainer {
+        flex:0.67;
+    }
+    .ChiefDashbord_FeedTotalAmountTitle {
+        flex:0.33;
+    }
+}
+@media screen and (max-width : 395px) {
+    .ChiefDashbord_FeedSharesTitle {
+        font-size: 9.5px;
+    }
+}

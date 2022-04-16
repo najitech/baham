@@ -8,7 +8,9 @@
     box-shadow: 0px 2px 5px 1px rgb(221, 221, 221);
     margin-bottom: 10px;
     display: grid;
-    grid-template-columns: 0.7fr 1.1fr 1.25fr 1.25fr 1.1fr 1.1fr 1.1fr 2.4fr;
+    grid-template-columns: minmax(45px, 0.7fr) minmax(60px, 1.1fr) minmax(70px, 1.25fr) minmax(70px, 1.25fr) minmax(60px, 1.1fr) minmax(100px, 1.1fr) minmax(60px, 1.1fr) minmax(240px, 2.4fr);
+    width: 100%;
+    min-width: 710px;
 }
 .BuildingBox > div {
     display: flex;
@@ -110,3 +112,28 @@
     background-color:rgb(216, 254, 237) ;
     color:rgb(60, 179, 124);
 } 
+
+@media screen and (max-width : 1200px) {
+    .BuildingBox > div {
+        font-size: 10px;
+    }
+}
+
+
+.BuildingBox::-webkit-scrollbar {
+    width: 2px;
+    height: 3px; 
+
+}
+
+.BuildingBox::-webkit-scrollbar-thumb {
+    background-color: rgba(254, 72, 0, 0.726);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    
+  }
+.BuildingBox::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: rgba(254, 72, 0, 0.219);
+    padding: 4px 0px;
+    height: 10px;
+  }

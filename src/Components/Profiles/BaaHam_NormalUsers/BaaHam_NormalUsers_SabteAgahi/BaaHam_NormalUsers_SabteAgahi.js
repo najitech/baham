@@ -1,4 +1,4 @@
-import React , {useState} from 'react'
+import React , {useState,useEffect} from 'react'
 import './BaaHam_NormalUsers_SabteAgahi.css'
 import SabteAgahi_DropDown from './SabteAgahi_DropDown'
 import { styled } from '@mui/system';
@@ -91,6 +91,12 @@ const Root = styled('span')(
 
 
 function BaaHam_NormalUsers_SabteAgahi() {
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  });
+
+
   const [ImageSrcs , setImageSrc] = useState([]);
   const HandlesetImageSrc = (e) => {
     let temp = ImageSrcs;
@@ -226,9 +232,15 @@ const customStyles = {
       { label: 'Option 4', value: 'Option 4'},
   ];
   const label = { componentsProps: { input: { 'aria-label': 'Demo switch' } } };
+  
+  const settest2 = () => {
+    console.log("hi");
+    window.scrollTo(0,0)
+  }
 
   return (
-    <div className='BaaHam_NormalUsers_SabteAgahi'>
+    <div className='BaaHam_NormalUsers_SabteAgahi' id="scroller">
+     
         <span className='BaaHam_NormalUsers_SabteAgahiTitle1'>ثبت آگهی</span>
         <div className='BaaHam_NU_SabteAgahiTopGrid'>
             <SabteAgahi_DropDown placeholder="اجاره مسکونی"/>
@@ -311,7 +323,7 @@ const customStyles = {
         </div>
         <div className='BaaHam_NU_SabteAgahiBottomGrids'>
             <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>متراژ</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>متراژ <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2'>
               <input className='BaaHam_NU_SabteAgahiBottomGridInput'></input>
               </div>
@@ -340,73 +352,74 @@ const customStyles = {
               </div>
             </div>
             <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>ودیعه</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>ودیعه <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               
               <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2'>
                 <input className='BaaHam_NU_SabteAgahiBottomGridInput'></input>
               </div>
             </div>
             <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>اجاره ماهانه</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>اجاره ماهانه <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2'>
                 <input className='BaaHam_NU_SabteAgahiBottomGridInput'></input>
               </div>
   
             </div>
             <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>ودیعه و اجاره</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>ودیعه و اجاره <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2'>
                 <input className='BaaHam_NU_SabteAgahiBottomGridInput'></input>
               </div>
             </div>
             <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>مناسب برای</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>مناسب برای <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2'>
                 <input className='BaaHam_NU_SabteAgahiBottomGridInput'></input>
               </div>
             </div>
             <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>تعداد اتاق</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>تعداد اتاق <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2'>
                 <input className='BaaHam_NU_SabteAgahiBottomGridInput'></input>
               </div>
             </div>
             <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>سال ساخت</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>سال ساخت <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2'>
                 <input className='BaaHam_NU_SabteAgahiBottomGridInput'></input>
               </div>
             </div>      
             <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>طبقه</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>طبقه <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2'>
                 <input className='BaaHam_NU_SabteAgahiBottomGridInput'></input>
               </div>
             </div>     
             <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>آسانسور</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>آسانسور <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2'>
                 <input className='BaaHam_NU_SabteAgahiBottomGridInput'></input>
               </div>
             </div>
             <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>پارکینگ</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>پارکینگ <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2'>
                 <input className='BaaHam_NU_SabteAgahiBottomGridInput'></input>
               </div>
             </div>
             <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>انباری</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridTitle'>انباری <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2'>
                 <input className='BaaHam_NU_SabteAgahiBottomGridInput'></input>
               </div>
             </div>
         </div>
+  
         <div className='BaaHam_NU_SabteAgahiMoreFeaturesTitle'>
           <span>انتخاب سایر ویژگی ها و امکانات</span>
         </div>
         <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-              <span className='BaaHam_NU_SabteAgahiBottomGridTitle BaaHam_NU_SabteAgahiBottomGridTitleExact' >شماره موبایل</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridTitle BaaHam_NU_SabteAgahiBottomGridTitleExact' >شماره موبایل <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               <span className='BaaHam_NU_SabteAgahiBottomGridDescribe'>کد تایید به شماره موبایل شما ارسال خواهد شد. تماس و چت نز با این شماره انجام می شود.</span>
               <span className='BaaHam_NU_SabteAgahiBottomGridDescribe'>توجه: لطفا پس از ثبت آگهی، به پشامک های پرداخت وجه بی اعتنا باشید.</span>
               <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2 BaaHam_NU_SabteAgahiBottomGridInputForBack2Agahi'>
@@ -414,14 +427,14 @@ const customStyles = {
               </div>
         </div>
         <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-          <span className='BaaHam_NU_SabteAgahiBottomGridTitle BaaHam_NU_SabteAgahiBottomGridTitleExact'>عنوان آگهی</span>
+          <span className='BaaHam_NU_SabteAgahiBottomGridTitle BaaHam_NU_SabteAgahiBottomGridTitleExact'>عنوان آگهی <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
           <span className='BaaHam_NU_SabteAgahiBottomGridDescribe'>در عنوان آگهی به موادر مهمی مانند نوع ملک، متراژ و محله اشاره کنید</span>
           <div className='BaaHam_NU_SabteAgahiBottomGridInputForBack2 BaaHam_NU_SabteAgahiBottomGridInputForBack2Agahi'>
             <input className='BaaHam_NU_SabteAgahiBottomGridInput2'></input>
           </div>
         </div>
         <div className='BaaHam_NU_SabteAgahiBottomGrid'>
-              <span className='BaaHam_NU_SabteAgahiBottomGridTitle BaaHam_NU_SabteAgahiBottomGridTitleExact'>توضیحات آگهی</span>
+              <span className='BaaHam_NU_SabteAgahiBottomGridTitle BaaHam_NU_SabteAgahiBottomGridTitleExact'>توضیحات آگهی <span className='BaaHam_NU_ProfileInputTitleStar'>*</span></span>
               <span className='BaaHam_NU_SabteAgahiBottomGridDescribe'>در توضیحات آگهی به مواردی مانند شرایط اجاره، جزئیات و ویژگی های قابل توجه، تسترسی های مجلی و موقعیت قرارگیری ملک اشاره کنید.</span>
               <div className='InputExactContainerForBackTextArea InputExactContainerForBackTextAreaSabteAgahi2'>
                <textarea  className='BaaHam_NU_ProfileTextArea' />
