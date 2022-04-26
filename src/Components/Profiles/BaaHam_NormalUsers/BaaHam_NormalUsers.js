@@ -35,6 +35,7 @@ function BaaHam_NormalUsers(props) {
   const [sidebar ,Setsidebar] = useState(1)
   let currentlocation= useLocation();
   useEffect(() => {
+    console.log(window.pageYOffset)
     if (currentlocation.pathname === `/${props.path}/profile`) {
       Setsidebar(1);
     }
