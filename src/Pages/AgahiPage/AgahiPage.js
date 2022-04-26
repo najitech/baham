@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useEffect,useRef} from 'react'
 import './AgahiPage.css'
 import {IoMdArrowForward,IoMdClose} from 'react-icons/io'
 import {IoCalendarOutline,IoBedOutline,IoCarOutline} from 'react-icons/io5'
@@ -45,8 +45,13 @@ const myArrow=({ type, onClick, isEdge })=> {
       </div>
     )
 }
+
+    const header= useRef(null);
+    useEffect(() => {
+        header.current.scrollIntoView({ behavior: "smooth" });
+        }, []);
   return (
-    <div className='agahiPage'>
+    <div className='agahiPage' ref={header}>
         
         <div className='agahiContainerPage'>
             <div className='informationAgahiContainer'>

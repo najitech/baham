@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect,useRef } from 'react';
 import './Home.css';
 import banner from '../../Images/banner2.png';
 import {BiSearchAlt} from 'react-icons/bi';
@@ -34,10 +34,14 @@ function Home(props) {
   const res500 = useMediaQuery({query :'(max-width : 500px)'});
   const res400 = useMediaQuery({query :'(max-width : 400px)'});
   const res360 = useMediaQuery({query :'(max-width : 360px)'});
+  const header= useRef(null);
 
+  useEffect(() => {
+      header.current.scrollIntoView({ behavior: "smooth"});
+    }, []);
   return (
-    <div className='home'>
-      <div className='bannerHome'>
+    <div className='home' ref={header} >
+      <div className='bannerHome' >
         <img alt='' src={banner}/>
         <div className='headingBanner'>
           <h1>باهم</h1>

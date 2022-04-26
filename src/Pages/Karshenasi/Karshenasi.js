@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useEffect,useRef} from 'react'
 import './Karshenasi.css'
 import {BsCheckLg,BsChevronLeft,BsChevronRight} from 'react-icons/bs'
 import { useState } from 'react'
@@ -39,8 +39,13 @@ function Karshenasi(props) {
       </div>
     )
 }
+const header= useRef(null);
+useEffect(() => {
+      header.current.scrollIntoView({ behavior: "smooth" });
+    }, []);
+
   return (
-    <div className='karshenasi'>
+    <div className='karshenasi' ref={header}>
         <div className='bannerKar'>
           <img alt="" src={banner}/>
         </div>

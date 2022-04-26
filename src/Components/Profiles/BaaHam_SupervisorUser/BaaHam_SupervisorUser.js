@@ -34,7 +34,6 @@ function BaaHam_SupervisorUser(props) {
 
     let currentlocation= useLocation();
     useEffect(() => {
-      console.log(currentlocation.pathname);
       if (currentlocation.pathname === `/${props.path}/profile`) {
         Setsidebar(1);
       }
@@ -45,6 +44,9 @@ function BaaHam_SupervisorUser(props) {
     }, []);
 
 
+    useEffect(() => {
+      props.header.current.scrollIntoView({ behavior: "smooth",block: "end" });
+    });
 
     return (
       <div className='BaaHam_SupervisorUser'>

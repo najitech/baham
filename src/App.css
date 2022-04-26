@@ -90,6 +90,14 @@ span {
     display: none !important;
 }
 
+.HeaderAppContainer {
+    position: sticky;
+    top:0px;
+    z-index: 1000;
+}
+
+
+
 @media screen and (max-width:1500px) {
     .BaaHam_NormalUsersHeaderTopContainerWhite {
         padding-bottom: 30px;

@@ -1,4 +1,4 @@
-import React ,{useState,useEffect} from 'react'
+import React ,{useState,useEffect,useRef} from 'react'
 import './BaaHam_ContentproductionUser.css'
 import BaaHam_ContentproductionUser_Make from './BaaHam_ContentproductionUser_Make/BaaHam_ContentproductionUser_Make'
 import BaaHam_ContentproductionUser_Profile from './BaaHam_ContentproductionUser_Profile/BaaHam_ContentproductionUser_Profile'
@@ -32,7 +32,6 @@ function BaaHam_ContentproductionUser(props) {
 
     let currentlocation= useLocation();
     useEffect(() => {
-      console.log(currentlocation.pathname);
       if (currentlocation.pathname === `/${props.path}/profile`) {
         Setsidebar(1);
       }
@@ -42,7 +41,9 @@ function BaaHam_ContentproductionUser(props) {
 
     }, []);
 
-
+    useEffect(() => {
+      props.header.current.scrollIntoView({ behavior: "smooth",block: "end" });
+    });
 
   return (
     <div className='BaaHam_ContentproductionUser'>

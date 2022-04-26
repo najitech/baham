@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect,useRef} from 'react'
 import './ArchiveAmlak.css'
 import banner from '../../Images/bannerArchiveAmlak.jpg';
 import ColorCheckboxes from '../../Components/FormCustom/CheckBox'
@@ -21,8 +21,12 @@ function ArchiveAmlak(props) {
   const res800 = useMediaQuery({query :'(max-width : 820px)'});
   const res700 = useMediaQuery({query :'(max-width : 706px)'});
   const [sideBar,setSideBar] = useState(0);
+  const header= useRef(null);
+  useEffect(() => {
+        header.current.scrollIntoView({ behavior: "smooth" });
+      }, []);
   return (
-    <div className='amlak'>
+    <div className='amlak' ref={header}>
       <Drawer
        anchor={"rigth"}
        open={sideBar}

@@ -10,7 +10,8 @@
     display: grid;
     grid-template-columns: minmax(45px, 0.7fr) minmax(60px, 1.1fr) minmax(70px, 1.25fr) minmax(70px, 1.25fr) minmax(60px, 1.1fr) minmax(100px, 1.1fr) minmax(60px, 1.1fr) minmax(240px, 2.4fr);
     width: 100%;
-    min-width: 710px;
+    min-width: 740px;
+    box-sizing: border-box;
 }
 .BuildingBox > div {
     display: flex;

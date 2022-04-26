@@ -33,7 +33,7 @@ function Header(props) {
     exact: true
   })
   return (
-    <div className='header'>
+    <div className='header' ref={props.header1}>
         <div className='headerLogo'><div><img alt='' src={pic}/></div></div>
         <nav className='navbar'>
             {!res400?<ul className='navbarList'>

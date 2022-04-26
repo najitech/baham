@@ -1,4 +1,4 @@
-import React , {useState , useEffect} from 'react'
+import React , {useState , useEffect ,useRef} from 'react'
 import './BaaHam_NormalUsers.css'
 import {CgProfile} from 'react-icons/cg'
 import {MdOutlineEditNote,MdManageSearch} from 'react-icons/md'
@@ -55,7 +55,10 @@ function BaaHam_NormalUsers(props) {
     }
   }, []);
 
-  
+ 
+  useEffect(() => {
+    props.header.current.scrollIntoView({ behavior: "smooth",block: "end" });
+  });
 
   return (
     <div className='BaaHam_NormalUsers'>

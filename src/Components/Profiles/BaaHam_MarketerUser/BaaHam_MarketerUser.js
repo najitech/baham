@@ -1,4 +1,4 @@
-import React , {useState,useEffect} from 'react'
+import React , {useState,useEffect ,useRef} from 'react'
 import './BaaHam_MarketerUser.css'
 
 import {CgProfile} from 'react-icons/cg'
@@ -41,7 +41,6 @@ function BaaHam_MarketerUser(props) {
 
     let currentlocation= useLocation();
     useEffect(() => {
-      console.log(currentlocation.pathname);
       if (currentlocation.pathname === `/${props.path}/profile`) {
         Setsidebar(1);
       }
@@ -61,10 +60,12 @@ function BaaHam_MarketerUser(props) {
     }, []);
 
 
-
+    useEffect(() => {
+      props.header.current.scrollIntoView({ behavior: "smooth",block: "end" });
+    });
 
   return (
-    <div className='BaaHam_MarketerUser'>
+    <div className='BaaHam_MarketerUser' >
      
         <div className='BaaHam_NormalUsersContentContainer'>
             <div className='BaaHam_NormalUsersContenttransparent'>

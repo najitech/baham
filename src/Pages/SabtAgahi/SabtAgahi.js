@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useEffect,useRef} from 'react'
 import CustomRadio from '../../Components/FormCustom/CustomRadio'
 import CustomCheckBox from '../../Components/FormCustom/CustomCheckBox'
 import './SabtAgahi.css'
@@ -18,8 +18,12 @@ function SabtAgahi(props) {
   const res500 = useMediaQuery({query :'(max-width : 54 درس   0px)'});
   const res400 = useMediaQuery({query :'(max-width : 400px)'});
   const res360 = useMediaQuery({query :'(max-width : 360px)'});
+  const header= useRef(null);
+  useEffect(() => {
+      header.current.scrollIntoView({ behavior: "smooth" });
+    }, []);
   return (
-    <div className='sabtAgahi'>
+    <div className='sabtAgahi' ref={header}>
       <div className='sabtAgahiHeader'>
         <h2>ملک خود را رایگان آگهی کنید</h2>
       </div>
