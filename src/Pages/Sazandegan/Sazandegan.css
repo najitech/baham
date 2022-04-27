@@ -21,7 +21,7 @@
 .imageAboutDiv2{
     width: 100%;
 }
-@media screen and (max-width:1500px) {
+@media screen and (max-width:20000px) {
     .sazandeganLine{
         width: 511px !important;
         margin-top: 18px;
@@ -36,6 +36,8 @@
         width: 834px !important;
         word-break: break-word;
         margin-left: 14.5px;
+        margin-top: 20px ;
+        font-size: 14px;
     }
     .sazandeganMatn img{
         width: 401px !important;

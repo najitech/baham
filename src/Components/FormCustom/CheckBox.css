@@ -87,7 +87,6 @@
     border: 1.4px solid #8F8F8F;
     background-color: transparent;
     cursor: pointer; 
-    transition: all ease-out 0.2s;  
 }
 .radioCustomKarChecked{
     transition: all ease-in 0.2s;

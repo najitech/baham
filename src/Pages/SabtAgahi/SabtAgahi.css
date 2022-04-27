@@ -190,11 +190,14 @@
     width: 15px;
     height:15px;
     color: white;
+    cursor: pointer;
     border-radius: 6px;
+    transition: 0.2s ease-out background;
 }
 .checkCustomSabt{
     font-size: 12.4px;
     padding: 0px;
+    cursor: pointer;
     display: flex;
     border: 1px solid #b9b9b9;
     align-items: center;
@@ -308,6 +311,12 @@
 .DP_SelectPlaceHolderSabt{
     font-size: 12px;
     color: #b9b9b9;
+}
+.inputNewAgahiSabt{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    font-size: 12px !important;
 }
 @media screen and (max-width:1024px) {
     .sabtAgahi{

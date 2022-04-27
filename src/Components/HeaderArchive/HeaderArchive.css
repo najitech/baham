@@ -3,14 +3,27 @@
     display: flex;
     align-items: center;
     direction: rtl;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 100vw;
+    padding-right: 230px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 3454;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 50px;
     margin: auto;
 }
 .logoAmozeshiHeader{
-    height: 133px;
+    height: 143px;
     width: 347px;
+    right: 5px;
     text-align: center;
-    line-height: 190px;
+    line-height: 240px;
     background-color: #f5f5f5;
+    position: absolute;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
@@ -75,7 +88,7 @@
 }
 @media screen and (max-width:1500px) {
     .HeaderArchive{
-        width: 1090px;
+        width: 100vw;
     }
     .logoAmozeshiHeader{
         height: 105px;
@@ -85,7 +98,7 @@
         border-bottom-right-radius: 24px;
     }
     .logoAmozeshiHeader img{
-        width: 90%;
+        width: 90%; 
     }
     .rowHeaderArchive{
         margin-right: 30px;
@@ -103,6 +116,8 @@
     }
     .linksHeaderArchive{
         width: 351px;
+
+        font-size: 13px !important;
     }
     .bahamSiteButton{
         width: 132px;
@@ -118,7 +133,7 @@
 }
 @media screen and (max-width:1020px) {
     .HeaderArchive{
-        width: 990px;
+        width: 100vw;
     }
     .logoAmozeshiHeader{
         height: 105px;
@@ -146,7 +161,7 @@
     }
     .linksHeaderArchive{
         width: 301px;;
-        font-size: 13px !important;
+        font-size: 12px !important;
     }
     .bahamSiteButton{
         width: 102px;
@@ -162,11 +177,12 @@
 }
 @media screen and (max-width:1020px) {
     .HeaderArchive{
-        width: 860px;
+        width: 100vw;
+        padding-right: 180px;
     }
     .logoAmozeshiHeader{
         height: 105px;
-        width: 226px;
+        width: 180px;
         line-height: 151px;
         border-bottom-left-radius: 19px;
         border-bottom-right-radius: 19px;
@@ -207,14 +223,14 @@
 
 @media screen and (max-width:850px) {
     .HeaderArchive{
-        width: 760px;
+        width: 100vw;
+        padding-right: 160px;
     }
     .logoAmozeshiHeader{
-        height: 75px;
-        width: 226px;
-        line-height: 101px;
-        border-bottom-left-radius: 19px;
-        border-bottom-right-radius: 19px;
+        height: 105px;
+        width: 150px;
+        border-bottom-left-radius: 14px;
+        border-bottom-right-radius: 14px;
     }
     .logoAmozeshiHeader img{
         width: 90%;
@@ -251,17 +267,18 @@
 }
 @media screen and (max-width:750px) {
     .HeaderArchive{
-        width: 660px;
+        width: 100vw;
+        padding-right: 130px;
     }
     .logoAmozeshiHeader{
         height: 75px;
-        width: 166px;
-        line-height: 101px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
+        width: 136px;
+        line-height: 110px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
     }
     .logoAmozeshiHeader img{
-        width: 90%;
+        width: 85%;
     }
     .rowHeaderArchive{
         margin-right: 30px;
@@ -277,7 +294,7 @@
         font-size: 7px;
     }
     .linksHeaderArchive{
-        width: 201px;;
+        width: 50%;
         font-size: 10px !important;
     }
     .bahamSiteButton{
@@ -298,12 +315,9 @@
 
 @media screen and (max-width:650px) {
     .HeaderArchive{
-        width: 560px;
+        width: 100vw;
     }
     .logoAmozeshiHeader{
-        height: 75px;
-        width: 166px;
-        line-height: 101px;
         margin: 0px !important;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
@@ -327,7 +341,6 @@
     }
     .linksHeaderArchive{
         margin: auto;
-        margin-right: 0px;
         width: 281px;
         font-size: 10px !important;
     }
@@ -349,7 +362,7 @@
 
 @media screen and (max-width:560px) {
     .HeaderArchive{
-        width: 530px;
+        width: 100vw;
     }
     .linksHeaderArchive{
         margin: auto;
@@ -361,7 +374,7 @@
 
 @media screen and (max-width:525px) {
     .HeaderArchive{
-        width: 90%;
+        width: 100vw;
     }
     .linksHeaderArchive{
         margin: auto;
@@ -372,7 +385,7 @@
 }
 @media screen and (max-width:485px) {
     .HeaderArchive{
-        width: 96%;
+        width: 100vw;
     }
     .linksHeaderArchive{
         margin: auto;
@@ -380,14 +393,23 @@
         width: 88%;
         font-size: 10px !important;
     }
+    .logoAmozeshiHeader{
+        width: 130px !important;
+        margin: 0px !important;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
 }
 @media screen and (max-width:455px) {
     .HeaderArchive{
-        width: 97%;
+        width: 100vw;
+        padding: 8px 4px;
+        padding-left: 10px;
+        padding-right: 80px;
     }
     .logoAmozeshiHeader{
         height: 50px;
-        width: 140px;
+        width: 100px !important;
         line-height: 70px;
         margin: 0px !important;
         border-bottom-left-radius: 10px;
@@ -418,6 +440,7 @@
     }
     .bahamSiteButton{
         width: 50px;
+        margin-right: 5px;
         padding: 3px 0px;
         border-radius: 3px;
     }
@@ -429,57 +452,42 @@
     }
     .iconSearchIknput{
         font-size: 20px !important;
+    }
+    .linksHeaderArchive{
+        margin: auto;
+        width:70%;
     }
 }
 
 @media screen and (max-width:385px) {
     .HeaderArchive{
-        width: 97%;
+        padding-right: 60px;
+        width: 100vw;
     }
     .logoAmozeshiHeader{
-        height: 35px;
-        width: 110px;
-        line-height: 45px;
+        height: 40px;
+        width: 90px;
+        line-height: 55px;
         margin: 0px !important;
+        right: 0px;
         border-bottom-left-radius: 7px;
         border-bottom-right-radius: 7px;
     }
-    .logoAmozeshiHeader img{
-        width: 90%;
-    }
-    .rowHeaderArchive{
-        margin-right: 30px;
-    }
-    .searchHeaderArchove{
-        width: 137px;
-        display: none;
-        height: 25px;
-        border-radius: 6px;
-    }
-    .searchHeaderArchove input{
-        margin-right: 3px;
-        width: 100%;
-        font-size: 7px;
-    }
     .linksHeaderArchive{
         margin: auto;
-        margin-right: -10px;
-        width: 100%;
-        margin-left: -20px;
+        width:70%;
         font-size: 7px !important;
     }
     .bahamSiteButton{
-        width: 50px;
-        padding: 3px 0px;
+        width: 40px;
+        margin-right: 2px;
+        padding: 2px 0px;
         border-radius: 3px;
     }
     .bahamSiteButton h3{
         word-spacing: 2px;
         margin-top: 0px;
         margin-bottom: 0px;
-        font-size: 7px;
-    }
-    .iconSearchIknput{
-        font-size: 20px !important;
+        font-size: 6px;
     }
 }

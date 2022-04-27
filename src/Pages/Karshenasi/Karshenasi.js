@@ -135,8 +135,12 @@ function Karshenasi(props) {
               <h2>فرایند کارشناسی ملک با ضمانت <span>باهم</span></h2>
             </div>
              <div className='gridRowStepper'>
-              <div className={['stepperItemKar',stepper>=1 ? "stepperItemActive":''].join(" ")}>
-                <div className="outertriangleStepper"><div className="innertriangleStepper">&nbsp;</div></div>
+              <div className={['stepperItemKar stepperItemKar1',stepper>=1 ? "stepperItemActive":''].join(" ")}>
+                 <div className='stepperItemKarAbsolute'>
+                    <div className={stepper >=1?'stepperItemKarAbsolutetraingleActive':"stepperItemKarAbsolutetraingle"}>                     
+                      
+                    </div>
+                </div>
                 <div className={['stepperHeaderKar',stepper>=1 ? "stepperHeaderKarActive":''].join(" ")}>
                   <div className={['lineDashedKarHeaderStepper',stepper>=1 ? "lineDashedKarHeaderStepperActive":''].join(" ")}></div>
                 <h3>ثبت سفارش کارشناسی ملک</h3>
@@ -145,40 +149,54 @@ function Karshenasi(props) {
                   <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
                 </div>
               </div>
-              <div className='stepperItemKar stepperItemKar1'>
-                <div className='stepperHeaderKar'>
-                <h3>ثبت سفارش کارشناسی ملک</h3>
-                </div>
-                <div className='stepperParKar'>
-                  <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
-                </div>
-              </div>
-              <div className='stepperItemKar stepperItemKar2'>
+              <div className={['stepperItemKar stepperItemKar2',stepper>=2 ? "stepperItemActive":''].join(" ")}>
                 <div className='stepperItemKarAbsolute'>
                     <div className='stepperItemKarAbsolutetraingle'>
-
+                    <div class="triangle1"></div>
+                    </div>
+                </div> 
+                <div className={['stepperHeaderKar',stepper>=2 ? "stepperHeaderKarActive":''].join(" ")}>
+                  <div className={['lineDashedKarHeaderStepper',stepper>=2 ? "lineDashedKarHeaderStepperActive":''].join(" ")}></div>
+                <h3>ثبت سفارش کارشناسی ملک</h3>
+                </div>
+                <div className={['stepperParKar',stepper>=2? "stepperParKarActive":''].join(" ")}>
+                  <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
+                </div>
+              </div>
+              <div className={['stepperItemKar stepperItemKar3',stepper>=2 ? "stepperItemActive":''].join(" ")}>
+                <div className='stepperItemKarAbsolute'>
+                    <div className='stepperItemKarAbsolutetraingle'>
+                    <div class="triangle1"></div>
                     </div>
                 </div>
-                <div className='stepperHeaderKar stepperItemKar3'>
-                <h3>ثبت سفارش کارشناسی</h3>
+                <div className={['stepperHeaderKar',stepper>=2 ? "stepperHeaderKarActive":''].join(" ")}>
+                  <div className={['lineDashedKarHeaderStepper',stepper>=2 ? "lineDashedKarHeaderStepperActive":''].join(" ")}></div>
+                <h3>ثبت سفارش کارشناسی ملک</h3>
                 </div>
-                <div className='stepperParKar'>
+                <div className={['stepperParKar',stepper>=2? "stepperParKarActive":''].join(" ")}>
                   <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
                 </div>
               </div>
-              <div className='stepperItemKar stepperItemKar4'>
-                <div className='stepperHeaderKar'>
-                <h3>ثبت سفارش کارشناسی</h3>
+              <div className={['stepperItemKar stepperItemKar4',stepper>=2 ? "stepperItemActive":''].join(" ")}>
+                <div className='stepperItemKarAbsolute'>
+                    <div className='stepperItemKarAbsolutetraingle'>
+                    <div class="triangle1"></div>
+                    </div>
                 </div>
-                <div className='stepperParKar'>
+                <div className={['stepperHeaderKar',stepper>=2 ? "stepperHeaderKarActive":''].join(" ")}>
+                  <div className={['lineDashedKarHeaderStepper',stepper>=2 ? "lineDashedKarHeaderStepperActive":''].join(" ")}></div>
+                <h3>ثبت سفارش کارشناسی ملک</h3>
+                </div>
+                <div className={['stepperParKar',stepper>=2? "stepperParKarActive":''].join(" ")}>
                   <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
                 </div>
               </div>
-              <div className='stepperItemKar stepperItemKar5'>
-                <div className='stepperHeaderKar'>
-                <h3>ثبت سفارش کارشناسی</h3>
+              <div className={['stepperItemKar stepperItemKar5',stepper>=2 ? "stepperItemActive":''].join(" ")}>
+                <div className={['stepperHeaderKar',stepper>=2 ? "stepperHeaderKarActive":''].join(" ")}>
+                  <div className={['lineDashedKarHeaderStepper',stepper>=2 ? "lineDashedKarHeaderStepperActive":''].join(" ")}></div>
+                <h3>ثبت سفارش کارشناسی ملک</h3>
                 </div>
-                <div className='stepperParKar'>
+                <div className={['stepperParKar',stepper>=2? "stepperParKarActive":''].join(" ")}>
                   <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
                 </div>
               </div>

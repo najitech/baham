@@ -18,6 +18,10 @@ function SabtAgahi(props) {
   const res500 = useMediaQuery({query :'(max-width : 54 درس   0px)'});
   const res400 = useMediaQuery({query :'(max-width : 400px)'});
   const res360 = useMediaQuery({query :'(max-width : 360px)'});
+  const [userType, setUserType] = useState(0);
+  const [melkType , setMelkType] = useState(0);
+  const [nosaz,setNosaz] = useState(0);
+  
   return (
     <div className='sabtAgahi'>
       <div className='sabtAgahiHeader'>
@@ -39,11 +43,11 @@ function SabtAgahi(props) {
                width="100%"/></div>
               <div className='formLabelSabt'><span>نوع کاربری</span></div>
               <div className='inputBoxSabt'>
-                <div className='radioRowSabt'><CustomRadio color check/><span>مسکونی</span></div>
-                <div className='radioRowSabt'><CustomRadio color/><span>اداری تجاری</span></div>
+                <div onClick={()=>setUserType(0)} className='radioRowSabt'><CustomRadio color check={userType === 0}/><span>مسکونی</span></div>
+                <div onClick={()=>setUserType(1)} className='radioRowSabt'><CustomRadio color check={userType === 1}/><span>اداری تجاری</span></div>
               </div>
               <div className='formLabelSabt resSpecialMarginTop'><span>متراژ</span></div>
-              <div className='inputBoxSabt'></div>
+              <div className='inputBoxSabt fixPaddingSabt'><input className='inputNewAgahiSabt'/></div>
               <div className='formLabelSabt'><span>تعداد اتاق خواب</span></div>
               <div className='inputBoxSabt fixPaddingSabt'><Budges text="1 خوابه"/></div>
             </div>
@@ -59,22 +63,21 @@ function SabtAgahi(props) {
               <div className='inputBoxSabt noemelkBoxSabt'>
                 <div className='noemelkSabt'>  
                   <div>
-                    <div className='radioRowSabt'><CustomRadio color check/><span>آپارتمان/برج</span></div>
-                    {res800? <div className='radioRowSabt'><CustomRadio color/><span>ویلایی/باغ و باغچه</span></div>:''}
-                    <div className='radioRowSabt extramargSabt'><CustomRadio color/><span>پنت هوس</span></div>
-                    <div className='radioRowSabt extramargSabt'><CustomRadio color/><span>مستغلات</span></div>
+                    <div onClick={()=>setMelkType(0)} className='radioRowSabt'><CustomRadio color check={melkType ===0}/><span>آپارتمان/برج</span></div>
+                    <div onClick={()=>setMelkType(1)} className='radioRowSabt'><CustomRadio color check={melkType ===1}/><span>ویلایی/باغ و باغچه</span></div>
+                    <div onClick={()=>setMelkType(2)} className='radioRowSabt extramargSabt'><CustomRadio color check={melkType ===2}/><span>پنت هوس</span></div>
+                    <div onClick={()=>setMelkType(3)} className='radioRowSabt extramargSabt'><CustomRadio color check={melkType ===3}/><span>مستغلات</span></div>
                   </div>
                   <div style={{marginRight:res800 ? 5 : 0}}>
-                    <div className='radioRowSabt'><CustomRadio color check/><span>زمین/کلنگی</span></div>
-                    <div className='radioRowSabt'><CustomRadio color/><span>سایر</span></div>
-                    {!res800? <div className='radioRowSabt'><CustomRadio color/><span>ویلایی/باغ و باغچه</span></div>:''}
+                    <div onClick={()=>setMelkType(4)} className='radioRowSabt'><CustomRadio color check={melkType ===4}/><span>زمین/کلنگی</span></div>
+                    <div onClick={()=>setMelkType(5)} className='radioRowSabt'><CustomRadio color check={melkType ===5}/><span>سایر</span></div>
                   </div>
                 </div>
               </div>
               <div className='formLabelSabt'><span>سن بنا</span></div>
               <div className='senbanaContainerSabt'>
-                <div className='inputBoxSabt ' style={{flex:'0.62'}}></div>
-                <div className='inputBoxSabt fixPaddingSabt' style={{flex:'0.33',marginLeft:'6px'}}><div className='chekcBoxRowSabt'><CheckCust check/><span>نوساز</span></div></div>
+              <div className='inputBoxSabt fixPaddingSabt' style={{flex:'0.62'}}><input className='inputNewAgahiSabt'/></div>
+                <div onClick={()=>setNosaz(!nosaz)} className='inputBoxSabt fixPaddingSabt' style={{flex:'0.33',marginLeft:'6px'}}><div className='chekcBoxRowSabt'><CheckCust check={nosaz}/><span>نوساز</span></div></div>
               </div> 
             </div>
           </div>
@@ -89,11 +92,11 @@ function SabtAgahi(props) {
           <div className='rightSecondSectionSabtForm'>
             {res500?<div className='borderRigthDivContainerForm'></div>:''}
             <div className='formLabelSabt'><span>عنوان</span></div>
-            <div className='inputBoxSabt fixPaddingSabt'></div>
+            <div className='inputBoxSabt fixPaddingSabt'><input className='inputNewAgahiSabt'/></div>
             <div className='formLabelSabt'><span>توضیحات</span></div>
             <div className='inputBoxSabt fixPaddingSabt'><textarea/></div>
             <div className='formLabelSabt'><span>قیمت</span></div>
-            <div className='gheimatRowBoxSabt'><div style={{flex:res600 ?'0.5' : res800 ? '0.7':'0.72'}} className='inputBoxSabt fixPaddingSabt'></div><div style={{flex:res600 ? '0.47':res800 ? '0.27':'0.25'}} className='inputBoxSabt fixPaddingSabt'><div className='chekcBoxRowSabt'><CheckCust/><span style={{fontSize: res600 ? '8px':''}}>قیمت توافقی</span></div></div></div>
+            <div className='gheimatRowBoxSabt'><div style={{flex:res600 ?'0.5' : res800 ? '0.7':'0.72'}} className='inputBoxSabt fixPaddingSabt'><input className='inputNewAgahiSabt'/></div><div style={{flex:res600 ? '0.47':res800 ? '0.27':'0.25'}} className='inputBoxSabt fixPaddingSabt'><div className='chekcBoxRowSabt'><CheckCust/><span style={{fontSize: res600 ? '8px':''}}>قیمت توافقی</span></div></div></div>
           </div>
           <div className='checkBoxesContainerSabtFrom'>
             <div><div className='formLabelSabt marginBtnOffSabt'><span>امکانات </span></div>

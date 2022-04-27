@@ -58,8 +58,8 @@ function Header(props) {
             </div>} 
         </nav>
         <div className='headerUser'>
-          <div className='loginSignBtn'><span><BsPerson style={{marginBottom:'0px',fontSize:'2px'}}/>ورود / ثبت نام</span></div>
-          <div className='signUpBtn'><span>ثبت آگهی رایگان</span></div>
+          <div className='loginSignBtn'><Link to={"/Account"} className="linkClassHeaderStyle linkHeaderBtnStyle"><span><BsPerson style={{marginBottom:'0px',fontSize:'2px'}}/>ورود / ثبت نام</span></Link></div>
+          <div className='signUpBtn'><Link to={"/Account"} className="linkClassHeaderStyle linkHeaderBtnStyle2"><span>ثبت آگهی رایگان</span></Link></div>
         </div>
     </div>
   )

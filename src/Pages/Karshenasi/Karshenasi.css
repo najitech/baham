@@ -401,25 +401,56 @@ text-align: right;
 }
 .stepperItemKarAbsolute {
     position: absolute;
-    bottom: 0px;
+    bottom: 65px;
     top:0px;
-    left:-20px;
+    left:-21px;
     z-index: -20;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .stepperItemKarAbsolutetraingle {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    position: relative;
+    height: 40px;
     background-color: white;
     transform: rotate(45deg);
     z-index: -20;
-    box-shadow: 0px 6px 8px 0.1px rgb(229, 229, 229);
-    border-radius: 10px;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     border-left: 1px solid #9B9B9B;
     border-bottom:1px solid #9B9B9B;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stepperItemKarAbsolutetraingleActive{
+    width: 40px;
+    position: relative;
+    height: 40px;
+    background-color: white;
+    transform: rotate(45deg);
+    z-index: -20;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    -webkit-box-shadow: -10px 27px 14px -9px rgba(0, 0, 0, 0.114); 
+    box-shadow: -10px 27px 14px -9px rgba(0, 0, 0, 0.084);
+}
+.triangleinsideOrange{
+    width: 25px;
+    position: relative;
+    height: 25px;
+    background-color: white;
+    z-index: -20;
+    border-radius: 4.6px;
+    margin-right: 7px;
+    margin-top: 7px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-left: 1px solid #9B9B9B;
+    border-bottom:1px solid #9B9B9B;
 }
 .stepperItemActive{
     border: white 1px solid !important;
@@ -438,6 +469,7 @@ text-align: right;
     padding: 25px;
     border-radius: 27px;
 }
+
 .lineDashedKarHeaderStepperActive{
     border: white dashed 1.5px !important;
 }
@@ -809,6 +841,30 @@ text-align: right;
     .sliderRowNazarat{
         width: 100%;
         margin: auto;
+    }
+    
+    .stepperItemKar{
+        padding: 8px;
+        border-radius: 19px;
+    }
+    .stepperHeaderKar{
+        font-size: 8px;
+        padding: 15px;
+        border-radius: 16px;
+    }
+    .lineDashedKarHeaderStepper{
+        top:3px;
+        bottom: 3px;
+        right: 3px;
+        left: 3px;
+        border-radius: 15px;
+        border: #A3A3A3 dashed 1.5px;
+    }
+    .stepperParKar{
+        font-size: 9px;
+        margin: 50px 0px;
+        margin-right: 9px;
+        margin-left: 10px;
     }
 }
 
