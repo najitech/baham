@@ -1,4 +1,4 @@
-import React , {useState} from 'react'
+import React , {useState,useRef,useEffect} from 'react'
 import './ChiefDashbord.css'
 import ChiefDashbord_sidebar from './ChiefDashbord_sidebar'
 import {BiLogOut,BiTrash} from 'react-icons/bi'
@@ -19,8 +19,9 @@ import ChiefDashbord_sidebar_res from './ChiefDashbord_sidebar_res'
 
 
 function ChiefDashbord() {
+
     useDocumentTitle("باهم | داشبورد کاربر ارشد")
-    const [DP_DrawerB,setDP_DrawerB] = useState(true)
+    const [DP_DrawerB,setDP_DrawerB] = useState(false)
 
   let persons = [
     {
@@ -78,15 +79,19 @@ function ChiefDashbord() {
     { label: 'باهم', value: 'باهم'},
     { label: 'مستقیم', value: 'مستقیم'},
 ];
+    const header= useRef(null);
+    useEffect(() => {
+        header.current.scrollIntoView({ behavior: "smooth" });
+        }, []);
   return (
-    <div className='ChiefDashbord'>
+    <div className='ChiefDashbord' ref={header}>
         <div className='ChiefDashbord_SidebarContainer'>
             <ChiefDashbord_sidebar ChiefName="متین نوروزپور" path="" userProfile={ProfileImage}/>
         </div>
       
         <div className='ChiefDashbord_Feed'>
             <div className='ChiefDashbord_FeedHeader'>
-                <div className='ChiefDashbord_FeedHeaderTitleContainer'>
+                <div className='ChiefDashbord_FeedHeaderTitleContainer'> 
                     <div className='ChiefDashbord_sideBarOpenIconContainer' onClick={() => setDP_DrawerB(true)}>
                         <HiMenu className='ChiefDashbord_sideBarOpenIcon'/>
                     </div>
@@ -235,7 +240,6 @@ function ChiefDashbord() {
                     </div>
                     <ChiefDashbord_Chart/>
                 </div>
-              
               
                  
                 <div className='PersonBoxesContainer'>

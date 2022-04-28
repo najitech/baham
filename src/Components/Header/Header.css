@@ -93,6 +93,7 @@
     align-items: center;
     color: white;
     box-shadow: #fd6a30cc 0px 15px 20px -12px;
+    cursor: pointer;
 }
 .linkClassHeaderStyle{
     text-decoration: none;
@@ -254,6 +255,11 @@
         display: flex;
         justify-content: space-between;
       }
+      .headerLogo{
+        width: 221.5px;
+        height: 55.6px;
+        margin-left: 20px;
+    }
     .navbar{
         width:84%;
         margin-right: -35.3px;
@@ -280,7 +286,8 @@
     }
     .headerLogo{
         width: 190.4px;
-        height: 42.3px;
+        height: 48.3px;
+        margin-left: 0px;
     }
     .headerLogo > div{
         width: 100%;
@@ -292,7 +299,7 @@
         border-bottom-right-radius: 23px;
     }
     .headerLogo img{
-        width: 60%;
+        width: 54%;
         transform: rotate(-4deg);
     }
     .headerUser{

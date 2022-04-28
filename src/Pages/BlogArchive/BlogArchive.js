@@ -1,5 +1,5 @@
 import { useMediaQuery } from 'react-responsive';
-import React from 'react'
+import React ,{useEffect,useRef} from 'react'
 import { BiChevronsDown } from 'react-icons/bi';
 import ArchiveItem from '../../Components/ArchiveItems/ArchiveItem';
 import BlogItemSlider from '../../Components/BlogItemSlider/BlogItemSlider';
@@ -15,8 +15,13 @@ function BlogArchive(props) {
   const res800 = useMediaQuery({query :'(max-width : 800px)'});
   const res690 = useMediaQuery({query :'(max-width : 690px)'});
   const res600 = useMediaQuery({query :'(max-width : 600px)'});
+  
+    const header= useRef(null);
+    useEffect(() => {
+        header.current.scrollIntoView({ behavior: "smooth" });
+        }, []);
   return (
-    <div className='blogArchive'>
+    <div className='blogArchive' ref={header}>
         <div className='newestSection'>
             <div className='newestHeader'>
                 <h2>تازه ترین ها</h2>

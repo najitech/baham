@@ -4,7 +4,10 @@
   text-align: center;
   overflow-x: hidden;
   height: 100vh;
-
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 *:focus {
   outline: none !important;
@@ -89,6 +92,14 @@ span {
 .BaaHam_NormalUsersHeaderTopContainerRes {
     display: none !important;
 }
+
+.HeaderAppContainer {
+    position: sticky;
+    top:0px;
+    z-index: 1000;
+}
+
+
 
 @media screen and (max-width:1500px) {
     .BaaHam_NormalUsersHeaderTopContainerWhite {

@@ -1,12 +1,15 @@
-import React from 'react';
+import React ,{useEffect,useRef} from 'react';
 import './Login.css';
 import {FcGoogle} from 'react-icons/fc';
 import { useState } from 'react';
 function Login() {
   const [switchs,setSwitch] = useState(1);
-  
+  const header= useRef(null);
+    useEffect(() => {
+      header.current.scrollIntoView({ behavior: "smooth" });
+    }, []);
   return (
-    <div className='loginSignUp'>
+    <div className='loginSignUp' ref={header}>
         <div className='UpDiveLoginSignUp'>
             <div className='containerCrangeBoxLSGN'>
                 <div className='orangeBoxLSGN'>
@@ -52,7 +55,7 @@ function Login() {
                             <div className='inputLSGN'><input/></div>
                             <div className='btnLSGN'>ورود</div>
                         </div>:<div className='loginSectionLSGN'>
-                            <div className='labelLSGN'><span>تکرار رمز عبور</span></div>
+                            <div className='labelLSGN'><span>ایمیل/ شماره تلفن همراه</span></div>
                             <div className='inputLSGN'><input/></div>
                             <div className='codeTaeedBox'><div className='labelLSGN taeedCodeLabel'><span>کد تایید</span></div>
                             <div className='inputLSGN taeedcodeInput'><input/></div>

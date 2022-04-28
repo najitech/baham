@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useEffect,useRef} from 'react'
 import BlogItemSlider from '../../Components/BlogItemSlider/BlogItemSlider'
 import './BlogPage.css'
 import p1 from '../../Images/01.jpg'
@@ -10,8 +10,12 @@ import useDocumentTitle from '../../Components/TitleSetter/useDocumentTitle';
 function BlogPage(props) {
     
   useDocumentTitle('باهم | مطالب آموزشی')
+  const header= useRef(null);
+    useEffect(() => {
+        header.current.scrollIntoView({ behavior: "smooth" });
+        }, []);
   return (
-    <div className='blogPage'>
+    <div className='blogPage' ref={header}>
         <div className='feedBlog'>
             <div className='imageFeedBlog'>
                 <div className='imageContainerBlog'>

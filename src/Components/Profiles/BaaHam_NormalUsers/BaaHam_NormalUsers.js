@@ -1,4 +1,4 @@
-import React , {useState , useEffect} from 'react'
+import React , {useState , useEffect ,useRef} from 'react'
 import './BaaHam_NormalUsers.css'
 import {CgProfile} from 'react-icons/cg'
 import {MdOutlineEditNote,MdManageSearch} from 'react-icons/md'
@@ -35,6 +35,7 @@ function BaaHam_NormalUsers(props) {
   const [sidebar ,Setsidebar] = useState(1)
   let currentlocation= useLocation();
   useEffect(() => {
+    console.log(window.pageYOffset)
     if (currentlocation.pathname === `/${props.path}/profile`) {
       Setsidebar(1);
     }
@@ -55,7 +56,10 @@ function BaaHam_NormalUsers(props) {
     }
   }, []);
 
-  
+ 
+  useEffect(() => {
+    props.header.current.scrollIntoView({ behavior: "smooth",block: "end" });
+  });
 
   return (
     <div className='BaaHam_NormalUsers'>

@@ -584,6 +584,13 @@ text-align: center;
     font-size: 13px;
     font-weight: bold;
   }
+  .ChiefDashbord_sideBarOpenIconContainer {
+      display: none;
+  }
+  .ChiefDashbord_sideBarOpenIcon {
+      cursor: pointer;
+      display: none;
+  }
 
 .ChiefDashbord_SidebarContainer {
     flex:0.16;
@@ -640,6 +647,12 @@ text-align: center;
 @media screen and (max-width : 900px) {
     .ChiefDashbord_SidebarContainer {
         display: none;
+    }
+    .ChiefDashbord_sideBarOpenIconContainer {
+        display: inline;
+    }
+    .ChiefDashbord_sideBarOpenIcon {
+        display: block;
     }
     .ChiefDashbord {
         width: 95%;

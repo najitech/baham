@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useEffect,useRef} from 'react'
 import CustomRadio from '../../Components/FormCustom/CustomRadio'
 import CustomCheckBox from '../../Components/FormCustom/CustomCheckBox'
 import './SabtAgahi.css'
@@ -22,8 +22,12 @@ function SabtAgahi(props) {
   const [melkType , setMelkType] = useState(0);
   const [nosaz,setNosaz] = useState(0);
   
+  const header= useRef(null);
+  useEffect(() => {
+      header.current.scrollIntoView({ behavior: "smooth" });
+    }, []);
   return (
-    <div className='sabtAgahi'>
+    <div className='sabtAgahi' ref={header}>
       <div className='sabtAgahiHeader'>
         <h2>ملک خود را رایگان آگهی کنید</h2>
       </div>

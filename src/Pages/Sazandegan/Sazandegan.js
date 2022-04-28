@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useEffect,useRef} from 'react'
 import SliderItem from '../Home/SliderItem/SliderItem';
 import './Sazandegan.css';
 import image from '../../Images/sazandegan.svg'
@@ -16,8 +16,13 @@ export default function Sazandegan(props) {
   const res500 = useMediaQuery({query :'(max-width : 500px)'});
   const res400 = useMediaQuery({query :'(max-width : 400px)'});
   const res360 = useMediaQuery({query :'(max-width : 360px)'});
+  const header= useRef(null);
+  useEffect(() => {
+      header.current.scrollIntoView({ behavior: "smooth" });
+    }, []);
   return (
-    <div className='mosharek'>
+    
+    <div className='mosharek' ref={header}>
         <div className='aboutDives'>
                 <div className='lineAboveTextPages sazH2'><h2 className='sazH2'><span>باهم</span> چه مزایایی برای سازندگان دارد؟</h2><div className='lineDotted sazandeganLine '></div><div className='floatingSquareHomeWhatsBahamAbout mosharekSquare'></div></div>
                 <div className='sazandeganMatn'>
