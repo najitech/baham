@@ -213,7 +213,8 @@ function ArchiveAmlak(props) {
               <div className='sortRowAmlak'>
                 <div className='sortItmesAmlak'>
                   {res700? <div className='filtersIcon' onClick={()=>setSideBar(1)}><GoSettings/></div>:''}
-                  <div className='selectAmlakFilter'><CustomSelect value={{value:0,label:'جدید ترین'}} options={[{value:0,label:'جدید ترین'},{value:1,label:'قدیمی ترین'},{value:2,label:'پر بازدید ترین'},{value:3,label:'ارزان ترین'},{value:4,label:'گران ترین'}]} width={res700 ? '60px': res800 ?'80px': "120"}/></div>
+                  <div className='selectAmlakFilter'><CustomSelect value={{value:0,label:'جدید ترین'}} options={[{value:0,label:'جدید ترین'},{value:3,label:'ارزان ترین'},{value:4,label:'گران ترین'}]} width={res700 ? '60px': res800 ?'80px': "120"}/></div>
+                  <div className='selectAmlakFilter23'><CustomSelect placeholder="آگهی دهنده"  options={[{value:0,label:'مشاور املاک'},{value:3,label:'شخصی'}]} width={res700 ? '60px': res800 ?'80px': "120"}/></div>
                   <div className='aksDarOrNotAmlak'><CustomCheckBox checked/><span>نمایش آگهی های عکس دار</span></div>
                   <div className='numberFoundAmlak'><span>تعداد 36 ملک</span></div>
                 </div>

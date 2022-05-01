@@ -108,6 +108,9 @@
     margin: 0px 20px;
     margin-left: 0px;
 }
+.selectAmlakFilter23{
+    margin-right: 10px !important;
+}
 .gridAgahiAmlak{
     padding: 20px;
     width: 100%;
@@ -332,6 +335,7 @@
         width: 100%;
         border: 1.2px solid #EAEAEA;
         border-radius: 16px;
+        background-color: white;
         padding: 16px 3px;
         padding-right: 8px;
         box-sizing: border-box;
@@ -518,6 +522,7 @@
         width: 100%;
         border: 1.4px solid #EAEAEA;
         border-radius: 16px;
+        background-color: white;
         padding: 16px 3px;
         padding-right: 8px;
         padding-bottom: 8px;
@@ -607,7 +612,9 @@
         width: 100% !important;
         height: 100%;   
     }
-    .drawerMUIStylesArchive{
+    .drawerMUIStylesArchive{    
+        --color:#fd4900 !important;
+        --black-color : #343434 !important;
     }
     .sortRowAmlak{
         margin-top: 0px;
@@ -671,7 +678,9 @@
         text-align: right;
         width: 100%;
         height: 100vh;
-        background-color: white;
+        box-sizing: border-box;
+        padding: 0px 10px;
+        padding-top: 20px;
     }
     .sideBarAmlak2 span{
         font-size: 11px;
@@ -734,6 +743,7 @@
         padding: 16px 3px;
         padding-right: 8px;
         padding-bottom: 8px;
+        background-color: white;
     }
     .headerDivFiltersAmlak h6{
         margin-right: 3px;
@@ -867,7 +877,6 @@
         text-align: right;
         width: 100%;
         height: 100vh;
-        background-color: white;
     }
     .sideBarAmlak2 span{
         font-size: 11px;
@@ -1067,7 +1076,6 @@
         text-align: right;
         width: 100%;
         height: 100vh;
-        background-color: white;
     }
     .sideBarAmlak2 span{
         font-size: 11px;
@@ -1272,7 +1280,6 @@
         text-align: right;
         width: 100%;
         height: 100vh;
-        background-color: white;
     }
     .sideBarAmlak2 span{
         font-size: 11px;
@@ -1476,7 +1483,6 @@
         text-align: right;
         width: 100%;
         height: 100vh;
-        background-color: white;
     }
     .sideBarAmlak2 span{
         font-size: 11px;

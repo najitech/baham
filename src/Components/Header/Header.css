@@ -8,10 +8,13 @@
     justify-content:center;
     position: sticky;
     top: 0;
-    background-color: white;
     z-index: 3454;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    box-shadow: none;
     align-content: center;
+}
+.scroll{
+    background-color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px !important;
 }
 .navbar{
     width:720px;
@@ -110,7 +113,7 @@
     text-align: center !important;
     color: white !important;
 }
-@media screen and (max-width:1500px) {
+@media screen and (max-width:4000px) {
     .header{
         max-width: 100vw;
         margin: auto;   
@@ -122,9 +125,9 @@
         align-content: center;
     }
     .navbar{
-        width:90%;
+        width:70%;
         margin-right: 19px;
-        margin-left: 19px;
+        margin-left: 59px;
     }
     .navbarList{
         direction: rtl;
@@ -162,7 +165,7 @@
         border-bottom-right-radius: 36px;
     }
     .headerLogo img{
-        width: 60%;
+        width: 55%;
         transform: rotate(-3.7deg);
     }
     .headerUser{

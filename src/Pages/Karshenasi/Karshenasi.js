@@ -23,6 +23,7 @@ function Karshenasi(props) {
   useDocumentTitle('باهم | کارشناسی ملک')
   
   const [checkSazande ,setCheckSazande] = useState(0);
+  const [ghavanin ,setGhavanin] = useState(0);
   const [stepper,setStepper] = useState(1)
   const res1000 = useMediaQuery({query :'(max-width : 1000px)'});
   const res800 = useMediaQuery({query :'(max-width : 800px)'});
@@ -107,7 +108,7 @@ useEffect(() => {
             </div>:""}
             <div className='confirmAndPriceKarReqForm'>
               <div>
-                <div className='CheckBoxComponentReqForm' onClick={()=>setCheckSazande(!checkSazande)}>{checkSazande?<BsCheckLg style={{color:'var(--color)',fontSize:'13px'}}/>:''}</div>
+                <div className='CheckBoxComponentReqForm' onClick={()=>setGhavanin(!ghavanin)}>{ghavanin?<BsCheckLg style={{color:'var(--color)',fontSize:'13px'}}/>:''}</div>
                 <span>قوانین و مقررات</span>  
                 {!res600?<div className='lineThroughReqConfirmKar'></div>:""}
                 {!res600? <span className='gheimatkolSpanKar'>هزینه کل:</span>:''}
@@ -118,7 +119,7 @@ useEffect(() => {
               </div>
             </div>
             <div className='recordAndPayKar'>
-              <div className='recordAndPayBtnKar'>ثبت و پرداخت</div>
+              <div className='recordAndPayBtnKar'>پرداخت و ثبت درخواست</div>
             </div>
             
             <div className='informationBoxReqFormKar'>
@@ -162,10 +163,10 @@ useEffect(() => {
                 </div> 
                 <div className={['stepperHeaderKar',stepper>=2 ? "stepperHeaderKarActive":''].join(" ")}>
                   <div className={['lineDashedKarHeaderStepper',stepper>=2 ? "lineDashedKarHeaderStepperActive":''].join(" ")}></div>
-                <h3>ثبت سفارش کارشناسی ملک</h3>
+                <h3>حضور کارشناس باهم درمحل شما</h3>
                 </div>
                 <div className={['stepperParKar',stepper>=2? "stepperParKarActive":''].join(" ")}>
-                  <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
+                  <p>در زمان تعیین شده توسط شما کارشناس باهم در محل مورد نظر شما حضور می یابد</p>
                 </div>
               </div>
               <div className={['stepperItemKar stepperItemKar3',stepper>=2 ? "stepperItemActive":''].join(" ")}>
@@ -176,10 +177,10 @@ useEffect(() => {
                 </div>
                 <div className={['stepperHeaderKar',stepper>=2 ? "stepperHeaderKarActive":''].join(" ")}>
                   <div className={['lineDashedKarHeaderStepper',stepper>=2 ? "lineDashedKarHeaderStepperActive":''].join(" ")}></div>
-                <h3>ثبت سفارش کارشناسی ملک</h3>
+                <h3>کارشناسی تخصصی ملک</h3>
                 </div>
                 <div className={['stepperParKar',stepper>=2? "stepperParKarActive":''].join(" ")}>
-                  <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
+                  <p>کارشناس باهم به بررسی تخصصی بیش از 100 مورد مهم تعیین کننده در ارزش یک ملک می پردازد</p>
                 </div>
               </div>
               <div className={['stepperItemKar stepperItemKar4',stepper>=2 ? "stepperItemActive":''].join(" ")}>
@@ -190,10 +191,10 @@ useEffect(() => {
                 </div>
                 <div className={['stepperHeaderKar',stepper>=2 ? "stepperHeaderKarActive":''].join(" ")}>
                   <div className={['lineDashedKarHeaderStepper',stepper>=2 ? "lineDashedKarHeaderStepperActive":''].join(" ")}></div>
-                <h3>ثبت سفارش کارشناسی ملک</h3>
+                <h3>دریافت گزارش کارشناسی</h3>
                 </div>
                 <div className={['stepperParKar',stepper>=2? "stepperParKarActive":''].join(" ")}>
-                  <p>درخواست کارشناسی را در همین صفحه و یا به صورت تلفنی ثبت کنید</p>
+                  <p>حدود 30 دقیقه بعد از انجام کارشناسی ، گزارش آن به صورت برخط (آنلاین) و بصورت کاغذی برای مشتری در دسترس است</p>
                 </div>
               </div>
               <div className={['stepperItemKar stepperItemKar5',stepper>=2 ? "stepperItemActive":''].join(" ")}>
@@ -292,13 +293,28 @@ useEffect(() => {
 
               </div>
         </div>
-       
-        <div style={{margin:'40px auto',padding:'30px 0px',width:'600px',backgroundColor:''}}>
-            <Question question={"باهم کدام بخش های یک ملک را بررسی می کند؟"} text={"باهم ویژگی های لوکیشن و موقعیت همسایگی کوچه ملک مورد نظر را به همراه فاکتورهای اثر گذار در ارزش یک ملک را کارشناسی می کند (بیش از 100 مورد تعیین کننده در ارزش یک ملک و تاثیرگذار در خرید یک ملک توسط مشتری) و مواردی از این دست را کارشناسی نمیکند . شما می توانید نمونه گزارش کارشناسی ملک با ضمانت باهم را از اینجا ببینید."}/>
+       <div className='questionRowKar'>
+          <div className='verticalCrBtnKar'>
+            <div className='soalatBtn'>
+              <div className='soalBtnDashes'></div>
+              <span>سوالات شما</span>
+            </div>
+          </div>
+          <div className='verticalCrKar'>
+            <div className='veritcalSliderKarBox'>
+              <div>owei</div>
+            </div>
+            <div className='divForWidthKar'>
+              <Question question={"باهم کدام بخش های یک ملک را بررسی می کند؟"} text={"باهم ویژگی های لوکیشن و موقعیت همسایگی کوچه ملک مورد نظر را به همراه فاکتورهای اثر گذار در ارزش یک ملک را کارشناسی می کند (بیش از 100 مورد تعیین کننده در ارزش یک ملک و تاثیرگذار در خرید یک ملک توسط مشتری) و مواردی از این دست را کارشناسی نمیکند . شما می توانید نمونه گزارش کارشناسی ملک با ضمانت باهم را از اینجا ببینید."}/>
+            </div>
+          </div>   
+       </div>
+        <div style={{margin:'40px auto',padding:'30px 0px',width:'600px',height:'370px',backgroundColor:''}}>
+           
         </div>
        
       <div className='sliderHomepage'>
-          <h4>مطالب آموزشی</h4>
+          <h4>مطالب آموزشی</h4> 
           <div className='sliderItemsHomePage'>
             <Carousel className='sliderCompo'
             

@@ -57,11 +57,16 @@ function Login() {
                         </div>:<div className='loginSectionLSGN'>
                             <div className='labelLSGN'><span>ایمیل/ شماره تلفن همراه</span></div>
                             <div className='inputLSGN'><input/></div>
-                            <div className='codeTaeedBox'><div className='labelLSGN taeedCodeLabel'><span>کد تایید</span></div>
-                            <div className='inputLSGN taeedcodeInput'><input/></div>
-                            <div className='labelLSGN'>کد تایید به ایمیل / شماره تلفن همراه شما ارسال شد</div>
+                            <div className='codeTaeedBox'>
+                                <div className='labelLSGN taeedCodeLabel'><span>کد تایید</span></div>
+                                <div className='inputLSGN taeedcodeInput'><input/></div>
+                                <div className='labelLSGN'>کد تایید به ایمیل / شماره تلفن همراه شما ارسال شد</div>
                             </div>
-                            <div className='btnLSGN'>ورود</div>
+                            <div className='btnRowLogin'>
+                                <div className='btnLSGN'>ورود</div>
+                                <div className='labelLSGN labelLSGN2 taeedCodeLabel'><span>با ورود به باهم ، قوانین و مقررات باهم را می پذیرم</span></div>
+                            </div>
+                           
                         </div>}
                     </div>
                 </div>

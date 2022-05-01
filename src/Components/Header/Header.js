@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Header.css';
 import pic from '../../Images/Logonav.jpg';
 import { BsPerson } from 'react-icons/bs';
@@ -32,10 +32,23 @@ function Header(props) {
     path :'/About',
     exact: true
   })
+  useEffect(()=>{
+    
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    }
+  })
+   const handleScroll = () => {
+    if (window.scrollY >= 5) {
+      console.log("his")
+    } else {
+    }
+  };
   return (
     <div className='header' ref={props.header1}>
         <div className='headerLogo'><div><img alt='' src={pic}/></div></div>
-        <nav className='navbar'>
+        <nav className='navbar'>  
             {!res400?<ul className='navbarList'>
                 <Link className={['linkClassHeaderStyle' ,item1? 'activeHeaderLink':''].join(" ")} to={"/home"}><li>صفحه اصلی</li></Link>
                 <Link className={['linkClassHeaderStyle' ,item2? 'activeHeaderLink':''].join(" ")} to={"/karshenasi"}><li>کارشناسی ملک با ضمانت باهم</li></Link>

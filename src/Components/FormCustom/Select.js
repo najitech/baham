@@ -90,7 +90,7 @@ function CustomSelect(props) {
           primary: '#828282',
         },
       })} 
-      placeholder={<div className='DP_SelectPlaceHolder res800PlaceholderEpty'>{props.placeholder}</div>} />
+      placeholder={<div className='DP_SelectPlaceHolder res800PlaceholderEpty resaut00PlaceholderEpty'>{props.placeholder}</div>} />
   </div>;
 }
 

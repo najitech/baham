@@ -147,6 +147,9 @@ color: var(--black-color);
     margin-right: 8px;
     margin-top: 10px;
 }
+.labelLSGN2{
+    margin-right: 0px !important;
+}
 .loginSectionLSGN{
     width: 100%;
     display: flex;
@@ -186,19 +189,29 @@ color: var(--black-color);
 .btnLSGN{
     background-color: var(--color);
     color: white;
-    padding:8px 40px;
-    border-radius: 14px;
+    padding:13px 150px;
+    border-radius: 19px;
+    margin: auto;
     align-self: flex-end;
-    margin-top: 20px;
-    margin-left: 60px;
-    font-size: 17px;
+    margin-top: 20px;   
+    font-size: 18px;
     box-shadow: #fe480048 0px 10px 20px -5px, #fe480057 0px 5px 10px -5px;
 }
 .codeTaeedBox{
+    width: 100%;
     align-self: flex-end;
     margin-top: 30px;
 }
 .taeedCodeLabel{
+    text-align: right;
+}
+.btnRowLogin{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 @media screen and (max-width:30000px) {
@@ -241,6 +254,25 @@ color: var(--black-color);
     }
 }
 
+@media screen and (max-width:1200px) {
+    .middleDivOrangeBox{
+        height: 100%;
+        width: 84%;
+    }
+    .orangeBoxLSGN{
+        width: 90%;
+    }
+    .SignUpSectionLSGN{
+        width: 70%;
+    }
+
+    .loginSectionLSGN{
+        width: 70%;
+    }
+    .headerComponentLoginSignUp{
+        width: 70%;
+    }   
+}
 
 @media screen and (max-width:1200px) {
     .middleDivOrangeBox{
@@ -396,12 +428,9 @@ color: var(--black-color);
 .btnLSGN{
     background-color: var(--color);
     color: white;
-    padding:8px 50px;
-    border-radius: 12px;
-    align-self: flex-end;
     margin-top: 20px;
     font-size: 16px;
-    margin-left: 0px;
+    padding: 10px inherit;
     box-shadow: #fe480048 0px 10px 20px -5px, #fe480057 0px 5px 10px -5px;
 }
 .codeTaeedBox{
@@ -578,14 +607,12 @@ color: var(--black-color);
 .btnLSGN{
     background-color: var(--color);
     color: white;
-    padding:6px 37px;
-    border-radius: 9px;
+    padding:7px 100px;
+    border-radius: 13px;
+    margin: auto;
     align-self: flex-end;
-    margin-top: 15px;
-    cursor: pointer;
-    font-size: 12px;
-    margin-left: 0px;
-    box-shadow: #fe480048 0px 10px 20px -5px, #fe480057 0px 5px 10px -5px;
+    margin-top: 20px;   
+    font-size: 13px;
 }
 .codeTaeedBox{
     align-self: flex-end;
@@ -736,14 +763,12 @@ color: var(--black-color);
 .btnLSGN{
     background-color: var(--color);
     color: white;
-    padding:6px 25px;
-    border-radius: 8px;
+    padding:6px 80px;
+    border-radius: 10px;
+    margin: auto;
     align-self: flex-end;
-    margin-top: 10px;
-    cursor: pointer;
-    font-size: 10px;
-    margin-left: 0px;
-    box-shadow: #fe480048 0px 10px 20px -5px, #fe480057 0px 5px 10px -5px;
+    margin-top: 30px;   
+    font-size: 12px;
 }
 .codeTaeedBox{
     align-self: flex-end;
@@ -902,14 +927,12 @@ color: var(--black-color);
 .btnLSGN{
     background-color: var(--color);
     color: white;
-    padding:6px 25px;
-    border-radius: 8px;
+    padding:6px 80px;
+    border-radius: 10px;
+    margin: auto;
     align-self: flex-end;
-    margin-top: 10px;
-    cursor: pointer;
-    font-size: 10px;
-    margin-left: 0px;
-    box-shadow: #fe480048 0px 10px 20px -5px, #fe480057 0px 5px 10px -5px;
+    margin-top: 30px;   
+    font-size: 9px;
 }
 .codeTaeedBox{
     align-self: flex-end;
@@ -1065,17 +1088,15 @@ color: var(--black-color);
     position: relative;
     z-index: 2000;
 }
-.btnLSGN{
+.btnLSGN{ 
     background-color: var(--color);
     color: white;
-    padding:6px 25px;
-    border-radius: 8px;
+    padding:7px 80px;
+    border-radius: 10px;
+    margin: auto;
     align-self: flex-end;
-    margin-top: 10px;
-    cursor: pointer;
-    font-size: 10px;
-    margin-left: 0px;
-    box-shadow: #fe480048 0px 10px 20px -5px, #fe480057 0px 5px 10px -5px;
+    margin-top: 30px;   
+    font-size: 11px;
 }
 .codeTaeedBox{
     align-self: flex-end;
@@ -1235,14 +1256,12 @@ color: var(--black-color);
 .btnLSGN{
     background-color: var(--color);
     color: white;
-    padding:3px 24px;
-    border-radius: 8px;
+    padding:6px 76px;
+    border-radius: 9px;
+    margin: auto;
     align-self: flex-end;
-    margin-top: 10px;
-    cursor: pointer;
+    margin-top: 30px;   
     font-size: 9px;
-    margin-left: 0px;
-    box-shadow: #fe480048 0px 7px 7px -5px, #fe480057 0px 3px 7px -5px;
 }
 .codeTaeedBox{
     align-self: flex-end;
@@ -1402,14 +1421,12 @@ color: var(--black-color);
 .btnLSGN{
     background-color: var(--color);
     color: white;
-    padding:3px 24px;
-    border-radius: 8px;
+    padding:6px 76px;
+    border-radius: 9px;
+    margin: auto;
     align-self: flex-end;
-    margin-top: 10px;
-    cursor: pointer;
+    margin-top: 30px;   
     font-size: 9px;
-    margin-left: 0px;
-    box-shadow: #fe480048 0px 7px 7px -5px, #fe480057 0px 3px 7px -5px;
 }
 .codeTaeedBox{
     align-self: flex-end;
@@ -1570,14 +1587,12 @@ color: var(--black-color);
 .btnLSGN{
     background-color: var(--color);
     color: white;
-    padding:3px 24px;
-    border-radius: 6px;
+    padding:5px 70px;
+    border-radius: 8px;
+    margin: auto;
     align-self: flex-end;
-    margin-top: 10px;
-    cursor: pointer;
-    font-size: 7px;
-    margin-left: 0px;
-    box-shadow: #fe480048 0px 7px 7px -5px, #fe480057 0px 3px 7px -5px;
+    margin-top: 30px;   
+    font-size: 8px;
 }
 .codeTaeedBox{
     align-self: flex-end;
