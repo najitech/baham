@@ -10,12 +10,11 @@ import useDocumentTitle from '../../Components/TitleSetter/useDocumentTitle';
 function BlogPage(props) {
     
   useDocumentTitle('باهم | مطالب آموزشی')
-  const header= useRef(null);
     useEffect(() => {
-        header.current.scrollIntoView({ behavior: "smooth" });
+        props.header.current.scrollIntoView({ behavior: "smooth" });
         }, []);
   return (
-    <div className='blogPage' ref={header}>
+    <div className='blogPage' >
         <div className='feedBlog'>
             <div className='imageFeedBlog'>
                 <div className='imageContainerBlog'>

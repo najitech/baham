@@ -2,14 +2,13 @@ import React ,{useEffect,useRef} from 'react';
 import './Login.css';
 import {FcGoogle} from 'react-icons/fc';
 import { useState } from 'react';
-function Login() {
+function Login(props) {
   const [switchs,setSwitch] = useState(1);
-  const header= useRef(null);
     useEffect(() => {
-      header.current.scrollIntoView({ behavior: "smooth" });
+      props.header.current.scrollIntoView({ behavior: "smooth" });
     }, []);
   return (
-    <div className='loginSignUp' ref={header}>
+    <div className='loginSignUp' >
         <div className='UpDiveLoginSignUp'>
             <div className='containerCrangeBoxLSGN'>
                 <div className='orangeBoxLSGN'>

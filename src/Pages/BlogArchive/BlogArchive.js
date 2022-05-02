@@ -16,12 +16,11 @@ function BlogArchive(props) {
   const res690 = useMediaQuery({query :'(max-width : 690px)'});
   const res600 = useMediaQuery({query :'(max-width : 600px)'});
   
-    const header= useRef(null);
     useEffect(() => {
-        header.current.scrollIntoView({ behavior: "smooth" });
+        props.header.current.scrollIntoView({ behavior: "smooth" });
         }, []);
   return (
-    <div className='blogArchive' ref={header}>
+    <div className='blogArchive' >
         <div className='newestSection'>
             <div className='newestHeader'>
                 <h2>تازه ترین ها</h2>

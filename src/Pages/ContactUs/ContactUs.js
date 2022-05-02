@@ -13,13 +13,12 @@ function ContactUs(props) {
   useDocumentTitle('باهم | تماس با ما')
   const res1000 = useMediaQuery({query :'(max-width : 1090px)'});
   const res600 = useMediaQuery({query :'(max-width : 650px)'});
-  const header= useRef(null);
 
   useEffect(() => {
-      header.current.scrollIntoView({ behavior: "smooth" });
+      props.header.current.scrollIntoView({ behavior: "smooth" });
     }, []);
   return (
-    <div className=' contactUs' ref={header}>
+    <div className=' contactUs'>
         <div className='aboutDives boxOff contactHeading'><div className='lineAboveTextPages'><h2 className='tamasH'>تماس با ما</h2><div className='lineDotted lineDottetContact'></div><div className='floatingSquareHomeWhatsBahamAbout floatsQconact'></div></div></div>
         <div className='mapBoxContact'>
           <img alt='' src={address}/>

@@ -32,19 +32,10 @@ function Header(props) {
     path :'/About',
     exact: true
   })
-  useEffect(()=>{
-    
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    }
-  })
-   const handleScroll = () => {
-    if (window.scrollY >= 5) {
-      console.log("his")
-    } else {
-    }
-  };
+ 
+
+  
+
   return (
     <div className='header' ref={props.header1}>
         <div className='headerLogo'><div><img alt='' src={pic}/></div></div>

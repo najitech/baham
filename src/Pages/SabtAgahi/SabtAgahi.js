@@ -22,12 +22,11 @@ function SabtAgahi(props) {
   const [melkType , setMelkType] = useState(0);
   const [nosaz,setNosaz] = useState(0);
   
-  const header= useRef(null);
   useEffect(() => {
-      header.current.scrollIntoView({ behavior: "smooth" });
+      props.header.current.scrollIntoView({ behavior: "smooth" });
     }, []);
   return (
-    <div className='sabtAgahi' ref={header}>
+    <div className='sabtAgahi'>
       <div className='sabtAgahiHeader'>
         <h2>ملک خود را رایگان آگهی کنید</h2>
       </div>

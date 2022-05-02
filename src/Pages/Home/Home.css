@@ -490,6 +490,53 @@ top: -20px;
 .squareClassNameActive { 
     background-color: var(--color) !important;
 }
+
+
+@keyframes example11 {
+    from {
+        opacity: 0;
+        margin-left:0px;
+    }
+    to {
+        opacity: 1;
+        margin-left:-40px;
+    }
+  }
+  @keyframes example12 {
+    from {
+        opacity: 0;
+        margin-right:0px;
+    }
+    to {
+        opacity: 1;
+        margin-right:-40px;
+    }
+  }
+
+.tonighttest1{
+    opacity: 0;
+}
+.tonighttest3{
+    opacity: 0;
+}
+.tonighttest1active {
+    animation-name: example11;
+    animation-duration: 1.5s;
+    margin-left:-40px;
+    opacity: 1;
+}
+.tonighttest2active {
+    z-index: 5;
+}
+.tonighttest3active {
+    animation-name: example12;
+    animation-duration: 1.5s;
+    margin-right:-40px;
+    opacity: 1;
+}
+
+
+
 @media screen and (max-width:1000px) {
     .paginationRowSlider{
         height: 10px;

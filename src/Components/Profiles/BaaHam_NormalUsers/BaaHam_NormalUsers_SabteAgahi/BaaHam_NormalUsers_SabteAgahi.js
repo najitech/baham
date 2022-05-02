@@ -220,6 +220,22 @@ const customStyles = {
 };
 
 
+function reveal() {
+  var reveals = document.querySelectorAll(".BaaHam_NU_SabteAgahiPicsBigContainer");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 450;
+    console.log(elementTop)
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active5");
+    } else {
+      reveals[i].classList.remove("active5");
+    }
+  }
+}
+
   const [age, setAge] = React.useState('');
 
   const handleChange = (event) => {
@@ -302,6 +318,7 @@ const customStyles = {
             <span>انتخاب محدوده ملک روی نقشه</span>
           </div>
         </div>
+        <button onClick={() => reveal() }>click me!</button>
         <div className='BaaHam_NU_SabteAgahiPicsBigContainer'>         
           <span className='BaaHam_NormalUsers_SabteAgahiAreaSelectTitle'>عکس آگهی</span>
           <span className='BaaHam_NormalUsers_SabteAgahiTitle1 BaaHam_NU_SabteAgahiPicsTitle'>عکس هایی از داخل و بیرون ملک اضافه کنید.آگهی های دارای عکس تا ((3 برابر)) بیشتر توسط کاربران دیده میشوند.</span>
@@ -414,7 +431,7 @@ const customStyles = {
               </div>
             </div>
         </div>
-  
+
         <div className='BaaHam_NU_SabteAgahiMoreFeaturesTitle'>
           <span>انتخاب سایر ویژگی ها و امکانات</span>
         </div>
