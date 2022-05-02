@@ -973,6 +973,7 @@
         width: 800px;
         margin-bottom: -40px;
         position: relative;
+        margin-top:550px;
     }
     .roadHome h2{
         text-align: center;
@@ -1045,6 +1046,21 @@
 }
 
 @media screen and (max-width:800px) {
+
+    .whatsBahamBannerAnimate2 {
+        width: 400px !important;
+
+    }
+    .whatsBahamBannerAnimate {
+        width: 400px !important;
+        height: 380px;
+    }
+    .whatsBahamBannerAnimate1 {
+        width: 230px !important;
+    }
+    .whatsBahamBannerAnimate3 {
+        width: 230px !important;
+    }
     .home{
         max-width: 600px;
         margin: auto;
@@ -1463,6 +1479,7 @@
     .roadHome{
         width: 610px;
         position: relative;
+        margin-top:400px;
     }
     .roadHome h2{
         text-align: center;
@@ -1526,7 +1543,26 @@
     }
 }   
 
+
+
+
+
 @media screen and (max-width:600px) {
+    
+    .whatsBahamBannerAnimate2 {
+        width: 300px !important;
+
+    }
+    .whatsBahamBannerAnimate {
+        width: 300px !important;
+        height: 280px;
+    }
+    .whatsBahamBannerAnimate1 {
+        width: 170px !important;
+    }
+    .whatsBahamBannerAnimate3 {
+        width: 170px !important;
+    }
     .home{
         max-width: 600px;
         margin: auto;
@@ -1903,37 +1939,43 @@
         position: absolute;
         right: 53px;
         top: -4.7px;
+        transform: rotate(90deg);
     }
     .R5R{
         position: absolute;
         right: 192px;
         top: -4.7px;
+        transform: rotate(90deg);
     }
     .R6R{
         position: absolute;
         right: 277px;
         top: -4.7px;
+        transform: rotate(90deg);
     }
     .R1R{
     position: absolute;
     right: 53px;
     top: -3px;
+    transform: rotate(90deg);
     }
     .R2R{
         position: absolute;
         right: 192px;
         top: -4.7px;
+        transform: rotate(90deg);
     }
     .R3R{
         position: absolute;
         right: 277px;
         top: -4.7px;
+        transform: rotate(90deg);
     }
     .r2Road{
         position: absolute;
     }
     .roadHome img{
-        transform: rotate(-90deg);
+        
         width: 100%;
         text-align: center;
     }
@@ -1943,6 +1985,7 @@
     .roadHome{
         width: 700px;
         margin: auto;
+        transform: rotate(-90deg);
         position: relative;
     }
     .roadHome h2{
@@ -2565,6 +2608,26 @@
         margin-right: 20px;
     }
 }
+
+@media screen and (max-width:430px) {
+    .whatsBahamBannerAnimate2 {
+        width: 260px !important;
+    
+    }
+    .whatsBahamBannerAnimate {
+        width: 260px !important;
+        height: 250px;
+    }
+    .whatsBahamBannerAnimate1 {
+        width: 140px !important;
+    }
+    .whatsBahamBannerAnimate3 {
+        width: 140px !important;
+    }
+}
+
+
+
 @media screen and (max-width:400px) {
     .home{
         max-width: 100%;
@@ -3033,6 +3096,23 @@
         margin-left: 11px;
     }
 }       
+
+@media screen and (max-width:380px) {
+    .whatsBahamBannerAnimate2 {
+        width: 240px !important;
+    
+    }
+    .whatsBahamBannerAnimate {
+        width: 240px !important;
+        height: 220px;
+    }
+    .whatsBahamBannerAnimate1 {
+        width: 120px !important;
+    }
+    .whatsBahamBannerAnimate3 {
+        width: 120px !important;
+    }
+}
 @media screen and (max-width:360px) {
     .sliderHomepage{
         width: 100%;

@@ -16,6 +16,9 @@ import s4 from '../../Images/shapesHome/4.svg';
 import s5 from '../../Images/shapesHome/5.svg';
 import s6 from '../../Images/shapesHome/3v6.svg';
 import Road from '../../Images/ElementAsli.png';
+import backdast from '../../Images/bahamchistback.svg'
+import dast2 from '../../Images/dast2bahamchist.svg'
+import dast1 from '../../Images/dastbahamchist.svg'
 import './HomeRes.css';
 import { useMediaQuery } from 'react-responsive';
 import Carousel from 'react-elastic-carousel'
@@ -70,14 +73,18 @@ function Home(props) {
           <div><p>باهم یک گواهینامه کارشناسی تخصصی ملک است که اطلاعات کاملی به شما از ویژگی های آن ملک و موقعیت  و لوکیشن آن قبل از فرایند خرید یا فروش بصورت سیستماتیک، مستند و دقیق میدهد</p></div>
           <div className='whatsBahamButtonHome'><span>بیشتر بدانید</span></div>
         </div>
-        <div className='whatsBahamBanner'><img alt=''  src={whatsBaham}/></div>
+        <div className='whatsBahamBanner'>
+          <div className='whatsBahamBannerAnimate'>
+            <img alt='' className='whatsBahamBannerAnimate1'  src={dast1}/>
+            <img alt='' className='whatsBahamBannerAnimate2'  src={backdast}/>
+            <img alt='' className='whatsBahamBannerAnimate3' src={dast2}/>
+          </div>
+
+          {/*<img alt=''  src={whatsBaham}/>*/}
+        </div>
       </div>
 
-      <div className='tonighttest'>
-        <img className='tonighttest1 tonighttest1active' alt='' src={p1}/>
-        <img className='tonighttest2 tonighttest2active' alt='' src={p2}/>
-        <img className='tonighttest3 tonighttest3active' alt='' src={p3}/>
-      </div>
+
       
       <div onClick={()=>{if(road !==0){setRoad(0)}}} className='roadHome'>
         <img alt='' className={road?"roadActive":''} src={Road}/>
