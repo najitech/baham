@@ -59,8 +59,9 @@ function App() {
   
   function reveal() {
     var reveals = document.querySelectorAll(".header");
-
+    
     var reveals2 = document.querySelectorAll(".nothingjustforscroll");
+    var reveals3 = document.querySelectorAll(".headerlogoPick");
     
     for (var i = 0; i < reveals.length; i++) {
       var windowHeight = window.innerHeight;
@@ -69,8 +70,12 @@ function App() {
   
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("headerSticky");
+        reveals3[i].classList.add("headerLogotransparent");
+
       } else {
         reveals[i].classList.remove("headerSticky");
+        reveals3[i].classList.remove("headerLogotransparent");
+
       }
     }
   }
@@ -118,7 +123,7 @@ function App() {
   function reveal4() {
     var reveals3 = document.querySelectorAll(".HeaderArchive");
     var reveals2 = document.querySelectorAll(".nothingjustforscroll");
-    
+    var reveals4 = document.querySelectorAll(".logoAmozeshiHeader");
     for (var i = 0; i < reveals3.length; i++) {
       var windowHeight = window.innerHeight;
       var elementTop = reveals2[i].getBoundingClientRect().top;
@@ -126,8 +131,10 @@ function App() {
   
       if (elementTop < windowHeight - elementVisible) {
         reveals3[i].classList.add("headerSticky2");
+        reveals4[i].classList.add("logoAmozeshiHeadertr");
       } else {
         reveals3[i].classList.remove("headerSticky2");
+        reveals4[i].classList.remove("logoAmozeshiHeadertr");
       }
     }
   }

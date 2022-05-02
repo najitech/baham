@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Header.css';
-import pic from '../../Images/Logonav.jpg';
+import pic from '../../Images/transparentLogo.png';
 import { BsPerson } from 'react-icons/bs';
 import {Link, useRouteMatch} from 'react-router-dom'
 import { useMediaQuery } from 'react-responsive';
@@ -38,7 +38,7 @@ function Header(props) {
 
   return (
     <div className='header' ref={props.header1}>
-        <div className='headerLogo'><div><img alt='' src={pic}/></div></div>
+        <div className='headerLogo'><div className='headerlogoPick'><img alt='' src={pic}/></div></div>
         <nav className='navbar'>  
             {!res400?<ul className='navbarList'>
                 <Link className={['linkClassHeaderStyle' ,item1? 'activeHeaderLink':''].join(" ")} to={"/home"}><li>صفحه اصلی</li></Link>

@@ -147,8 +147,18 @@
     color: white ;
 }
 
-.headerLogo > div{
+.headerlogopic1 {
+    display: inline !important;
+}
+.headerlogopic2 {
+    display: inline !important;
+}
+.headerlogopicnone {
+    display: none !important;
+}
+.headerLogotransparent{
     background-color: transparent !important;
+    padding-bottom: 15px;
 }
 @media screen and (max-width:1300px) {
     .header{
@@ -321,7 +331,11 @@
       .headerLogo{
         width: 221.5px;
         height: 55.6px;
+     
         margin-left: 20px;
+    }
+    .headerSticky img {
+        padding-top:5px;
     }
     .navbar{
         width:84%;
@@ -339,6 +353,9 @@
         display: flex;
         justify-content: space-between;
       }
+      .headerSticky img {
+        padding-top:8px;
+    }
     .navbar{
         width:90%;
         margin-right: -35.3px;
@@ -484,6 +501,7 @@
         max-width: 500px;
         margin: auto;
       }
+ 
     .navbar{
         width:100%;
         margin-right: 6.9px;
@@ -592,6 +610,9 @@
       .headerLogo{
         width: 135.4px;
         height: 29.3px;
+    }
+    .headerSticky img {
+        padding-top:0px;
     }
     .navbar{
         margin: auto;

@@ -1,7 +1,7 @@
 import React from 'react'
 import {BiSearchAlt} from 'react-icons/bi'
 import { Link, useRouteMatch } from 'react-router-dom';
-import logo from '../../Images/headerLogo.jpg'
+import logo from '../../Images/headerLogo.png'
 import './HeaderArchive.css'
 function HeaderArchive(props) {
   let item1 = useRouteMatch({
