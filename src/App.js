@@ -93,6 +93,7 @@ function App() {
       }
     }
   }
+  
   function reveal3() {
     var reveals = document.querySelectorAll(".roadHomeCar1");
     var reveals3 = document.querySelectorAll(".roadHomeCar3");
@@ -131,11 +132,32 @@ function App() {
     }
   }
 
+  function reveal5() {
+    var reveals3 = document.querySelectorAll(".dotsSearchBoxHome");
+    var reveals2 = document.querySelectorAll(".searchBoxHome");
+    
+    for (var i = 0; i < reveals2.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals2[i].getBoundingClientRect().top;
+      var elementVisible = 250;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals3[i].classList.add("dotsSearchBoxHomeActive");
+      } else {
+        reveals3[i].classList.remove("dotsSearchBoxHomeActive");
+      }
+    }
+  }
+
+
+
+
   const callScroll = () => {
     reveal();
     reveal2();
     reveal3();
-    reveal4()
+    reveal4();
+    reveal5();
   }
 
   return (

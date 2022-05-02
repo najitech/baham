@@ -29,13 +29,32 @@
     font-size: 40px;
     margin-top: 5px;
     color: #343434;
+
 }
+
+@keyframes dotsAni {
+    from {
+        opacity: 0;
+        right: -50%;
+    }
+    to {
+        opacity: 1;
+        right: -24.5%;
+    }
+  }
+
+.dotsSearchBoxHomeActive {
+    animation-name: dotsAni;
+    animation-duration: 1.5s;
+}
+
 .dotsSearchBoxHome{
     position: absolute;
     top:00px;
     width: 200px;
-    right: -230px;
+    right: -24.5% !important;
 }
+
 .dotsSearchBoxHome img{
     width: 80%;
 }
