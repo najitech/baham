@@ -1043,6 +1043,12 @@
         right: 9.4px;
         top: 100px;
     }
+    .roadHomeCar {
+        width: 40px !important;
+    }
+    .roadHomeCar3 {
+        width: 20px !important;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -1541,6 +1547,12 @@
         width: 50%;
         margin-left: 15px;
     }
+    .roadHomeCar {
+        width: 34px !important;
+    }
+    .roadHomeCar3 {
+        width: 16px !important;
+    }
 }   
 
 
@@ -1606,6 +1618,29 @@
 
 
 @media screen and (max-width:600px) {
+    .senterDivcircle {
+        transform: rotate(90deg);
+        top:42% !important;
+        right:38% !important;
+    }
+    .roadHomeCar1 {
+        top:43%;
+        right:20%;
+    }
+    .roadHomeCar2 {
+        top:52%;
+        left:40%;
+    }
+    .roadHomeCar3 {
+        top:64%;
+        right:37%;
+    }
+    .roadHomeCar {
+        width: 32px !important;
+    }
+    .roadHomeCar3 {
+        width: 14px !important;
+    }
     .roadHome p{
         text-align: center !important;
     }
@@ -2122,6 +2157,18 @@
 }   
 
 @media screen and (max-width:500px) {
+    .senterDivcircle {
+        transform: rotate(90deg);
+        top:42% !important;
+        right:38% !important;
+        font-size: 6px !important;
+    }
+    .roadHomeCar {
+        width: 30px !important;
+    }
+    .roadHomeCar3 {
+        width: 12px !important;
+    }
     .home{
         max-width: 100%;
         margin: auto;
@@ -2606,6 +2653,12 @@
     }
 }       
 @media screen and (max-width:480px) {
+    .senterDivcircle {
+        transform: rotate(90deg);
+        top:41% !important;
+        right:38% !important;
+        font-size: 6px !important;
+    }
     .searchBoxHome{
         margin: auto;
         position: relative;
@@ -2688,6 +2741,18 @@
 }
 
 @media screen and (max-width:450px) {
+    .senterDivcircle {
+        transform: rotate(90deg);
+        top:40% !important;
+        right:38% !important;
+        font-size: 6px !important;
+    }
+    .roadHomeCar {
+        width: 28px !important;
+    }
+    .roadHomeCar3 {
+        width: 12px !important;
+    }
     .r1Road{
         position: absolute;
         top: 7%;
@@ -2712,6 +2777,9 @@
 
 
 @media screen and (max-width:430px) {
+    .roadHome {
+        margin-top:310px;
+    }
     .whatsBahamBannerAnimate2 {
         width: 260px !important;
     
@@ -2731,6 +2799,30 @@
 
 
 @media screen and (max-width:400px) {
+    .senterDivcircle {
+        transform: rotate(90deg);
+        top:41% !important;
+        right:37% !important;
+        font-size: 5px !important;
+    }
+    .roadHomeCar {
+        width: 26px !important;
+    }
+    .roadHomeCar3 {
+        width: 11px !important;
+    }
+    .roadHomeCar1 {
+        top:42%;
+        right:20%;
+    }
+    .roadHomeCar2 {
+        top:51%;
+        left:40%;
+    }
+    .roadHomeCar3 {
+        top:64%;
+        right:36.5%;
+    }
     .home{
         max-width: 100%;
         margin: auto;
@@ -3214,6 +3306,12 @@
 }       
 
 @media screen and (max-width:380px) {
+    .senterDivcircle {
+        transform: rotate(90deg);
+        top:40% !important;
+        right:37% !important;
+        font-size: 5px !important;
+    }
     .whatsBahamBannerAnimate2 {
         width: 240px !important;
     

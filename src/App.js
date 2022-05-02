@@ -56,16 +56,17 @@ function App() {
 
  
 
-
+  
   function reveal() {
     var reveals = document.querySelectorAll(".header");
+
     var reveals2 = document.querySelectorAll(".nothingjustforscroll");
     
     for (var i = 0; i < reveals.length; i++) {
       var windowHeight = window.innerHeight;
       var elementTop = reveals2[i].getBoundingClientRect().top;
       var elementVisible = 250;
-      console.log(elementTop)
+  
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("headerSticky");
       } else {
@@ -83,7 +84,6 @@ function App() {
       var windowHeight = window.innerHeight;
       var elementTop = reveals2[i].getBoundingClientRect().top;
       var elementVisible = 250;
-      console.log(elementTop)
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("whatsBahamBannerAnimate1Active");
         reveals3[i].classList.add("whatsBahamBannerAnimate3Active");
@@ -93,10 +93,49 @@ function App() {
       }
     }
   }
+  function reveal3() {
+    var reveals = document.querySelectorAll(".roadHomeCar1");
+    var reveals3 = document.querySelectorAll(".roadHomeCar3");
+    var reveals2 = document.querySelectorAll(".roadHome");
+    var reveals4 = document.querySelectorAll(".roadHomeCar2");
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals2[i].getBoundingClientRect().top;
+      var elementVisible = 250;
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("roadHomeCar1Active");
+        reveals3[i].classList.add("roadHomeCar3Active");
+        reveals4[i].classList.add("roadHomeCar2Active");
+      } else {
+        reveals[i].classList.remove("roadHomeCar1Active");
+        reveals3[i].classList.remove("roadHomeCar3Active");
+        reveals4[i].classList.remove("roadHomeCar2Active");
+      }
+    }
+  }
+  
+  function reveal4() {
+    var reveals3 = document.querySelectorAll(".HeaderArchive");
+    var reveals2 = document.querySelectorAll(".nothingjustforscroll");
+    
+    for (var i = 0; i < reveals3.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals2[i].getBoundingClientRect().top;
+      var elementVisible = 250;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals3[i].classList.add("headerSticky2");
+      } else {
+        reveals3[i].classList.remove("headerSticky2");
+      }
+    }
+  }
 
   const callScroll = () => {
     reveal();
-    reveal2()
+    reveal2();
+    reveal3();
+    reveal4()
   }
 
   return (

@@ -451,6 +451,71 @@ top: -17px;
     text-align: right;
     width: 214px;
 }
+.roadHomeCar {
+    width: 50px !important;
+    position: absolute;
+}
+
+@keyframes roadhomecar1Ani {
+    from {
+        opacity: 0;
+        right:0px;
+    }
+    to {
+        opacity: 1;
+        right:20%;
+    }
+  }
+
+  @keyframes roadhomecar2Ani {
+    from {
+        opacity: 0;
+        left:0px;
+    }
+    to {
+        opacity: 1;
+        left:40%;
+    }
+  }
+  @keyframes roadhomecar3Ani {
+    from {
+        opacity: 0;
+        top:80%;
+    }
+    to {
+        opacity: 1;
+        top:64%;
+    }
+  }
+
+.roadHomeCar1Active {
+    animation-name: roadhomecar1Ani;
+    animation-duration: 1.5s;
+}
+.roadHomeCar2Active {
+    animation-name: roadhomecar2Ani;
+    animation-duration: 1.5s;
+}
+.roadHomeCar3Active {
+    animation-name: roadhomecar3Ani;
+    animation-duration: 1.5s;
+}
+
+
+.roadHomeCar1 {
+    top:43%;
+    right:20%;
+}
+.roadHomeCar2 {
+    top:50%;
+    left:40%;
+}
+.roadHomeCar3 {
+    top:64%;
+    right:35%;
+    width: 26px !important ;
+}
+
 .senterDivcircle{
     position: absolute;
     top: 360px;
