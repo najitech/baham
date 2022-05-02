@@ -927,7 +927,7 @@
     }
     .r2Road{
         position: absolute;
-        top: 385px;
+        top: 388px;
         left: 0px;
         right: 0px;
     }
@@ -943,7 +943,7 @@
     }
     .R6R{
         position: absolute;
-        right: 555px;
+        right: 545px;
         top: -10px;
     }
     .R1R{
@@ -954,11 +954,11 @@
     .R2R{
         position: absolute;
         right: 374px;
-        top: -10px;
+        top: -10px; 
     }
     .R3R{
         position: absolute;
-        right: 555px;
+        right: 545px;
         top: -10px;
     }
     .r2Road{
@@ -971,7 +971,7 @@
         filter: blur(8px);
     }
     .roadHome{
-        width: 800px;
+        width: 805px;
         margin-bottom: -40px;
         position: relative;
         margin-top:550px !important;
@@ -992,8 +992,8 @@
     }
     .senterDivcircle{
         position: absolute;
-        top: 238px;
-        right: 266px;
+        top: 240px;
+        right: 273px;
         color: #343434;
         font-size: 14px;
         font-weight: bold;
@@ -1456,7 +1456,7 @@
     }
     .R6R{
         position: absolute;
-        right: 419px;
+        right: 411px;
         top: -7.7px;
     }
     .R1R{
@@ -1471,7 +1471,7 @@
     }
     .R3R{
         position: absolute;
-        right: 419px;
+        right: 411px;
         top: -7.7px;
     }
     .r2Road{
@@ -1484,7 +1484,7 @@
         filter: blur(8px);
     }
     .roadHome{
-        width: 610px;
+        width: 630px;
         position: relative;
         margin-top:400px !important;
     }
@@ -2120,9 +2120,15 @@
     }
     .activeContainer{
         position: absolute;
+        width: 400px;
         left: 0px;
+        top: 40px;
         bottom: -16px;
         right: 0px;
+        margin-bottom: 50px;
+        margin-top:-40px;
+        margin-right: 40px;
+        transform: rotate(90deg);
     }
     .activeShape{
         position: relative;
@@ -2137,6 +2143,7 @@
         font-size: 6px;
         color:  #222222e1;
         line-height: 14px;
+        text-align: right !important;
         z-index: 3;
         word-spacing: 1px;
     }
@@ -2590,6 +2597,7 @@
         color:  #222222e1;
         line-height: 14px;
         z-index: 3;
+        text-align: right !important;
         word-spacing: 1px;
     }
     .shapeInfText h2{
@@ -2650,6 +2658,17 @@
         position: absolute;
         right: 75% !important;
         top: 1% !important;
+    }
+    .activeContainer{
+        position: absolute;
+        width: 400px;
+        left: 0px;
+        top: -20px;
+        bottom: -16px;
+        right: 0px;
+        margin-bottom: 10px;
+        margin-top:-40px;
+        margin-right: 40px;
     }
 }       
 @media screen and (max-width:480px) {
@@ -2773,12 +2792,21 @@
         text-align: right;
         width: 70px;
     }
+    .shapeInfText p{
+        width: 124px;
+        font-size: 6px;
+        color:  #222222e1;
+        line-height: 14px;
+        z-index: 3;
+        word-spacing: 1px;
+        text-align: right !important;
+    }
 }
 
 
 @media screen and (max-width:430px) {
     .roadHome {
-        margin-top:310px !important;
+        margin-top:310px;
     }
     .whatsBahamBannerAnimate2 {
         width: 260px !important;
@@ -3224,8 +3252,9 @@
     .activeContainer{
         position: absolute;
         left: 0px;
-        bottom: -16px;
+        bottom: -66px;
         right: 0px;
+        top: -80px;
     }
     .activeShape{
         position: relative;
