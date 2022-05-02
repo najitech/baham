@@ -427,6 +427,13 @@ top: -17px;
 .roadActive{
     filter: blur(8px);
 }
+.roadhomeContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .roadHome{
     position: relative;
 }
