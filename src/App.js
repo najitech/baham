@@ -41,64 +41,158 @@ function App() {
   const header4= useRef(null);
   const header5= useRef(null);
   const header6= useRef(null);
+  const header7= useRef(null);
+  const header8= useRef(null);
+  const header9= useRef(null);
+  const header10= useRef(null);
+  const header11= useRef(null);
+  const header12= useRef(null);
+  const header13= useRef(null);
+  const header14= useRef(null);
+  const header15= useRef(null);
+  const header16= useRef(null);
+  const header17= useRef(null);
+  const header18= useRef(null);
+
+ 
+
+
+  function reveal() {
+    var reveals = document.querySelectorAll(".header");
+    var reveals2 = document.querySelectorAll(".nothingjustforscroll");
+    
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals2[i].getBoundingClientRect().top;
+      var elementVisible = 250;
+      console.log(elementTop)
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("headerSticky");
+      } else {
+        reveals[i].classList.remove("headerSticky");
+      }
+    }
+  }
+
+  function reveal2() {
+    var reveals = document.querySelectorAll(".tonighttest1");
+    var reveals3 = document.querySelectorAll(".tonighttest3");
+    var reveals2 = document.querySelectorAll(".tonighttest");
+    
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals2[i].getBoundingClientRect().top;
+      var elementVisible = 250;
+      console.log(elementTop)
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("tonighttest1active");
+        reveals3[i].classList.add("tonighttest3active");
+      } else {
+        reveals[i].classList.remove("tonighttest1active");
+        reveals3[i].classList.remove("tonighttest3active");
+      }
+    }
+  }
+
+  const callScroll = () => {
+    reveal();
+    reveal2()
+  }
+
   return (
-    <div className="App colorStyles">  
+    <div className="App colorStyles" onScroll={() => callScroll()}>  
+      <div className='nothingjustforscroll'>
+
+      </div>
       <Router>
         <Switch>
           <Route exact path="/about">
+          <div ref={header8} >
+
+          </div>    
             <Header/>
-            <About/>
+            <About header={header8}/>
             <Footer/>
           </Route>
           <Route path="/moshavere">
+          <div ref={header9} >
+
+          </div> 
             <Header/>
-            <MosharekAmlak/>
+            <MosharekAmlak header={header9}/>
             <Footer/>
           </Route>
           <Route path="/Contact">
+          <div ref={header10} >
+
+          </div> 
             <Header/>
-            <ContactUs/>
+            <ContactUs header={header10}/>
             <Footer/>
           </Route>
           <Route path="/account">
+          <div ref={header11} >
+
+          </div> 
             <Header/>
-            <Login/>
+            <Login header={header11}/>
             <Footer/>
           </Route>
           <Route path="/karshenasi">
+          <div ref={header12} >
+
+          </div> 
             <Header/>
-            <Karshenasi/>
+            <Karshenasi header={header12}/>
             <Footer/>
           </Route>
           <Route path="/amlak">
+          <div ref={header13} >
+
+          </div> 
             <Header/>
-            <ArchiveAmlak/>
+            <ArchiveAmlak header={header13}/>
             <Footer/>
           </Route>
           <Route path="/agahi">
+          <div ref={header14} >
+
+          </div> 
             <Header/>
-            <AgahiPage/>
+            <AgahiPage header={header14}/>
             <Footer/>
           </Route>
           
           <Route path="/newagahi">
+          <div ref={header15} >
+
+          </div> 
             <Header/>
-            <SabtAgahi/>
+            <SabtAgahi header={header15}/>
             <Footer/>
           </Route>
           <Route path="/sazandegan">
+          <div ref={header16} >
+
+          </div> 
             <Header/>
-            <Sazandegan/>
+            <Sazandegan header={header16}/>
             <Footer/>
           </Route>
           <Route path="/blog">
+          <div ref={header17} >
+
+          </div> 
             <HeaderArchive/>
-            <BlogArchive/>
+            <BlogArchive header={header17}/>
             <Footer/>
           </Route>
           <Route path="/post">
+          <div ref={header18} >
+
+          </div> 
             <HeaderArchive/>
-            {<BlogPage image={p2} text="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد." time="6" clock="12:14"  title="معرفی محله دهکده المپیک با ساختمان های نوساز" date="1400/12/01"/>
+            {<BlogPage header={header18} image={p2} text="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد." time="6" clock="12:14"  title="معرفی محله دهکده المپیک با ساختمان های نوساز" date="1400/12/01"/>
          
            }      <Footer/>   </Route>
           
@@ -106,10 +200,7 @@ function App() {
 
 
           <Route path="/normal">
-            <div  className="HeaderAppContainer">
-              <Header/>
-            </div>
-  
+            <Header/>
             <div className='BaaHam_NormalUsersHeaderImageContainer' ref={header1} >
                 <img alt="hi" src={BackgroundImage} className="BaaHam_NormalUsersHeaderImageContainerImage" />
             </div>
@@ -156,8 +247,11 @@ function App() {
             <ChiefDashbord/>
           </Route>
           <Route path="/">
+            <div ref={header7} >
+
+            </div>
             <Header/>
-            <Home/>
+            <Home header={header7}/>
             <Footer/>
           </Route>
         </Switch>

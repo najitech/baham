@@ -34,13 +34,12 @@ function Home(props) {
   const res500 = useMediaQuery({query :'(max-width : 500px)'});
   const res400 = useMediaQuery({query :'(max-width : 400px)'});
   const res360 = useMediaQuery({query :'(max-width : 360px)'});
-  const header= useRef(null);
 
   useEffect(() => {
-      header.current.scrollIntoView({ behavior: "smooth"});
+      props.header.current.scrollIntoView({ behavior: "smooth"});
     }, []);
   return (
-    <div className='home' ref={header} >
+    <div className='home' >
       <div className='bannerHome' >
         <img alt='' src={banner}/>
         <div className='headingBanner'>
@@ -73,6 +72,13 @@ function Home(props) {
         </div>
         <div className='whatsBahamBanner'><img alt=''  src={whatsBaham}/></div>
       </div>
+
+      <div className='tonighttest'>
+        <img className='tonighttest1 tonighttest1active' alt='' src={p1}/>
+        <img className='tonighttest2 tonighttest2active' alt='' src={p2}/>
+        <img className='tonighttest3 tonighttest3active' alt='' src={p3}/>
+      </div>
+      
       <div onClick={()=>{if(road !==0){setRoad(0)}}} className='roadHome'>
         <img alt='' className={road?"roadActive":''} src={Road}/>
         <div className={['r1Road',road?'roadActive':''].join(" ")}>
@@ -121,6 +127,7 @@ function Home(props) {
                 <p>خدمات ویژه مشاورین املاک را ببینید</p>
               </div>
           </div>
+        
           <div className='categoryIconsHome'>
             <div>
               <div onMouseEnter={()=>setCategory(0)} className={['categoryIconBoxHome',category===0?'activeCategoryIconBoxHome':''].join(" ")}>

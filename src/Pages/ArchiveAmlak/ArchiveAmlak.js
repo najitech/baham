@@ -21,12 +21,11 @@ function ArchiveAmlak(props) {
   const res800 = useMediaQuery({query :'(max-width : 820px)'});
   const res700 = useMediaQuery({query :'(max-width : 706px)'});
   const [sideBar,setSideBar] = useState(0);
-  const header= useRef(null);
   useEffect(() => {
-        header.current.scrollIntoView({ behavior: "smooth" });
+        props.header.current.scrollIntoView({ behavior: "smooth" });
       }, []);
   return (
-    <div className='amlak' ref={header}>
+    <div className='amlak'>
       <Drawer
        anchor={"rigth"}
        open={sideBar}

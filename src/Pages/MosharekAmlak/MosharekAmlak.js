@@ -16,12 +16,11 @@ function MosharekAmlak(props) {
   const res500 = useMediaQuery({query :'(max-width : 500px)'});
   const res400 = useMediaQuery({query :'(max-width : 400px)'});
   const res360 = useMediaQuery({query :'(max-width : 360px)'});
-  const header= useRef(null);
   useEffect(() => {
-      header.current.scrollIntoView({ behavior: "smooth" });
+      props.header.current.scrollIntoView({ behavior: "smooth" });
     }, []);
   return (
-    <div className='mosharek' ref={header}>
+    <div className='mosharek'>
         <div className='aboutDives'>
                 <div className='lineAboveTextPages'><h2><span>باهم</span> چه مزایایی برای مشارکین املاک دارد؟</h2><div className='lineDotted mosharekLine'></div><div className='floatingSquareHomeWhatsBahamAbout mosharekSquare'></div></div>
                 <div className='marginTextMoshaver'>

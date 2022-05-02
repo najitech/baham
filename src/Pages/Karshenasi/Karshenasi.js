@@ -40,13 +40,13 @@ function Karshenasi(props) {
       </div>
     )
 }
-const header= useRef(null);
+
 useEffect(() => {
-      header.current.scrollIntoView({ behavior: "smooth" });
+      props.header.current.scrollIntoView({ behavior: "smooth" });
     }, []);
 
   return (
-    <div className='karshenasi' ref={header}>
+    <div className='karshenasi' >
         <div className='bannerKar'>
           <img alt="" src={banner}/>
         </div>

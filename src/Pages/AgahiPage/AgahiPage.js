@@ -46,12 +46,11 @@ const myArrow=({ type, onClick, isEdge })=> {
     )
 }
 
-    const header= useRef(null);
     useEffect(() => {
-        header.current.scrollIntoView({ behavior: "smooth" });
+        props.header.current.scrollIntoView({ behavior: "smooth" });
         }, []);
   return (
-    <div className='agahiPage' ref={header}>
+    <div className='agahiPage'>
         
         <div className='agahiContainerPage'>
             <div className='informationAgahiContainer'>

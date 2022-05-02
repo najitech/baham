@@ -436,7 +436,13 @@
     margin-top:10px;
 
 }
-
+.BaaHam_NU_SabteAgahiPicsBigContainer {
+    opacity: 0.3;
+    transition: all 1s ease;
+}
+.active5 {
+    opacity: 1;
+}
 
 
 @media screen and (max-width : 900px) {

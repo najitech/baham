@@ -5,14 +5,13 @@ import Image1 from '../../Images/Aboutus1.svg';
 import Image2 from '../../Images/Aboutus2.svg';
 import useDocumentTitle from '../../Components/TitleSetter/useDocumentTitle';
 function About(props) {
-    const header= useRef(null);
 
     useEffect(() => {
-        header.current.scrollIntoView({ behavior: "smooth"});
+        props.header.current.scrollIntoView({ behavior: "smooth"});
       }, []);
   useDocumentTitle('باهم | درباره ما')
   return (
-    <div ref={header}>
+    <div>
         <div className='listAboutUs'>
             <div className='aboutDives'>
                 <div className='lineAboveTextPages'><h2>معرفی <span>باهم</span></h2><div className='lineDotted'></div><div className='floatingSquareHomeWhatsBahamAbout'></div></div>
