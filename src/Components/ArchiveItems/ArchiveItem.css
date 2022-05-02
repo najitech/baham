@@ -4,6 +4,9 @@
     object-fit: cover;
     border-radius:25px;
 }
+.archiveItemComp{
+    cursor: pointer;
+}
 .archiveItemComp h3{
     color: #666666;
     font-size: 16px;

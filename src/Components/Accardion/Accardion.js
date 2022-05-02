@@ -46,7 +46,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 }));
 
 export default function CustomizedAccordions(props) {
-  const [expanded, setExpanded] = React.useState('panel1');
+  const [expanded, setExpanded] = React.useState(false);
 
   const handleChange = (panel) => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
@@ -54,7 +54,7 @@ export default function CustomizedAccordions(props) {
 
   return (
     <div className='accContainer'>
-      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      <Accordion defaultExpanded={false} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
         <div className='headerDivFiltersAmlak accTitle'><h6>{props.title}</h6></div>
         </AccordionSummary>

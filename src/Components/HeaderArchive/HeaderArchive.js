@@ -17,7 +17,9 @@ function HeaderArchive(props) {
     exact: true
   });
   return (
+    <div className='realHeaderIshere'>
     <div className='HeaderArchive'>
+           
             <div className='logoAmozeshiHeader'>
                 <img alt='' src={logo}/>
             </div>
@@ -32,6 +34,7 @@ function HeaderArchive(props) {
                     <h3>سایت باهم</h3>
                 </div></Link>
             </div>
+    </div>
     </div>
   )
 }

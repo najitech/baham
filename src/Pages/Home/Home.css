@@ -400,7 +400,7 @@
 }
 .R6R{
     position: absolute;
-    right: 840px;
+    right: 830px;
     top: -17px;
 }
 .R1R{
@@ -415,7 +415,7 @@ top: -17px;
 }
 .R3R{
     position: absolute;
-    right: 840px;
+    right: 830px;
     top: -17px;
 }
 .r2Road{
@@ -436,6 +436,7 @@ top: -17px;
 
 .roadHome{
     position: relative;
+    margin-top: -140px;
 }
 .roadHome h2{
     text-align: center;
@@ -511,7 +512,7 @@ top: -17px;
 .roadHome{
     width: 1200px;
     margin: auto;
-    margin-top: 0px;
+    margin-top: -140px !important;
 }
 @keyframes example11 {
     from {

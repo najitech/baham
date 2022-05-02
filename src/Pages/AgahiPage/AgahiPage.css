@@ -30,6 +30,10 @@
 .bazgashtAgahi span{
     margin: 0px;
     font-size: 11px;
+    cursor: pointer;
+}
+.bazgashtAgahi:hover{
+    color: #8a8a8ab9;
 }
 .row1InfoAgahi{
     width: 100%;
@@ -145,6 +149,7 @@
     box-sizing: border-box;
     padding: 0px 30px;
     height: 35px;
+    cursor: pointer;
     display: flex;
     align-items: center;
     background-color: var(--color);

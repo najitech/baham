@@ -50,7 +50,7 @@ function Footer(props) {
             </div>
             <div className='iconsDive'>
             <div className='iconsContact'>
-            <div><BsLinkedin style={{fontSize:res450 ? '13px': res500 ? '14px': res1500 ? '17px':'',paddingBottom:'2px'}} className='iconStyleContact'/></div>
+            <div><BsLinkedin style={{fontSize:res450 ? '13px': res500 ? '14px': res1500 ? '21.5px':'',paddingBottom:res500? '1.5px':'3px'}} className='iconStyleContact'/></div>
             <div><RiInstagramFill className='iconStyleContact'/></div>
             <div className='bottonContact btnColorChange btnShodow'><span>دانلود اپلیکیشن باهم</span></div>
             <div className='bottonContact appleIcon'><img alt='' src={appstore}/></div>

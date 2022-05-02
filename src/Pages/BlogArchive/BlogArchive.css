@@ -39,6 +39,7 @@
 }
 .biggerImageContainerArchive{
     width: 880px;
+    cursor: pointer;
 }
 .TwoMore{
     width: 420px;
@@ -53,10 +54,12 @@
 }
 .hb{
     height: 493px;
+    cursor: pointer;
     width: 879px !important;
 }
 .hs{
     height: 237px;
+    cursor: pointer;
     width: 421px !important;
 }
 .h2BigImageArchive{
@@ -116,6 +119,7 @@
     background-color: var(--color);
     color: white;
     font-size: 18px;
+    cursor: pointer;
     word-spacing: 1px;
     margin: auto;
     display: flex;
