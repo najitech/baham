@@ -16,6 +16,7 @@ import s4 from '../../Images/shapesHome/4.svg';
 import s5 from '../../Images/shapesHome/5.svg';
 import s6 from '../../Images/shapesHome/3v6.svg';
 import Road from '../../Images/ElementAsli.png';
+import Road2 from '../../Images/ElementAsli2.png'
 import backdast from '../../Images/bahamchistback.svg'
 import dast2 from '../../Images/dast2bahamchist.svg'
 import dast1 from '../../Images/dastbahamchist.svg'
@@ -85,32 +86,34 @@ function Home(props) {
       </div>
 
 
-      
-      <div onClick={()=>{if(road !==0){setRoad(0)}}} className='roadHome'>
-        <img alt='' className={road?"roadActive":''} src={Road}/>
-        <div className={['r1Road',road?'roadActive':''].join(" ")}>
-          <div onClick={()=>setRoad(1)} className='R1R'><h2>1</h2><p>ایجاد یک استاندارد بر اساس برآیند نظرات صد ها نفر...</p></div>
-          <div onClick={()=>setRoad(2)} className='R2R'><h2>2</h2><p>داده های خام مستند از مراکز دولتی: داده های خام...</p></div>
-          <div onClick={()=>setRoad(3)} className='R3R'><h2>3</h2><p>کاملا سیستماتیک: در تمام فرآیند کارشناسی ملک...</p></div>
-        </div>
-        <div className={['r2Road',road?'roadActive':''].join(" ")}>
-          <div onClick={()=>setRoad(4)} className='R4R'><h2>4</h2><p>ایجاد یک استاندارد بر اساس برآیند نظرات صد ها نفر...</p></div>
-          <div onClick={()=>setRoad(5)} className='R5R'><h2>5</h2><p>داده های خام مستند از مراکز دولتی: داده های خام...</p></div>
-          <div onClick={()=>setRoad(6)} className='R6R'><h2>6</h2><p>کاملا سیستماتیک: در تمام فرآیند کارشناسی ملک...</p></div>
-        </div>
-        <div className='senterDivcircle'>
-          <h1>مزایای &nbsp;باهم</h1>
-        </div>
-        {road?<div className='activeContainer'>
-          <div className='activeShape'>
-            <img  alt='' src={s1}/>
-            <div className='shapeInfText'>
-              <p>داده های خام مستند از مراکز دولتی: داده های خام مستند از شهرداری تهران، وزارت راه و شهرسازی، وزارت ارتباطات و فناوری اطلاعات، مرکز آمار ایران که جهت استفاده عموم منتشر میشوند تهیه شده است و باهم با انجام داده کاوی و استفاده از هوش مصنوعی بصورت سیستماتیک محاسبات را انجام داده است</p>
-              <h2>{road}</h2>
-            </div>
+      <div className='roadhomeContainer'>
+
+        <div onClick={()=>{if(road !==0){setRoad(0)}}} className='roadHome'>
+          <img alt='' className={road?"roadActive":''} src={res600? Road2 : Road}/>
+          <div className={['r1Road',road?'roadActive':''].join(" ")}>
+            <div onClick={()=>setRoad(1)} className='RXR R1R'><h2>1</h2><p>ایجاد یک استاندارد بر اساس برآیند نظرات صد ها نفر...</p></div>
+            <div onClick={()=>setRoad(2)} className='RXR R2R'><h2>2</h2><p>داده های خام مستند از مراکز دولتی: داده های خام...</p></div>
+            <div onClick={()=>setRoad(3)} className='RXR R3R'><h2>3</h2><p>کاملا سیستماتیک: در تمام فرآیند کارشناسی ملک...</p></div>
           </div>
-        </div>:''}
-      </div>  
+          <div className={['r2Road',road?'roadActive':''].join(" ")}>
+            <div onClick={()=>setRoad(4)} className='RXR R4R'><h2>4</h2><p>ایجاد یک استاندارد بر اساس برآیند نظرات صد ها نفر...</p></div>
+            <div onClick={()=>setRoad(5)} className='RXR R5R'><h2>5</h2><p>داده های خام مستند از مراکز دولتی: داده های خام...</p></div>
+            <div onClick={()=>setRoad(6)} className='RXR R6R'><h2>6</h2><p>کاملا سیستماتیک: در تمام فرآیند کارشناسی ملک...</p></div>
+          </div>
+          <div className='senterDivcircle'>
+            <h1>مزایای &nbsp;باهم</h1>
+          </div>
+          {road?<div className='activeContainer'>
+            <div className='activeShape'>
+              <img  alt='' src={s1}/>
+              <div className='shapeInfText'>
+                <p>داده های خام مستند از مراکز دولتی: داده های خام مستند از شهرداری تهران، وزارت راه و شهرسازی، وزارت ارتباطات و فناوری اطلاعات، مرکز آمار ایران که جهت استفاده عموم منتشر میشوند تهیه شده است و باهم با انجام داده کاوی و استفاده از هوش مصنوعی بصورت سیستماتیک محاسبات را انجام داده است</p>
+                <h2>{road}</h2>
+              </div>
+            </div>
+          </div>:''}
+        </div>  
+      </div>
       <div className='categoriesCardHome'>
           <div className='categoryListHome'>
               <div onMouseEnter={()=>setCategory(0)} className={['categoryItemHome',category ===0?'activeCategoryItemHome':''].join(" ")}>
