@@ -306,9 +306,11 @@ useEffect(() => {
             </div>
             <div className='divForWidthKar'>
             <div className='sliderRowNazarat'>
+        
               <Carousel className='sliderCompo'
                   pagination={true}
                   showArrows={false}
+                  verticalMode
                   isRTL={true}
                   renderArrow={myArrow}
                   renderPagination={({ pages, activePage, onClick }) => {
@@ -331,6 +333,7 @@ useEffect(() => {
                   )
                 }}
                   itemsToShow={1}>
+        
                     <div className='nazarcontainerSlider2'>
                      
               <Question question={"باهم کدام بخش های یک ملک را بررسی می کند؟"} text={"باهم ویژگی های لوکیشن و موقعیت همسایگی کوچه ملک مورد نظر را به همراه فاکتورهای اثر گذار در ارزش یک ملک را کارشناسی می کند (بیش از 100 مورد تعیین کننده در ارزش یک ملک و تاثیرگذار در خرید یک ملک توسط مشتری) و مواردی از این دست را کارشناسی نمیکند . شما می توانید نمونه گزارش کارشناسی ملک با ضمانت باهم را از اینجا ببینید."}/>
