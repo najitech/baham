@@ -1,5 +1,5 @@
 import './App.css';
-import {useRef} from 'react'
+import {useRef , useEffect} from 'react'
 import Home from './Pages/Home/Home';
 import {
   BrowserRouter as Router,
@@ -133,24 +133,23 @@ function App() {
   }
 
   function reveal5() {
-    var reveals3 = document.querySelectorAll(".dotsSearchBoxHome");
-    var reveals2 = document.querySelectorAll(".searchBoxHome");
+    var reveals2 = document.querySelectorAll(".dotsSearchBoxHome");
     
     for (var i = 0; i < reveals2.length; i++) {
       var windowHeight = window.innerHeight;
       var elementTop = reveals2[i].getBoundingClientRect().top;
-      var elementVisible = 250;
+      var elementVisible = 150;
   
       if (elementTop < windowHeight - elementVisible) {
-        reveals3[i].classList.add("dotsSearchBoxHomeActive");
+        reveals2[i].classList.add("dotsSearchBoxHomeActive");
       } else {
-        reveals3[i].classList.remove("dotsSearchBoxHomeActive");
+        reveals2[i].classList.remove("dotsSearchBoxHomeActive");
       }
     }
   }
 
 
-
+ 
 
   const callScroll = () => {
     reveal();
@@ -159,6 +158,10 @@ function App() {
     reveal4();
     reveal5();
   }
+
+  useEffect(() => {
+    callScroll();
+  }, []);
 
   return (
     <div className="App colorStyles" onScroll={() => callScroll()}>  

@@ -35,24 +35,22 @@
 @keyframes dotsAni {
     from {
         opacity: 0;
-        right: -50%;
     }
     to {
         opacity: 1;
-        right: -24.5%;
     }
   }
 
 .dotsSearchBoxHomeActive {
     animation-name: dotsAni;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
 }
 
 .dotsSearchBoxHome{
     position: absolute;
     top:00px;
     width: 200px;
-    right: -24.5% !important;
+    
 }
 
 .dotsSearchBoxHome img{
