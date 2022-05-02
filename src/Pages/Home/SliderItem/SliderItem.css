@@ -2,10 +2,22 @@
     width: 390px;
     position: relative;
     height: 260px;
+    cursor: pointer;
     background-color: #F5F5F5;
     border: 2px solid rgb(201, 201, 201);
     border-radius: 40px;
     z-index: 1000;
+    transition: all ease-in 0.3s;
+    
+    margin-bottom: 10px;
+}
+.sliderItemHomePage:hover .textAndTiteItemSlider h4{
+    color: var(--color);
+}
+
+.sliderItemHomePage:hover{
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    border-color: #F5F5F5;
 }
 .pictureItemSllider{
     margin: auto;
@@ -69,7 +81,7 @@
     font-size: 10px;
     margin-top: 0px;
 }
-@media screen and (max-width:5000px) {
+@media screen and (max-width:8000px) {
     .sliderItemHomePage{
         width: 277px;
         position: relative;
@@ -193,6 +205,8 @@
             height: 70px;
             border: 1px solid rgb(201, 201, 201);
             border-radius: 9px;
+            
+            margin-bottom: 5px;
         }
         .pictureItemSllider{
             width: 90px;
