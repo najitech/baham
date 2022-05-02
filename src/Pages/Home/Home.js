@@ -15,7 +15,7 @@ import s3 from '../../Images/shapesHome/3v6.svg';
 import s4 from '../../Images/shapesHome/4.svg';
 import s5 from '../../Images/shapesHome/5.svg';
 import s6 from '../../Images/shapesHome/3v6.svg';
-import Road from '../../Images/ElementAsli.svg';
+import Road from '../../Images/ElementAsli.png';
 import './HomeRes.css';
 import { useMediaQuery } from 'react-responsive';
 import Carousel from 'react-elastic-carousel'

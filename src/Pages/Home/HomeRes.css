@@ -1935,11 +1935,14 @@
     .roadHome img{
         transform: rotate(-90deg);
         width: 100%;
+        text-align: center;
     }
     .roadActive{
         filter: blur(8px);
     }
     .roadHome{
+        width: 700px;
+        margin: auto;
         position: relative;
     }
     .roadHome h2{
@@ -2170,9 +2173,9 @@
         right: 5.4px;
         top: 5px;
         max-width: 254px;
-        width: 254px;
+        width: 244px;
         background-color: white ;
-        height: 162px;
+        height: 152px;
         border-radius: 14px;box-shadow: rgba(199, 199, 199, 0.445) 0px 20px 35px -3px, rgba(199, 199, 199, 0.05) 3px 0px 6px -2px;
     }
     .whatsBahamDiv h2{
@@ -2535,6 +2538,32 @@
         border-radius: 4.5px;
         color: white;
     }
+    .whatsBahamDiv{
+        position: absolute;
+        text-align: right;
+        right: 5.4px;
+        top: 5px;
+        max-width: 254px;
+        width: 234px;
+        background-color: white ;
+        height: 142px;
+        border-radius: 14px;box-shadow: rgba(199, 199, 199, 0.445) 0px 20px 35px -3px, rgba(199, 199, 199, 0.05) 3px 0px 6px -2px;
+    }
+    .whatsBahamDiv h2{
+        margin-right: 20px;
+        font-size: 9px;
+        margin-top: 21px;
+        position: relative;
+        z-index: 2;
+        font-weight: bold;
+    }
+    .whatsBahamDiv p{
+        font-size: 8px;
+        width: 185px;
+        color: #919191;
+        line-height: 16px;
+        margin-right: 20px;
+    }
 }
 @media screen and (max-width:400px) {
     .home{
@@ -2693,9 +2722,9 @@
         right: 5.4px;
         top: 5px;
         max-width: 254px;
-        width: 254px;
+        width: 190px;
         background-color: white ;
-        height: 162px;
+        height: 152px;
         border-radius: 14px;box-shadow: rgba(199, 199, 199, 0.445) 0px 20px 35px -3px, rgba(199, 199, 199, 0.05) 3px 0px 6px -2px;
     }
     .whatsBahamDiv h2{
@@ -2707,8 +2736,8 @@
         font-weight: bold;
     }
     .whatsBahamDiv p{
-        font-size: 8.7px;
-        width: 185px;
+        font-size: 7.7px;
+        width: 155px;
         color: #919191;
         line-height: 16px;
         margin-right: 20px;
