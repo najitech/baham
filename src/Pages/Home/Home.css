@@ -163,9 +163,12 @@
     text-align: right;
     right: 13px;
     top: 50px;
-    max-width: 692px;
+   
     width: 692px;
+    z-index: 50;
     padding-bottom: 40px;
+    width: 45% !important;
+    max-width: 692px !important;
     border-radius: 47px;box-shadow: rgba(199, 199, 199, 0.445) 0px 20px 35px -3px, rgba(199, 199, 199, 0.05) 3px 0px 6px -2px;
 }
 .whatsBahamBanner{
@@ -189,6 +192,7 @@
     color: #919191;
     line-height: 46px;
     margin-right: 91px;
+    width: 80% !important;
 }
 .whatsBahamButtonHome{
     background-color: var(--color);
@@ -540,7 +544,83 @@ top: -20px;
 }
 
 
+.whatsBahamBanner {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.whatsBahamBannerAnimate {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    position: relative;
+    z-index: 1;
+    position: absolute;
+    width: 70%;
+    left:0px;
+    top:0px;
+    width: 530px !important;
+    height: 500px;
 
+}
+
+
+@keyframes dastkilid {
+    from {
+        opacity: 0;
+        left:150%;
+    }
+    to {
+        opacity: 1;
+        left:45%
+    }
+  }
+
+  @keyframes dastgirande {
+    from {
+        opacity: 0;
+        left:-50%;
+
+    }
+    to {
+        opacity: 1;
+        left:10%;
+    }
+  }
+.whatsBahamBannerAnimate1Active {
+    animation-name: dastkilid;
+    animation-duration: 1.5s;
+}
+.whatsBahamBannerAnimate3Active {
+    animation-name: dastgirande;
+    animation-duration: 1.5s;
+}
+
+.whatsBahamBannerAnimate1 {
+
+    z-index:5;
+    position: absolute;
+    top:30%;
+    left:45%;
+    width: 300px !important;
+}
+.whatsBahamBannerAnimate2 {
+
+    width: 530px !important;
+
+    z-index: 1;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.whatsBahamBannerAnimate3 {
+    z-index: 3;
+    position: absolute;
+
+    left:10%;
+    bottom:0px;
+    width: 300px !important;
+}
 @media screen and (max-width:1000px) {
     .paginationRowSlider{
         height: 10px;

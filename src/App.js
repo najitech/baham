@@ -75,9 +75,9 @@ function App() {
   }
 
   function reveal2() {
-    var reveals = document.querySelectorAll(".tonighttest1");
-    var reveals3 = document.querySelectorAll(".tonighttest3");
-    var reveals2 = document.querySelectorAll(".tonighttest");
+    var reveals = document.querySelectorAll(".whatsBahamBannerAnimate1");
+    var reveals3 = document.querySelectorAll(".whatsBahamBannerAnimate3");
+    var reveals2 = document.querySelectorAll(".whatsBahamBannerAnimate");
     
     for (var i = 0; i < reveals.length; i++) {
       var windowHeight = window.innerHeight;
@@ -85,11 +85,11 @@ function App() {
       var elementVisible = 250;
       console.log(elementTop)
       if (elementTop < windowHeight - elementVisible) {
-        reveals[i].classList.add("tonighttest1active");
-        reveals3[i].classList.add("tonighttest3active");
+        reveals[i].classList.add("whatsBahamBannerAnimate1Active");
+        reveals3[i].classList.add("whatsBahamBannerAnimate3Active");
       } else {
-        reveals[i].classList.remove("tonighttest1active");
-        reveals3[i].classList.remove("tonighttest3active");
+        reveals[i].classList.remove("whatsBahamBannerAnimate1Active");
+        reveals3[i].classList.remove("whatsBahamBannerAnimate3Active");
       }
     }
   }
