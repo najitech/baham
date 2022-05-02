@@ -1939,43 +1939,50 @@
         position: absolute;
         right: 53px;
         top: -4.7px;
+        transform: rotate(90deg);
     }
     .R5R{
         position: absolute;
         right: 192px;
         top: -4.7px;
+        transform: rotate(90deg);
     }
     .R6R{
         position: absolute;
         right: 277px;
         top: -4.7px;
+        transform: rotate(90deg);
     }
     .R1R{
     position: absolute;
     right: 53px;
     top: -3px;
+    transform: rotate(90deg);
     }
     .R2R{
         position: absolute;
         right: 192px;
         top: -4.7px;
+        transform: rotate(90deg);
     }
     .R3R{
         position: absolute;
         right: 277px;
         top: -4.7px;
+        transform: rotate(90deg);
     }
     .r2Road{
         position: absolute;
     }
     .roadHome img{
-        transform: rotate(-90deg);
+        
         width: 100%;
     }
     .roadActive{
         filter: blur(8px);
     }
     .roadHome{
+        transform: rotate(-90deg);
         position: relative;
     }
     .roadHome h2{
