@@ -43,7 +43,7 @@ function Header(props) {
             {!res400?<ul className='navbarList'>
                 <Link className={['linkClassHeaderStyle' ,item1? 'activeHeaderLink':''].join(" ")} to={"/home"}><li>صفحه اصلی</li></Link>
                 <Link className={['linkClassHeaderStyle' ,item2? 'activeHeaderLink':''].join(" ")} to={"/karshenasi"}><li>کارشناسی ملک با ضمانت باهم</li></Link>
-                <Link className={['linkClassHeaderStyle' ,item3? 'activeHeaderLink':''].join(" ")} to={"/karshenasi"}><li>فروش سفارشی ملک</li></Link>
+                <Link className={['linkClassHeaderStyle' ,item3? 'activeHeaderLink':''].join(" ")} to={"/sazandegan"}><li>فروش سفارشی ملک</li></Link>
                 <Link className={['linkClassHeaderStyle' ,item4? 'activeHeaderLink':''].join(" ")} to={"/Blog"}><li>مطالب آموزشی</li></Link>
                 <Link className={['linkClassHeaderStyle' ,item5? 'activeHeaderLink':''].join(" ")} to={"/About"}><li>درباره ما</li></Link>
             </ul>:<div className='navbarList'>
@@ -52,8 +52,8 @@ function Header(props) {
                  
                  className='safahatBTNHeader dropdown'>
                  <div class="dropdown-content">
-                 <Link className={['linkClassHeaderStyle' ,item2? 'activeHeaderLink':''].join(" ")} to={"/moshavere"}><div>کارشناسی ملک با ضمانت باهم</div></Link>
-                <Link className={['linkClassHeaderStyle' ,item3? 'activeHeaderLink':''].join(" ")} to={"/karshenasi"}><div>فروش سفارشی ملک</div></Link>
+                 <Link className={['linkClassHeaderStyle' ,item2? 'activeHeaderLink':''].join(" ")} to={"/karshenasi"}><div>کارشناسی ملک با ضمانت باهم</div></Link>
+                <Link className={['linkClassHeaderStyle' ,item3? 'activeHeaderLink':''].join(" ")} to={"/sazandegan"}><div>فروش سفارشی ملک</div></Link>
                 <Link className={['linkClassHeaderStyle' ,item4? 'activeHeaderLink':''].join(" ")} to={"/Blog"}><div>مطالب آموزشی</div></Link>
                 <Link className={['linkClassHeaderStyle' ,item5? 'activeHeaderLink':''].join(" ")} to={"/About"}><div>درباره ما</div></Link>
            

@@ -883,6 +883,7 @@
     }
     .buttonRowSlider{
         width: 100%;
+        margin-top: -30px;
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -1394,7 +1395,7 @@
         justify-content: space-between;
     }
     .buttonRowSlider{
-        margin-top: 00px;
+        margin-top: -20px;
         width: 100%;
         display: flex;
         align-items: center;
