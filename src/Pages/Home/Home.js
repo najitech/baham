@@ -15,6 +15,9 @@ import s3 from '../../Images/shapesHome/3v6.svg';
 import s4 from '../../Images/shapesHome/4.svg';
 import s5 from '../../Images/shapesHome/5.svg';
 import s6 from '../../Images/shapesHome/3v6.svg';
+import car1 from '../../Images/car1.png'
+import car2 from '../../Images/car2.png'
+import car3 from '../../Images/car3.png'
 import Road from '../../Images/ElementAsli.png';
 import Road2 from '../../Images/ElementAsli2.png'
 import backdast from '../../Images/bahamchistback.svg'
@@ -89,6 +92,9 @@ function Home(props) {
       <div className='roadhomeContainer'>
 
         <div onClick={()=>{if(road !==0){setRoad(0)}}} className='roadHome'>
+          <img alt='' className='roadHomeCar roadHomeCar1' src={car1}/>
+          <img alt='' className='roadHomeCar roadHomeCar2' src={car2}/>
+          <img alt='' className='roadHomeCar roadHomeCar3' src={car3}/>
           <img alt='' className={road?"roadActive":''} src={res600? Road2 : Road}/>
           <div className={['r1Road',road?'roadActive':''].join(" ")}>
             <div onClick={()=>setRoad(1)} className='RXR R1R'><h2>1</h2><p>ایجاد یک استاندارد بر اساس برآیند نظرات صد ها نفر...</p></div>

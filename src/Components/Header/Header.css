@@ -124,23 +124,31 @@
     box-shadow: #fd6a30cc 0px 15px 20px -12px;
     cursor: pointer;
 }
+
 .linkClassHeaderStyle{
     text-decoration: none;
-    color: #464646 !important;
+    color: #464646 ;
 }
 .linkClassHeaderStyle:hover{
-    color: #464646ca !important;
+    color: #46464689 ;
 }
 .activeHeaderLink{
     color: var(--color) !important;
 }
+.activeHeaderLink::hover{
+    color: var(--color) !important;
+}
 .linkHeaderBtnStyle{
     text-align: center !important;
-    color: var(--color) !important;
+    color: var(--color);
 }
 .linkHeaderBtnStyle2{
     text-align: center !important;
-    color: white !important;
+    color: white ;
+}
+
+.headerLogo > div{
+    background-color: transparent !important;
 }
 @media screen and (max-width:1300px) {
     .header{

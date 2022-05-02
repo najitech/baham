@@ -18,11 +18,36 @@
     background-color: white;
     margin: auto;
     justify-content: center;
-    position: sticky;
-    top:0px;
+    z-index: 3454;
+    margin: auto;
     z-index: 1000;
     background-color: white;
+
 }
+
+@keyframes example102 {
+    from {
+        opacity: 0;
+        padding-top:30px;
+    }
+    to {
+        opacity: 1;
+        margin-top:0px;
+    }
+  }
+
+.headerSticky2 {
+    position: sticky;
+    top:0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px !important;
+    background-color: white;
+    animation-name: example102;
+    animation-duration: 0.7s;
+}
+
+
+
+
 .logoAmozeshiHeader{
     height: 143px;
     width: 347px;

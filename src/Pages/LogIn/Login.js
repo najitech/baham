@@ -62,7 +62,7 @@ function Login(props) {
                                 <div className='labelLSGN'>کد تایید به ایمیل / شماره تلفن همراه شما ارسال شد</div>
                             </div>
                             <div className='btnRowLogin'>
-                                <div className='btnLSGN'>ورود</div>
+                                <div className='btnLSGN'>{switchs===1?"ثبت نام" : "ورود"}</div>
                                 <div className='labelLSGN labelLSGN2 taeedCodeLabel'><span>با ورود به باهم ، قوانین و مقررات باهم را می پذیرم</span></div>
                             </div>
                            

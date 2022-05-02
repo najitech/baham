@@ -29,13 +29,30 @@
     font-size: 40px;
     margin-top: 5px;
     color: #343434;
+
 }
+
+@keyframes dotsAni {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+
+.dotsSearchBoxHomeActive {
+    animation-name: dotsAni;
+    animation-duration: 2s;
+}
+
 .dotsSearchBoxHome{
     position: absolute;
     top:00px;
     width: 200px;
-    right: -230px;
+    
 }
+
 .dotsSearchBoxHome img{
     width: 80%;
 }
@@ -136,6 +153,7 @@
     font-size: 20px;
     border-radius: 18px;
     color: white;
+    cursor: pointer;
 }
 .searchButtonHome span{
     padding-bottom: 7px;
@@ -157,6 +175,9 @@
     width: 1410px;
     text-align: left;
     position: relative;
+}
+.RXR {
+    cursor: pointer;
 }
 .whatsBahamDiv{
     position: absolute;
@@ -207,7 +228,7 @@
     margin-top: 60px;
     margin-right: 91px;
     border-radius: 18px;
-
+    cursor: pointer;
 }
 .whatsBahamButtonHome span{
     margin-bottom: 5px;
@@ -358,6 +379,7 @@
     margin-top: 15px;
     margin-left: 30px;
     border-radius: 13px;
+    cursor: pointer;
 }
 .sliderPagination{
     width: 100%;
@@ -452,6 +474,71 @@ top: -17px;
     text-align: right;
     width: 214px;
 }
+.roadHomeCar {
+    width: 50px !important;
+    position: absolute;
+}
+
+@keyframes roadhomecar1Ani {
+    from {
+        opacity: 0;
+        right:0px;
+    }
+    to {
+        opacity: 1;
+        right:20%;
+    }
+  }
+
+  @keyframes roadhomecar2Ani {
+    from {
+        opacity: 0;
+        left:0px;
+    }
+    to {
+        opacity: 1;
+        left:40%;
+    }
+  }
+  @keyframes roadhomecar3Ani {
+    from {
+        opacity: 0;
+        top:80%;
+    }
+    to {
+        opacity: 1;
+        top:64%;
+    }
+  }
+
+.roadHomeCar1Active {
+    animation-name: roadhomecar1Ani;
+    animation-duration: 1.5s;
+}
+.roadHomeCar2Active {
+    animation-name: roadhomecar2Ani;
+    animation-duration: 1.5s;
+}
+.roadHomeCar3Active {
+    animation-name: roadhomecar3Ani;
+    animation-duration: 1.5s;
+}
+
+
+.roadHomeCar1 {
+    top:43%;
+    right:20%;
+}
+.roadHomeCar2 {
+    top:50%;
+    left:40%;
+}
+.roadHomeCar3 {
+    top:64%;
+    right:35%;
+    width: 26px !important ;
+}
+
 .senterDivcircle{
     position: absolute;
     top: 360px;

@@ -148,7 +148,7 @@ function SabtAgahi(props) {
         </div>
         <div className='sabtAndTaeedBox'>
           <div><div className='forcheckboxLateer'><CheckCust check/></div><span>ثبت آگهی در سایت باهم، به منزله مطالعه و قبول کردن <span style={{color:'var(--color)'}}>قوانین و مقررات</span> است</span></div>
-          <div className='sabtBtnNahaee'>ثبت آگهی</div>
+          <div className='sabtBtnNahaee' style={{cursor:'pointer'}}>ثبت آگهی</div>
         </div>
       </div>
     </div>

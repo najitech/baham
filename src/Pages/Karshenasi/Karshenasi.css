@@ -187,6 +187,7 @@
     margin-top: 20px;
     font-size: 18px;
     box-shadow: #fe480048 0px 10px 30px -5px, #fe480057 0px 5px 10px -5px;
+    cursor: pointer;
 }
 .informationBoxReqFormKar{
     margin-top: 80px;

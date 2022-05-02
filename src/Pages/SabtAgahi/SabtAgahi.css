@@ -435,6 +435,7 @@
         border-radius: 9px;
         padding: 5px 31px;
         font-size: 11px;
+        cursor: pointer !important;
         box-shadow: #fd480062 0px 10px 17px -5px, #fd480073 0px 8px 8px -8px;
     }
     .sabtAndTaeedBox span{
