@@ -97,7 +97,7 @@ function Home(props) {
             </div>
           </div>
         </div>:''}
-      </div>
+      </div>  
       <div className='categoriesCardHome'>
           <div className='categoryListHome'>
               <div onMouseEnter={()=>setCategory(0)} className={['categoryItemHome',category ===0?'activeCategoryItemHome':''].join(" ")}>

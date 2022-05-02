@@ -11,14 +11,14 @@
 }
 .bannerHome img{
     width: 1036px;
-}
+}   
 .headingBanner{
     position: absolute;
     top: 0px;
     text-align: right;
 }
 .headingBanner h1{
-    font-size: 100px;
+    font-size: 60px;
     color: var(--color);
     margin-bottom: 0px;
 }
@@ -26,7 +26,7 @@
     color: var(--color);
 }
 .headingBanner h2{
-    font-size: 60px;
+    font-size: 40px;
     margin-top: 5px;
     color: #343434;
 }
@@ -165,8 +165,11 @@
     top: 50px;
     max-width: 692px;
     width: 692px;
-    height: 100vh;
+    padding-bottom: 40px;
     border-radius: 47px;box-shadow: rgba(199, 199, 199, 0.445) 0px 20px 35px -3px, rgba(199, 199, 199, 0.05) 3px 0px 6px -2px;
+}
+.whatsBahamBanner{
+    margin-left: 140px;
 }
 .whatsBahamBanner img{
     width: 570px;
@@ -331,6 +334,7 @@
 }
 
 .buttonRowSlider{
+    margin-top: -30px;
     width: 100%;
     display: flex;
     align-items: center;

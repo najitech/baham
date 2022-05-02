@@ -69,8 +69,8 @@
     
 }
 .infoContainer span{
-    font-size: 19px;
-    color: rgba(54, 54, 54, 0.849);
+    font-size: 16px !important;
+    color: #8a8989 !important;
     margin-bottom: 25px;
     font-weight: bold;
 }
@@ -204,11 +204,11 @@
         font-size: 19.7px;
         font-weight: bolder;
         color: var(--color);
-    }
+    }   
     .rsideFooter p{
-        font-size: 12px;
+        font-size: 11px;
         color: #696969;
-        line-height: 22px;
+        line-height: 26px;
         word-wrap: break-word;
     }
     .ffContainerF{
@@ -234,8 +234,8 @@
         justify-content: space-between;
     }
     .infoContainer span{
-        font-size: 14px;
-        color: rgba(54, 54, 54, 0.849);
+        font-size: 10px !important;
+        color: #999999 !important;
         margin-bottom: 19px;
         font-weight: bold;
     }
@@ -397,8 +397,8 @@
         justify-content: space-between;
     }
     .infoContainer span{
-        font-size: 10px;
-        color: rgba(54, 54, 54, 0.849);
+        font-size: 8px !important;
+        color: #999999 !important;
         margin-bottom: 13px;
         font-weight: bold;
     }
@@ -564,8 +564,9 @@
         justify-content: space-between;
     }
     .infoContainer span{
-        font-size: 8.3px;
-        color: rgba(54, 54, 54, 0.849);
+        font-size: 6.3px !important;
+        color: #999999 !important
+        ;
         margin-bottom: 9px;
         font-weight: bold;
     }
@@ -764,7 +765,7 @@
         height: 145px;
     }
     .infoContainer span{
-        font-size: 7px;
+        font-size: 5px !important;
         margin-bottom: 4px;
     }   
 }
@@ -775,7 +776,7 @@
         width: 90%;
     }
     .infoContainer span{
-        font-size: 7px;
+        font-size: 5px !important;
         margin-bottom: 4px;
     }   
 .logoFooter{

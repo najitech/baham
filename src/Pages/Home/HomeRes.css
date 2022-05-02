@@ -1,9 +1,14 @@
-@media screen and (max-width:3000px) {
+@media screen and (max-width:1900px) {
     .home{
         max-width: 100%;
         margin: auto;
         direction: rtl;
         margin-bottom: 87px;
+    }
+
+    
+    .whatsBahamBanner{
+        margin-left: 0px;
     }
     .bannerHome{
         width: 100vw;
@@ -25,8 +30,8 @@
     }
     .headingBanner h1{
         margin-right: 100px;
-        font-size: 60px;
-        margin-top: 130px;
+        font-size: 80px;
+        margin-top: 180px;
         color: var(--color);
         margin-bottom: 0px;
     }
@@ -34,7 +39,7 @@
         color: var(--color);
     }
     .headingBanner h2{
-        font-size: 30px;
+        font-size: 40px;
         margin-top: 3.6px;
         margin-right: 100px;
         color: #343434;
@@ -163,10 +168,10 @@
         margin: auto;
         margin-top: 72px;
         max-width: 1024px;
-        height: 100vh;
         width: 1024px;
         text-align: left;
         position: relative;
+        margin-bottom: 30px;
     }
     .whatsBahamDiv{
         position: absolute;
@@ -372,7 +377,51 @@
     }
     .activeSliderPagination{
         background-color: var(--color) !important;
+    }   
+    .roadHome{
+        width: 1400px;
+        margin: auto;
+        margin-top: 0px;
     }
+}
+@media screen and (max-width:1400px) {
+    .headingBanner h1{
+        margin-right: 100px;
+        font-size: 66px;
+        margin-top: 180px;
+        color: var(--color);
+        margin-bottom: 0px;
+    }
+    .headingBanner span{
+        color: var(--color);
+    }
+    .headingBanner h2{
+        font-size: 34px;
+        margin-top: 3.6px;
+        margin-right: 100px;
+        color: #343434;
+    }   
+}
+
+@media screen and (max-width:1150px) {
+    .headingBanner h1{
+        margin-right: 50px;
+        font-size: 57px;
+        margin-top: 180px;
+        color: var(--color);
+        margin-bottom: 0px;
+    }
+    .headingBanner span{
+        color: var(--color);
+    }
+    .headingBanner h2{
+        font-size: 30px;
+        margin-top: 3.6px;
+        margin-right: 50px;
+        color: #343434;
+    }   
+}
+@media screen and (max-width:1350px) {
     .r1Road{
         position: absolute;
         top: 130px;
@@ -425,7 +474,7 @@
         filter: blur(8px);
     }
     .roadHome{
-        width: 1024px;
+        width: 1000px;
         margin: auto;
         position: relative;
     }
@@ -483,7 +532,6 @@
         right: 18px;
     }
 }
-
 @media screen and (max-width:1000px) {
     .headingBanner h1{
         margin-right: 100px;
@@ -655,7 +703,7 @@
         position: absolute;
         left: 56px;
         right: 56px;
-        top: 28x;
+        top: 28px;
         height: 14px;
         z-index: 1;
         background-color: #f5f5f5;
@@ -922,6 +970,8 @@
         filter: blur(8px);
     }
     .roadHome{
+        width: 800px;
+        margin-bottom: -40px;
         position: relative;
     }
     .roadHome h2{
@@ -1322,6 +1372,7 @@
         justify-content: space-between;
     }
     .buttonRowSlider{
+        margin-top: 00px;
         width: 100%;
         display: flex;
         align-items: center;
@@ -1372,32 +1423,32 @@
     }
     .R4R{
         position: absolute;
-        right: 80px;
+        right: 86px;
         top: -7.7px;
     }
     .R5R{
         position: absolute;
-        right: 289px;
+        right: 290px;
         top: -7.7px;
     }
     .R6R{
         position: absolute;
-        right: 416px;
+        right: 419px;
         top: -7.7px;
     }
     .R1R{
     position: absolute;
-    right: 80x;
+    right: 86px;
     top: -8px;
     }
     .R2R{
         position: absolute;
-        right: 280px;
+        right: 290px;
         top: -7.7px;
     }
     .R3R{
         position: absolute;
-        right: 416px;
+        right: 419px;
         top: -7.7px;
     }
     .r2Road{
@@ -1410,6 +1461,7 @@
         filter: blur(8px);
     }
     .roadHome{
+        width: 610px;
         position: relative;
     }
     .roadHome h2{
@@ -1428,8 +1480,8 @@
     }
     .senterDivcircle{
         position: absolute;
-        top: 178px;
-        right: 199px;
+        top: 188px;
+        right: 209px;
         color: #343434;
         font-size: 10px;
         font-weight: bold;
@@ -1798,7 +1850,7 @@
     }
     .buttonRowSlider{
         width: 96%;
-        margin-top: 10px;
+        margin-top: -10px;
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -1881,6 +1933,7 @@
         position: absolute;
     }
     .roadHome img{
+        transform: rotate(-90deg);
         width: 100%;
     }
     .roadActive{

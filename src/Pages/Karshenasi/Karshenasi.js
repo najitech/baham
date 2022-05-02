@@ -369,7 +369,9 @@ useEffect(() => {
              </div>
             </Carousel>
           </div>
-          
+          <div className='buttonRowSlider'>
+              <div className='whatsBahamButtonHomeSlider'>مشاهده مطالب آموزشی</div>
+          </div>
         <div style={{margin:'40px auto',padding:'30px 0px',width:'600px',backgroundColor:''}}></div>
           </div>
     </div>
