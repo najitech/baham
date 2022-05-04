@@ -41,6 +41,7 @@
     justify-content: center;
     align-items: center;
     padding: 40px 0px;
+    margin-left: -600px;
     background-color: var(--color) !important;
 }
 .middleDivOrangeBox{
@@ -263,7 +264,161 @@ color: var(--black-color);
         width: 90%;
     }
 }
+@media screen and (max-width:4900px) {
+    .orangeBoxLSGN{
+        background-color: var(--color);
+        height: 100%;
+        border-radius: 35px;
+        width:  70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        margin-left: -550px;
+        background-color: var(--color) !important;
+    }
+}
+@media screen and (max-width:4600px) {
+    .orangeBoxLSGN{
+        background-color: var(--color);
+        height: 100%;
+        border-radius: 35px;
+        width:  70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        margin-left: -500px;
+        background-color: var(--color) !important;
+    }
+}
+@media screen and (max-width:4200px) {
+    .orangeBoxLSGN{
+        background-color: var(--color);
+        height: 100%;
+        border-radius: 35px;
+        width:  70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        margin-left: -450px;
+        background-color: var(--color) !important;
+    }
+}
+@media screen and (max-width:3900px) {
+    .orangeBoxLSGN{
+        background-color: var(--color);
+        height: 100%;
+        border-radius: 35px;
+        width:  70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        margin-left: -400px;
+        background-color: var(--color) !important;
+    }
+}
+@media screen and (max-width:3700px) {
+    .orangeBoxLSGN{
+        background-color: var(--color);
+        height: 100%;
+        border-radius: 35px;
+        width:  70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        margin-left: -300px;
+        background-color: var(--color) !important;
+    }
+}
+@media screen and (max-width:3200px) {
+    .orangeBoxLSGN{
+        background-color: var(--color);
+        height: 100%;
+        border-radius: 35px;
+        width:  70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        margin-left: -250px;
+        background-color: var(--color) !important;
+    }
+}
+@media screen and (max-width:3000px) {
+    .orangeBoxLSGN{
+        background-color: var(--color);
+        height: 100%;
+        border-radius: 35px;
+        width:  70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        margin-left: -200px;
+        background-color: var(--color) !important;
+    }
+}
+@media screen and (max-width:2600px) {
+    .orangeBoxLSGN{
+        background-color: var(--color);
+        height: 100%;
+        border-radius: 35px;
+        width:  70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        margin-left: -150px;
+        background-color: var(--color) !important;
+    }
+}
+@media screen and (max-width:2400px) {
+    .orangeBoxLSGN{
+        background-color: var(--color);
+        height: 100%;
+        border-radius: 35px;
+        width:  70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        margin-left: -100px;
+        background-color: var(--color) !important;
+    }
+}
 
+@media screen and (max-width:2100px) {
+    .orangeBoxLSGN{
+        background-color: var(--color);
+        height: 100%;
+        border-radius: 35px;
+        width:  70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        margin-left: -50px;
+        background-color: var(--color) !important;
+    }
+}
+@media screen and (max-width:1800px) {
+    .orangeBoxLSGN{
+        background-color: var(--color);
+        height: 100%;
+        border-radius: 35px;
+        width:  70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        margin-left: 0px;
+        background-color: var(--color) !important;
+    }
+}
 @media screen and (max-width:1200px) {
     .contentComponentLoginSignUp {
         
@@ -667,6 +822,7 @@ color: var(--black-color);
     .loginSectionLSGN{
         width: 90%;
         padding: 20px 0px;   
+        height: 200px;
     }
     .headerComponentLoginSignUp{
         width: 100%;
@@ -831,6 +987,8 @@ color: var(--black-color);
     .loginSectionLSGN{
         width: 90%;
         padding: 20px 0px;   
+           
+        height: 180px;
     }
     .headerComponentLoginSignUp{
         width: 100%;
@@ -991,7 +1149,9 @@ color: var(--black-color);
 
     .loginSectionLSGN{
         width: 90%;
-        padding: 20px 0px;   
+        padding: 20px 0px;  
+           
+        height: 180px; 
     }
     .headerComponentLoginSignUp{
         width: 100%;
@@ -1147,16 +1307,20 @@ color: var(--black-color);
     .orangeBoxLSGN{
         width: 90%;
         padding: 10px 0px;
+        padding-bottom: 20px;
     }
     .SignUpSectionLSGN{
         width: 90%;
         padding: 7px 0px;
+        padding-bottom: 30px;
     }
 
     .loginSectionLSGN{
         width: 90%;
         padding: 10px 0px;   
-        min-height: 240px;
+        min-height: 120px;
+        height: 120px;
+        margin-bottom: 150px;
     }
     .headerComponentLoginSignUp{
         width: 100%;
@@ -1320,8 +1484,9 @@ color: var(--black-color);
 
     .loginSectionLSGN{
         width: 90%;
-        padding: 10px 0px;   
-        min-height: 240px;
+        padding: 10px 0px;
+        height: 120px;
+        margin-bottom: 150px;
     }
     .headerComponentLoginSignUp{
         width: 100%;
@@ -1485,8 +1650,10 @@ color: var(--black-color);
 
     .loginSectionLSGN{
         width: 90%;
-        padding: 10px 0px;   
-        min-height: 240px;
+        padding: 10px 0px;
+        height: 120px;
+        margin-bottom: 150px;
+        
     }
     .headerComponentLoginSignUp{
         width: 100%;

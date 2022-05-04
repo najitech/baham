@@ -65,7 +65,6 @@ function Login(props) {
                                 <div className='btnLSGN'>{switchs===1?"ثبت نام" : "ورود"}</div>
                                 <div className='labelLSGN labelLSGN2 taeedCodeLabel'><span>با ورود به باهم ، قوانین و مقررات باهم را می پذیرم</span></div>
                             </div>
-                           
                         </div>}
                     </div>
                 </div>
