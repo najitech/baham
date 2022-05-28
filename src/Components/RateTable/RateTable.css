@@ -1,0 +1,19 @@
+.RateTable {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.RT_Number {
+    flex:0.1;
+}
+.RT_title {
+    flex:0.2;
+}
+.RT_features {
+    flex:0.7;
+}
+.RT_feature {
+    width: 100%;
+    display: flex;
+}

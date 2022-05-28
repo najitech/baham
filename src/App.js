@@ -32,6 +32,7 @@ import ChiefDashbord from './Pages/ChiefDashbord/ChiefDashbord';
 import AgahiPage from './Pages/AgahiPage/AgahiPage';
 import SabtAgahi from './Pages/SabtAgahi/SabtAgahi';
 import ScrollToTop from './ScrollToTop';
+import RatePage from './Pages/RatePage/RatePage';
 
 
 function App() {
@@ -268,7 +269,10 @@ function App() {
            }      <Footer/>   </Route>
           
      
+          <Route path="/rate">       
+            <RatePage/>
 
+          </Route>
 
           <Route path="/normal">
             <Header/>
