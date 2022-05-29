@@ -1,19 +1,95 @@
 .RateTable {
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    column-gap: 7px;
+    margin-bottom: 5px;
 }
 .RT_Number {
     flex:0.1;
+    width: 100%;
+    background-color: rgb(254, 72, 0);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
 }
+
 .RT_title {
     flex:0.2;
+    width: 100%;
+    background-color: rgb(255, 200, 179);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .RT_features {
     flex:0.7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    
 }
 .RT_feature {
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+  
+}
+.RT_featureName {
+    flex:0.45;
+    background-color: rgb(241, 241, 241);
+    border-radius: 12px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 27px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.RT_featureRates {
+    flex:0.55;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 241);
+    border-radius: 6px;
+    height: 100%;
+    min-height: 27px;
+    padding: 0px 5px;
+    box-sizing: border-box;
+}
+.RT_featureRate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 19%;
+    font-size: 11px;
+    height: 70%;
+    border-radius: 5px;
+}
+
+.RT_featureRateRed {
+    background-color: rgb(244, 68, 86);
+    box-shadow: 2px 2px 10px 1px rgba(244, 68, 86, 0.363);
+    color:white;
+}
+.RT_featureRateBlue {
+    background-color: rgb(22, 98, 157);
+    box-shadow: 2px 2px 10px 1px rgba(22, 99, 157, 0.352);
+    color:white;
+}
+.RT_featureRateGreen {
+    background-color: rgb(12, 167, 125);
+    box-shadow: 2px 2px 10px 1px rgba(12, 167, 125, 0.363);
+    color:white;
+
 }

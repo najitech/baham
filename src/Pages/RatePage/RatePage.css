@@ -1,16 +1,50 @@
 .RatePage {
     display: flex;
-    height: 100vh;
+    height: 2000px;
     max-width: 1440px;
     margin:auto;
+    justify-content: space-between;
 }
-.RP_tables {
-    flex:0.8;
+.RP_Bigtables {
+    flex:0.7;
     height: 100%;
-    background-color: blue;
+    box-sizing: border-box;
+    padding-top:100px;
 }
 .RP_information { 
     flex:0.2;
     height: 100%;
-    background-color: red;
+     background-color: bisque;
+ 
+}
+.RP_BigtableContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin-bottom: 30px;
+}
+.RP_BigtableContainerTitle {
+    background-color: rgb(52, 52, 52);
+    color:white;
+    flex:0.06;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.RP_BigtableContainerTitle > span {
+    transform: rotate(-90deg);
+    font-size: 30px;
+    width: 240px !important;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RP_BigtableContainerTables {
+    flex:0.94;
 }
