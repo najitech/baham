@@ -426,4 +426,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+.labelShahrOp{
+    font-size: 13px;
+    margin-top: -10px;
+    font-weight: bold;
 }
