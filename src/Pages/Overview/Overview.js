@@ -252,7 +252,7 @@ function Overview() {
   )
   return (
     <div className='overviewPage overviewColors'>
-      <OverviewRate/>
+      <OverviewRate rate={8.23}/>
       <div className='sarmayeRowOp'>
         <div className='boxSizeBlackdiv'><div className='blackboxTitleOp'><h3>سرمایه گذاری</h3></div></div>
         <div className='infRowSarmayeOp'>

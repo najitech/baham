@@ -2,19 +2,50 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 80%;
+    border-top:1px dashed rgb(136, 136, 136);
+    padding: 3px 0px;
+    font-weight: bold;
+
 }
 .OverviewRateBox_title {
-    flex:0.2;
+    flex:0.25;
+    font-size: 15px;
 }
 .OR_BoxShow {
-    flex:0.7;
+    flex:0.57;
     height: 15px;
     border: 1px solid rgb(52, 52, 51);
     border-radius: 5px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 3px;
+
+    padding:0px 1px;
+    box-sizing: border-box;
 }
 .OverviewRateBox_Rate {
     flex:0.1;
+    text-align: left;
+    font-size: 14px;
+}
+.OR_BoxShow :first-child{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.OR_BoxShowItemFirst {
+
 }
 .OR_BoxShowItem {
-    height: 100%;
+    height: 90%;
+}
+.OR_BoxShowItem_red {
+    background-color: rgb(245, 68, 86);
+}
+.OR_BoxShowItem_blue {
+    background-color: rgb(22, 98, 157);
+}
+.OR_BoxShowItem_green {
+    background-color: rgb(12, 167, 125);
 }
