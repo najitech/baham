@@ -23,6 +23,7 @@
     flex:0.34;
     height: 86%;
     position: relative;
+    background-color: rgba(199, 217, 232, 0.527);
 }
 .OverviewRateLeft {
     flex:0.33;
@@ -48,13 +49,14 @@
     justify-content: space-between;
 }
 .OR_centerAbsoluteContent {
-    width:75%;
+    width:65%;
     height: 100%;
     background-color: rgb(52, 52, 52);
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .OR_centerAC_Top {
     width: 100%;
@@ -87,9 +89,9 @@
 .OR_centerAC_Middle {
     width: 100%;
     height: auto;
-    flex:0.75;
+    flex:0.7;
     position: relative;
-    
+
 }
 .OR_centerAC_Bottom {
     flex:0.1;
@@ -97,6 +99,7 @@
     color:white;
     font-size:20px;
     font-weight: bold;
+
 }
 .OR_centerAC_MiddleAbs {
     position: absolute;
@@ -105,12 +108,12 @@
     background-color: white;
     left:-25%;
     border-radius: 70%;
-    padding:30px 0px;
+    padding:20px 0px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: space-between;
 }
 .OR_centerAC_MiddleAbsItem1 {
     font-size:20px;
@@ -122,7 +125,7 @@
 
 .OR_centerAC_MiddleAbsItem2Container {
     width: 50%;
-    height: 27px;
+    height: 30px;
     position: relative;
     border-radius: 10px;
 }
@@ -139,7 +142,7 @@
     top:0px;
     background-color: transparent;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     color:white;
     font-weight: bold;
 
@@ -147,13 +150,50 @@
 
 .OR_centerAC_MiddleAbsItem3 {
     background-color: rgb(223, 223, 223);
-    width: 85%;
+    width: 80%;
     border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 50px;
+    padding-right:20px;
+    padding-left:3px;
+    box-sizing: border-box;
 }
 
+
+.OR_centerAC_MiddleAbsItem3RateContainer {
+
+    height: 42px;
+    width: 42px;
+    border-radius: 16px;
+    border:2px solid white;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.OR_centerAC_MiddleAbsItem3Rate {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top:4px;
+}
+
+.OR_centerAC_MiddleAbsItem3First {
+    font-size: 18px;
+}
+.OR_centerAC_MiddleAbsItem3Second {
+    font-size: 15px;
+}
+
+.OR_centerAC_MiddleAbsItem4 {
+    font-size: 20px;
+}
+.OR_centerAC_MiddleAbsItem5 {
+    font-size: 25px;
+    color:rgb(245, 68, 86);
+    font-weight: bold;
+}
 
 .OR_BoxShowItem_redBack {
     background-color: rgba(245, 68, 86, 0.2);

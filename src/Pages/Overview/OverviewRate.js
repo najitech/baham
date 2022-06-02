@@ -3,8 +3,15 @@ import OverviewRateBox from '../../Components/OverviewRateBox/OverviewRateBox'
 import './OverviewRate.css'
 
 function OverviewRate(props) {
+    let StreetRate = "OR_BoxShowItem_green"
     let rateBoxColor = "OR_BoxShowItem_red"
     let rateBoxColorBack = "OR_BoxShowItem_redBack"
+    if (props.streetRate > 3 ) {
+        StreetRate = "OR_BoxShowItem_blue"
+    }
+    if (props.streetRate > 6 ) {
+        StreetRate = "OR_BoxShowItem_red"
+    }
     if (props.rate > 4 ) {
         rateBoxColor = "OR_BoxShowItem_blue"
         rateBoxColorBack = "OR_BoxShowItem_blueBack"
@@ -56,11 +63,11 @@ function OverviewRate(props) {
                             </div>
                             <div className='OR_centerAC_MiddleAbsItem3'>
                                 <div className='OR_centerAC_MiddleAbsItem3Text'>
-                                    <span className='OR_centerAC_MiddleAbsItem1First'>درجه کیفی کوچه یا خیابان:</span>
-                                    <span className='OR_centerAC_MiddleAbsItem1Second'> (از 1 تا 8)</span>
+                                    <span className='OR_centerAC_MiddleAbsItem1First OR_centerAC_MiddleAbsItem3First'>درجه کیفی کوچه یا خیابان:</span>
+                                    <span className='OR_centerAC_MiddleAbsItem1Second OR_centerAC_MiddleAbsItem3Second'> (از 1 تا 8)</span>
                                 </div>
-                                <div>
-                                    <span>3</span>
+                                <div className={['OR_centerAC_MiddleAbsItem3RateContainer' ,StreetRate].join(" ")}>
+                                    <span className='OR_centerAC_MiddleAbsItem3Rate'>{props.streetRate}</span>
                                 </div>
                             </div>
                             <span className='OR_centerAC_MiddleAbsItem4 OR_centerAC_MiddleAbsItem1First'>
