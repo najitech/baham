@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {FaSchool} from 'react-icons/fa'
 import Chart from 'react-apexcharts'
 import './Overview.css'
+import OverviewRate from './OverviewRate';
 function Overview() {
   const [barCharshahr,setBarCharShahr]= useState(
     {
@@ -251,6 +252,7 @@ function Overview() {
   )
   return (
     <div className='overviewPage overviewColors'>
+      <OverviewRate/>
       <div className='sarmayeRowOp'>
         <div className='boxSizeBlackdiv'><div className='blackboxTitleOp'><h3>سرمایه گذاری</h3></div></div>
         <div className='infRowSarmayeOp'>

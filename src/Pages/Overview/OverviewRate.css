@@ -1,0 +1,22 @@
+.OverviewRate {
+    width: 100%;
+    height: 330px;
+    margin-top:40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.OverviewRateRight {
+    flex:0.33;
+    height: 100%;
+
+}
+.OverviewRateCenter {
+    flex:0.34;
+    height: 80%;
+
+}
+.OverviewRateLeft {
+    flex:0.33;
+    height: 100%;
+}
