@@ -1,0 +1,429 @@
+.overviewPage{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    
+    background-color: rgba(244, 232, 238, 0.779);
+}
+.overviewColors{
+    --blue-color-op:#16629E;
+    --green-color-op:#0BA77D;
+    --red-color-op:#F54456;
+}
+.sarmayeRowOp{
+    margin: 50px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.infRowSarmayeOp{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 12px;
+    grid-gap: 10px 13px;
+}
+.sarmayeInfoItemOp{
+    display: flex;
+    border-radius: 13px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 4px 14px;
+    padding-left: 5px;
+    font-weight: bold;
+    color: rgba(29, 28, 28, 0.84);
+}
+
+.spanboldspan{
+    font-weight: normal;
+}
+.rateSarmayeItemOp{
+    background-color: var(--green-color-op);
+    color: white;
+    box-sizing: border-box;
+    padding:0px;
+    font-size: 20px;
+    height: 100%;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: IRANYEKAN;
+    border: 2.6px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    
+}
+.marginWSpanLablOp{
+    margin: 5px 0px !important;
+}
+.accebility{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius:15px;
+    padding-bottom: 17px;
+}
+.internetsectionOP{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    height: 100%;
+}
+.blackboxTitleOp{
+    color: white;
+    background-color: var(--black-color);
+    box-sizing: border-box;
+    padding: 18px 0px;
+    width: 100%;
+    border-radius: 19px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.blackboxTitleOp > h3{
+    font-size: 26px;
+    padding: 0px !important;
+    margin: 0px !important; 
+    font-weight: bold !important;
+    font-family: IRANYekan !important;  
+}
+.antenDhiOp{
+    display: flex;
+    width: 530px;
+    flex-direction: column;
+}
+.antenDahiRow{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.distanceOp{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.sabetInternetOp{
+    background-color: white;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 8px 5px;
+    width: 100%;
+    padding-bottom: 5px;
+    box-shadow: rgba(83, 87, 91, 0.3) 0px 1px 2px 0px, rgba(95, 99, 103, 0.15) 0px 2px 6px 2px;
+    margin-top: 10px;
+}
+.simpleLableHeaderOp h4{
+    padding:3px 0px !important;
+    margin: 0px !important;
+    font-size: 18px;
+    margin-bottom: 8px !important;
+
+}
+.itemsRowSabetNetOp{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.netSabetItemOp{
+    border: 1.5px solid black;
+    border-radius: 11px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px 1.5px;
+    
+}
+
+.imgItemNetSabet{
+    height: 42px;
+}
+.labelItemNetSabet{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    padding: 3px 0px;
+    text-align: center;
+}
+.rightmeduimLableHeaderOp{
+    text-align: right !important;
+}
+.meduimheaderCardOp{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.meduimheaderCardOp span{
+    color: #343434 !important;
+}
+.meduimheaderCardOp h4{
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 23px;
+    color: var(--green-color-op);
+    margin: 5px 0px !important;
+}
+.distanceGridBoxOp{
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto  auto;
+    grid-gap: 12px 10px;
+}
+.distanceItemOp{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    margin: 0px 0px;
+    padding-left: 0px;
+    overflow: hidden;
+    background-color: #EEEEEE;
+    border-radius: 11px;
+    box-shadow: rgba(98, 98, 109, 0.25) 0px 6px 12px -2px, rgba(84, 84, 84, 0.3) 0px 3px 20px -3px;
+}
+.iconAndNameDistanceObj{
+    display: flex;
+    align-items: center;
+    color: var(--blue-color-op);
+    font-size: 17px;
+}
+.iconAndNameDistanceObj span{
+    margin-right: 7px;
+    font-size: 16px;
+    color: black;
+}
+.meterBoxDistanceObj
+{
+    font-size: 17px;
+}
+.meterBoxDistanceObj{
+    background-color: white;
+    padding: 0px 15px;
+    border-radius: 11px;
+    box-sizing: border-box;
+}
+.antenMaplocationBox{
+    border: 1.7px solid rgba(0, 0, 0, 0.666);
+    height: 99%;
+    width: 230px;
+    border-radius: 19px;
+}
+.rowoperatorsInfBox{
+    width: 100%;
+    display: flex;
+    margin-left: -3px;
+    justify-content: space-between;
+}
+.operatorAntenInfBox{
+    width: 100%;
+    margin-left: 14px;
+    height: 99%;
+    display: flex;
+    background-color: #EEEEEE;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    box-shadow: rgba(98, 98, 109, 0.25) 0px 6px 12px -2px, rgba(84, 84, 84, 0.3) 0px 3px 20px -3px;
+    flex-direction: column;
+}
+.imageOperatorInf{
+    width: 100%;
+    background-color: white;
+    height: 55px;
+    box-shadow: rgba(98, 98, 109, 0.25) 0px 2px 12px -2px, rgba(84, 84, 84, 0.3) 0px 1px 20px -3px; 
+}
+.conditionRadioBox{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px 8px;
+    padding-top: 0px;
+}
+.radioBoxOp{
+    margin-top  : 5px;
+    background-color: white;
+    display: flex;
+    padding: 1.7px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.labelradioOp{
+    border-radius: 10px;
+    color: white;
+    box-sizing: border-box;
+    width: 50px;
+    font-size: 11px;
+}
+.greenLabelRadioOp{
+    background-color: var(--green-color-op);
+}
+.blueLabelRadioOp{ 
+    background-color: var(--blue-color-op);
+}
+.redLabelRadioOp{
+    background-color: var(--red-color-op);
+}
+.meduimNetSabetLabelOp{
+    background-color:var(--blue-color-op) ;
+}
+.meduimNetSabetOp{
+    border-color: var(--blue-color-op);
+}
+.goodNetSabetLabelOp{
+    background-color:var(--green-color-op) ;
+}
+.goodNetSabetOp{
+    border-color: var(--green-color-op);
+}
+.weakNetSabetLabelOp{
+    background-color:var(--red-color-op) ;
+}
+.weakNetSabetOp{
+    border-color: var(--red-color-op);
+}
+.boxSizeBlackdiv{
+    width: 250px;
+}
+.baftkocheOp{
+    width: 60%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.chartsRowBaftOp{
+    box-sizing: border-box;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tarakomContainer{
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgba(240, 248, 255, 0.489) ;
+}
+.explanationRowTarakom{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.itemTarakomOp{
+    flex: 0.49;
+
+    height: 100%;
+}
+.labelRowTarakom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
+.labletextTarakom{
+    font-size: 13px;
+    font-weight: bold;
+    width: 160px;
+    line-height: 27px;
+}
+.rateTarakomItemOp{
+    background-color: var(--green-color-op);
+    color: white;
+    box-sizing: border-box;
+    padding:0px;
+    font-weight: bold;
+    font-size: 23px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: IRANYEKAN;
+    border: 2.6px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    
+}
+.mapTarakomOp{
+    margin-top: 10px;
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: solid 2px #466E87;
+}
+.levelTarakomRow{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    margin-bottom: 0px;
+}
+.levelTarakomItem{
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    margin-right: 5px;
+    height: 33px;
+    font-size: 14px;
+    display: flex;
+    color: #3b3b3b;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    background-color: white;
+}
+.activeLevelTrakomItem{
+    background-color: var(--red-color-op);
+    color: white;
+}
+.chartBoxBafOp{
+    text-align: right;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 0.5;
+}
+.labelChartOpKoche1{
+    font-size:13px;
+    width: 82%;
+    color: #3b3b3b;
+    text-align: right;
+    font-weight: bold;
+}
+.labelChartOpKoche2{
+    font-size:13px;
+    width: 90%;
+    color: #3b3b3b;
+    text-align: right;
+    font-weight: bold;
+}
+.labelRowKoche{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.labelRowKoche > div{
+    flex: 0.5;
+}
+.shahrsaziContainerOp{
+    width: 40%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.chartContainerBarShahrOp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

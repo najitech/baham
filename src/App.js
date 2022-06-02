@@ -33,6 +33,7 @@ import AgahiPage from './Pages/AgahiPage/AgahiPage';
 import SabtAgahi from './Pages/SabtAgahi/SabtAgahi';
 import ScrollToTop from './ScrollToTop';
 import RatePage from './Pages/RatePage/RatePage';
+import Overview from './Pages/Overview/Overview';
 
 
 function App() {
@@ -193,6 +194,10 @@ function App() {
             <Header/>
             <MosharekAmlak header={header9}/>
             <Footer/>
+          </Route>
+          <Route path="/overview">
+          
+            <Overview/>
           </Route>
           <Route path="/Contact">
           <div ref={header10} >
