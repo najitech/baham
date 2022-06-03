@@ -58,6 +58,12 @@
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    
 }
+.rateSarmayeItemOpred{
+    background-color: var(--red-color-op);
+}
+.rateSarmayeItemOpBlue{
+    background-color: var(--blue-color-op);
+}
 .marginWSpanLablOp{
     margin: 5px 0px !important;
 }
@@ -142,7 +148,11 @@
     margin: 0px 1.5px;
     
 }
+.baftContainer{
+    width: 100%;
+    display: flex;
 
+}
 .imgItemNetSabet{
     height: 42px;
 }
@@ -417,9 +427,16 @@
     flex: 0.5;
 }
 .shahrsaziContainerOp{
-    width: 40%;
+    width: 100%;
     box-sizing: border-box;
     padding: 30px;
+}
+.estelamOp{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 .chartContainerBarShahrOp{
     width: 100%;
@@ -432,4 +449,74 @@
     font-size: 13px;
     margin-top: -10px;
     font-weight: bold;
+}
+.estelamRowOp{
+    display: flex;
+}
+.itemEstelamOp{
+    background-color: white;
+    width: 130px;
+    border-radius: 13px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.titleBoxEstelamOp{
+    background-color: #0BA77D;
+    box-sizing: border-box;
+    color: white;
+    padding: 3px 0px;
+}
+.titleBoxEstelamOp span{
+    font-size: 12px;
+    font-weight: bold;
+}
+.radioBoxItemEstelam{
+    height: 100px;
+    display: flex;
+    margin: auto;
+    width: 90px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.radioItemEstelamOp{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10.8px;
+    word-spacing: 1px;
+    align-items: center;
+    font-weight: bold;
+    color: #343434;
+    margin: 10px 0px;
+    
+}
+.radioBtnEstelamOp{
+    display: flex;
+    box-sizing: border-box;
+    border: 1.5px solid #8a8a8abe;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+    
+}
+
+.radioBtnEstelamOpActive{
+    display: flex;
+    box-sizing: border-box;
+    border: 1.5px solid var(--green-color-op);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.radioBtnEstelamOpActive>div{
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    background-color: var(--green-color-op);
+    border-radius: 50%;
+}
+.r40p{
+    width: 40%;
 }
