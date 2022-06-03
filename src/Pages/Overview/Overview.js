@@ -9,12 +9,13 @@ import DistanceItem from './DistanceItem/DistanceItem';
 import BaftKoche from './Baftkoche/BaftKoche';
 import Shahrsazi from './ShahrSazi/Shahrsazi';
 import TarakomKoche from './TarakomKoche/TarakomKoche';
-
+import OverviewRate from './OverviewRate';
 import ItemStelam from './ItemStelam/ItemStelam';
 function Overview() {
   return (
     <div className='overviewPage overviewColors'>
       <TarakomKoche/>
+      <OverviewRate rate={8.23} streetRate={3}/>
       <div className='sarmayeRowOp'>
         <div className='boxSizeBlackdiv'><div className='blackboxTitleOp'><h3>سرمایه گذاری</h3></div></div>
         <div className='infRowSarmayeOp'>

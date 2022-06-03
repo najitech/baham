@@ -1,8 +1,9 @@
 .overviewPage{
     width: 90%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
-    
+    padding:0px 50px;
+    box-sizing: border-box;
     background-color: rgba(244, 232, 238, 0.779);
 }
 .overviewColors{
