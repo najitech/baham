@@ -228,8 +228,8 @@
 
      width: 0; 
      height: 0; 
-     border-bottom: 46px solid var(--Overviewbackground);; 
-     border-left: 46px solid transparent; 
+     border-bottom: 47px solid var(--Overviewbackground);; 
+     border-left: 47px solid transparent; 
 }
 .OverviewRateCenterLeftMoon {
     position: absolute;
@@ -238,8 +238,8 @@
 
      width: 0; 
      height: 0; 
-     border-bottom: 46px solid var(--Overviewbackground);; 
-     border-right: 46px solid transparent; 
+     border-bottom: 47px solid var(--Overviewbackground);; 
+     border-right: 47px solid transparent; 
 }
 .OverviewRateCenterUpTitle {
     position: absolute;
