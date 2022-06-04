@@ -27,6 +27,24 @@ function Shahrsazi(props) {
                 dataLabels: {
                   position: 'top', 
                 },
+                colors: {
+                  ranges: [{
+                      from: 0,
+                      to: 100,
+                      color: "#F54456"
+                  },{
+                    from: 100,
+                    to: 200,
+                    color: "#16629E"
+                },{
+                  from: 200,
+                  to: 300,
+                  color: "#0BA77D"
+              }],
+                  backgroundBarColors: [],
+                  backgroundBarOpacity: 1,
+                  backgroundBarRadius: 0,
+              },
               },
             },
             dataLabels: {
@@ -102,11 +120,11 @@ function Shahrsazi(props) {
         <div><h4><span>بافت کوچه</span>/شهرسازی</h4></div>
     </div>
     <div className='chartContainerBarShahrOp'>
-        <Chart options={barCharshahr.options} series={barCharshahr.series} type="bar" height={170}/>
+        <Chart options={barCharshahr.options} series={barCharshahr.series} type="bar" height={170} width={500}/>
     </div>
     <div className='labelShahrOp'><span>تعداد ملک با متراژ مختلف تا شعاع 100 متری کوچه ارکیده</span></div>
     <div style={{marginTop:'10px'}} className='chartContainerBarShahrOp'>
-        <Chart options={barCharshahr.options} series={barCharshahr.series} type="bar" height={170}/>
+        <Chart options={barCharshahr.options} series={barCharshahr.series} type="bar" height={170}  width={500} />
     </div>
     <div className='labelShahrOp'><span>تعداد ملک با متراژ مختلف مرزداران</span></div>
 </div>

@@ -3,7 +3,8 @@
     height: 410px;
     padding: 5px 30px;
     box-sizing: border-box;
-    background-color: rgba(240, 248, 255, 0.489) ;
+    background-color: var(--Overviewbackground);
+    border-radius: 30px;
  
 }
 .Overview_alleyProblemHeader {

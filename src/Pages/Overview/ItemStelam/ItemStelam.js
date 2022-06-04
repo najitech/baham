@@ -1,19 +1,13 @@
 import React from 'react'
+import RadioItemStelam from './RadioItemStelam/RadioItemStelam'
 
 function ItemStelam(props) {
   return (
     <div className='itemEstelamOp'>
-    <div className='titleBoxEstelamOp'><span>در مسیر قنات</span></div>
-    <div className='radioBoxItemEstelam'>
+    <div className={['titleBoxEstelamOp',props.blue?'blueThemOp':props.red?'redThemOp':''].join(" ")}><span>{props.title}</span></div>
+    <div className={['radioBoxItemEstelam',props.blue?'blueThemOp1':props.red?'redThemOp1':'greenThemOp1'].join(" ")}>
       <div>
-        <div className='radioItemEstelamOp'>
-          <div><span>قرار دارد</span></div>
-          <div className='radioBtnEstelamOp'><div></div></div>
-        </div>
-        <div className='radioItemEstelamOp'>
-          <div><span>قرار ندارد</span></div>
-          <div className='radioBtnEstelamOpActive'><div></div></div>
-        </div>
+        {props.children}
       </div>
     </div>
   </div>

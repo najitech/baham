@@ -11,13 +11,13 @@
     height: 100%;
     padding: 50px 0px;
     box-sizing: border-box;
-    background-color: rgba(199, 217, 232, 0.527);
+    background-color: var(--Overviewbackground);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 .OverviewRateCenter {
     flex:0.34;
@@ -30,13 +30,14 @@
     height: 100%;
     padding: 50px 0px;
     box-sizing: border-box;
-    background-color: rgba(199, 217, 232, 0.527);
+    background-color: var(--Overviewbackground);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
 }
 .OverviewRateCenterUp {
     position: relative;
@@ -49,7 +50,7 @@
 .OverviewRateCenterDown {
     height: 86%;
     width: 100%;
-    background-color: rgba(199, 217, 232, 0.527);
+    background-color: var(--Overviewbackground);
 }
 .OR_centerAbsolute {
     position: absolute;
@@ -227,7 +228,7 @@
 
      width: 0; 
      height: 0; 
-     border-bottom: 46px solid rgba(199, 217, 232, 0.527);; 
+     border-bottom: 46px solid var(--Overviewbackground);; 
      border-left: 46px solid transparent; 
 }
 .OverviewRateCenterLeftMoon {
@@ -237,7 +238,7 @@
 
      width: 0; 
      height: 0; 
-     border-bottom: 46px solid rgba(199, 217, 232, 0.527);; 
+     border-bottom: 46px solid var(--Overviewbackground);; 
      border-right: 46px solid transparent; 
 }
 .OverviewRateCenterUpTitle {

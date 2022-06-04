@@ -23,13 +23,13 @@ function BaftKoche(props) {
             dashArray: 0,      
           },
           legend:{
-            width: 140,
+            width: 150,
             fontWeight: 700,
             horizontalAlign: 'right', 
             floating: false,
-            offsetY:-17,
+            offsetY:7,
             offsetX:-35,
-            fontSize:'12px',
+            fontSize:'13px',
             fontFamily: 'IRANSansX', 
             itemMargin: {
               horizontal: 5,
@@ -66,7 +66,7 @@ function BaftKoche(props) {
           },
           plotOptions: {
             pie: {
-              offsetX: 20,
+              offsetX: 50,
               customScale: 0.86,
               offsetY: -10,
               size: 100,
@@ -166,7 +166,7 @@ function BaftKoche(props) {
       <div className='chartBoxBafOp'>
         <Chart options={chartkoche.options} width={"440px"} series={chartkoche.series}   type="donut"/>
       </div>
-      <div className='chartBoxBafOp'>
+      <div style={{marginRight:'0px'}} className='chartBoxBafOp'>
         <Chart options={chartkoche.options} width={"440px"} style={{marginRight:'-100px'}} series={chartkoche.series}  type="donut"/>
       </div>
     </div>
@@ -182,15 +182,15 @@ function BaftKoche(props) {
         </div>
       </div>
     </div>
-    <div className='meduimheaderCardOp rightmeduimLableHeaderOp'>
+    <div style={{marginTop:'20px'}} className='meduimheaderCardOp rightmeduimLableHeaderOp'>
       <div><h4><span>بافت کوچه</span>/جمعیت شناسی</h4></div>
     </div>
     <div className='chartsRowBaftOp'>
       <div className='chartBoxBafOp'>
-        <Chart options={chartjamiat.options} width={"345px"} series={chartjamiat.series}   type="donut"/>
+        <Chart options={chartjamiat.options} width={"385px"} series={chartjamiat.series}   type="donut"/>
       </div>
-      <div className='chartBoxBafOp'>
-        <Chart options={chartjamiat.options} width={"345px"} series={chartjamiat.series}  type="donut"/>
+      <div style={{marginRight:'-40px'}} className='chartBoxBafOp'>
+        <Chart options={chartjamiat.options} width={"385px"} series={chartjamiat.series}  type="donut"/>
       </div> 
     </div>
     <div className='labelRowKoche'>

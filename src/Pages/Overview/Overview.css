@@ -11,12 +11,15 @@
     --blue-color-op:#16629E;
     --green-color-op:#0BA77D;
     --red-color-op:#F54456;
+    --Overviewbackground: rgba(199, 217, 232, 0.527);
 }
 .sarmayeRowOp{
     margin-top:20px;
     width: 100%;
     box-sizing: border-box;
     padding: 18px;
+    background-color: var(--Overviewbackground);
+    border-radius: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;   
@@ -75,8 +78,10 @@
     justify-content: space-between;
     box-sizing: border-box;
     padding: 8px;
-    border-radius:15px;
+    border-radius:30px;
     padding-bottom: 17px;
+    background-color: var(--Overviewbackground);
+    margin-top:20px;
 }
 .internetsectionOP{
     width: 220px;
@@ -101,9 +106,28 @@
     font-weight: bold !important;
     font-family: IRANYekan !important;  
 }
+.blackboxTitleOp2{
+    color: white;
+    background-color: var(--black-color);
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.blackboxTitleOp2 > h3{
+    font-size: 26px;
+    padding: 0px !important;
+    margin: 0px !important; 
+    font-weight: bold !important;
+    font-family: IRANYekan !important;  
+}
 .antenDhiOp{
     display: flex;
-    width: 530px;
+    width: 50%;
     flex-direction: column;
 }
 .antenDahiRow{
@@ -153,7 +177,8 @@
 .baftContainer{
     width: 100%;
     display: flex;
-
+    justify-content: space-between;
+    margin-top:30px;
 }
 .imgItemNetSabet{
     height: 42px;
@@ -228,7 +253,7 @@
 .antenMaplocationBox{
     border: 1.7px solid rgba(0, 0, 0, 0.666);
     height: 99%;
-    width: 230px;
+    width: 300px;
     border-radius: 19px;
 }
 .rowoperatorsInfBox{
@@ -308,14 +333,17 @@
     width: 250px;
 }
 .baftkocheOp{
-    width: 60%;
+    width: 55%;
+    border-radius: 30px;
     padding: 30px;
+    background-color: var(--Overviewbackground);
     box-sizing: border-box;
 }
 .chartsRowBaftOp{
     box-sizing: border-box;
     padding: 10px 0px;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 }
@@ -332,7 +360,8 @@
     height: 410px;
     padding: 5px 30px;
     box-sizing: border-box;
-    background-color: rgba(240, 248, 255, 0.489) ;
+    background-color: var(--Overviewbackground) ;
+    border-radius: 30px;
 }
 .explanationRowTarakom{
     width: 100%;
@@ -419,12 +448,14 @@
     font-size:13px;
     width: 82%;
     color: #3b3b3b;
+    margin-right: 2px;
     text-align: right;
     font-weight: bold;
 }
 .labelChartOpKoche2{
     font-size:13px;
     width: 90%;
+    margin-right: 2px;
     color: #3b3b3b;
     text-align: right;
     font-weight: bold;
@@ -439,14 +470,19 @@
 }
 .shahrsaziContainerOp{
     width: 100%;
-    box-sizing: border-box;
     padding: 30px;
+    box-sizing: border-box;
+    background-color:var(--Overviewbackground);
+    border-radius: 30px;
 }
 .estelamOp{
+    background-color: var(--Overviewbackground);
     width: 100%;
     box-sizing: border-box;
-    padding: 30px;
+    padding:20px 15px;
     display: flex;
+    align-items: center;
+    border-radius: 20px;
     justify-content: space-between;
 }
 .chartContainerBarShahrOp{
@@ -477,12 +513,32 @@
     color: white;
     padding: 3px 0px;
 }
+.blueThemOp{
+    background-color: var(--blue-color-op);
+}
+.redThemOp{
+    --colorbackground:var(--red-color-op);
+    background-color: var(--red-color-op);
+}
+.greenThemOp{
+    --colorbackground:var(--green-color-op);
+    background-color: var(--green-color-op);
+}
+.blueThemOp1{
+    --backColorThem :#16629E;
+}
+.redThemOp1{
+    --backColorThem :#F54456;
+}
+.greenThemOp1{
+    --backColorThem :#0BA77D;
+}
 .titleBoxEstelamOp span{
     font-size: 12px;
     font-weight: bold;
 }
 .radioBoxItemEstelam{
-    height: 100px;
+    height: 110px;
     display: flex;
     margin: auto;
     width: 90px;
@@ -494,7 +550,7 @@
     width: 90px;
     display: flex;
     justify-content: space-between;
-    font-size: 10.8px;
+    font-size: 10px;
     word-spacing: 1px;
     align-items: center;
     font-weight: bold;
@@ -516,7 +572,7 @@
 .radioBtnEstelamOpActive{
     display: flex;
     box-sizing: border-box;
-    border: 1.5px solid var(--green-color-op);
+    border: 1.5px solid var(--backColorThem);
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -525,9 +581,13 @@
     width: 75%;
     height: 75%;
     margin: auto;
-    background-color: var(--green-color-op);
+    background-color: var(--backColorThem);
     border-radius: 50%;
 }
 .r40p{
-    width: 40%;
+    width: 43.6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 15px;
 }
