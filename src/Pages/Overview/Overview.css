@@ -5,6 +5,7 @@
     padding:0px 50px;
     box-sizing: border-box;
     background-color: rgba(244, 232, 238, 0.779);
+    padding-top:30px;
 }
 .overviewColors{
     --blue-color-op:#16629E;

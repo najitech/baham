@@ -12,10 +12,11 @@ import TarakomKoche from './TarakomKoche/TarakomKoche';
 import OverviewRate from './OverviewRate';
 import Overview_alleyProblem from './Overview_alleyProblem';
 import ItemStelam from './ItemStelam/ItemStelam';
+import OverviewHeader from './OverviewHeader/OverviewHeader';
 function Overview() {
   return (
     <div className='overviewPage overviewColors'>
-    
+      <OverviewHeader/>
       <OverviewRate rate={8.23} streetRate={3}/>
      
 
@@ -25,7 +26,7 @@ function Overview() {
           <Overview_alleyProblem/>
 
       </div>
-      
+
       <div className='sarmayeRowOp'>
         <div className='boxSizeBlackdiv'><div className='blackboxTitleOp'><h3>سرمایه گذاری</h3></div></div>
         <div className='infRowSarmayeOp'>

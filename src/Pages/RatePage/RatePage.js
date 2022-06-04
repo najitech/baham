@@ -1,6 +1,9 @@
 import React from 'react'
 import RateTable from '../../Components/RateTable/RateTable'
 import './RatePage.css'
+import RateTitle from '../../ratetitle2.png'
+import AdressText from '../../adrees2.png'
+import Barcode from '../../overviewBarcode.png'
 
 function RatePage() {
 
@@ -584,7 +587,25 @@ function RatePage() {
             
         </div>
         <div className='RP_information'>
+          <div className='RP_informationContent'>
+              <div className='RP_informationContent_BahamContainer'>
+                  <h2 className='RP_informationContent_Baham'>باهم</h2>
+              </div>
+              <img className='RP_informationContentTextpic' alt="title" src={RateTitle} />
+              <div className='RP_informationContentAdressTextContainer'>
+                  <img className='RP_informationContentAdressText' alt="title" src={AdressText} />
+              </div>
+              
+              <div className='RP_informationContentPhoneContainer'>
+                <span className='RP_informationContentPhoneTitle'>تلفن:</span>
+                <span className='RP_informationContentPhone'>021 44262200</span>
+              </div>
+              <div className='RP_informationContentBarcodeContainer'>
+                <span className='RP_informationContentBarcodeTitle'>اسکن کنید</span>
+                <img className='RP_informationContentBarcodeImage' alt="barcode" src={Barcode} />
+              </div>
 
+          </div>
         </div>
     </div>
   )
