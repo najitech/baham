@@ -12,7 +12,7 @@
     --red-color-op:#F54456;
 }
 .sarmayeRowOp{
-    margin: 50px 0px;
+    margin-top:20px;
     width: 100%;
     box-sizing: border-box;
     padding: 18px;
@@ -342,9 +342,18 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.tarakomAlleyContainer { 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top:20px;
+}
+
 .tarakomContainer{
-    width: 50%;
-    padding: 30px;
+    width: 49%;
+    height: 410px;
+    padding: 5px 30px;
     box-sizing: border-box;
     background-color: rgba(240, 248, 255, 0.489) ;
 }
@@ -455,8 +464,8 @@
 }
 .shahrsaziContainerOp{
     width: 100%;
-    box-sizing: border-box;
     padding: 30px;
+    box-sizing: border-box;
 }
 .estelamOp{
     background-color: #466e873f;

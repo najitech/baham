@@ -10,13 +10,23 @@ import BaftKoche from './Baftkoche/BaftKoche';
 import Shahrsazi from './ShahrSazi/Shahrsazi';
 import TarakomKoche from './TarakomKoche/TarakomKoche';
 import OverviewRate from './OverviewRate';
+import Overview_alleyProblem from './Overview_alleyProblem';
 import ItemStelam from './ItemStelam/ItemStelam';
 import RadioItemStelam from './ItemStelam/RadioItemStelam/RadioItemStelam';
 function Overview() {
   return (
     <div className='overviewPage overviewColors'>
-      <TarakomKoche/>
+    
       <OverviewRate rate={8.23} streetRate={3}/>
+     
+
+      <div className='tarakomAlleyContainer'>
+          <TarakomKoche/>
+
+          <Overview_alleyProblem/>
+
+      </div>
+      
       <div className='sarmayeRowOp'>
         <div className='boxSizeBlackdiv'><div className='blackboxTitleOp'><h3>سرمایه گذاری</h3></div></div>
         <div className='infRowSarmayeOp'>
@@ -26,6 +36,9 @@ function Overview() {
          <SarmayeItem text="متوسط نسبت رشد قیمت در بازه 5 ساله در محله مرزداران" num="7/1" blue/>
         </div>
       </div>
+
+      <div >
+        
       <div className='baftContainer'>  
         <div className='r40p'>
             <Shahrsazi/>
@@ -96,6 +109,7 @@ function Overview() {
         </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }
