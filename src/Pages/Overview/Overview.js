@@ -11,6 +11,7 @@ import Shahrsazi from './ShahrSazi/Shahrsazi';
 import TarakomKoche from './TarakomKoche/TarakomKoche';
 import OverviewRate from './OverviewRate';
 import ItemStelam from './ItemStelam/ItemStelam';
+import RadioItemStelam from './ItemStelam/RadioItemStelam/RadioItemStelam';
 function Overview() {
   return (
     <div className='overviewPage overviewColors'>
@@ -25,18 +26,30 @@ function Overview() {
          <SarmayeItem text="متوسط نسبت رشد قیمت در بازه 5 ساله در محله مرزداران" num="7/1" blue/>
         </div>
       </div>
-      <div className='estelamOp'>
-        <div className='blackboxTitleOp'><h3>استعلام</h3></div>
-        <div className='estelamRowOp'>
-          <ItemStelam/>
-          <ItemStelam/>
-          <ItemStelam/>
-        </div>
-      </div>
-     
       <div className='baftContainer'>  
         <div className='r40p'>
             <Shahrsazi/>
+            <div className='estelamOp'>
+              <div className='blackboxTitleOp2'><h3>استعلام</h3></div>
+              <div className='estelamRowOp'>
+                <ItemStelam title="در مسیر قنات">          
+                  <RadioItemStelam label="قرار دارد" />
+                  <RadioItemStelam label="قرار ندارد" active />
+                </ItemStelam>
+                <ItemStelam title="زمین لغزش" blue>  
+                  <RadioItemStelam margin label="بدون خطر" />
+                  <RadioItemStelam active margin label="خطر کم"  />
+                  <RadioItemStelam margin label="خطر متوسط" />
+                  <RadioItemStelam margin label="خطر زیاد"  />
+                  <RadioItemStelam margin label="خطر خیلی زیاد" />
+                </ItemStelam>
+                <ItemStelam blue title="بافت فرسوده و ناپایدار">
+                  <RadioItemStelam  label="بافت عادی" />
+                  <RadioItemStelam active  label="بافت فرسوده"  />
+                  <RadioItemStelam  label="بافت ناپایدار" />
+                </ItemStelam>
+              </div>
+            </div>       
           </div>
         <BaftKoche/>
       </div>
