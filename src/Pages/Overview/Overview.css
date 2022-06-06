@@ -4,14 +4,15 @@
     margin: auto;
     padding:0px 50px;
     box-sizing: border-box;
-    background-color: rgba(244, 232, 238, 0.779);
+    background-image: url('../../OverviewBackground.jpg');
+    background-size: cover;
     padding-top:30px;
 }
 .overviewColors{
     --blue-color-op:#16629E;
     --green-color-op:#0BA77D;
     --red-color-op:#F54456;
-    --Overviewbackground: rgba(199, 217, 232, 0.527);
+    --Overviewbackground: rgba(255, 255, 255, 0.755);
 }
 .sarmayeRowOp{
     margin-top:20px;
