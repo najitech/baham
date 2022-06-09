@@ -1,5 +1,5 @@
 .overviewPage{
-    width: 90%;
+    width: 100%;
     max-width: 1400px;
     margin: auto;
     padding:0px 50px;
@@ -8,6 +8,17 @@
     background-size: cover;
     padding-top:30px;
 }
+@page {
+    size: A4;
+    margin: 0;
+  }
+  @media print {
+    html, body {
+        width: 1200px;
+      height: 2400px;
+    }
+    /* ... the rest of the rules ... */
+  }
 .overviewColors{
     --blue-color-op:#16629E;
     --green-color-op:#0BA77D;
