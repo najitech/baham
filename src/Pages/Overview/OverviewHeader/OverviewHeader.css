@@ -8,6 +8,7 @@
     justify-content: space-between;
     padding:0px 10px;
     box-sizing: border-box;
+    flex-direction: column;
 }
 .OverviewHeaderBeforeRes {
     width: 100%;
@@ -125,6 +126,14 @@
 }
 
 
+.OverviewHeaderCenterBottomRes {
+    display: none;
+}
+
+.OverviewHeaderCenterRes {
+    display: none;
+}
+
 @media screen and (max-width:1350px) {
     .OverviewHeaderCenterTopAbs_Baham {
  
@@ -218,10 +227,15 @@
 @media screen and (max-width:860px) {
     .OverviewHeaderCenterTopAbs_Baham {
         font-size: 35px;
-        background-color: red;
+
+
     }
     .OverviewHeaderCenterTopAbs_BahamContainer {
         margin-top:1.5px;
+        
+    }
+    .OverviewHeader {
+        margin-top: 60px;
     }
     .OverviewHeaderCenterTopAbs_Texts {
         font-size: 15px;
@@ -232,5 +246,152 @@
     }
     .OverviewHeaderCenterTopAbs {
         height: 60px;
+        top:-66px;
+        position: absolute;
+        width: 100%;
+        background-color: rgb(52, 52, 52);
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 23px;
+        border-top-right-radius: 23px;
     }
+
+ 
+  
+    .OverviewHeaderCenterBottom {
+
+        flex:0.7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+    .OverviewHeaderCenterBottom span {
+        word-wrap: break-word;
+    }
+    .OverviewHeaderRight {
+        min-width: 220px;
+    }
+    .OverviewHeaderCenterTopAbsRes {
+        left:7%;
+    }
+    .OverviewHeaderCenterBottom {
+        padding-top:-40px;
+    }
+    .OverviewHeaderCenterBottom2ndchid {
+        margin-top:40px;
+
+    }
+
+}
+
+@media screen and (max-width:760px)  {
+    .OverviewHeaderCenterTopAbsRes {
+        width: 160%;
+        left:-20%;
+    }
+}
+@media screen and (max-width:590px)  {
+    .OverviewHeaderCenterTopAbsRes {
+        width: 200%;
+        left:-35%;
+
+    }
+}
+@media screen and (max-width:530px)  {
+    .OverviewHeaderCenterTopAbs_Baham {
+        font-size: 29px;
+    }
+    .OverviewHeaderCenterTopAbs_BahamContainer {
+        margin-top:5px;
+    }
+    .OverviewHeaderCenterTopAbs_Texts {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:513px)  {
+    .OverviewHeaderCenterTopAbsRes {
+        width: 150%;
+        left:10%;
+
+        
+    }
+    .OverviewHeaderCenterBottomRes {
+        display: inline;
+        width: 100%;
+    }
+    .OverviewHeaderCenter {
+        flex:0.1;
+    }
+    .OverviewHeaderCenterBottom {
+        display: none;
+    }
+    .OverviewHeaderCenter {
+        display: none;
+    }
+    .OverviewHeaderCenterRes {
+        display: inline;
+    }
+    .OverviewHeaderCenterTopRes {
+        left:-44%;
+        width: 65%;
+        top:-105px;
+    }
+    .OverviewHeaderCenterTopAbs {
+        height: 50px;
+        top:-55px;
+    }
+
+    .OverviewHeaderCenterTopAbs_Baham {
+        font-size: 25px;
+    }
+    .OverviewHeaderCenterTopAbs_BahamContainer {
+        margin-top:4px;
+    }
+    .OverviewHeaderCenterTopAbs_Texts {
+        font-size: 13px;
+    }
+    .OverviewHeaderCenterBottom {
+        display: inline;
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        font-size: 10px;
+        justify-content: space-between;
+        
+    }
+    .OverviewHeaderCenterRes {
+        width: 90%;
+    }
+    .OverviewHeader {
+        height: 130px;
+    }
+    .OverviewHeaderCenterBottomRes {
+        width: 100%;
+        padding-bottom:5px;
+ 
+
+    }
+}
+
+
+
+
+@media screen and (max-width:447px)  {
+    .OverviewHeaderCenterTopAbs_Baham {
+        font-size: 20px;
+    }
+    .OverviewHeaderCenterTopAbs_BahamContainer {
+        margin-top:3px;
+    }
+    .OverviewHeaderCenterTopAbs_Texts {
+        font-size: 10px;
+    }
+    .OverviewHeaderCenterTopAbs {
+        height: 40px;
+        top:-45px;
+    }
+   
+ 
 }

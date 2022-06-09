@@ -17,8 +17,8 @@ function OverviewHeader() {
     
             </div>
             <div className='OverviewHeaderCenter'>
-                <div className='OverviewHeaderCenterTop'>
-                    <div className='OverviewHeaderCenterTopAbs'>
+                <div className='OverviewHeaderCenterTop OverviewHeaderCenterTopRes'>
+                    <div className='OverviewHeaderCenterTopAbs OverviewHeaderCenterTopAbsRes'>
                         <div className='OverviewHeaderCenterTopAbs_BahamContainer'>
                             <h2 className='OverviewHeaderCenterTopAbs_Baham'>باهم</h2>
                         </div>
@@ -33,7 +33,7 @@ function OverviewHeader() {
                 </div>
                 <div className='OverviewHeaderCenterBottom'>
                     <span>آدرس: تهران بلوار مرزداران خیابان سرسبز جنوبی پلاک 1</span>
-                    <span>تلفن: 44262200</span>
+                    <span className='OverviewHeaderCenterBottom2ndchid'>تلفن: 44262200</span>
                 </div>
             </div>
             <div className='OverviewHeaderLeft'>
@@ -45,6 +45,27 @@ function OverviewHeader() {
                 
             </div>
         </div>
+        <div className='OverviewHeaderCenter OverviewHeaderCenterRes'>
+                <div className='OverviewHeaderCenterTop OverviewHeaderCenterTopRes'>
+                    <div className='OverviewHeaderCenterTopAbs OverviewHeaderCenterTopAbsRes'>
+                        <div className='OverviewHeaderCenterTopAbs_BahamContainer'>
+                            <h2 className='OverviewHeaderCenterTopAbs_Baham'>باهم</h2>
+                        </div>
+                
+                        <div className='OverviewHeaderCenterTopAbs_Texts'>
+                            <h3><span>ب</span>رنامه</h3>
+                            <h3><span>ا</span>نتخاب</h3>
+                            <h3><span>ه</span>وشمندانه</h3>
+                            <h3><span>م</span>سکن</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='OverviewHeaderCenterBottom OverviewHeaderCenterBottomRes'>
+                    <span>آدرس: تهران بلوار مرزداران خیابان سرسبز جنوبی پلاک 1</span>
+                    <span >تلفن: 44262200</span>
+                </div>
+        </div>
+       
     </div>
   )
 }

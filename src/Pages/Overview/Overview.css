@@ -8,14 +8,20 @@
     background-size: cover;
     padding-top:30px;
 }
+
 @page {
-    size: A4;
-    margin: 0;
+    size:100%;
   }
+  
   @media print {
     html, body {
-        width: 1200px;
-      height: 2400px;
+        width:790px;
+       
+        
+    }
+    table {page-break-inside: avoid;}
+    .overviewPage {
+        zoom: 0.54;
     }
     /* ... the rest of the rules ... */
   }
@@ -602,4 +608,11 @@
     flex-direction: column;
     justify-content: space-between;
     row-gap: 15px;
+}
+
+@media screen and (max-width:860px) {
+    .overviewPage {
+        padding:0px 5px;
+    }
+
 }
