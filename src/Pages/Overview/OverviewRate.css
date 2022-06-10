@@ -6,6 +6,14 @@
     align-items: flex-end;
     justify-content: space-between;
 }
+.OverviewRateBefRes {
+    width: 100%;
+    height: 330px;
+    margin-top:40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
 .OverviewRateRight {
     flex:0.33;
     height: 100%;
@@ -267,5 +275,114 @@
 }
 .OverviewRateCenterUpTitle > span{
     word-spacing: 4px;
+
+}
+
+.OverviewRateRes {
+    display: none;
+}
+
+@media screen and (max-width:1300px) {
+
+    .OR_centerAC_MiddleAbsItem1 {
+        font-size:15px;
+    }
+    .OR_centerAC_MiddleAbsItem2Container {
+        height: 20px;
+    }
+    .OR_centerAC_MiddleAbsItem2Number {
+        font-size: 18px;
+    }
+    .OR_centerAC_MiddleAbsItem3 {
+        height: 35px;
+    }
+    .OR_centerAC_MiddleAbsItem3First {
+        font-size: 15px;
+    }
+    .OR_centerAC_MiddleAbsItem3Second {
+        font-size: 12px;
+    }
+    .OR_centerAC_MiddleAbsItem3RateContainer {
+
+        height: 30px;
+        width: 30px;
+        border-radius: 13px;
+    }
+    .OR_centerAC_MiddleAbsItem4 {
+        font-size: 15px;
+    }
+    .OR_centerAC_MiddleAbsItem5 {
+        font-size: 20px;
+    }
+    .OR_centerAC_TopItemTitle {
+        font-size: 12px;
+    }
+    .OR_centerAC_TopItemNumber {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1190px) {
+    .OverviewRateCenterUpTitle {
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width:975px) {
+    .OverviewRateRes {
+        display: inline;
+        background-color: red;
+    }
+    .OverviewRateCenter {
+        display: none;
+    }
+    .OverviewRateRight {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px; 
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px; 
+        flex:0.49;
+    }
+    .OverviewRateLeft {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px; 
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px; 
+        flex:0.49;
+        margin-top:6px;
+    }
+    .OverviewRateBefRes {
+        align-items: center;
+
+    }
+
+}
+
+@media screen and (max-width:475px) {
+    .OverviewRateCenter {
+        display: none;
+    }
+    .OverviewRateRight {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px; 
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px; 
+        width: 70%;
+    }
+    .OverviewRateLeft {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px; 
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px; 
+        width: 70%;
+        margin-top:6px;
+    }
+    .OverviewRateBefRes {
+        flex-direction: column;
+        align-items: center;
+
+    }
 
 }

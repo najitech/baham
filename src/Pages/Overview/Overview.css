@@ -610,6 +610,12 @@
     row-gap: 15px;
 }
 
+@media screen and (max-width:975px) {
+    .tarakomAlleyContainer {
+       /* margin-top:600px;*/
+    }
+}
+
 @media screen and (max-width:860px) {
     .overviewPage {
         padding:0px 5px;

@@ -49,3 +49,21 @@
 .OR_BoxShowItem_green {
     background-color: rgb(12, 167, 125);
 }
+
+
+@media screen and (max-width:1350px) {
+    .OverviewRateBox {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:1190px) {
+    .OverviewRateBox_title {
+        font-size:12px;
+    }
+    .OverviewRateBox_Rate {
+        font-size: 13px;
+    }
+}
+
