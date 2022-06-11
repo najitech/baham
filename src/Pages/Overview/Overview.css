@@ -610,6 +610,19 @@
     row-gap: 15px;
 }
 
+
+
+
+@media screen and (max-width:1180px) {
+    .tarakomContainer {
+        height: 450px;
+    }
+    .tarakomContainer {
+        width: 100%;
+    }
+}
+
+
 @media screen and (max-width:975px) {
     .tarakomAlleyContainer {
        /* margin-top:600px;*/
@@ -622,3 +635,20 @@
     }
 
 }
+@media screen and (max-width:816px) {
+    .tarakomAlleyContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:520px) {
+    .tarakomAlleyContainer {
+        margin-top:345px;
+    }
+}
+

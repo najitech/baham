@@ -5,6 +5,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+
 }
 .OverviewRateBefRes {
     width: 100%;
@@ -278,8 +279,9 @@
 
 }
 
-.OverviewRateRes {
+.testres {
     display: none;
+
 }
 
 @media screen and (max-width:1300px) {
@@ -331,12 +333,59 @@
 
 
 @media screen and (max-width:975px) {
+    .OverviewRate {
+        height: auto;
+        margin-top:0px;
+    }
+    .testres {
+        display: inline;
+        height: 100px;
+        width: 500px;
+
+    }
     .OverviewRateRes {
         display: inline;
-        background-color: red;
+
     }
     .OverviewRateCenter {
         display: none;
+    }
+    .OverviewRateCenterDown {
+        width: 500px ;
+          
+        border-bottom-right-radius: 30px; 
+
+        border-bottom-left-radius: 30px; 
+    }
+    .OverviewRateCenterRightMoon {
+        border-top-right-radius: 30px;
+        
+    }
+    .OverviewRateCenterLeftMoon {
+        border-top-left-radius: 30px; 
+    }
+
+    .OverviewRateCenterRes {
+        display: inline;
+  
+        position: relative;
+     
+        width: 100%;
+  
+        border-bottom-right-radius: 30px; 
+
+        border-bottom-left-radius: 30px; 
+ 
+    }
+    .OverviewRateBefResMargin {
+        margin-top:400px;
+    }
+    .OverviewRateBefRes {
+        
+    }
+    .OverviewRate {
+        flex-direction: column;
+        align-items: center;
     }
     .OverviewRateRight {
         border-top-right-radius: 30px;
@@ -355,34 +404,65 @@
     }
     .OverviewRateBefRes {
         align-items: center;
-
+        
     }
 
 }
 
-@media screen and (max-width:475px) {
-    .OverviewRateCenter {
-        display: none;
+
+@media screen and (max-width:600px) {
+
+}
+
+@media screen and (max-width:520px) {
+    .OverviewRateCenterDown {
+        width: 400px ;
+    }    
+    .testres {
+        width: 400px;
     }
+    .OverviewRateBefRes {
+        flex-direction: column;
+    }
+    .OverviewRateRespons {
+        flex-direction: row;
+    }
+    .OverviewRateRight {
+        width: 100%;
+    }
+    .OverviewRateLeft {
+        width: 100%;
+    }
+    
+}
+
+
+
+@media screen and (max-width:475px) {
+
     .OverviewRateRight {
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px; 
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px; 
-        width: 70%;
+  
     }
     .OverviewRateLeft {
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px; 
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px; 
-        width: 70%;
+ 
         margin-top:6px;
     }
-    .OverviewRateBefRes {
-        flex-direction: column;
-        align-items: center;
 
+}
+
+@media screen and (max-width:410px) {
+    .OverviewRateCenterDown {
+        width: 330px ;
+    }    
+    .testres {
+        width: 330px;
     }
-
 }
