@@ -1,6 +1,7 @@
 .overviewPage{
     width: 90%;
     max-width: 1400px;
+
     margin: auto;
     padding:0px 50px;
     box-sizing: border-box;
@@ -123,7 +124,7 @@
 }
 .antenDhiOp{
     display: flex;
-    width: 530px;
+    width: 630px;
     flex-direction: column;
 }
 .antenDahiRow{
@@ -248,7 +249,7 @@
 .antenMaplocationBox{
     border: 1.7px solid rgba(0, 0, 0, 0.666);
     height: 99%;
-    width: 230px;
+    width: 300px;
     border-radius: 19px;
 }
 .rowoperatorsInfBox{

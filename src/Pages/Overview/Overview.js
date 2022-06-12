@@ -37,7 +37,7 @@ function Overview() {
         </div>
       </div>
 
-      <div >
+      <div>
         
       <div className='baftContainer'>  
         <div className='r40p'>
@@ -91,7 +91,7 @@ function Overview() {
               <AntenDahiItem/> 
             </div>
             <div className='antenMaplocationBox'></div>
-          </div>
+          </div>  
         </div>
         <div className='distanceOp'>
           <div className='meduimheaderCardOp'>

@@ -1,0 +1,563 @@
+
+
+@media screen and (max-width:1400px) {        
+    .accebility{
+        padding: 6px;
+        border-radius:12px;
+        padding-bottom: 14px;
+    }
+    .internetsectionOP{
+        width: 188px;
+    }
+    .blackboxTitleOp{
+        padding: 15px 0px;
+        width: 100%;
+        border-radius: 16px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    }
+    .blackboxTitleOp > h3{
+        font-size: 22px;
+    }
+    .blackboxTitleOp2{
+        height: 60px;
+        border-radius: 13px;
+    }
+    .blackboxTitleOp2 > h3{
+        font-size: 22px;
+    }
+    .antenDhiOp{
+        width: 540px;
+    }
+    .antenDahiRow{
+        margin-top: 15px;
+    }
+    .distanceOp{
+        width: 300px;
+    }
+    .sabetInternetOp{
+        border-radius: 13px;
+        padding: 6px 4px;
+        padding-bottom: 3px;
+        box-shadow: rgba(83, 87, 91, 0.3) 0px 1px 2px 0px, rgba(95, 99, 103, 0.15) 0px 2px 6px 2px;
+        margin-top: 8px;
+    }
+    .simpleLableHeaderOp h4{
+        padding:2px 0px !important;
+        font-size: 15px;
+        margin-bottom: 6px !important;
+
+    }
+    .netSabetItemOp{
+        border: 1.4px solid rgba(0, 0, 0, 0.719);
+        border-radius: 9px;
+        margin: 0px 1.2px;
+        
+    }
+    .imgItemNetSabet{
+        height: 36px;
+    }
+    .labelItemNetSabet{
+        width: 100%;
+        font-size: 9px;
+        padding: 2px 0px;
+        text-align: center;
+    }
+    .meduimheaderCardOp{
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+    .meduimheaderCardOp h4{
+        font-size: 19px;
+        margin: 4px 0px !important;
+    }
+    .distanceGridBoxOp{
+        margin-top: 17px;
+        grid-gap: 10px 8px;
+    }
+    .distanceItemOp{
+        padding: 0px 12px;
+        border-radius: 9px;
+        padding-left: 0px;
+        box-shadow: rgba(98, 98, 109, 0.25) 0px 6px 12px -2px, rgba(84, 84, 84, 0.3) 0px 3px 20px -3px;
+    }
+    .iconAndNameDistanceObj{
+        font-size: 14px;
+    }
+    .iconAndNameDistanceObj span{
+        margin-right: 6px;
+        font-size: 13px;
+    }
+    .meterBoxDistanceObj
+    {
+        font-size: 14px;
+    }
+    .meterBoxDistanceObj{
+        padding: 0px 12px;
+        border-radius: 9px;
+    }
+    .antenMaplocationBox{
+        border: 1.7px solid rgba(0, 0, 0, 0.666);
+        height: 99%;
+        width: 257px;
+        border-radius: 16px;
+    }
+    .rowoperatorsInfBox{
+        margin-left: -1px;
+    }
+    .operatorAntenInfBox{
+        width: 100%;
+        margin-left: 12px;
+        height: 99%;
+        border-radius: 15px;
+    }
+    .imageOperatorInf{
+        height: 47px;
+    }
+    .conditionRadioBox{
+        padding: 5px 6px;
+    }
+    .radioBoxOp{
+        margin-top  : 3px;
+        padding: 1.7px;
+        border-radius: 8px;
+    }
+    .labelradioOp{
+        border-radius: 8px;
+        width: 42px;
+        font-size: 9px;
+    }
+}
+
+
+@media screen and (max-width:1100px) {
+    .overviewPage{
+        width: 100%;
+        padding: 0px 20px;
+    }
+}   
+@media screen and (max-width:1100px) {
+    .internetsectionOP{
+        width: 158px;
+    }
+    .blackboxTitleOp > h3{
+        font-size: 18px;
+    }
+    .sabetInternetOp{
+        margin-top: 15px;
+    }
+    .antenDhiOp{
+        width: 490px;
+    }
+    .distanceOp{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .simpleLableHeaderOp h4{
+        padding:2px 0px !important;
+        font-size: 12px;
+        margin-bottom: 4px !important;
+    }
+    .meduimheaderCardOp h4{
+        font-size: 16px;
+        margin: 4px 0px !important;
+    }
+    .netSabetItemOp{
+        border: 1px solid rgba(0, 0, 0, 0.719);
+        border-radius: 9px;
+        margin: 0px 1.2px;
+    }
+    .antenDhiOp{
+        width: 390px;
+    }
+    .antenMaplocationBox{
+        border: 1.3px solid rgba(0, 0, 0, 0.666);
+        height: 99%;
+        width: 170px;
+        border-radius: 16px;
+    }
+    .labelradioOp{
+        width: 35px;
+        font-size: 7px;
+    }
+    .distanceItemOp{
+        margin-top: 2.5px;
+        padding: 0px 12px;
+        border-radius: 9px;
+        padding-left: 0px;
+        box-shadow: rgba(98, 98, 109, 0.25) 0px 6px 12px -2px, rgba(84, 84, 84, 0.3) 0px 3px 20px -3px;
+    }
+    .iconAndNameDistanceObj{
+        font-size: 13px;
+    }
+    .iconAndNameDistanceObj span{
+        margin-right: 6px;
+        font-size: 11px;
+    }
+    .meterBoxDistanceObj
+    {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:900px) {        
+    .accebility{
+        padding: 6px;
+        border-radius:12px;
+        padding-bottom: 14px;
+    }
+    .internetsectionOP{
+        width: 188px;
+    }
+    .itemsRowSabetNetOp{
+        flex-direction: column;
+    }
+    .blackboxTitleOp{
+        padding: 15px 0px;
+        width: 100%;
+        border-radius: 16px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    }
+    .blackboxTitleOp > h3{
+        font-size: 17px;
+    }
+    .blackboxTitleOp2{
+        height: 60px;
+        border-radius: 13px;
+    }
+    .blackboxTitleOp2 > h3{
+        font-size: 22px;
+    }
+    .antenDhiOp{
+        margin: 0px 20px;
+        width: 370px;
+    }
+    .antenDahiRow{
+        margin-top: 15px;
+    }
+    .distanceOp{
+        width: 300px;
+    }
+    .sabetInternetOp{
+        border-radius: 13px;
+        padding: 6px 4px;
+        padding-bottom: 3px;
+        background-color: transparent;
+        box-shadow: none;
+        margin-top: 8px;
+    }
+    .simpleLableHeaderOp h4{
+        padding:2px 0px !important;
+        font-size: 15px;
+        margin-bottom: 6px !important;
+
+    }
+    .netSabetItemOp{
+        width: 70%;
+        border: 0px solid rgba(0, 0, 0, 0.224);
+        border-radius: 15px;
+        margin: 0px 1.2px;
+        margin: 4px auto;
+        background-color: white;
+        box-shadow: rgba(83, 87, 91, 0.3) 0px 1px 2px 0px, rgba(95, 99, 103, 0.15) 0px 2px 6px 2px;
+        
+    }
+    .imgItemNetSabet{
+        height: 50px;
+    }
+    .labelItemNetSabet{
+        width: 100%;
+        font-size: 9px;
+        padding: 5px 0px;
+        text-align: center;
+    }
+    .meduimheaderCardOp{
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+    .meduimheaderCardOp h4{
+        font-size: 19px;
+        margin: 4px 0px !important;
+    }
+    .distanceGridBoxOp{
+        margin-top: 17px;
+        grid-template-columns: auto;
+        grid-gap: 10px 8px;
+    }
+    .distanceItemOp{
+        padding: 0px 13px;
+        border-radius: 13px;
+        padding-left: 0px;
+        box-shadow: rgba(98, 98, 109, 0.25) 0px 6px 12px -2px, rgba(84, 84, 84, 0.3) 0px 3px 20px -3px;
+    }
+    .iconAndNameDistanceObj{
+        font-size: 18px;
+    }
+    .iconAndNameDistanceObj span{
+        margin-right: 6px;
+        font-size: 15px;
+    }
+    .meterBoxDistanceObj
+    {
+
+        font-size: 17px;
+    }
+    .meterBoxDistanceObj{
+        padding: 0px 12px;
+        border-radius: 9px;
+    }
+    .antenDahiRow{
+        flex-direction: column;
+    }
+    .antenMaplocationBox{
+        border: 1.4px solid rgba(0, 0, 0, 0.666);
+        height: 99%;
+        width: 100%;
+        border-radius: 16px;
+    }
+    .rowoperatorsInfBox{
+        margin-bottom: 12px;
+    }
+    .operatorAntenInfBox{
+        width: 100%;
+        margin-left: 0px;
+        height: 99%;
+        margin:0px 5px;
+        border-radius: 15px;
+    }
+    .imageOperatorInf{
+        height: 47px;
+    }
+    .conditionRadioBox{
+        padding: 5px 6px;
+    }
+    .radioBoxOp{
+        margin-top  : 3px;
+        padding: 1.7px;
+        border-radius: 8px;
+    }
+    .labelradioOp{
+        border-radius: 8px;
+        width: 42px;
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:700px) {     
+    .distanceOp{
+        width: 200px;
+    }
+    .antenDahiRow{
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width:650px) {
+    .accebility{
+        flex-direction: column;
+        margin: auto;
+    }   
+    
+    .internetsectionOP{
+        width: 80%;
+        margin: auto;
+    }
+    .blackboxTitleOp{
+        width: 188px;
+    }
+    
+    .sabetInternetOp{
+        border-radius: 20px;
+        padding: 6px 4px;
+        padding-bottom: 17px;
+        background-color: white;
+        box-shadow: rgba(83, 87, 91, 0.3) 0px 1px 2px 0px, rgba(95, 99, 103, 0.15) 0px 2px 6px 2px;
+        margin-top: 8px;
+    }
+    .simpleLableHeaderOp h4{
+        padding:2px 0px !important;
+        font-size: 15px;
+        margin-bottom: 6px !important;
+    }
+    .netSabetItemOp{
+        border: 1.1px solid rgba(0, 0, 0, 0.719);
+        border-radius: 17px;
+        margin: 0px 10px;
+    }
+    .itemsRowSabetNetOp{
+        flex-direction: row;
+    }
+    .imgItemNetSabet{
+        height: 70px;
+    } 
+    .antenDhiOp{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .antenDahiRow{
+        flex-direction: row;
+    }
+    .antenMaplocationBox{
+        width: 50%;
+        height: 115px;
+    }
+    
+    .operatorAntenInfBox{
+        width: 100%;
+        margin-left: 14px;
+        height: 99%;
+        border-radius: 15px;
+    }
+    .distanceOp{
+        width: 90%;
+        margin: auto;
+    }
+    .distanceGridBoxOp{
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .accebility{
+        flex-direction: column;
+        margin: auto;
+    }   
+    
+    .internetsectionOP{
+        width: 90%;
+        margin: auto;
+    }
+    .blackboxTitleOp{
+        width: 150px;
+    }
+    
+    .sabetInternetOp{
+        border-radius: 20px;
+        padding: 4px 4px;
+        padding-bottom: 14px;
+        background-color: white;
+        box-shadow: rgba(83, 87, 91, 0.3) 0px 1px 2px 0px, rgba(95, 99, 103, 0.15) 0px 2px 6px 2px;
+        margin-top: 8px;
+    }
+    .simpleLableHeaderOp h4{
+        padding:2px 0px !important;
+        font-size: 15px;
+        margin-bottom: 6px !important;
+    }
+    .netSabetItemOp{
+        border: 1.1px solid rgba(0, 0, 0, 0.719);
+        border-radius: 17px;
+        margin: 0px 10px;
+    }
+    .itemsRowSabetNetOp{
+        flex-direction: row;
+    }
+    .imgItemNetSabet{
+        height: 70px;
+    } 
+    .antenDhiOp{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .antenDahiRow{
+        flex-direction: column;
+    }
+    .antenMaplocationBox{
+        width: 95%;
+        height: 115px;
+        margin: auto;
+    }
+    
+    .operatorAntenInfBox{
+        width: 100%;
+        margin: 0px 10px;
+        height: 99%;
+        border-radius: 15px;
+    }
+    .distanceOp{
+        width: 90%;
+        margin: auto;
+    }
+    .distanceGridBoxOp{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .accebility{
+        flex-direction: column;
+        margin: auto;
+    }   
+    
+    .internetsectionOP{
+        width: 100%;
+        margin: auto;
+    }
+    .blackboxTitleOp{
+        width: 150px;
+    }
+    .sabetInternetOp{
+        border-radius: 20px;
+        padding: 4px 4px;
+        padding-bottom: 14px;
+        background-color: white;
+        box-shadow: rgba(83, 87, 91, 0.3) 0px 1px 2px 0px, rgba(95, 99, 103, 0.15) 0px 2px 6px 2px;
+        margin-top: 8px;
+    }
+    .labelItemNetSabet{
+        font-size: 13px;
+    }
+    .simpleLableHeaderOp h4{
+        padding:2px 0px !important;
+        font-size: 15px;
+        margin-bottom: 6px !important;
+    }
+    .netSabetItemOp{
+        border: 1.1px solid rgba(0, 0, 0, 0.719);
+        border-radius: 17px;
+        margin: 0px 10px;
+    }
+    .itemsRowSabetNetOp{
+        flex-direction: row;
+    }
+    .imgItemNetSabet{
+        height: 70px;
+    } 
+    .antenDhiOp{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .antenDahiRow{
+        flex-direction: column;
+    }
+    .antenMaplocationBox{
+        width: 92%;
+        height: 115px;
+        margin: auto;
+    }
+    
+    .operatorAntenInfBox{
+        width: 100%;
+        margin: 0px 10px;
+        height: 99%;
+        border-radius: 15px;
+    }
+    .distanceOp{
+        width: 100%;
+        margin: auto;
+    }
+    .distanceGridBoxOp{
+        grid-template-columns: auto auto;
+    }
+    
+    .iconAndNameDistanceObj{
+        
+    }
+    .iconAndNameDistanceObj span{
+        font-size: 12px;
+    }
+    .meterBoxDistanceObj
+    {
+        font-size: 14px;
+    }
+}
