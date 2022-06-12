@@ -1,23 +1,43 @@
 .overviewPage{
-    width: 90%;
+    width: 100%;
     max-width: 1400px;
 
     margin: auto;
     padding:0px 50px;
     box-sizing: border-box;
-    background-color: rgba(244, 232, 238, 0.779);
+    background-image: url('../../OverviewBackground.jpg');
+    background-size: cover;
+    padding-top:30px;
 }
+
+@page {
+    size:100%;
+  }
+  
+  @media print {
+    html, body {
+        width:790px;
+       
+        
+    }
+    table {page-break-inside: avoid;}
+    .overviewPage {
+        zoom: 0.54;
+    }
+    /* ... the rest of the rules ... */
+  }
 .overviewColors{
     --blue-color-op:#16629E;
     --green-color-op:#0BA77D;
     --red-color-op:#F54456;
+    --Overviewbackground: rgba(255, 255, 255, 0.755);
 }
 .sarmayeRowOp{
     margin-top:20px;
     width: 100%;
     box-sizing: border-box;
     padding: 18px;
-    background-color: #466e8730;
+    background-color: var(--Overviewbackground);
     border-radius: 25px;
     display: flex;
     justify-content: space-between;
@@ -77,8 +97,10 @@
     justify-content: space-between;
     box-sizing: border-box;
     padding: 8px;
-    border-radius:15px;
+    border-radius:30px;
     padding-bottom: 17px;
+    background-color: var(--Overviewbackground);
+    margin-top:20px;
 }
 .internetsectionOP{
     width: 220px;
@@ -124,7 +146,7 @@
 }
 .antenDhiOp{
     display: flex;
-    width: 630px;
+    width: 50%;
     flex-direction: column;
 }
 .antenDahiRow{
@@ -137,7 +159,7 @@
 .distanceOp{
     width: 350px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
     align-items: center;
     height: 100%;
 }
@@ -175,6 +197,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top:30px;
 }
 .imgItemNetSabet{
     height: 42px;
@@ -332,7 +355,7 @@
     width: 55%;
     border-radius: 30px;
     padding: 30px;
-    background-color: #466e8730;
+    background-color: var(--Overviewbackground);
     box-sizing: border-box;
 }
 .chartsRowBaftOp{
@@ -356,7 +379,8 @@
     height: 410px;
     padding: 5px 30px;
     box-sizing: border-box;
-    background-color: rgba(240, 248, 255, 0.489) ;
+    background-color: var(--Overviewbackground) ;
+    border-radius: 30px;
 }
 .explanationRowTarakom{
     width: 100%;
@@ -366,7 +390,6 @@
 }
 .itemTarakomOp{
     flex: 0.49;
-
     height: 100%;
 }
 .labelRowTarakom{
@@ -378,7 +401,7 @@
 .labletextTarakom{
     font-size: 13px;
     font-weight: bold;
-    width: 160px;
+    width: 70%;
     line-height: 27px;
 }
 .rateTarakomItemOp{
@@ -467,16 +490,21 @@
     width: 100%;
     padding: 30px;
     box-sizing: border-box;
+    background-color:var(--Overviewbackground);
+    border-radius: 30px;
 }
 .estelamOp{
-    background-color: #466e873f;
+    background-color: var(--Overviewbackground);
     width: 100%;
     box-sizing: border-box;
     padding:20px 15px;
     display: flex;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 28px;
     justify-content: space-between;
+}
+.blackboxTitleOp2{
+    
 }
 .chartContainerBarShahrOp{
     width: 100%;
@@ -582,4 +610,48 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    row-gap: 15px;
 }
+
+
+
+
+@media screen and (max-width:1180px) {
+    .tarakomContainer {
+        height: 450px;
+    }
+    .tarakomContainer {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:975px) {
+    .tarakomAlleyContainer {
+       /* margin-top:600px;*/
+    }
+}
+
+@media screen and (max-width:860px) {
+    .overviewPage {
+        padding:0px 5px;
+    }
+
+}
+@media screen and (max-width:816px) {
+    .tarakomAlleyContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:520px) {
+    .tarakomAlleyContainer {
+        margin-top:345px;
+    }
+}
+

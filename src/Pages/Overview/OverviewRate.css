@@ -5,19 +5,28 @@
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+
+}
+.OverviewRateBefRes {
+    width: 100%;
+    height: 330px;
+    margin-top:40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 .OverviewRateRight {
     flex:0.33;
     height: 100%;
     padding: 50px 0px;
     box-sizing: border-box;
-    background-color: rgba(199, 217, 232, 0.527);
+    background-color: var(--Overviewbackground);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 .OverviewRateCenter {
     flex:0.34;
@@ -30,13 +39,14 @@
     height: 100%;
     padding: 50px 0px;
     box-sizing: border-box;
-    background-color: rgba(199, 217, 232, 0.527);
+    background-color: var(--Overviewbackground);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
 }
 .OverviewRateCenterUp {
     position: relative;
@@ -49,7 +59,7 @@
 .OverviewRateCenterDown {
     height: 86%;
     width: 100%;
-    background-color: rgba(199, 217, 232, 0.527);
+    background-color: var(--Overviewbackground);
 }
 .OR_centerAbsolute {
     position: absolute;
@@ -227,9 +237,10 @@
 
      width: 0; 
      height: 0; 
-     border-bottom: 46px solid rgba(199, 217, 232, 0.527);; 
+     border-bottom: 46px solid var(--Overviewbackground);; 
      border-left: 46px solid transparent; 
 }
+
 .OverviewRateCenterLeftMoon {
     position: absolute;
      top: 0px;
@@ -237,8 +248,20 @@
 
      width: 0; 
      height: 0; 
-     border-bottom: 46px solid rgba(199, 217, 232, 0.527);; 
+     border-bottom: 46px solid var(--Overviewbackground);; 
      border-right: 46px solid transparent; 
+}
+
+@-moz-document url-prefix() {
+    .OverviewRateCenterRightMoon {
+        border-bottom: 47px solid var(--Overviewbackground);; 
+        border-left: 47px solid transparent; 
+    }
+    .OverviewRateCenterLeftMoon {
+        border-bottom: 47px solid var(--Overviewbackground);; 
+        border-right: 47px solid transparent; 
+    }
+
 }
 .OverviewRateCenterUpTitle {
     position: absolute;
@@ -254,4 +277,192 @@
 .OverviewRateCenterUpTitle > span{
     word-spacing: 4px;
 
+}
+
+.testres {
+    display: none;
+
+}
+
+@media screen and (max-width:1300px) {
+
+    .OR_centerAC_MiddleAbsItem1 {
+        font-size:15px;
+    }
+    .OR_centerAC_MiddleAbsItem2Container {
+        height: 20px;
+    }
+    .OR_centerAC_MiddleAbsItem2Number {
+        font-size: 18px;
+    }
+    .OR_centerAC_MiddleAbsItem3 {
+        height: 35px;
+    }
+    .OR_centerAC_MiddleAbsItem3First {
+        font-size: 15px;
+    }
+    .OR_centerAC_MiddleAbsItem3Second {
+        font-size: 12px;
+    }
+    .OR_centerAC_MiddleAbsItem3RateContainer {
+
+        height: 30px;
+        width: 30px;
+        border-radius: 13px;
+    }
+    .OR_centerAC_MiddleAbsItem4 {
+        font-size: 15px;
+    }
+    .OR_centerAC_MiddleAbsItem5 {
+        font-size: 20px;
+    }
+    .OR_centerAC_TopItemTitle {
+        font-size: 12px;
+    }
+    .OR_centerAC_TopItemNumber {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1190px) {
+    .OverviewRateCenterUpTitle {
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width:975px) {
+    .OverviewRate {
+        height: auto;
+        margin-top:0px;
+    }
+    .testres {
+        display: inline;
+        height: 100px;
+        width: 500px;
+
+    }
+    .OverviewRateRes {
+        display: inline;
+
+    }
+    .OverviewRateCenter {
+        display: none;
+    }
+    .OverviewRateCenterDown {
+        width: 500px ;
+          
+        border-bottom-right-radius: 30px; 
+
+        border-bottom-left-radius: 30px; 
+    }
+    .OverviewRateCenterRightMoon {
+        border-top-right-radius: 30px;
+        
+    }
+    .OverviewRateCenterLeftMoon {
+        border-top-left-radius: 30px; 
+    }
+
+    .OverviewRateCenterRes {
+        display: inline;
+  
+        position: relative;
+     
+        width: 100%;
+  
+        border-bottom-right-radius: 30px; 
+
+        border-bottom-left-radius: 30px; 
+ 
+    }
+    .OverviewRateBefResMargin {
+        margin-top:400px;
+    }
+    .OverviewRateBefRes {
+        
+    }
+    .OverviewRate {
+        flex-direction: column;
+        align-items: center;
+    }
+    .OverviewRateRight {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px; 
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px; 
+        flex:0.49;
+    }
+    .OverviewRateLeft {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px; 
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px; 
+        flex:0.49;
+        margin-top:6px;
+    }
+    .OverviewRateBefRes {
+        align-items: center;
+        
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+
+}
+
+@media screen and (max-width:520px) {
+    .OverviewRateCenterDown {
+        width: 400px ;
+    }    
+    .testres {
+        width: 400px;
+    }
+    .OverviewRateBefRes {
+        flex-direction: column;
+    }
+    .OverviewRateRespons {
+        flex-direction: row;
+    }
+    .OverviewRateRight {
+        width: 100%;
+    }
+    .OverviewRateLeft {
+        width: 100%;
+    }
+    
+}
+
+
+
+@media screen and (max-width:475px) {
+
+    .OverviewRateRight {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px; 
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px; 
+  
+    }
+    .OverviewRateLeft {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px; 
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px; 
+ 
+        margin-top:6px;
+    }
+
+}
+
+@media screen and (max-width:410px) {
+    .OverviewRateCenterDown {
+        width: 330px ;
+    }    
+    .testres {
+        width: 330px;
+    }
 }

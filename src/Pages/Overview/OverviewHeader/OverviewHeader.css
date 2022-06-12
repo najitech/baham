@@ -1,0 +1,397 @@
+.OverviewHeader { 
+    width: 100%;
+    height: 110px;
+    background-color: rgb(212, 221, 236);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.OverviewHeaderBeforeRes {
+    width: 100%;
+    height: 110px;
+    background-color: rgb(212, 221, 236);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 10px;
+    box-sizing: border-box;
+}
+.OverviewHeaderLogo {
+    width: 70px;
+}
+.OverviewHeaderRight {
+
+    display: flex;
+    align-items: center;
+}
+.OverviewHeaderRightTexts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.OverviewHeaderLogoText {
+
+}
+.OverviewHeaderLogoTextContainer {
+    border-right:1px solid rgb(52, 52, 52);
+    padding-right:17px;
+    margin-right:15px;
+    height: 80px;
+}
+.OverviewHeaderLogoText {
+    width: 75px;
+}
+.OverviewHeaderLeft {
+    display: flex;
+    align-items: center;
+}
+.OverviewHeaderLeftTitleContainer {
+    transform: rotate(-90deg);
+    margin-right:-10px;
+}
+
+.OverviewHeaderLeftTitle {
+    font-size: 12px;
+    font-weight: bold;
+}
+.OverviewHeaderBarcode {
+    width: 90px;
+}
+
+.OverviewHeaderCenter {
+    width: 55%;
+    margin-right:-40px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.OverviewHeaderCenterTop {
+    flex:0.5;
+    position: relative;
+}
+.OverviewHeaderCenterBottom {
+    flex:0.1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 17px;
+    color:rgb(52,52,52);
+    padding:0px 50px;
+}
+.OverviewHeaderCenterTopAbs {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(52, 52, 52);
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    height: 85px;
+    top:-20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding:0px 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px 1px rgba(147, 147, 147, 0.967);
+}
+.OverviewHeaderCenterTopAbs_BahamContainer {
+    margin-top:-5px;
+    margin-right:20px;
+}
+.OverviewHeaderCenterTopAbs_Baham {
+    font-size: 60px;
+    color:white;
+    height: 100px;
+    margin:0px;
+    padding:0px;
+    font-family: KalamehWeb !important;
+
+}
+.OverviewHeaderCenterTopAbs_Texts {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color:rgb(162, 162, 162);
+    column-gap: 5px;
+    font-family: KalamehWeb !important;
+}
+.OverviewHeaderCenterTopAbs_Texts span {
+    color:rgb(12, 167, 125)
+}
+
+
+.OverviewHeaderCenterBottomRes {
+    display: none;
+}
+
+.OverviewHeaderCenterRes {
+    display: none;
+}
+
+@media screen and (max-width:1350px) {
+    .OverviewHeaderCenterTopAbs_Baham {
+ 
+        font-size: 53px;
+    }
+    .OverviewHeaderCenterTopAbs_BahamContainer {
+        margin-top:0px;
+    }
+    .OverviewHeaderCenterTopAbs_Texts {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .OverviewHeaderCenterTopAbs_Baham {
+
+        font-size: 48px;
+    }
+    .OverviewHeaderCenterTopAbs_BahamContainer {
+        margin-top:2px;
+    }
+    .OverviewHeaderCenterTopAbs_Texts {
+        font-size: 23px;
+    }
+    .OverviewHeaderCenterBottom {
+        padding:0px 10px;
+    }
+}
+
+
+@media screen and (max-width:1110px) {
+    .OverviewHeaderCenterTopAbs_Baham {
+    
+        font-size: 44px;
+    }
+    .OverviewHeaderCenterTopAbs_BahamContainer {
+        margin-top:-1px;
+    }
+    .OverviewHeaderCenterTopAbs_Texts {
+        font-size: 20px;
+    }
+    .OverviewHeaderCenterBottom {
+        padding:0px 10px;
+        font-size: 13px;
+    }
+    .OverviewHeaderCenterTopAbs {
+        height: 70px;
+        top:-5px;
+    }
+}
+
+
+
+@media screen and (max-width:1020px) {
+    .OverviewHeaderCenterTopAbs_Baham {
+        font-size: 40px;
+    }
+    .OverviewHeaderCenterTopAbs_BahamContainer {
+        margin-top:1px;
+    }
+    .OverviewHeaderCenterTopAbs_Texts {
+        font-size: 17px;
+    }
+    .OverviewHeaderCenterBottom {
+        padding:0px 10px;
+        font-size: 13px;
+    }
+    .OverviewHeaderCenterTopAbs {
+        height: 70px;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .OverviewHeaderCenterTopAbs_Baham {
+        font-size: 35px;
+    }
+    .OverviewHeaderCenterTopAbs_BahamContainer {
+        margin-top:1.5px;
+    }
+    .OverviewHeaderCenterTopAbs_Texts {
+        font-size: 15px;
+    }
+    .OverviewHeaderCenterBottom {
+        padding:0px 10px;
+        font-size: 13px;
+    }
+    .OverviewHeaderCenterTopAbs {
+        height: 60px;
+    }
+}
+@media screen and (max-width:860px) {
+    .OverviewHeaderCenterTopAbs_Baham {
+        font-size: 35px;
+
+
+    }
+    .OverviewHeaderCenterTopAbs_BahamContainer {
+        margin-top:1.5px;
+        
+    }
+    .OverviewHeader {
+        margin-top: 60px;
+    }
+    .OverviewHeaderCenterTopAbs_Texts {
+        font-size: 15px;
+    }
+    .OverviewHeaderCenterBottom {
+        padding:0px 10px;
+        font-size: 13px;
+    }
+    .OverviewHeaderCenterTopAbs {
+        height: 60px;
+        top:-66px;
+        position: absolute;
+        width: 100%;
+        background-color: rgb(52, 52, 52);
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 23px;
+        border-top-right-radius: 23px;
+    }
+
+ 
+  
+    .OverviewHeaderCenterBottom {
+
+        flex:0.7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+    .OverviewHeaderCenterBottom span {
+        word-wrap: break-word;
+    }
+    .OverviewHeaderRight {
+        min-width: 220px;
+    }
+    .OverviewHeaderCenterTopAbsRes {
+        left:7%;
+    }
+    .OverviewHeaderCenterBottom {
+        padding-top:-40px;
+    }
+    .OverviewHeaderCenterBottom2ndchid {
+        margin-top:40px;
+
+    }
+
+}
+
+@media screen and (max-width:760px)  {
+    .OverviewHeaderCenterTopAbsRes {
+        width: 160%;
+        left:-20%;
+    }
+}
+@media screen and (max-width:590px)  {
+    .OverviewHeaderCenterTopAbsRes {
+        width: 200%;
+        left:-35%;
+
+    }
+}
+@media screen and (max-width:530px)  {
+    .OverviewHeaderCenterTopAbs_Baham {
+        font-size: 29px;
+    }
+    .OverviewHeaderCenterTopAbs_BahamContainer {
+        margin-top:5px;
+    }
+    .OverviewHeaderCenterTopAbs_Texts {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:513px)  {
+    .OverviewHeaderCenterTopAbsRes {
+        width: 150%;
+        left:10%;
+
+        
+    }
+    .OverviewHeaderCenterBottomRes {
+        display: inline;
+        width: 100%;
+    }
+    .OverviewHeaderCenter {
+        flex:0.1;
+    }
+    .OverviewHeaderCenterBottom {
+        display: none;
+    }
+    .OverviewHeaderCenter {
+        display: none;
+    }
+    .OverviewHeaderCenterRes {
+        display: inline;
+    }
+    .OverviewHeaderCenterTopRes {
+        left:-44%;
+        width: 65%;
+        top:-105px;
+    }
+    .OverviewHeaderCenterTopAbs {
+        height: 50px;
+        top:-55px;
+    }
+
+    .OverviewHeaderCenterTopAbs_Baham {
+        font-size: 25px;
+    }
+    .OverviewHeaderCenterTopAbs_BahamContainer {
+        margin-top:4px;
+    }
+    .OverviewHeaderCenterTopAbs_Texts {
+        font-size: 13px;
+    }
+    .OverviewHeaderCenterBottom {
+        display: inline;
+        width: 100%;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        font-size: 10px;
+        justify-content: space-between;
+        
+    }
+    .OverviewHeaderCenterRes {
+        width: 90%;
+    }
+    .OverviewHeader {
+        height: 130px;
+    }
+    .OverviewHeaderCenterBottomRes {
+        width: 100%;
+        padding-bottom:5px;
+ 
+
+    }
+}
+
+
+
+
+@media screen and (max-width:447px)  {
+    .OverviewHeaderCenterTopAbs_Baham {
+        font-size: 20px;
+    }
+    .OverviewHeaderCenterTopAbs_BahamContainer {
+        margin-top:3px;
+    }
+    .OverviewHeaderCenterTopAbs_Texts {
+        font-size: 10px;
+    }
+    .OverviewHeaderCenterTopAbs {
+        height: 40px;
+        top:-45px;
+    }
+   
+ 
+}

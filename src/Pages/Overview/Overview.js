@@ -12,11 +12,12 @@ import TarakomKoche from './TarakomKoche/TarakomKoche';
 import OverviewRate from './OverviewRate';
 import Overview_alleyProblem from './Overview_alleyProblem';
 import ItemStelam from './ItemStelam/ItemStelam';
+import OverviewHeader from './OverviewHeader/OverviewHeader';
 import RadioItemStelam from './ItemStelam/RadioItemStelam/RadioItemStelam';
 function Overview() {
   return (
     <div className='overviewPage overviewColors'>
-    
+      <OverviewHeader/>
       <OverviewRate rate={8.23} streetRate={3}/>
      
 
@@ -26,9 +27,9 @@ function Overview() {
           <Overview_alleyProblem/>
 
       </div>
-      
+
       <div className='sarmayeRowOp'>
-        <div className='boxSizeBlackdiv'><div className='blackboxTitleOp'><h3>سرمایه گذاری</h3></div></div>
+        <div className='boxSizeBlackdiv'><div className='blackboxTitleOp resBlackBoxTitelOpSarmaye'><h3>سرمایه گذاری</h3></div></div>
         <div className='infRowSarmayeOp'>
          <SarmayeItem text="درجه کیفی کوچه ارکیده" lim="(از 1 تا 8)" num="3"/>
          <SarmayeItem text="متوسط نسبت رشد قیمت در بازه 5 ساله در کوچه ارکیده" num="7/23"/>
@@ -43,7 +44,7 @@ function Overview() {
         <div className='r40p'>
             <Shahrsazi/>
             <div className='estelamOp'>
-              <div className='blackboxTitleOp2'><h3>استعلام</h3></div>
+              <div className='blackboxTitleOp2 resStelamGhOp'><h3>استعلام</h3></div>
               <div className='estelamRowOp'>
                 <ItemStelam title="در مسیر قنات">          
                   <RadioItemStelam label="قرار دارد" />

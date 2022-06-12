@@ -151,6 +151,128 @@
     .distanceOp{
         width: 280px;
     }
+    .sarmayeRowOp{
+        margin-top:20px;
+        width: 100%;
+        padding: 18px;
+        border-radius: 25px;
+          
+    }
+    .infRowSarmayeOp{
+        width: 100%;
+        margin-right: 12px;
+        grid-gap: 10px 13px;
+    }
+    .sarmayeInfoItemOp{
+        display: flex;
+        border-radius: 13px;
+        padding: 4px 12px;
+        padding-left: 5px;
+    }
+    .rateSarmayeItemOp{
+        padding:0px;
+        font-size: 14px;
+        height: 100%;
+        width: 45px;
+        border: 2.2px solid white;
+        border-radius: 9px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    
+    }
+        
+    .marginWSpanLablOp{
+        margin: 5px 0px !important;
+        font-size: 14px;
+    }
+    .resBlackBoxTitelOpSarmaye{
+        font-size: 15px;
+        width: 140px;
+    }
+    .labelChartOpKoche1{
+        font-size: 11px;
+        width: 100%;
+    }
+    .labelChartOpKoche2{
+        font-size: 11px;
+        width: 100%;
+    }
+    .baftkocheOp{
+        padding-bottom: 10px;
+    }
+    .resStelamGhOp h3{
+        font-size: 18px !important;
+    }    
+    .radioItemEstelamOp{
+        width: 70px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 7px;
+        word-spacing: 1px;
+        align-items: center;
+        font-weight: bold;
+        color: #343434;
+        margin: 7px 0px;
+        
+    }
+    .radioBtnEstelamOp{
+        display: flex;
+        box-sizing: border-box;
+        border: 1.5px solid #8a8a8abe;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+
+    .itemEstelamOp{
+        width: 100px;
+        border-radius: 10px;
+        margin-right: 7.5px;
+    }
+    .titleBoxEstelamOp{
+        padding: 2px 0px;
+    }
+    .titleBoxEstelamOp span{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .radioBoxItemEstelam{
+        height: 110px;
+        width: 90px;
+    }
+    .radioBtnEstelamOpActive{
+        border: 1.2px solid var(--backColorThem);
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+    .radioBtnEstelamOpActive>div{
+        width: 70%;
+        height: 70%;
+        border-radius: 50%;
+    }
+
+    .labletextTarakom{
+        font-size: 11px;
+        font-weight: bold;
+        width: 80%;
+        line-height: 22px;
+    }
+    .rateTarakomItemOp{
+        background-color: var(--green-color-op);
+        color: white;
+        box-sizing: border-box;
+        padding:0px;
+        font-weight: bold;
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: IRANYEKAN;
+        border: 2.2px solid white;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    
+    }
 }
 
 @media screen and (max-width:1000px) {
@@ -199,13 +321,177 @@
     {
         font-size: 12px;
     }
+    .sarmayeRowOp{
+        margin-top:20px;
+        width: 100%;
+        padding: 17px;
+        border-radius: 24px;
+          
+    }
+    .infRowSarmayeOp{
+        width: 100%;
+        margin-right: 5px;
+        grid-gap: 10px 13px;
+    }
+    .sarmayeInfoItemOp{
+        display: flex;
+        border-radius: 13px;
+        padding: 4px 12px;
+        padding-left: 5px;
+    }
+    .rateSarmayeItemOp{
+        padding:0px;
+        font-size: 14px;
+        height: 100%;
+        width: 45px;
+        border: 2.2px solid white;
+        border-radius: 9px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    
+    }
+        
+    .marginWSpanLablOp{
+        margin: 5px 0px !important;
+        font-size: 14px;
+    }
+    .resBlackBoxTitelOpSarmaye{
+        font-size: 15px;
+        width: 140px;
+    }
+    .boxSizeBlackdiv{
+        width: 179px;
+    }
+    
+    .resStelamGhOp h3{
+        font-size: 14px !important;
+    }    
 }
 
+
+@media screen and (max-width: 950px) {
+    .labelShahrOp{
+        font-size: 11px;
+        margin-top:6px;
+        font-weight: bold;
+    }
+    
+    .sarmayeRowOp{
+        margin-top:20px;
+        width: 100%;
+        padding: 17px;
+        border-radius: 24px;
+          
+    }
+    .infRowSarmayeOp{
+        width: 100%;
+        margin-right: 5px;
+        grid-gap: 10px 7px;
+    }
+    .sarmayeInfoItemOp{
+        display: flex;
+        border-radius: 13px;
+        padding: 4px 12px;
+        padding-left: 5px;
+    }
+    .rateSarmayeItemOp{
+        padding:0px;
+        font-size: 13px;
+        height: 100%;
+        width: 45px;
+        border: 2.2px solid white;
+        border-radius: 9px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    
+    }
+        
+    .marginWSpanLablOp{
+        margin: 4px 0px !important;
+        font-size: 12px;
+    }
+    .resBlackBoxTitelOpSarmaye{
+        font-size: 1px;
+        width: 110px !important; 
+    }
+    .resBlackBoxTitelOpSarmaye h3{
+        font-size: 15px !important;
+    }
+    .boxSizeBlackdiv{
+        width: 139px;
+    }
+       
+    .radioItemEstelamOp{
+        width: 70px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 7px;
+        word-spacing: 1px;
+        align-items: center;
+        font-weight: bold;
+        color: #343434;
+        margin: 8px 0px !important;
+        
+    }
+    .radioBtnEstelamOp{
+        display: flex;
+        box-sizing: border-box;
+        border: 1.2px solid #8a8a8abe;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+
+    .itemEstelamOp{
+        width: 90px;
+        border-radius: 9px;
+        margin-right: 5.5px;
+    }
+    .titleBoxEstelamOp{
+        padding: 2px 0px;
+    }
+    .titleBoxEstelamOp span{
+        font-size: 8px;
+        font-weight: bold;
+    }
+    .radioBoxItemEstelam{
+        height: 100px;
+        width: 80px;
+    }
+    .radioBtnEstelamOpActive{
+        border: 1.2px solid var(--backColorThem);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    .radioBtnEstelamOpActive>div{
+        width: 79%;
+        height: 79%;
+        border-radius: 50%;
+    }
+}
 @media screen and (max-width:900px) {        
     .accebility{
         padding: 6px;
         border-radius:12px;
         padding-bottom: 14px;
+    }
+    
+    .labletextTarakom{
+        font-size: 10px;
+        font-weight: bold;
+        width: 70%;
+        line-height: 22px;
+    }
+    .tarakomContainer{
+        width: 95%;
+    }
+    .levelTarakomItem{
+        width: 100%;
+    }
+    .rateTarakomItemOp{
+        height: 35px;
+        font-size: 15px;
+        width: 35px;
+        border: 2px solid white;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    
     }
     .internetsectionOP{
         width: 188px;
@@ -343,7 +629,185 @@
         font-size: 9px;
     }
 }
+@media screen and (max-width:850px) {
+    .sarmayeRowOp{
+        flex-direction: column;
+    }
+    .baftkocheOp{
+        width: 100%;
+    }
+    .estelamOp{
+        margin-bottom: 20px;
+    }
+    .r40p{
+        width: 100%;
+    }
+    .baftContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top:30px;
+    }
+    .sarmayeInfoItemOp{
+        display: flex;
+        border-radius: 13px;
+        padding: 4px 12px;
+        padding-left: 5px;
+    }
+    .infRowSarmayeOp{
+        grid-template-columns: auto;
+    }
+    .rateSarmayeItemOp{
+        padding:0px;
+        font-size: 13px;
+        height: 30px;
+        width: 45px;
+        border: 2.2px solid white;
+        border-radius: 9px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    
+    }
+        
+    .marginWSpanLablOp{
+        margin: 4px 0px !important;
+        font-size: 12px;
+    }
+    .resBlackBoxTitelOpSarmaye{
+        font-size: 1px;
+        margin:auto;
+        width: 150px !important; 
+        margin-bottom: 20px;
+        
+    }
+    .resBlackBoxTitelOpSarmaye h3{
+        font-size: 15px !important;
+    }
+    .boxSizeBlackdiv{
+        width: 100%;
+        margin: auto;
+    }
+        
+    .estelamRowOp{
+        width: 100%;
+        display: flex;
+    }
+    .itemEstelamOp{
+        background-color: white;
+        width: 100%;
+        border-radius: 13px;
+        margin-right: 10px;
+        overflow: hidden;
+    }
+    .titleBoxEstelamOp{
+        background-color: #0BA77D;
+        box-sizing: border-box;
+        color: white;
+        padding: 3px 0px;
+    }
+    .blueThemOp{
+        background-color: var(--blue-color-op);
+    }
+    .redThemOp{
+        --colorbackground:var(--red-color-op);
+        background-color: var(--red-color-op);
+    }
+    .greenThemOp{
+        --colorbackground:var(--green-color-op);
+        background-color: var(--green-color-op);
+    }
+    .blueThemOp1{
+        --backColorThem :#16629E;
+    }
+    .redThemOp1{
+        --backColorThem :#F54456;
+    }
+    .greenThemOp1{
+        --backColorThem :#0BA77D;
+    }
+    .titleBoxEstelamOp span{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .radioBoxItemEstelam{
+        height: 130px;
+        display: flex;
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .resStelamGhOp{
+        width: 100px !important;
+    }
+    .radioItemEstelamOp{
+        margin: auto;
+        width: 130px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+        word-spacing: 1px;
+        align-items: center;
+        font-weight: bold;
+        color: #343434;
+        margin: 10px 0px;
+        
+    }
+    .radioBtnEstelamOp{
+        display: flex;
+        box-sizing: border-box;
+        border: 1.5px solid #8a8a8abe;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    .radioBtnEstelamOpActive{
+        display: flex;
+        box-sizing: border-box;
+        border: 1.5px solid var(--backColorThem);
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    .radioBtnEstelamOpActive>div{
+        width: 75%;
+        height: 75%;
+        margin: auto;
+        background-color: var(--backColorThem);
+        border-radius: 50%;
+    }
+}
+@media screen and (max-width:800px) {
+    
+.labletextTarakom{
+    font-size: 13px;
+    font-weight: bold;
+    width: 60%;
+    line-height: 27px;
+}
 
+.tarakomContainer{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.rateTarakomItemOp{
+    background-color: var(--green-color-op);
+    color: white;
+    box-sizing: border-box;
+    padding:0px;
+    font-weight: bold;
+    font-size: 23px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: IRANYEKAN;
+    border: 2.6px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    
+}
+}
 @media screen and (max-width:700px) {     
     .distanceOp{
         width: 200px;
@@ -416,7 +880,82 @@
         grid-template-columns: auto auto auto;
     }
 }
+@media screen and (max-width:650px) {
+    
+    .radioItemEstelamOp{
+        margin: auto;
+        width: 90px;}
+    
+    .labletextTarakom{
+        font-size: 12px;
+        width: 70%;
+        line-height: 27px;
+    }
+    
+    .tarakomContainer{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .rateTarakomItemOp{
+        font-size: 18px;
+        height: 41px;
+        width: 41px;
+        border: 2.2px solid white;
+        border-radius: 10px;  
+    }
+}
+@media screen and (max-width : 550px) {
+   
+    
+    .radioItemEstelamOp{
+        width: 70px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 7px;
+        word-spacing: 1px;
+        align-items: center;
+        font-weight: bold;
+        color: #343434;
+        margin: 7px 0px;
+        
+    }
+    .radioBtnEstelamOp{
+        display: flex;
+        box-sizing: border-box;
+        border: 1.5px solid #8a8a8abe;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
 
+    .itemEstelamOp{
+        width: 100%;
+        border-radius: 10px;
+        margin-right: 7.5px;
+    }
+    .titleBoxEstelamOp{
+        padding: 2px 0px;
+    }
+    .titleBoxEstelamOp span{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .radioBoxItemEstelam{
+        height: 110px;
+        width: 90px;
+    }
+    .radioBtnEstelamOpActive{
+        border: 1.2px solid var(--backColorThem);
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+    .radioBtnEstelamOpActive>div{
+        width: 70%;
+        height: 70%;
+        border-radius: 50%;
+    }
+}
 @media screen and (max-width:520px) {
     .accebility{
         flex-direction: column;
@@ -483,7 +1022,185 @@
     }
 }
 
+@media screen and (max-width:500px) {
+    
+    .labletextTarakom{
+        font-size: 11px;
+        width: 80%;
+        line-height: 23px;
+    }
+    
+    .tarakomContainer{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .rateTarakomItemOp{
+        font-size: 16px;
+        height: 35px;
+        width: 35px;
+        border: 2.2px solid white;
+        border-radius: 10px;  
+    }
+}
+
+@media screen and (max-width:450px) {
+    
+    .labletextTarakom{
+        font-size: 9px;
+        width: 90%;
+        line-height: 15px;
+    }
+    
+    .tarakomContainer{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .mapTarakomOp{
+        height: 100px;
+        border-radius: 15px;
+    }
+    .rateTarakomItemOp{
+        font-size: 12px;
+        height: 30px;
+        width: 30px;
+        border: 1.5px solid white;
+        border-radius: 7px;  
+    }
+}
+@media screen and (max-width:430px) {
+    
+@media screen and (max-width : 550px) {
+   
+    
+    .radioItemEstelamOp{
+        width: 70px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 7px;
+        word-spacing: 1px;
+        align-items: center;
+        font-weight: bold;
+        color: #343434;
+        margin: 7px 0px;
+        
+    }
+    .radioBtnEstelamOp{
+        display: flex;
+        box-sizing: border-box;
+        border: 1.5px solid #8a8a8abe;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+
+    .itemEstelamOp{
+        width: 100%;
+        border-radius: 10px;
+        margin-right: 7.5px;
+    }
+    .titleBoxEstelamOp{
+        padding: 2px 0px;
+    }
+    .titleBoxEstelamOp span{
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .radioBoxItemEstelam{
+        height: 110px;
+        width: 90px;
+    }
+    .resStelamGhOp{
+        display: none;
+        margin: 0px;
+    }
+    .estelamRowOp{
+        width: 100%;
+        margin: 0px;
+        margin-right: -5px;
+    }
+    .radioBtnEstelamOpActive{
+        border: 1.2px solid var(--backColorThem);
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+    .radioBtnEstelamOpActive>div{
+        width: 70%;
+        height: 70%;
+        border-radius: 50%;
+    }
+}
+}
+@media screen and (max-width:400px) {
+    .sarmayeRowOp{
+        flex-direction: column;
+    }
+    .sarmayeInfoItemOp{
+        display: flex;
+        border-radius: 13px;
+        padding: 4px 12px;
+        padding-left: 5px;
+    }
+    .infRowSarmayeOp{
+        grid-template-columns: auto;
+    }
+    .rateSarmayeItemOp{
+        padding:0px;
+        font-size: 12px;
+        height: 29px;
+        width: 42px;
+        border: 2.2px solid white;
+        border-radius: 9px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    
+    }
+        
+    .marginWSpanLablOp{
+        margin: 4px 0px !important;
+        font-size: 11px;
+    }
+    .resBlackBoxTitelOpSarmaye{
+        font-size: 1px;
+        margin:auto;
+        width: 150px !important; 
+        margin-bottom: 20px;
+        
+    }
+    .resBlackBoxTitelOpSarmaye h3{
+        font-size: 15px !important;
+    }
+    .boxSizeBlackdiv{
+        width: 100%;
+        margin: auto;
+    }
+}
 @media screen and (max-width:390px) {
+    
+@media screen and (max-width:450px) {
+    
+    .labletextTarakom{
+        font-size: 8px;
+        width: 90%;
+        line-height: 15px;
+    }
+    
+    .tarakomContainer{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .mapTarakomOp{
+        height: 100px;
+        border-radius: 15px;
+    }
+    .rateTarakomItemOp{
+        font-size: 10px;
+        height: 26px;
+        width: 26px;
+        border: 1.2px solid white;
+        border-radius: 7px;  
+    }
+}
     .accebility{
         flex-direction: column;
         margin: auto;

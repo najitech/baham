@@ -3,7 +3,8 @@
     height: 410px;
     padding: 5px 30px;
     box-sizing: border-box;
-    background-color: rgba(240, 248, 255, 0.489) ;
+    background-color: var(--Overviewbackground);
+    border-radius: 30px;
  
 }
 .Overview_alleyProblemHeader {
@@ -113,4 +114,39 @@
     width: 30px;
     background-color:rgb(12, 167, 125) ;
     border-radius: 10px;
+}
+
+
+@media screen and (max-width:1350px) {
+    .Overview_alleyProblemFooter_rightText {
+        font-size:13px;
+    }
+}
+
+
+@media screen and (max-width:1250px) {
+    .Overview_alleyProblemFooter {
+       /* flex-direction: column;
+        width: 100%;*/
+    }
+}
+@media screen and (max-width:1180px) {
+    .Overview_alleyProblemFooter {
+         flex-direction: column;
+         width: 100%;
+     }
+     .Overview_alleyProblemFooter_left {
+        margin-top:10px;
+     }
+     .Overview_alleyProblem {
+        margin-top:10px;
+        height: 450px;
+        width: 100%;
+     }
+}
+
+@media screen and (max-width:595px) {
+    .Overview_alleyProblemHeader2 {
+        font-size: 15px;
+    }
 }
