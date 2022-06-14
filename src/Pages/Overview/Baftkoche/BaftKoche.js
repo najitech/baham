@@ -165,21 +165,23 @@ function BaftKoche(props) {
     <div className='chartsRowBaftOp'>
       <div className='chartBoxBafOp'>
         <Chart options={chartkoche.options} width={"440px"} series={chartkoche.series}   type="donut"/>
+        <div className='labelChartOpKoche1' style={{width:'63%'}}>
+            <span>درصد جمعیت ساکن در شعاع 100 متری کوچه ارکیده با سنین مختلف</span>
+          </div>
       </div>
       <div style={{marginRight:'0px'}} className='chartBoxBafOp'>
-        <Chart options={chartkoche.options} width={"440px"} style={{marginRight:'-100px'}} series={chartkoche.series}  type="donut"/>
+        <Chart options={chartkoche.options} width={"440px"} style={{marginRight:'-100px'}} series={chartkoche.series}  type="donut" className="BaftKocheSecondChart"/>
+        <div style={{width:'63%' , marginRight:"-50px"}}  className='labelChartOpKoche1'>
+          <span>درصد جمعیت ساکن در محله مرزداران با سنین مختلف</span>
+        </div>
       </div>
     </div>
     <div className='labelRowKoche'>
       <div>
-          <div className='labelChartOpKoche1'>
-            <span>درصد جمعیت ساکن در شعاع 100 متری کوچه ارکیده با سنین مختلف</span>
-          </div>
+          
         </div>
       <div style={{marginRight:'20px'}}>
-        <div style={{width:'63%'}}  className='labelChartOpKoche1'>
-          <span>درصد جمعیت ساکن در محله مرزداران با سنین مختلف</span>
-        </div>
+       
       </div>
     </div>
     <div style={{marginTop:'20px'}} className='meduimheaderCardOp rightmeduimLableHeaderOp'>
@@ -188,21 +190,23 @@ function BaftKoche(props) {
     <div className='chartsRowBaftOp'>
       <div className='chartBoxBafOp'>
         <Chart options={chartjamiat.options} width={"385px"} series={chartjamiat.series}   type="donut"/>
-      </div>
-      <div style={{marginRight:'-40px'}} className='chartBoxBafOp'>
-        <Chart options={chartjamiat.options} width={"385px"} series={chartjamiat.series}  type="donut"/>
-      </div> 
-    </div>
-    <div className='labelRowKoche'>
-      <div>
         <div className='labelChartOpKoche2'>
             <span>درصد جمعیت براساس میزان تاهل در شعاع 100 متری کوچه ارکیده</span>
           </div>
       </div>
-      <div>
+      <div style={{marginRight:'-40px'}} className='chartBoxBafOp'>
+        <Chart options={chartjamiat.options} width={"385px"} series={chartjamiat.series}  type="donut"/>
         <div className='labelChartOpKoche2'>
             <span>درصد جمعیت براساس میزان تاهل در محله مرزداران</span>
           </div>
+      </div> 
+    </div>
+    <div className='labelRowKoche'>
+      <div>
+        
+      </div>
+      <div>
+        
       </div>
     </div>
 </div>

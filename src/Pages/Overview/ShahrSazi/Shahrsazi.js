@@ -121,11 +121,11 @@ function Shahrsazi(props) {
         <div><h4><span>بافت کوچه</span>/شهرسازی</h4></div>
     </div>
     <div className='chartContainerBarShahrOp'>
-        <Chart options={barCharshahr.options} series={barCharshahr.series} type="bar" height={170} width={500}/>
+        <Chart options={barCharshahr.options} series={barCharshahr.series} type="bar" height={170} width="100%"/>
     </div>
     <div className='labelShahrOp'><span>تعداد ملک با متراژ مختلف تا شعاع 100 متری کوچه ارکیده</span></div>
     <div style={{marginTop:'10px'}} className='chartContainerBarShahrOp'>
-        <Chart options={barCharshahr.options} series={barCharshahr.series} type="bar" height={170}  width={500} />
+        <Chart options={barCharshahr.options} series={barCharshahr.series} type="bar" height={170}  width="100%" />
     </div>
     <div className='labelShahrOp'><span>تعداد ملک با متراژ مختلف مرزداران</span></div>
 </div>

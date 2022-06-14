@@ -609,8 +609,28 @@
     width: 43.6%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+  
     row-gap: 15px;
+}
+
+@media screen and (max-width:1350px) {
+    .chartsRowBaftOp {
+        flex-direction: column;
+        align-items: center;
+    }
+    .chartBoxBafOp {
+        margin-left:-90px;
+    }
+    .BaftKocheSecondChart {
+        margin:0px !important;
+    }
+    .labelChartOpKoche1 {
+        margin:0px !important;
+    }
+    .chartBoxBafOp {
+        margin-right:0px !important;
+    }
+
 }
 
 
@@ -621,7 +641,7 @@
         height: 450px;
     }
     .tarakomContainer {
-        width: 100%;
+        width: 49%;
     }
 }
 
@@ -632,16 +652,22 @@
     }
 }
 
+
+
+
 @media screen and (max-width:860px) {
     .overviewPage {
         padding:0px 5px;
     }
 
 }
-@media screen and (max-width:816px) {
+@media screen and (max-width:900px) {
     .tarakomAlleyContainer {
         flex-direction: column;
         align-items: center;
+    }
+    .tarakomContainer {
+        width: 100% !important;
     }
 
 }
@@ -655,3 +681,8 @@
     }
 }
 
+@media screen and (max-width:400px) {
+    .chartBoxBafOp {
+        margin-left:-120px;
+    }
+}
