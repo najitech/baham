@@ -1,6 +1,7 @@
 .overviewPage{
     width: 100%;
     max-width: 1400px;
+
     margin: auto;
     padding:0px 50px;
     box-sizing: border-box;
@@ -158,7 +159,7 @@
 .distanceOp{
     width: 350px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
     align-items: center;
     height: 100%;
 }
@@ -389,7 +390,6 @@
 }
 .itemTarakomOp{
     flex: 0.49;
-
     height: 100%;
 }
 .labelRowTarakom{
@@ -401,7 +401,7 @@
 .labletextTarakom{
     font-size: 13px;
     font-weight: bold;
-    width: 160px;
+    width: 70%;
     line-height: 27px;
 }
 .rateTarakomItemOp{
@@ -500,8 +500,11 @@
     padding:20px 15px;
     display: flex;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 28px;
     justify-content: space-between;
+}
+.blackboxTitleOp2{
+    
 }
 .chartContainerBarShahrOp{
     width: 100%;

@@ -1,7 +1,7 @@
 import React from 'react'
 import OverviewRateBox from '../../Components/OverviewRateBox/OverviewRateBox'
 import './OverviewRate.css'
-
+import './overviewRes.css'
 function OverviewRate(props) {
     let StreetRate = "OR_BoxShowItem_green"
     let rateBoxColor = "OR_BoxShowItem_red"

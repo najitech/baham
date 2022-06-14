@@ -27,6 +27,7 @@ function Shahrsazi(props) {
                 dataLabels: {
                   position: 'top', 
                 },
+                
                 colors: {
                   ranges: [{
                       from: 0,

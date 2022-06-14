@@ -29,7 +29,7 @@ function Overview() {
       </div>
 
       <div className='sarmayeRowOp'>
-        <div className='boxSizeBlackdiv'><div className='blackboxTitleOp'><h3>سرمایه گذاری</h3></div></div>
+        <div className='boxSizeBlackdiv'><div className='blackboxTitleOp resBlackBoxTitelOpSarmaye'><h3>سرمایه گذاری</h3></div></div>
         <div className='infRowSarmayeOp'>
          <SarmayeItem text="درجه کیفی کوچه ارکیده" lim="(از 1 تا 8)" num="3"/>
          <SarmayeItem text="متوسط نسبت رشد قیمت در بازه 5 ساله در کوچه ارکیده" num="7/23"/>
@@ -38,13 +38,13 @@ function Overview() {
         </div>
       </div>
 
-      <div >
+      <div>
         
       <div className='baftContainer'>  
         <div className='r40p'>
             <Shahrsazi/>
             <div className='estelamOp'>
-              <div className='blackboxTitleOp2'><h3>استعلام</h3></div>
+              <div className='blackboxTitleOp2 resStelamGhOp'><h3>استعلام</h3></div>
               <div className='estelamRowOp'>
                 <ItemStelam title="در مسیر قنات">          
                   <RadioItemStelam label="قرار دارد" />
@@ -92,7 +92,7 @@ function Overview() {
               <AntenDahiItem/> 
             </div>
             <div className='antenMaplocationBox'></div>
-          </div>
+          </div>  
         </div>
         <div className='distanceOp'>
           <div className='meduimheaderCardOp'>
