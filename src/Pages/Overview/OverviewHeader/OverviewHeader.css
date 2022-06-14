@@ -395,3 +395,53 @@
    
  
 }
+
+
+
+@media screen and (max-width:430px)  {
+
+    .OverviewHeaderLogo {
+        width: 60px;
+    }
+    .OverviewHeaderLogoTextContainer {
+        width: 70px;
+    }
+    .OverviewHeaderLogoText {
+        width: 70px;
+    }
+    .OverviewHeaderBarcode {
+        width: 75px;
+    }
+   .OverviewHeaderLeft {
+    
+   }
+   .OverviewHeaderLeftTitle {
+    width: 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+ 
+}
+
+
+@media screen and (max-width:395px)  {
+
+    .OverviewHeaderCenterBottomRes {
+        font-size: 9px;
+    }    
+    .OverviewHeaderCenterRes {
+        width: 95%;
+    }
+    .OverviewHeaderCenterTopRes {
+        left:-47.5%;
+    }
+    .OverviewHeaderLeft {
+        margin-right:-30px;
+    }
+
+
+ 
+}
