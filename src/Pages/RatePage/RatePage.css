@@ -1,17 +1,21 @@
 .RatePage {
     display: flex;
-    height: 2000px;
+    height: 2400px;
     max-width: 1440px;
     margin:auto;
     justify-content: space-between;
 }
 .RP_Bigtables {
-    flex:0.7;
+    flex:0.72;
     height: 100%;
     box-sizing: border-box;
     padding-top:100px;
   
+    padding-right:50px;
+
+    width: 100%;
 }
+
 .RP_information { 
     flex:0.2;
     height: 2400px;
@@ -28,8 +32,9 @@
     justify-content: space-between;
     column-gap: 10px;
     margin-bottom: 30px;
-
-    margin-right:50px;
+    min-width: 930px;
+    
+   
 }
 .RP_BigtableContainerTitle {
     background-color: rgb(52, 52, 52);
@@ -133,4 +138,130 @@
 }
 .RP_informationContentBarcodeImage {
     width: 100%;
+}
+
+.RP_BigtablesHimenuContainer {
+
+    width: 100%;
+    font-size: 26px;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    display: none;
+}
+
+
+
+.RP_BigtableContainer {
+ 
+    position: relative;
+    width:100%;
+    scrollbar-width: 30px;
+    scrollbar-color: #2d2ddf ;
+    scrollbar-gutter: stable;
+
+}
+
+
+.RP_Bigtables::-webkit-scrollbar {
+    width: 0px;
+    height: 5px; 
+
+}
+
+.RP_Bigtables::-webkit-scrollbar-thumb {
+    background-color: rgba(254, 72, 0, 0.726);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    
+  }
+.RP_Bigtables::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: rgba(254, 72, 0, 0.219);
+    padding: 4px 0px;
+    height: 10px;
+  }
+
+
+
+
+
+
+@media screen and (max-width:1300px) {
+    .RP_Bigtables {
+        flex:0.75;
+
+    }
+}
+@media screen and (max-width:1240px) {
+    .RP_Bigtables {
+        flex:0.77;
+        padding-right: 20px;
+   
+    }
+}
+@media screen and (max-width:1170px) {
+    .RP_Bigtables {
+        flex:0.95;
+        padding-right: 0px;
+        margin:auto;
+        padding-top: 10px;
+        margin-top:10px;
+    }
+    .RP_BigtablesHimenuContainer {
+        display: flex;
+        height: 40px;
+        padding: 0px 10px;
+        padding-top:20px;
+        font-size: 30px;
+        box-sizing: border-box;
+    }
+    .RP_information {
+        display: none;
+    }
+    .RatePage {
+        flex-direction: column;
+    }
+    .RP_informationContentAdressTextContainer {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .RP_informationContentPhoneContainer {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+}
+
+.RP_informationDrawer {
+    margin-top:0px;
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.ratePage_Drawer {
+    width: 500px !important;
+
+}
+
+@media screen and (max-width:980px)  {
+
+    .RP_BigtableContainer {
+        transform:rotateX(-180deg);
+        -ms-transform:rotateX(-180deg); /* IE 9 */
+        -webkit-transform:rotateX(-180deg); /* Safari and Chrome */
+        
+    }
+
+    .RP_Bigtables 
+      {
+        overflow-x: scroll !important;
+          transform:rotateX(-180deg);
+          -ms-transform:rotateX(-180deg); /* IE 9 */
+          -webkit-transform:rotateX(-180deg); /* Safari and Chrome */
+        height: 100%;
+      }
 }

@@ -1,12 +1,19 @@
-import React from 'react'
+import React , {useState} from 'react'
 import RateTable from '../../Components/RateTable/RateTable'
 import './RatePage.css'
 import RateTitle from '../../ratetitle2.png'
 import AdressText from '../../adrees2.png'
 import Barcode from '../../overviewBarcode.png'
 
+import {HiMenu} from 'react-icons/hi'
+import Drawer from '@mui/material/Drawer';
+import { makeStyles } from '@mui/material'
+
 function RatePage() {
 
+ 
+
+  const [DP_DrawerB,setDP_DrawerB] = useState(false)
   const data = [
     [
         {
@@ -538,37 +545,47 @@ function RatePage() {
   ]
   return (
     <div className='RatePage'>
+           <div className='RP_BigtablesHimenuContainer' onClick={() => setDP_DrawerB(true)}>
+                <div><HiMenu className='RP_BigtablesHimenu'/></div>  
+            </div>          
         <div className='RP_Bigtables'>
-            <div className='RP_BigtableContainer'>
-                <div className='RP_BigtableContainerTitle'>
-                      <span>نقشه</span>
+           
+
+            <div className='forScrool'>
+ 
+                <div className='RP_BigtableContainer'>
+                    <div className='RP_BigtableContainerTitle'>
+                          <span>نقشه</span>
+                    </div>
+                    <div className='RP_BigtableContainerTables'>
+                        {
+                          data[0].map((table) => {
+                            return (
+                              <RateTable ratedata = {table} key={`${table.tableNumber}+${table.tableTitle}`}/>
+                            )                 
+                            }  
+                          )
+                        }
+                    </div>
                 </div>
-                <div className='RP_BigtableContainerTables'>
-                    {
-                      data[0].map((table) => {
-                        return (
-                          <RateTable ratedata = {table} key={`${table.tableNumber}+${table.tableTitle}`}/>
-                        )                 
-                        }  
-                      )
-                    }
+              </div>
+                <div className='RP_BigtableContainer'>
+                    <div className='RP_BigtableContainerTitle'>
+                          <span>متریال داخلی</span>
+                    </div>
+                    <div className='RP_BigtableContainerTables'>
+                        {
+                          data[1].map((table) => {
+                            return (
+                              <RateTable ratedata = {table} key={`${table.tableNumber}+${table.tableTitle}`}/>
+                            )                 
+                            }  
+                          )
+                        }
+                    </div>
                 </div>
-            </div>
-            <div className='RP_BigtableContainer'>
-                <div className='RP_BigtableContainerTitle'>
-                      <span>متریال داخلی</span>
-                </div>
-                <div className='RP_BigtableContainerTables'>
-                    {
-                      data[1].map((table) => {
-                        return (
-                          <RateTable ratedata = {table} key={`${table.tableNumber}+${table.tableTitle}`}/>
-                        )                 
-                        }  
-                      )
-                    }
-                </div>
-            </div>
+                         
+         
             <div className='RP_BigtableContainer'>
                 <div className='RP_BigtableContainerTitle'>
                       <span>مشاعات</span>
@@ -607,6 +624,31 @@ function RatePage() {
 
           </div>
         </div>
+
+
+        <Drawer   className="ratePage_Drawer" anchor={'left'} open={DP_DrawerB} onClose={() => setDP_DrawerB(false)} >
+            <div className='RP_information RP_informationDrawer'>
+              <div className='RP_informationContent'>
+                  <div className='RP_informationContent_BahamContainer'>
+                      <h2 className='RP_informationContent_Baham'>باهم</h2>
+                  </div>
+                  <img className='RP_informationContentTextpic' alt="title" src={RateTitle} />
+                  <div className='RP_informationContentAdressTextContainer'>
+                      <img className='RP_informationContentAdressText' alt="title" src={AdressText} />
+                  </div>
+                  
+                  <div className='RP_informationContentPhoneContainer'>
+                    <span className='RP_informationContentPhoneTitle'>تلفن:</span>
+                    <span className='RP_informationContentPhone'>021 44262200</span>
+                  </div>
+                  <div className='RP_informationContentBarcodeContainer'>
+                    <span className='RP_informationContentBarcodeTitle'>اسکن کنید</span>
+                    <img className='RP_informationContentBarcodeImage' alt="barcode" src={Barcode} />
+                  </div>
+
+              </div>
+            </div>
+        </Drawer>
     </div>
   )
 }
